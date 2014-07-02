@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml
+END
+xmlschemastypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlschemastypes.h
+END
+nanohttp.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/nanohttp.h
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/parser.h
+END
+xmlwriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlwriter.h
+END
+relaxng.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/relaxng.h
+END
+nanoftp.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/nanoftp.h
+END
+xmlversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlversion.h
+END
+debugXML.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/debugXML.h
+END
+xpointer.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xpointer.h
+END
+catalog.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/catalog.h
+END
+SAX2.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/SAX2.h
+END
+xmlsave.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlsave.h
+END
+HTMLparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/HTMLparser.h
+END
+dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/dict.h
+END
+hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/hash.h
+END
+xmlexports.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlexports.h
+END
+encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/encoding.h
+END
+xmlmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlmemory.h
+END
+threads.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/threads.h
+END
+SAX.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/SAX.h
+END
+xmlautomata.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlautomata.h
+END
+valid.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/valid.h
+END
+uri.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/uri.h
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/tree.h
+END
+schematron.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/schematron.h
+END
+schemasInternals.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/schemasInternals.h
+END
+xmlschemas.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlschemas.h
+END
+xpathInternals.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xpathInternals.h
+END
+c14n.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/c14n.h
+END
+xmlmodule.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlmodule.h
+END
+xmlunicode.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlunicode.h
+END
+xmlerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlerror.h
+END
+chvalid.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/chvalid.h
+END
+xinclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xinclude.h
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/list.h
+END
+xmlregexp.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlregexp.h
+END
+parserInternals.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/parserInternals.h
+END
+pattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/pattern.h
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/globals.h
+END
+xmlreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlreader.h
+END
+DOCBparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/DOCBparser.h
+END
+HTMLtree.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/HTMLtree.h
+END
+entities.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/entities.h
+END
+xpath.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xpath.h
+END
+xlink.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xlink.h
+END
+xmlstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlstring.h
+END
+xmlIO.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libxml2/include/libxml/xmlIO.h
+END

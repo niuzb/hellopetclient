@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl
+END
+stdcheaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/stdcheaders.h
+END
+typecheck-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/typecheck-gcc.h
+END
+multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/multi.h
+END
+mprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/mprintf.h
+END
+curlrules.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/curlrules.h
+END
+easy.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/easy.h
+END
+curlver.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/curlver.h
+END
+curl.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/curl.h
+END
+curlbuild.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/ios/curl/curlbuild.h
+END

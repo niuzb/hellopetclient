@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Root>
+	<Map>
+		<effect_common>
+			<e id="101"/>
+		</effect_common>		
+	</Map>
+	
+	<RcsFiles>
+		<e id="1">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "hero"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "hero"/>
+			</OtherLand>
+			<AttachEffects>
+			</AttachEffects>
+		</e>
+		
+		<!-- 特效资源文件列表 -->
+		<e id="101">
+			<b xml_name = "effect_enemy_common_attacked_101"/>
+		</e>		
+		<e id="180">
+			<b xml_name = "effect_blueball_180"/>
+		</e>				
+		<e id="112">
+			<b xml_name = "effect_dropice_112"/>
+		</e>		
+		<e id="216">
+			<b xml_name = "effect_magicball_216"/>
+		</e>			
+
+	</RcsFiles>
+			
+	<RoleActions>
+		<!-- 特效 -->
+		<RoleType value ="effect_101">
+			<actionType value="Play_100000">
+				<b xml_name="effect_enemy_common_attacked_101" action_name="play"/>
+			</actionType>
+		</RoleType>
+		
+		<RoleType value ="effect_180">
+			<actionType value="Play_100000">
+				<b xml_name="effect_blueball_180" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		
+		<RoleType value ="effect_112">
+			<actionType value="Play_100000">
+				<b xml_name="effect_dropice_112" action_name="play"/>
+			</actionType>
+		</RoleType>				
+		
+		<RoleType value ="effect_216">
+			<actionType value="Play_100000">
+				<b xml_name="effect_magicball_216" action_name="play"/>
+			</actionType>
+		</RoleType>				
+
+		<RoleType value ="hero_1">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="hero" action_name="walk"/>
+			</actionType>		
+		</RoleType>
+	</RoleActions>
+</Root>

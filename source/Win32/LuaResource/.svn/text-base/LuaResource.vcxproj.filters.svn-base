@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameConfig">
+      <UniqueIdentifier>{2e30c51e-347b-4c66-bbb0-cd6e1560acd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{e286b183-de9b-462b-9ba7-0526d1bd644b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{5711639d-48af-4353-a67a-907334330bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteElf">
+      <UniqueIdentifier>{5d020439-c8d2-4844-a23f-5d1c8fdc3f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteElfExplore">
+      <UniqueIdentifier>{2677bbf5-8e3a-4df1-9072-8cd3a99ada78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{fa2ac440-c005-4681-a967-8631b926b89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UILayer">
+      <UniqueIdentifier>{f466420d-40cc-4bc2-a97a-3a798b6c1444}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Resources\Script\GameConfig\characterString.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\EquipmentItem.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\ExchangeItem.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\InstanceList.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\Item.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\ItemConfigTab.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\Localization.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\MapBasic.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\MapDataTable.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\MapMusicTable.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\MonsterBasicInfomation.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\npc.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\RaidBasic.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\RaidMusic.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\GameConfig\SearchSpirit.lua">
+      <Filter>GameConfig</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Level\10001.lua">
+      <Filter>Level</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\UILayer\backPackLayer.lua">
+      <Filter>UILayer</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\UILayer\battleLayer.lua">
+      <Filter>UILayer</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\UILayer\battleWinLayer.lua">
+      <Filter>UILayer</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\UILayer\PlayerInfo.lua">
+      <Filter>UILayer</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Task\task.lua">
+      <Filter>Task</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Task\TaskParser.lua">
+      <Filter>Task</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Task\TaskState.lua">
+      <Filter>Task</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElf\ElfConfigParse.lua">
+      <Filter>SpriteElf</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElf\fairybasicinfo.lua">
+      <Filter>SpriteElf</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElf\SpriteElfLayer.lua">
+      <Filter>SpriteElf</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElf\SpriteElfStrengthenLayer.lua">
+      <Filter>SpriteElf</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Skill\SkillBasicDataTable.lua">
+      <Filter>Skill</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Skill\SkillDataCenter.lua">
+      <Filter>Skill</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Skill\SkillEquipLayer.lua">
+      <Filter>Skill</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\Skill\SkillSelectLayer.lua">
+      <Filter>Skill</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElfExplore\ElfExploreDataCenter.lua">
+      <Filter>SpriteElfExplore</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElfExplore\ElfExploreLayer.lua">
+      <Filter>SpriteElfExplore</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\SpriteElfExplore\Explore.lua">
+      <Filter>SpriteElfExplore</Filter>
+    </None>
+    <None Include="..\..\Resources\Script\ChatToolLayer.lua" />
+    <None Include="..\..\Resources\Script\CommonDefine.lua" />
+    <None Include="..\..\Resources\Script\FSM.lua" />
+    <None Include="..\..\Resources\Script\GameUILayer.lua" />
+    <None Include="..\..\Resources\Script\handleMessage.lua" />
+    <None Include="..\..\Resources\Script\Language.lua" />
+    <None Include="..\..\Resources\Script\main.lua" />
+    <None Include="..\..\Resources\Script\MainMenuUILayer.lua" />
+    <None Include="..\..\Resources\Script\Monster.lua" />
+    <None Include="..\..\Resources\Script\OsCommonMethod.lua" />
+    <None Include="..\..\Resources\Script\ppveRoom.lua" />
+    <None Include="..\..\Resources\Script\ppveUILayer.lua" />
+    <None Include="..\..\Resources\Script\pvp_1vs1.lua" />
+    <None Include="..\..\Resources\Script\pvp_2vs2.lua" />
+    <None Include="..\..\Resources\Script\pvp_s1.lua" />
+    <None Include="..\..\Resources\Script\pvpUILayer.lua" />
+    <None Include="..\..\Resources\Script\UILayer\PvAILayer.lua">
+      <Filter>UILayer</Filter>
+    </None>
+  </ItemGroup>
+</Project>

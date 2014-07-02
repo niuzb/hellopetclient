@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform
+END
+XIOSPlatform.mm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/XIOSPlatform.mm
+END
+IOSUtil.mm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IOSUtil.mm
+END
+XUIPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/XUIPlatform.h
+END
+XPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/XPlatform.h
+END
+XUIPlatform.mm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/XUIPlatform.mm
+END
+IOSUtil-C-Interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IOSUtil-C-Interface.h
+END
+IOSUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IOSUtil.h
+END

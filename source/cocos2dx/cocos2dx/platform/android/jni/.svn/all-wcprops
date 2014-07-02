@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni
+END
+SystemInfoJni.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/SystemInfoJni.cpp
+END
+SystemInfoJni.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/SystemInfoJni.h
+END
+SensorJni.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/SensorJni.cpp
+END
+IMEJni.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/IMEJni.cpp
+END
+TouchesJni.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/TouchesJni.cpp
+END
+Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+END
+SensorJni.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/SensorJni.h
+END
+JniHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/JniHelper.cpp
+END
+IMEJni.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/IMEJni.h
+END
+Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+END
+Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+END
+MessageJni.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/MessageJni.cpp
+END
+JniHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/JniHelper.h
+END
+Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+END
+Java_org_cocos2dx_lib_Cocos2dxBitmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxBitmap.h
+END
+MessageJni.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/MessageJni.h
+END
+Java_org_cocos2dx_lib_Cocos2dxHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.h
+END

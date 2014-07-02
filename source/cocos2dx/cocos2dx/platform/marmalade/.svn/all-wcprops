@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade
+END
+CCApplication.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCApplication.h
+END
+CCCommon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCCommon.cpp
+END
+CCAccelerometer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCAccelerometer.cpp
+END
+CCAccelerometer.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCAccelerometer.h
+END
+CCFileUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCFileUtils.cpp
+END
+CCEGLView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCEGLView.cpp
+END
+CCImage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCImage.cpp
+END
+CCStdC.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCStdC.h
+END
+CCApplication.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCApplication.cpp
+END
+CCPlatformDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCPlatformDefine.h
+END
+CCEGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCEGLView.h
+END
+CCGL.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/marmalade/CCGL.h
+END

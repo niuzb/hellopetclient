@@ -1,0 +1,17 @@
+﻿Build started 2014/6/21 20:36:12.
+     1>Project "D:\android\hello\server\ahero\source\cocos2dx\external\chipmunk\proj.win32\chipmunk.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\libchipmunk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         chipmunk.vcxproj -> D:\android\hello\server\ahero\source\Win32\Debug.win32\libchipmunk.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libchipmunk.unsuccessfulbuild".
+         Touching "Debug.win32\libchipmunk.lastbuildstate".
+     1>Done Building Project "D:\android\hello\server\ahero\source\cocos2dx\external\chipmunk\proj.win32\chipmunk.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath
+END
+ray2.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/ray2.h
+END
+kazmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/kazmath.h
+END
+plane.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/plane.h
+END
+vec2.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/vec2.h
+END
+vec3.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/vec3.h
+END
+vec4.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/vec4.h
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/utility.h
+END
+mat3.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/mat3.h
+END
+neon_matrix_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/neon_matrix_impl.h
+END
+aabb.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/aabb.h
+END
+mat4.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/mat4.h
+END
+quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/include/kazmath/quaternion.h
+END

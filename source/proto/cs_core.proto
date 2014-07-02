@@ -1,0 +1,1090 @@
+// 定义核心功能模块的协议格式：场景、物品、
+// 对战模块的协议定义于cs_battle.proto
+
+//------------------------------------------------------------
+// 基本数据结构定义
+//------------------------------------------------------------
+// 用户基本属性枚举
+enum PB_PLAYET_ATTR_T {
+	//      普通物品相关(1-5)
+	PB_ATTR_PLAYER_SP						=	1;	// 灵能(spirit power)
+	PB_ATTR_PLAYER_SS_MOD_ID				= 	2;	// 寻灵精灵pos(从0开始计算)
+	//      宝石相关(6-10)
+	PB_ATTR_PLAYER_GEM_BACKPACK_CAPACITY	= 	6; // 宝石背包容量
+	//      装备相关(11-15)
+	PB_ATTR_PLAYER_RESET_GEM_TIMES			= 	11;	// 重铸装备次数
+	PB_ATTR_EQUIP_LVUP_USED_TIMES			=	12;	// 升级的使用次数
+	PB_ATTR_EFFECTIVENESS					= 	13;	// 战斗力
+   	// 		庄园相关(16-20)
+	PB_ATTR_PLAYER_ENTER_MANOR_TIMES		=	16;	// 庄园进入次数
+
+    //      探索相关(21-25)
+    PB_ATTR_PLAYER_EXPLORE_TIMES            =   21;  // 今日探索次数
+	
+	// 		星座相关(100 - 120)
+	PB_ATTR_CONSTEL_MIN_DEF					= 	100;
+
+	PB_ATTR_CONSTEL_1_CAPACIT				= 	101;	// 白羊座
+	PB_ATTR_CONSTEL_2_CAPACIT				= 	102;	// 金牛座
+	PB_ATTR_CONSTEL_3_CAPACIT				= 	103;	// 双子座
+	PB_ATTR_CONSTEL_4_CAPACIT				= 	104;	// 巨蟹座
+	PB_ATTR_CONSTEL_5_CAPACIT				= 	105;	// 狮子座
+	PB_ATTR_CONSTEL_6_CAPACIT				= 	106;    // 处女座
+	PB_ATTR_CONSTEL_7_CAPACIT				= 	107;    // 天秤座
+	PB_ATTR_CONSTEL_8_CAPACIT				= 	108;    // 天蝎座
+	PB_ATTR_CONSTEL_9_CAPACIT				= 	109;    // 射手座
+	PB_ATTR_CONSTEL_10_CAPACIT				= 	110;    // 摩羯座
+	PB_ATTR_CONSTEL_11_CAPACIT				= 	111;    // 水瓶座
+	PB_ATTR_CONSTEL_12_CAPACIT				= 	112;    // 双鱼座
+
+  
+	// 下面是和钻石相关的cd时间属性 (定义值需要和ExchangeParameter.xml 中的Type1字段一致)
+	PB_ATTR_DEF_MIN_CD						= 	300000;  // cd标识默认min字段(不做属性用) 
+
+	PB_ATTR_EQUIP_LVUP_CD					= 	300100;	 // 装备强化cd
+	PB_ATTR_DOWER_LVUP_CD					=	300200;	 // 天赋升级冷却时间cd
+	PB_ATTR_SKILL_LVUP_CD                 	=   300300;	 // 技能升级冷却时间cd
+	PB_ATTR_PVAI_CD							=   300400;  // pvai冷却时间cd
+	PB_ATTR_AB_NORMAL_MAP_CD				= 	300500;	 // 自动战斗普通副本冷却时间cd
+	PB_ATTR_AB_SPECIAL_MAP_CD				= 	300501;  // 自动战斗精英副本冷却时间cd
+	PB_ATTR_WOELD_BOSS_CD					=	300600;	 // 世界boss冷却时间cd
+	PB_ATTR_MANOR_CD						= 	300700;  // 消除庄园冷却时间(准备不用)
+	PB_ATTR_SHOP_CD                         =   300800;  // 刷新神秘商店CD
+
+	PB_ATTR_DEF_MAX_CD						= 	309999;	 // cd标识默认max字段(不做属性用) 
+
+	// 下面是和钻石相关的其他属性 (定义值需要和ExchangeParameter.xml 中的Type1字段一致)
+	PB_ATTR_DEF_MIN_OTHER					= 	310000;	 // 其他属性默认min字段(不做属性用)
+	PB_ATTR_DEF_MAX_OTHER					= 	314999;	 // 其他属性默认max字段(不做属性用)
+	// 下面是和钻石相关的购买次数属性 (定义值需要和ExchangeParameter.xml 中的Type1字段一致)
+
+	PB_ATTR_RESET_GEM_BUY_TIMES				= 	315000;	 // 镶嵌宝石重铸次数(含有每天的概念)(准备不用)
+	PB_ATTR_MANOR_BUY_TIMES					= 	315100;	 // 庄园购买次数(含有每天的概念)(准备不用)
+
+	PB_ATTR_DEF_MAX_BUY_TIMES				= 	319999;	 // 购买次数性默认max字段(不做属性用)
+	// 下面是和钻石相关的格子属性  (定义值需要和ExchangeParameter.xml 中的Type1字段一致)
+	PB_ATTR_DEF_MIN_CAPACITY				= 	320000;	 // 格子标识默认min字段(不做属性用)
+	
+	PB_ATTR_BUY_MANOR_CAPACITY				=	320000;	 // 购买的庄园格子数(准备不用)
+	PB_ATTR_BUY_SKILL_CAPACITY				=   320100;	 // 购买的技能格子容量
+	PB_ATTR_BUY_CONSTEL_CAPACITY		 	=	320150;	 // 购买的玩家星座格子容量修改
+	PB_ATTR_BUY_EQUIP_HOLE_CAPACITY			= 	320170;	 // 购买的玩家装备的镶嵌孔
+	PB_ATTR_BUY_SS_BAG_CAPACITY				=	320200;	 // 购买的玩家灵石背包格子容量
+	PB_ATTR_BUY_BAG_CAPACITY				= 	320300;	 // 购买的玩家背包格子容量
+	PB_ATTR_BUY_STORE_CAPACITY				= 	320400;	 // 购买的玩家仓库格子容量
+	
+	PB_ATTR_DEF_MAX_CAPACITY				= 	329999;	 // 格子标识默认max字段(不做属性用)
+ 
+	// 下面属性key和配置文件中的编号是对应的
+	PB_ATTR_PLAYER_STAMINA					= 	416000;	 // 玩家体力
+    PB_ATTR_PLAYER_COIN                    	=   416001;  // 玩家金币
+    PB_ATTR_PLAYER_DIAMOND                 	=   416002;  // 钻石   
+    PB_ATTR_EXP                            	=   416003;  // 用户经验值
+	PB_ATTR_PLAYER_PRESTIGE					= 	416004;	 // 声望
+    PB_ATTR_PLAYER_GEM_ANIMA               	=   416005;  // 宝石精华
+    PB_ATTR_PLAYER_SS_CHIP                 	=   416006;  // 灵石碎片(spirit stone chip) 
+	PB_ATTR_PLAYER_EXPLOIT					=	416007;  // 功勋
+	PB_ATTR_PLAYER_EXPLORE_EXP              =   416008;  // 探索阅历
+ 
+//--------上面属性需要通知客户端--------------------------------------------------------------------------------------------------
+	PB_ATTR_SEGMENT_DEF						= 	999999;	 // 通知客户端的分界点
+//--------下面属性不需要通知客户端------------------------------------------------------------------------------------------------
+	PB_ATTR_EXPLOIT								   =   416007;  // 功勋
+	PB_ATTR_PLAYER_LAST_LOGIN_MAP   	    =   1000001;   	// 用户最后登陆的地图ID 
+    PB_ATTR_LAST_EXPLORE_ID                 =   1000002; 	// 缓存探索随机出来的地图ID
+	PB_ATTR_SET_ONCE_BEGIN					=  	1100000; 	//前端在这个范围内可以自由的设置一次值
+	PB_ATTR_SET_ONCE_END					=  	1200000;
+	PB_ATTR_SET_BEGIN						=	1200001;
+	PB_ATTR_SET_END							=	1200100;
+	
+	PB_ATTR_DOWER_START						=	1210000;	// 天赋属性开始位置
+	PB_ATTR_DOWER_END						=	1220000;	// 天赋属性结束位置
+
+    PB_ATTR_SHOP_ITEM_START                =   1230000;    // 神秘商店物品起始id(注:记录ProbabilityExchange.xml中的ID,并非物品id)
+    PB_ATTR_SHOP_ITEM_END                  =   1230100;    // 神秘商店物品起始id(注:记录ProbabilityExchange.xml中的ID,并非物品id)
+    PB_ATTR_SHOP_ITEM_BUY_START            =   1230200;    // 购买商店中物品起始id(注:记录ProbabilityExchange.xml中的ID,并非物品id)
+    PB_ATTR_SHOP_ITEM_BUY_END              =   1230300;    // 购买商店中物品起始id(注:记录ProbabilityExchange.xml中的ID,并非物品id)
+
+	PB_ATTR_PHYSICAL_ATTACK_ADD				= 	2010000;
+	PB_ATTR_MAGIC_ATTACK_ADD				= 	2020000;
+	PB_ATTR_SKILL_ATTACK_ADD				= 	2030000;
+	PB_ATTR_PHYSICAL_DEFENCE_ADD			= 	2040000;
+	PB_ATTR_MAGIC_DEFENCE_ADD				= 	2050000;
+	PB_ATTR_SKILL_DEFENCE_ADD				= 	2060000;
+	PB_ATTR_HP_ADD							= 	2070000;
+	PB_ATTR_COURAGE_ADD			        	=   2080000;   // 增加的勇气值 
+	PB_ATTR_CHARM_ADD				        =   2090000;   // 增加的勇气值 
+	PB_ATTR_TRICK_ADD				        =   2100000;   // 增加的勇气值 
+ 
+
+	//-- 对战相关定义段 3000001-3000010------------------------
+	PB_ATTR_AUTO_BTL_INSTANCE_ID			= 	3000001;	// 自动对战的地图
+	PB_ATTR_AUTO_BTL_REMAIN_TURN			= 	3000002;	// 自动对战剩余轮次
+}
+
+enum PB_ITEM_ATTR_T {
+    PB_ITEM_ATTR_PHYATK        =   1;  // 物理攻击(1)
+    PB_ITEM_ATTR_MAGATK        =   2;  // 魔法攻击(2)
+    PB_ITEM_ATTR_SKIATK        =   3;  // 技能攻击(3)
+    PB_ITEM_ATTR_PHYDEF        =   4;  // 物理防御(4)
+    PB_ITEM_ATTR_MAGDEF        =   5;  // 魔法防御(5)
+    PB_ITEM_ATTR_SKIDEF        =   6;  // 技能防御(6)
+    PB_ITEM_ATTR_HP            =   7;  // 生命值(7)
+    PB_ITEM_ATTR_ACCU          =   8;  // 精准(8)
+    PB_ITEM_ATTR_DODG          =   9;  // 闪避(9)
+    PB_ITEM_ATTR_WRK           =   10; // 破击(10)
+    PB_ITEM_ATTR_PARRY         =   11; // 格挡(11)
+    PB_ITEM_ATTR_CRIT          =   12; // 暴击(12)
+    PB_ITEM_ATTR_TENA          =   13; // 韧性(13)
+    PB_ITEM_ATTR_SLY           =   14; // 必杀(14)
+    PB_ITEM_ATTR_SPEED         =   15; // 极速(15)
+}
+
+message BasicUserBattleInfo {
+	required uint32 physical_attack = 1 ; // 物理攻击
+	required uint32 magic_attack = 2 ; // 魔法攻击
+	required uint32 skill_attack = 3 ; // 技能攻击
+	required uint32 physical_defence = 4 ; // 物理防御
+	required uint32 magic_defence = 5 ; // 魔法防御
+	required uint32 skill_defence = 6 ; // 技能防御
+	required uint32 health_point = 7 ; // 生命值
+	required uint32 accurate	= 8 ; // 精准
+	required uint32 dodge		= 9 ; // 闪避
+	required uint32 wreck		= 10; // 破击
+	required uint32 parry		= 11; // 格挡
+	required uint32 critical_strike	= 12; // 暴击
+	required uint32 tenacity	= 13; // 韧性
+	required uint32 slay		= 14; // 必杀
+	required uint32 courage		= 15; // 勇气
+	required uint32 charm		= 16; // 魔力
+	required uint32 trick		= 17; // 技巧
+	required uint32 speed		= 18; // 极速
+	required uint32 proficiency	= 19; // 潜能
+	optional uint32 current_hp 	= 20 ; // 生命值
+}
+
+message UserSkillPart {
+	required uint32 part		= 1;
+	required BasicUserBattleInfo exp_battle_info = 2;
+
+	required float continue_time = 5;
+	required uint32 can_attack_number = 6;
+	required uint32 hurt			= 7;
+}
+
+message UserSkillInfo {
+	required uint32 skill_id	= 1;
+
+	required uint32 skill_level	= 2;
+	required uint32 money		= 3;
+	required uint32 exploit		= 4;
+	required float own_cd		= 5;
+	required float share_cd	= 6;
+	
+	repeated UserSkillPart		parts	= 7;
+
+	required uint32 max_level	= 8;
+}
+
+// 用户基本信息
+message BasicUserInfo {
+    required uint32 uid        = 1; // 玩家米米号
+	required string name       = 2; // 玩家昵称
+	required uint32 type       = 3; // 玩家职业类型：1战士，2弓箭手，3刺客
+	required uint32 gender     = 4; // 性别：0男，1女
+	required uint32 lv         = 5; // 玩家等级
+	required uint32 xpos       = 6; // 玩家所在地图x坐标
+	required uint32 ypos       = 7; // 玩家所在地图y坐标
+	required uint32 orient     = 8; // 玩家朝向
+	optional uint32 battle_side	= 9; // 游戏阵营
+	optional BasicUserBattleInfo battle_info = 10;
+	required uint32 next_lv	   = 11; // 用户下一等级经验
+	// TODO：装扮、伙伴
+}
+
+//------------------------------------------------------------
+// 协议定义
+//------------------------------------------------------------
+
+// 进入地图请求，把要进入的坐标和朝向也发过来
+message CSEnterMapReq {
+    required uint32 mapid  = 1; // 地图ID
+    required uint32 xpos   = 2; // x坐标
+    required uint32 ypos   = 3; // y
+    required uint32 orient = 4; // 朝向
+}
+
+message CSEnterMapRsp { // 收到这个包时，在地图上展示玩家
+    required uint32        mapid    = 1;
+    required BasicUserInfo userinfo = 2;
+}
+
+message CSLeaveMapRsp {      // 玩家进入别的地图时，通过本协议通知原来地图的玩家把该玩家从地图中移除
+    required uint32 uid = 1; // 离开地图的玩家米米号
+}
+
+// 获取当前地图上所有用户的基本信息，用于显示用户场景中的形象
+message CSGetMapUsersReq {
+}
+
+message CSGetMapUsersRsp {
+    repeated BasicUserInfo userinfo = 1;
+}
+
+message CSGetUserSkillReq {
+	required uint32 userid 			= 1;
+}
+
+message CSGetUserSkillRsp {
+	required uint32 userid			= 1;
+	repeated UserSkillInfo userskills	= 2;
+	repeated uint32 ready			= 3;
+}
+
+message CSGetUserInfoReq {
+	required uint32 userid			= 1;
+}
+
+message CSGetUserInfoRsp {
+	required uint32 userid			= 1;
+	required BasicUserInfo userinfo = 2;
+}
+
+message CSAddUserSkillReq {
+	required uint32 skill_id		= 1;
+	required uint32 skill_level		= 2;
+}
+
+message CSAddUserSkillRsp {
+	required uint32 skill_id		= 1;
+	required uint32 skill_level		= 2;
+}
+
+message CSUserSkillDiffReq {
+	required uint32 skill_id		= 1;
+	required uint32 skill_level		= 2;
+}
+
+message CSUserSkillDiffRsp{
+	required uint32 skill_id		= 1;
+	required uint32 skill_level		= 2;
+	optional uint32 money		= 3;
+	optional uint32 exploit	= 4;
+	optional uint32 lv			= 5;
+
+	optional BasicUserBattleInfo battle_info = 6;
+
+	optional int32 own_cd		= 7;
+	optional int32 share_cd	= 8;
+	optional int32 hurt		= 9;
+	optional uint32 continue_time = 10;
+}
+
+// 场景地图行走
+message CSWalkReq {
+    required uint32 xpos 	= 1;
+    required uint32 ypos 	= 2;
+	required uint32 animid 	= 3;
+	required bool	flip 	= 4;
+}
+
+message CSWalkRsp {
+    required uint32 uid  	= 1;   // 玩家米米号
+    required uint32 xpos 	= 2;
+    required uint32 ypos 	= 3;
+	required uint32 animid 	= 4;
+	required bool	flip 	= 5;
+}
+
+//--物品相关协议段----------------------------------------------------------------------------------
+
+// 物品基本属性信息
+message CSItemAttr {
+	required uint32 attr_key				= 1;	// 物品属性key
+	required uint32 attr_basic_value    	= 2;	// 物品基本属性对应的value
+	optional uint32 attr_intensify_value	= 3;	// 强化影响物品属性value增量
+	optional uint32 attr_gem_value			= 4;	// 宝石影响物品属性value增量
+}
+// 装备孔信息
+message CSEquipHole {
+	required uint32 hole_index		= 1;	// 孔编号
+	required uint32 item_gem_id		= 2;	// 宝石id
+	required uint32 attr_key		= 3;	// 影响属性的key
+	required uint32 attr_value		= 4;	// 影响属性的value
+	optional uint32 attr_min_v		= 5;	// 影响属性的key 对应value的最小值
+	optional uint32 attr_max_v		= 6;	// 影响属性的key 对应value的最大值
+}
+// 装备信息(位置、升到下级所需要的花费、下一等级的属性增量)
+message EquipmentBase
+{
+	message Item_Attr {
+		required uint32 key				= 	1;	// 装备属性key
+		required uint32 value			= 	2;	// 装备属性value
+	}
+	required uint32 cost_levelup			=	1;	// 升级花费
+	repeated Item_Attr incr_attr_next_lv	= 	2;	// 下一等级装备强化属性的增量
+	repeated CSEquipHole equip_holes 		= 	3; 	// 装备中宝石信息
+}
+message SpiritStoneBase {
+	required uint32 consume		= 1; // 灵石升级需要的花费(=0时表示已经达到最高级，不能升级)
+	required uint32 convert		= 2; // 兑换成精华数量
+}
+message ManorBase {
+	required uint32 hunt_gain_coin		= 	1;	// 打猎获得的金币
+	required uint32 pick_gain_exp		= 	2;	// 采集获得的经验
+}
+// 物品信息
+message CSItemInfo { 
+    required uint32 pos             = 1; // 物品位置
+    required uint32 item_id         = 2; // 物品ID
+    required uint32 item_num        = 3; // 物品数量(num 对精灵来说代表status)
+    optional uint32 item_level      = 4; // 物品等级
+	repeated CSItemAttr item_attrs	= 5; // 物品影响的属性及其对应的值
+	optional EquipmentBase equip_info	= 6; // 装备信息
+	optional SpiritStoneBase ss_info	= 7; // 灵石信息
+	optional ManorBase manor_info		= 8; // 庄园信息 
+}
+
+// 请求所有物品
+message CSAllItemsReq {
+
+}
+message CSAllItemsRsp { 
+	required uint32 def_bag_size		= 1;	// 默认背包大小
+	required uint32 def_store_size		= 2;	// 默认仓库大小
+	required uint32 def_ss_bag_size     = 3;    // 默认灵石背包大小
+	required uint32 def_ss_store_size	= 4;	// 默认灵石仓库大小
+	required uint32 def_equip_lvup_max_times= 5;// 默认装备升级最大次数
+	required uint32 def_reset_gem_times	= 6;	// 默认重铸装备宝石属性的次数
+	required uint32 def_enter_manor_times	= 7;// 默认进入庄园的次数
+
+	repeated CSItemInfo items			= 15;	// 所有物品信息
+}
+// 增加物品通知回包
+message CSItemAddRsp {
+	repeated CSItemInfo  items		= 1;
+};
+// 删除物品请求
+message CSItemRemoveReq { 
+	required uint32 pos				= 1;
+	required uint32 item_id			= 2;
+};
+message CSItemRemoveRsp { 
+	required uint32 pos				= 1;
+	required uint32 item_id			= 2;
+};
+// 使用指定物品请求(礼包...)
+message CSItemUseReq { 
+	required uint32 pos				= 1;
+	required uint32 item_id			= 2;
+};
+// 交换物品请求
+message CSItemMoveReq { 
+	required uint32 pos_from		= 1; //起始位置
+	required uint32 pos_to			= 2; //结束位置
+};
+message CSItemMoveRsp { 
+	required uint32 pos_from		= 1; //起始位置
+	required uint32 pos_to			= 2; //结束位置
+};
+// 更新物品通知回包
+message CSItemUpdateRsp { 
+	repeated CSItemInfo item			= 1;
+};
+// 整理背包或仓库请求
+message CSItemOrderReq { 
+	required uint32 target			= 1; //1: 背包整理， 2: 仓库整理
+};
+
+//--XXX操作相关协议段----------------------------------------------------------------------------------
+message CSInstanceReq {
+	required uint32 start			= 1; //起始位置 包括
+	required uint32 end				= 2; //结束位置 不包括
+};
+
+message CSInstanceRsp {
+	message CSInstance {
+		required uint32 instance_id		= 1; //副本ID
+		required bool activate			= 2; //是否激活
+		required uint32 star			= 3; //星级1-3
+	}
+	repeated CSInstance instances		= 1; //副本信息
+};
+
+message CSReward {
+	message RewardInfo {
+		required uint32 item_id			= 1;
+		required uint32 item_level		= 2;
+		required uint32 item_num		= 3;
+	}
+	repeated RewardInfo rewards			= 1;
+	optional uint32	add_coin			= 2;	// 金币奖励
+	optional uint32 add_exp				= 3;	// 经验奖励
+	optional uint32 add_exploit			= 4;	// 功勋奖励
+}
+
+message CSLevelUpRsp {
+	required uint32 level				= 1;
+}
+
+message CSBasicUserBattleInfoRsp {
+	required BasicUserBattleInfo battle_info = 1;
+}
+
+//--灵石操作相关协议段----------------------------------------------------------------------------------
+
+// 寻灵请求
+message CSSearchSpiritStoneReq {
+
+}
+// 寻灵请求回包,得到物品后会有add item的通知包给客户端
+message CSSearchSpiritStoneRsp {
+	required uint32 ret			= 1; //寻灵错误码 0:无错误(add_item,金币重设/重设) 1: 金币不足 2: 格子不足 3:...
+	// 寻灵无错误cost_coin、mon_id两字段不存在，成功两字段必须存在
+	optional uint32 cost_coin	= 2; //花费的金币(寻灵花费+寻灵返回),cli得到该值后需要在coin字段减去该值才是玩家当前coin
+	optional uint32 mon_id		= 3; //寻灵后当前精灵id
+	optional uint32 item_id		= 4; //寻灵后获得的物品id(灵石id或碎片id)
+}
+
+// 灵石仓库->灵石背包 移动请求
+message CSSpiritStoneMoveBagReq {
+	required uint32 pos	        = 1; //需要移动灵石仓库中灵石所在位置
+}
+// 移动请求回包,成功会有del item和add item的通知包给客户端
+message CSSpiritStoneMoveBagRsp {
+	required uint32 ret			= 1; //移动结果 0:成功 1:pos没有对应灵石 2:背包满 3:...
+}
+
+// 升级灵石请求包
+message CSSpiritStoneLevelUpReq {
+	required uint32 pos         = 1; //需要升级的灵石所在pos
+}
+// 升级灵石请求回包,会产生update item回包
+message CSSpiritStoneLevelUpRsp {
+	required uint32 ret			= 1; //升级结果 0:成功 1:不是背包灵石 2:pos没有对应灵石 3:灵能不足 4:已经是最高等级 5:...
+	required uint32 pos			= 2; //灵石所在pos
+	required uint32 cost_sp		= 3; //升级所花费的灵能(spirit power)(不成功=0)
+}
+
+// 灵石转化为灵能请求
+message CSSpiritStoneToSPReq {
+	required uint32 pos         = 1; //需要转化为灵能的灵石所在pos(如果pos=0则转换灵石仓库中所有灵石)
+}
+// 灵石转化为灵能请求回包 会有del item 操作
+message CSSpiritStoneToSPRsp {
+	required uint32 ret         = 1; //转化结果 0:成功 1:pos不是背包中灵石 2:pos没有对应灵石 3:...
+	// 转化失败后sp_key、sp_value两字段不存在，成功两字段必须存在
+	optional uint32 sp_key		= 2; //灵能对应的key
+	optional uint32 sp_value	= 3; //灵能对应value
+}
+
+// 获得可以用碎片兑换的灵石基本属性信息请求包
+message CSGetExchangeSSInfoReq {
+}
+message ExchangeSSInfo{
+	required uint32 ss_id		= 1; // 灵石id
+	required uint32 consume		= 2; // 升级消耗精华数量
+	required uint32 convert		= 3; // 兑换成精华数量
+	required uint32 need_chip	= 4; // 需要的碎片数量
+	required uint32 key			= 5; // 灵石对应属性key
+	required uint32 value		= 6; // 灵石对应属性value
+}
+message CSGetExchangeSSInfoRsp {
+	repeated ExchangeSSInfo ss_list	= 1; // 可兑换灵石列表
+}
+//--卡牌相关 协议段-------------------------------------------------------------------------------------
+// 整理、移动、换装、合成 按照原有的协议
+
+//--庄园相关 协议段-------------------------------------------------------------------------------------
+// 添加庄园请求包(错误码以err包形式返回(id不合法、庄园已经存在、金币不足、...),添加成功会返回add_item包)
+message CSAddManorReq {
+	required uint32 manor_id			= 1; // 庄园编号
+}
+message CSAddManorRsp {
+	required uint32 pos                 = 1; // 庄园所在pos
+}
+
+// 热身运动请求包(错误码以err包形式返回(pos不合法、达到最大级别、金币不足)), 更改成功会返回update item
+message CSWarmSportLvUpReq {
+	required uint32 pos					= 1; // 热身运动的庄园所在pos
+	optional bool to_max_lv				= 2[default = false];	// 是否直接达到A级任务
+}
+message CSWarmSportLvUpRsp {
+	required uint32 pos                 = 1; // 热身运动的庄园所在pos
+}
+
+// 庄园操作请求包(错误码以err包形式返回(pos不合法、opt不合法、cd时间未冷却、...))
+message CSManorOptReq {
+	required uint32 pos                 = 1; // 庄园所在pos
+	required uint32 opt					= 2; // 庄园操作(1:打猎 2: 采集)
+}
+message CSManorOptRsp {
+	required uint32 pos                 = 1; // 庄园所在pos
+	required uint32 opt                 = 2; // 庄园操作(1:打猎 2: 采集)
+}
+// 购买庄园进入次数协议见CSExchangeParameterReq
+
+//--精灵相关 协议段-------------------------------------------------------------------------------------
+
+// 获取用户精灵信息
+message CSMonListReq {
+	required uint32 uid 		= 1; // 用户米米号
+	required string name		= 2; // 用户昵称
+}
+message MonInfo {
+	required uint32 mon_id      = 1; // 精灵id
+	required uint32 mon_status  = 2; // 精灵状态 1: 普通 2: 新精灵 3: 跟随
+}
+// 获取用户精灵信息回包
+message CSMonListRsp {
+	required uint32 uid         = 1; // 用户米米号
+	required string name        = 2; // 用户昵称
+	repeated MonInfo mon_info	= 3; // 用户精灵列表
+}
+
+// 设置精灵状态请求包
+message CSSetMonStatusReq {
+	required uint32 mon_id      = 1; // 需要改变状态的精灵id	
+	required uint32 mon_status		= 2; // 1: 普通 2: 新精灵 3: 跟随
+}
+// 设置精灵状态回包
+message CSSetMonStatusRsp {
+	required uint32 ret         = 1; // set结果 0:成功 1:pos没有对应精灵 2: ...
+	// ret != 0 mon_id、status 两字段不存在，否则必须存在
+	optional uint32 mon_id      = 2; // 改变状态的精灵id
+	optional uint32 mon_status      = 3; // 1: 普通 2: 新精灵 3: 跟随
+}
+
+//--PVP, PPVP协议段-------------------------------------------------------------------------------------
+
+message CSPVPQueryRoomReq				//查询PVP房间列表
+{
+}
+
+message PVPRoomBase
+{
+	required uint32 room_id				=	1;	//房间编号
+	required uint32 top_level			=	2;	//等级限制
+	required uint32 current_online		=	3;	//当前人数
+	required uint32 max_online			=	4;	//最大人数
+}
+message CSPVPQueryRoomRsp				//回复PVP房间列表
+{
+	repeated PVPRoomBase rooms			=	1;
+}
+
+message CSPVPBaseInfoRsp				//回复主角个人的PVP信息
+{
+	required uint32 winning				=	1;	//胜率
+	required uint32 remain_times		=	2;	//剩余次数
+}
+
+message CSPVPCreateRoomReq				//请求创建PVP房间,创建成功返回CSPVPJoinRoomRsp
+{
+	required uint32 type				=	1;	//1: 1 vs 1, 2: 2 vs 2
+	required uint32 top_level			=	2;	//等级限制，0:表示无限制，自由	
+}
+
+message CSPVPJoinRoomReq				//请求进入PVP房间
+{
+	required uint32 room_id				=	1;	//房间编号，0: 快速匹配
+}
+
+message PVPSeatBase
+{
+	required uint32 id					=	1;	//位置编号
+	required uint32 avatar				=	2;	//头像
+	required string name				=	3;	//名字
+	required uint32 level				=	4;	//等级
+	required bool ready					=	5;	//就绪标记
+}
+
+message CSPVPJoinRoomRsp				//返回当前房间内玩家信息
+{
+	required uint32 room_id				=	1;	//房间编号，0: 快速匹配
+	required uint32 type				= 	2;	//1: 1 vs 1, 2: 2 vs 2
+	required uint32 top_level			=	3;		
+	repeated PVPSeatBase seats			=	4;	//当前房间内玩家信息
+}
+
+message CSPVPExitRoomReq				//退出房间请求
+{
+}
+
+message CSPVPExitRoomRsp				//退出房间响应
+{
+}
+
+message CSPVPCloseRoomRsp				//房间被关闭
+{
+}
+
+message CSPVPChangeSeatReq				//玩家换座位
+{
+	required uint32 seat				=	1;	//位置编号
+}
+
+message CSPVPReadyReq					//玩家准备完毕
+{
+}
+
+message CSPVPCancelReadyReq				//玩家取消准备
+{
+}
+
+message CSPVPKickoffReq					//房主踢人
+{
+	required uint32 seat				=	1;	//位置编号
+}
+
+message CSPVPKickoffRsp					//被房主踢出
+{
+}
+
+message CSPVPStartReq					//房主开始游戏
+{
+}
+
+message CSPVPStartRsp					//游戏开始
+{
+    required uint32 mapid				=	1;	//地图编号
+}
+
+//--PVE, PPVE协议段-------------------------------------------------------------------------------------
+
+message CSPPVEBattleReq
+{
+}
+
+message CSPPVEBattleRsp
+{	
+	repeated uint32 ids					=  1;
+}
+
+message CSPVEQueryRoomReq				//查询PVE房间列表
+{
+}
+
+message PVERoomBase
+{
+	required uint32 room_id				=	1;	//房间编号
+	required uint32 top_level			=	2;	//等级限制
+	required uint32 current_online		=	3;	//当前人数
+	required uint32 max_online			=	4;	//最大人数
+}
+message CSPVEQueryRoomRsp				//回复PVE房间列表
+{
+	repeated PVERoomBase rooms			=	1;
+}
+
+message CSPVEBaseInfoRsp				//回复主角个人的PVE信息
+{
+	required uint32 countdown			=	1;	//活动倒计时
+	required uint32 remain_times		=	2;	//剩余次数
+}
+
+message CSPVECreateRoomReq				//请求创建PVE房间,创建成功返回CSPVEJoinRoomRsp
+{
+	required uint32 top_level			=	1;	//等级限制
+	required uint32 battle_id			=   2;
+}
+
+message CSPVEJoinRoomReq				//请求进入PVE房间
+{
+	required uint32 room_id				=	1;	//房间编号,0:表示快速加入
+}
+
+message CSPVEJoinRoomFailureRsp			//进入PVE房间失败返回，成功返回CSPVEJoinRoomRsp
+{
+	required uint32 errcode				=	1;	//错误编码
+}
+
+message PVESeatBase
+{
+	required uint32 id					=	1;	//位置编号
+	required uint32 avatar				=	2;	//头像
+	required string name				=	3;	//名字
+	required uint32 level				=	4;	//等级
+	required bool ready					=	5;	//就绪标记
+}
+message CSPVEJoinRoomRsp				//返回当前房间内玩家信息
+{
+	required uint32 room_id				=	1;	//房间编号
+	required uint32 top_level			=	2;	//等级限制
+	repeated PVESeatBase seats			=	3;	//当前房间内玩家信息
+}
+
+message CSPVEExitRoomReq				//退出房间请求
+{
+}
+
+message CSPVEExitRoomRsp				//退出房间响应
+{
+}
+
+message CSPVECloseRoomRsp				//房间被关闭
+{
+}
+
+message CSPVEReadyReq					//玩家准备完毕
+{
+}
+
+message CSPVECancelReadyReq				//玩家取消准备
+{
+}
+
+message CSPVEKickoffReq					//房主踢人
+{
+	required uint32 seat				=	1;	//位置编号
+}
+
+message CSPVEKickoffRsp					//被房主踢出
+{
+}
+
+message CSPVEStartReq					//房主开始游戏
+{
+}
+
+message CSPVEStartRsp					//游戏开始
+{
+    required uint32 mapid				=	1;	//地图编号
+}
+
+//--PVAI协议段-------------------------------------------------------------------------------------
+
+message CSPVAIReq
+{
+	required uint32 userid				= 1;
+}
+
+message CSPVAIInfoReq
+{
+}
+
+message CSPVAIInfoRsq
+{
+	message CSPVAIInfo {
+		required uint32 userid			= 1;
+		required uint32 reg_time		= 2;
+		required uint32 rank			= 3;
+		required string name			= 4;
+		required uint32 type			= 5;
+		required uint32 lv				= 6;  
+	}
+	message CSPVAILog {
+		required string name			= 1; //对方用户名
+		required bool 	direct			= 2; //true 主动 false被动
+		required bool 	win 			= 3; //
+	}
+	required uint32 rank				= 1;//玩家名次
+	repeated CSPVAIInfo   infos			= 2;//推荐玩家列表
+	repeated CSPVAILog		logs		= 3;//PVAI日志
+}
+
+//--装备强化、合成、镶嵌、钻孔协议段-------------------------------------------------------------------------------------
+
+// 获得装备升级cd请求包
+message CSGetEquipLvUpCDReq {
+}
+message CSGetEquipLvUpCDRsp {
+	required uint32 cold_time           =   1;  //冷却时间
+}
+
+// 装备镶嵌请求包
+message CSEquipInlayGemReq {
+	required uint32 equip_pos			= 1;	// 装备pos
+	required uint32 gem_id				= 2;	// 宝石id
+	required uint32 hole_index			= 3;	// 孔index(例如:1 2 3 4(从1开始))
+}
+// 装备镶嵌请求回包(ret = 0 时有del item、update item 包传给客户端)
+message CSEquipInlayGemRsp {
+	required uint32 ret					= 1;	// 0 成功 !0 失败(1:装备或宝石不存在 2:孔index不合法 3:...)
+}
+
+// 重铸装备请求包
+message CSResetGemAttrReq {
+	required uint32 equip_pos           = 1;    // 装备pos
+	repeated uint32 holes_index			= 2;	// 重铸宝石所在孔的index
+	optional uint32 cost_attr_key		= 3;	// 重铸所花费的物品的key(注意和item_id的区别,在此表示玩家属性key)
+}
+// 重铸装备请求回包(ret = 0 时有update item 包传给客户端)
+message CSResetGemAttrRsp {
+	required uint32 ret					= 1;	// 0 成功 !0 失败(1:pos不合法 2:孔index不合法 3:免费重铸次数用完或花费物不足 4:锁定孔的花费不够 5:...)
+}
+
+// 装备强化
+message CSEquipmentStrengthReq			//装备强化请求
+{
+	required uint32 pos					= 	1;	//指定强化的位置
+}
+message CSEquipmentStrengthRsp			//强化是否成功
+{
+	required uint32 result				= 	1;	//0: 成功，!0: 错误码(1:pos不合法 2:pos没有对应装备 3:item不是装备 4:玩家等级不够 5:升级次数达到最大 6:装备的下一等级不存在 7:金币不够 8:...)
+	required uint32 pos 				= 	2;	// 强化的位置
+	required uint32 cold_time			=	3;	// 冷却时间
+}
+
+// 装备合成请求包
+message CSEquipmentComposeReq			//装备合成请求
+{
+	required uint32 exchange_item_id	= 	1;  // 请求合成的物品配置编号
+	repeated uint32 from_item_pos		=	2;	// 请求合成物品的所需材料的pos,pos没给全的需系统自动查找并消耗
+	optional uint32 multi				=	3[default = 1]; // 请求合成倍数(默认为1)
+}
+message CSEquipmentComposeRsp
+{
+	required uint32 exchange_item_id    =   1;  // 请求合成的物品配置编号
+	required uint32 result				=	2;	//0:成功, !0: 错误码(1:配置编号不存在 2:pos与配置不匹配 3:物品不足 4:格子不够 5:...)
+}
+
+//--任务相关 协议段-------------------------------------------------------------------------------------
+
+message CSTaskInfoReq
+{
+}
+
+message TaskInfo
+{
+	required uint32 task_id					= 1;
+	required uint32 step_id					= 2;
+	required uint32 step_value				= 3;
+}
+
+message CSTaskInfoRsp
+{
+	repeated uint32 acceptable_tasks		= 1;
+	repeated TaskInfo accept_tasks			= 2; 
+}
+
+message CSTaskDoStepReq
+{
+	required uint32 task_id					= 1;
+	required uint32 step_id					= 2;
+	required uint32 step_value				= 3;
+}
+
+message CSTaskDoStepRsp
+{
+	required uint32 task_id					= 1;
+	required uint32 step_id					= 2;
+	required uint32 step_value				= 3;
+}
+
+message CSTaskLogReq
+{
+}
+
+message CSTaskLogRsp
+{
+	repeated TaskInfo tasks				= 1;
+}
+
+//--拉取玩家属性 协议段---------------------------------------------------------------------------------
+message CSAttributesSetReq
+{
+	required uint32 key					= 1;
+	required uint32 value				= 2;
+}
+
+message CSAttributesReq
+{
+	repeated uint32 keys				= 1; // 请求玩家属性列表
+}
+
+message CSAttributesRsp
+{
+	message KeyValue {
+		required uint32 key				= 1; // 玩家属性key
+		required uint32 value			= 2; // 玩家属性value
+	}
+	repeated KeyValue values		= 1;
+}
+
+message CSOnceSetReq
+{
+	required uint32 index					= 1;
+}
+
+message CSOnceReq {
+	repeated uint32 indexs				= 1; //1-10000
+}
+
+message CSOnceRsp
+{
+	message Once {
+		required uint32 index			= 1;
+		required bool 	is_set			= 2;
+	}
+	repeated Once values				= 1;
+}
+
+//--训练 协议段--------------------------------------------------------------------------------
+
+message CSTrainInfoReq {
+}
+
+message CSTrainInfoRsp {
+	required uint32 potential			= 1;
+	required uint32 courage				= 2;
+    required uint32 charm				= 3;
+    required uint32 trick				= 4; 
+}
+
+message CSTrainReq {
+	required uint32 type				= 1; // 训练等级(1,2,3,4)
+}
+
+message CSTrainRsp {
+	required int32 courage				= 1; // 增加的勇气值
+    required int32 charm				= 2; 
+    required int32 trick				= 3; 
+	required bool succ					= 4; // 特训是否成功(true 成功 false 失败)
+}
+
+message CSTrainDetermineReq {
+
+}
+
+message CSTrainDetermineRsp {
+
+}
+
+//--探索 协议段--------------------------------------------------------------------------------
+// 刷新请求协议
+message CSExploreReq {
+	required uint32 option              = 1; // 1:open 云游系统 2: 刷新
+}
+message CSExploreRsp {
+	required uint32 option              = 1;
+	required uint32 map_id				= 2; // 地图id
+}
+// 领取奖励请求(领奖一次，探索次数加1)
+message CSExploreDetermineReq {
+	required uint32 option				= 1; // 选择奖励(1: 奖励1 2: 奖励2)
+}
+message CSExploreDetermineRsp {
+	required uint32 map_id				= 1; // 地图id
+	optional CSReward rewards			= 2; // 奖励
+}
+
+//--天赋 协议段--------------------------------------------------------------------------------
+message CSQueryDowerReq {
+
+}
+
+message CSQueryDowerRsp {		 // 查询天赋信息
+	message Dower {
+		required uint32 id				= 1; // 天赋ID
+		required uint32 level			= 2; // 天赋等级
+		required uint32 max_level		= 3; // 最大天赋等级
+		required uint32 plus			= 4; // 增加的属性值
+		required uint32 each_plus		= 5; // 每级增加的属性值
+	}
+	repeated Dower dower				= 1; // 天赋
+	optional uint32 timeout				= 2; // 冷却时间
+}
+
+message CSDowerInfoReq { 		// 查询单个天赋信息
+	required uint32 id					= 1; // 天赋ID
+	required uint32 level				= 2; // 天赋等级
+}
+
+message CSDowerInfoRsp { 		// 查询单个天赋信息
+	required uint32 id						= 1; // 天赋ID
+	required uint32 level					= 2; // 天赋等级
+	required uint32 next_exploit 			= 3; // 升级需要的功勋
+	required uint32 next_time 				= 4; // 升级时间
+	required uint32 diff_physical_attack 			= 5; // 提高的物理攻击
+	required uint32 diff_magic_attack 			= 6; // 提高的魔法攻击
+	required uint32 diff_skill_attack 			= 7; // 提高的技能攻击
+	required uint32 diff_physical_defence 		= 8; // 提高的物理防御
+	required uint32 diff_magic_defence 		= 9; // 提高的魔法防御
+	required uint32 diff_skill_defence		= 10; // 提高的技能防御
+	required uint32 diff_hp					= 11; // 提高的HP
+	required uint32 plus			= 12; // 增加的属性值
+}
+
+message CSDowerReq {					// 升级天赋
+	required uint32 id					= 1; //天赋ID
+}
+
+message CSDowerRsp {
+	required uint32 timeout				= 1; // 冷却时间
+	required uint32 level				= 2; //升级后天赋等级
+	required uint32 plus				= 3; // 增加的属性值
+	required uint32 next_exploit		= 4; // 升级需要的功勋
+}
+
+//exchange parameter
+// 钻石系统协议
+message CSExchangeParameterReq {
+	required uint32 id					= 1;				// 钻石相关id
+	optional uint32 param				= 2[default = 0];	// 相关参数(如: 星座开槽[1-12]、装备开孔[传装备的pos] 等)
+}
+message CSExchangeParameterRsp {
+	required bool succ					= 1;				// true成功 false 失败
+	required uint32 id					= 2;				// 钻石相关id
+	optional uint32 param				= 3;				// 相关参数
+}
+
+//--神秘商店 协议段--------------------------------------------------------------------------------
+message ShopItemInfo {
+	message Item {
+		required uint32 item_id			= 1;	// 物品id
+		required uint32 item_num		= 2;	// 物品数量
+	}
+	required uint32 index				= 1;	// 买卖暗号(index)	
+	required Item from_item				= 2;	// 消耗的物品
+	required Item to_item				= 3;	// 得到的物品
+	required bool is_buy				= 4;	// 是否购买(true:已经购买 false:没有购买)
+}
+
+// 请求商店商品列表请求
+message CSGetShopItemsReq {
+	
+}
+message CSGetShopItemsRsp {
+	repeated ShopItemInfo items		= 1;	// 商店商品列表
+}
+
+message CSBuyShopItemReq {
+	required uint32 index               = 1;    // 买卖暗号(index) 
+}
+message CSBuyShopItemRsp {
+	required uint32 index               = 1;    // 买卖暗号(index) 
+	required bool succ					= 2;	// 购买是否成功
+}
+
+//--拉取其他玩家信息 协议段--------------------------------------------------------------------------------
+// 拉取玩家物品信息	
+message CSGetUserItemReq {
+	required uint32 userid		        = 1;
+}
+message CSGetUserItemRsp {
+	required uint32 userid              = 1;
+	repeated CSItemInfo items           = 2;   // 物品信息
+}
+
+// 拉取玩家属性信息请求包
+message CSGetUserAttributesReq {
+	required uint32 userid              = 1;
+}
+message CSGetUserAttributesRsp {
+	required uint32 userid              = 1;
+	required CSAttributesRsp attributes = 2;	// 属性集合
+}
+
+// 玩家基本属性和对战属性见 CSGetUserInfoReq
+// 玩家技能信息见 CSGetUserSkillReq
+
+//--各种通知(start 2013.05.28) 协议段----------------------------------------------------------------------
+// 通知金钱系统配表信息(用户登录和等级升级是发送该通知)
+message CSNotifyMoneyConfInfoRsp {
+	required uint32 pay					= 1;	// 每日薪资
+	required uint32 diamond				= 2;	// 钻石还金币
+	required uint32 explore				= 3;	// 探索
+	required uint32 train				= 4;	// 训练
+}
+

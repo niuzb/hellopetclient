@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl
+END
+stdcheaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/stdcheaders.h
+END
+typecheck-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/typecheck-gcc.h
+END
+multi.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/multi.h
+END
+mprintf.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/mprintf.h
+END
+curlrules.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curlrules.h
+END
+easy.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/easy.h
+END
+curlver.h
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curlver.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/types.h
+END
+curl.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curl.h
+END
+curlbuild.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/android/prebuilt/libcurl/include/curl/curlbuild.h
+END

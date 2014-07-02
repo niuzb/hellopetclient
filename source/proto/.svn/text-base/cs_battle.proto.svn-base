@@ -1,0 +1,301 @@
+/* 和客户端通讯的标准报文头部 */
+//message CSMessageHeader {
+//	required string msg_name   = 1;
+//	optional uint32 result     = 2;
+//}
+
+import "cs_core.proto" ;
+
+message CSPoint {
+	required int32 xpos = 1; //点的x轴坐标
+	required int32 ypos = 2; //点的y轴坐标
+}
+
+message CSBattleMoveReq { //玩家移动请求包
+	required uint32 id = 1; //玩家的ID
+	required CSPoint direct = 2; //玩家的方向
+	required CSPoint pos = 3; //玩家的位置
+	required uint32 time = 4;
+}
+
+message CSBattleMoveRsp { //玩家移动广播包
+	required uint32 id = 1; //玩家的ID
+	required CSPoint direct = 2; //玩家的方向
+	required CSPoint pos = 3; //玩家的位置
+	required uint32 time = 4;
+}
+
+message MonsterMoveValue {
+	required uint32 id = 1; //怪物在副本中的ID
+	required CSPoint direct = 2; //怪物的方向
+	repeated CSPoint paths = 3; //怪物的关键点路径
+}
+
+message CSMonsterMoveRsp { //怪物移动通知包
+	repeated MonsterMoveValue moves = 1;
+}
+
+message CSBattleCreateReq {  //玩家创建副本的请求包
+    required uint32 battle_id 	= 1; //副本ID
+    required uint32 map_id	 	= 2; //MAP ID
+}
+
+message MonsterBattleInfo {
+	required uint32	physical_attack		= 1;
+	required uint32 magic_attack		= 2;
+	required uint32 skill_attack		= 3;
+	required uint32 physical_defence	= 4;
+	required uint32 magic_defence		= 5;
+	required uint32 skill_defence		= 6;
+	required uint32 health_point		= 7;
+	required uint32 accurate			= 8;
+	required uint32 dodge				= 9;
+	required uint32 wreck				= 10;
+	required uint32 parry				= 11;
+	required uint32 critical_strike		= 12;
+	required uint32 tenacity			= 13;
+	required uint32 slay				= 14;
+	required uint32 proficiency			= 15;
+}
+
+message MonsterInfo {
+	required uint32 id 		= 1; //怪物在副本中的ID
+	required uint32 type_id = 2; //怪物的种类
+	required uint32 level 	= 3; //怪物的等级
+	required uint32 blood 	= 4; //怪物的血量
+	required CSPoint point	= 5; //怪物的位置
+	required CSPoint direct = 6; //怪物的方向
+	required uint32 speed 	= 7; //怪物的速度
+	required bool boss 		= 8; //怪物的速度
+	required MonsterMoveValue moves = 9; //怪物的初始AI移动
+	optional MonsterBattleInfo battle_info = 10;
+	required bool elite		= 11;
+}
+
+message CSBattleCreateRsp { //玩家创建副本的返回包
+	repeated MonsterInfo 	monsterinfo = 1;
+	repeated BasicUserInfo 	 	userinfo 	= 2;
+	required uint32 		battle_id	= 3;
+	required uint32			map_id		= 4;
+	required CSPoint 	 	portal		= 5;
+	required uint32 	 	portal_map_id	= 6;
+	optional uint32			timeout		= 7;
+	repeated CSPoint		monsterbirth	= 8;
+}
+
+message CSBattleMonsterCreateRsp {
+	repeated MonsterInfo monsterinfo  = 1;
+}
+
+message CSBattleUserJoinRsp {
+	repeated BasicUserInfo userinfo= 1; //
+}
+
+message CSBattleUserLeaveRsp {
+	required uint32 userid = 1;
+}
+
+message CSBattleLoadCompleteReq {
+
+};
+
+message CSBattleLoadCompleteRsp {
+	required bool timeout			= 1;//
+};
+
+message CSBattleLeaveReq {
+
+}
+
+message CSBattleLeaveRsp {
+	required bool initiative = 1;
+	optional uint32 star		= 2;
+	optional CSReward rewards	= 3;
+}
+
+message CSBattleTimeoutRsp {	
+	
+}
+
+message CSBattlePlayerDelRsp {
+
+}
+
+message AttackMonsterInfo {
+	required uint32 id = 1; //怪物在副本中的ID
+	required CSPoint start_pos = 2; // 
+	required CSPoint pos = 3; //怪物的位置
+	required CSPoint direct = 4; //怪物的方向
+	required uint32 blood = 5; //怪物血量
+	required uint32 status = 6; //怪物状态
+}
+
+message CSAttackMonsterBackInfo {
+	required uint32 id = 1; //怪物在副本中的ID
+	required uint32 monster_type = 2;
+	required uint32 blood = 3; //怪物血量
+	required bool elite		= 4;
+}
+
+message CSMonsterAttackInfo {
+	required uint32 id = 1;  //怪物在副本中的ID
+	required CSPoint pos = 2; //怪物的位置
+	required CSPoint direct = 3;//怪物的方向
+	required uint32 action_id = 4; //动作ID
+	required uint32 type  =  5;
+	required uint32 userid = 6; //玩家的ID
+
+	optional uint32 effect_id  = 7;
+	optional CSPoint start_pos = 8; //起始位置
+	optional CSPoint end_pos   = 9; //目标位置
+	optional uint32 skill_speed  = 10; //攻击速度
+	optional uint32 delay_time = 11;
+}
+
+message CSMonsterEffectInfo {
+	optional uint32 effect_id  = 1;
+	optional CSPoint start_pos = 2; //起始位置
+	optional CSPoint end_pos   = 3; //目标位置
+	optional uint32 skill_speed  = 4; //攻击速度
+	optional uint32 delay_time = 5;
+}
+
+message CSMonsterAttackRsp {
+	repeated CSMonsterAttackInfo attacks = 1;
+}
+
+message CSMonsterEffectRsp {
+	repeated CSMonsterEffectInfo effects = 1;
+}
+
+message CSMonsterHitRsp {
+	message UserInfo {
+		required uint32 hurt_type = 2; //  1:闪避 2:格挡 3: 暴击 4: 正常攻击
+		required uint32 userid = 3;
+		required uint32 blood = 4;
+	}
+	repeated UserInfo users = 3;
+}
+
+message CSSkillBeginReq {
+	required uint32 userid = 1;
+	required uint32 action_id = 2;
+	required CSPoint pos   = 3;
+	required float   start_dir_x = 4;
+	required float   start_dir_y = 5;
+	required CSPoint target_pos = 6;
+	required float 	 direct_x	= 7;
+	required float 	 direct_y 	= 8;
+	required bool 	 aim		= 9;
+}
+
+message CSSkillBeginRsp {
+	required uint32 userid = 1;
+	required uint32 action_id = 2;
+	required CSPoint pos   = 3;
+	required float   start_dir_x = 4;
+	required float   start_dir_y = 5;
+	required CSPoint target_pos = 6;
+	required float 	 direct_x	= 7;
+	required float 	 direct_y 	= 8;
+	required bool 	 aim		= 9;
+}
+
+message CSPlayerAttackReq { //用户打击怪物
+	required uint32 userid = 1; //用户ID
+	required CSPoint start_pos = 2; //开始位置
+	required CSPoint start_direct = 3; //开始方向
+	required CSPoint end_pos = 4; //结束位置
+	required CSPoint end_direct = 5; //结束方向
+	required uint32 action_id = 6; //动作ID
+	repeated AttackMonsterInfo monsters = 7; //被攻击怪物信息
+}
+
+message CSPlayerAttackRsp { //用户打击怪物
+	required uint32 userid = 1; //用户ID
+	required CSPoint start_pos = 2; //开始位置
+	required CSPoint start_direct = 3; //开始方向
+	required CSPoint end_pos = 4; //结束位置
+	required CSPoint end_direct = 5; //结束方向
+	required uint32 action_id = 6; //动作ID
+	repeated AttackMonsterInfo monsters = 7; //被攻击怪物信息
+}
+
+message AttackPlayerInfo {
+	required uint32 userid = 1; //ID
+	required uint32 blood = 2; //血量
+	required uint32 hurt_type = 3; //  1:闪避 2:格挡 3: 暴击 4: 正常攻击
+}
+
+message CSPlayerHitPlayerReq {
+	required uint32 userid = 1; //用户ID
+	required CSPoint start_pos = 2; //开始位置
+	required CSPoint start_direct = 3; //开始方向
+	required CSPoint end_pos = 4; //结束位置
+	required CSPoint end_direct = 5; //结束方向
+	required uint32 action_id = 6; //动作ID
+	repeated AttackPlayerInfo users = 7; //
+}
+
+message CSPlayerHitPlayerRsp {
+	required uint32 userid = 1; //用户ID
+	required CSPoint start_pos = 2; //开始位置
+	required CSPoint start_direct = 3; //开始方向
+	required CSPoint end_pos = 4; //结束位置
+	required CSPoint end_direct = 5; //结束方向
+	required uint32 action_id = 6; //动作ID
+	repeated AttackPlayerInfo users = 7; //
+}
+
+message CSPlayerHPRsp {
+	required uint32 userid = 1; //用户ID
+	required uint32 blood = 2;
+}
+
+message CSMonsterBloodRsp { //用户打击怪物
+	repeated CSAttackMonsterBackInfo monsters = 1; //被攻击怪物信息
+}
+
+message CSMonsterDieRsp {
+	repeated uint32 monsters = 1; //怪物在副本中的ID
+}
+
+// ---------自动战斗协议段---------------------------------------------------------------------------
+// 自动战斗副本中怪物信息查询请求包
+message CSABMonsterReq {
+	required uint32 instance_id = 1; // 副本ID
+}
+message CSABMonsterRsp {
+	message MonInfo {
+		required uint32 mon_id	= 1; // 怪物id
+		required uint32 mon_num	= 2; // 怪物num
+	}
+	required uint32 instance_id = 1; // 副本ID
+	repeated MonInfo mon_infos	= 2; // 怪物信息
+}
+
+// 玩家自动战斗请求包
+message CSAutoBattleReq {
+    required uint32 instance_id	= 1; // 副本ID
+	required uint32 turn_num 	= 2; // 轮数(=0时表示消耗所有体力值)
+}
+// 对用户上次启动自动战斗之后，再次登录游戏处理也发该回包
+message CSAutoBattleRsp {
+	required uint32 ret			= 1; // 0 成功 !0 失败(1:上个战斗自动战斗未完成 2:地图不能自动战斗 3...)
+	required uint32 cd			= 2; // 自动战斗完成需要的时间
+	required uint32 instance_id	= 3; // 自动战斗副本
+}
+
+// 玩家自动战斗回包(ret = 0 后,自动战斗回包cd完成后将产生CSABRewardRsp回包告知玩家所获得的奖励)
+message CSABRewardRsp {
+	required uint32 instance_id = 1; // 副本ID
+	required CSReward rewards   = 2; // 副本奖励
+}
+
+// 玩家取消自动战斗
+message CSCancelAutoBattleReq {
+}
+message CSCancelAutoBattleRsp {
+}
+
+// 加速完成自动战斗 用cs_core.proto的协议 CSClearColdTimeReq

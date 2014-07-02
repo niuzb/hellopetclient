@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="login_tip_color">#56230E</color>
+
+    <string name="login_tip_words">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;欢迎进入淘米游戏，使用本机登录模式无需输入账号密码。但如果删除游戏，重装系统或清理数据会造成游戏数据丢失。建议您使用第三方账号登陆。</string>
+
+</resources>

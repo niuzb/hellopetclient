@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Resources\Script\ChatToolLayer.lua" />
+    <None Include="..\..\Resources\Script\CommonDefine.lua" />
+    <None Include="..\..\Resources\Script\FSM.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\characterString.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\EquipmentItem.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\ExchangeItem.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\InstanceList.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\Item.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\ItemConfigTab.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\Localization.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\MapBasic.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\MapDataTable.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\MapMusicTable.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\MonsterBasicInfomation.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\npc.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\RaidBasic.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\RaidMusic.lua" />
+    <None Include="..\..\Resources\Script\GameConfig\SearchSpirit.lua" />
+    <None Include="..\..\Resources\Script\GameUILayer.lua" />
+    <None Include="..\..\Resources\Script\handleMessage.lua" />
+    <None Include="..\..\Resources\Script\Language.lua" />
+    <None Include="..\..\Resources\Script\Level\10001.lua" />
+    <None Include="..\..\Resources\Script\main.lua" />
+    <None Include="..\..\Resources\Script\MainMenuUILayer.lua" />
+    <None Include="..\..\Resources\Script\Monster.lua" />
+    <None Include="..\..\Resources\Script\OsCommonMethod.lua" />
+    <None Include="..\..\Resources\Script\ppveRoom.lua" />
+    <None Include="..\..\Resources\Script\ppveUILayer.lua" />
+    <None Include="..\..\Resources\Script\pvpUILayer.lua" />
+    <None Include="..\..\Resources\Script\pvp_1vs1.lua" />
+    <None Include="..\..\Resources\Script\pvp_2vs2.lua" />
+    <None Include="..\..\Resources\Script\pvp_s1.lua" />
+    <None Include="..\..\Resources\Script\Skill\SkillBasicDataTable.lua" />
+    <None Include="..\..\Resources\Script\Skill\SkillDataCenter.lua" />
+    <None Include="..\..\Resources\Script\Skill\SkillEquipLayer.lua" />
+    <None Include="..\..\Resources\Script\Skill\SkillSelectLayer.lua" />
+    <None Include="..\..\Resources\Script\SpriteElfExplore\ElfExploreDataCenter.lua" />
+    <None Include="..\..\Resources\Script\SpriteElfExplore\ElfExploreLayer.lua" />
+    <None Include="..\..\Resources\Script\SpriteElfExplore\Explore.lua" />
+    <None Include="..\..\Resources\Script\SpriteElf\ElfConfigParse.lua" />
+    <None Include="..\..\Resources\Script\SpriteElf\fairybasicinfo.lua" />
+    <None Include="..\..\Resources\Script\SpriteElf\SpriteElfLayer.lua" />
+    <None Include="..\..\Resources\Script\SpriteElf\SpriteElfStrengthenLayer.lua" />
+    <None Include="..\..\Resources\Script\Task\task.lua" />
+    <None Include="..\..\Resources\Script\Task\TaskParser.lua" />
+    <None Include="..\..\Resources\Script\Task\TaskState.lua" />
+    <None Include="..\..\Resources\Script\UILayer\backPackLayer.lua" />
+    <None Include="..\..\Resources\Script\UILayer\battleLayer.lua" />
+    <None Include="..\..\Resources\Script\UILayer\battleWinLayer.lua" />
+    <None Include="..\..\Resources\Script\UILayer\PlayerInfo.lua" />
+    <None Include="..\..\Resources\Script\UILayer\PvAILayer.lua" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7EE2D5F-C267-487C-8C7E-81C2D4F591E8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LuaResource</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

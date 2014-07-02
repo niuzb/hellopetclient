@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints
+END
+cpPinJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+END
+cpSimpleMotor.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/util.h
+END
+cpDampedSpring.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+END
+cpDampedRotarySpring.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+END
+cpRatchetJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+END
+cpGearJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+END
+cpRotaryLimitJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+END
+cpConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+END
+cpSlideJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+END
+cpGrooveJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+END
+cpPivotJoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+END

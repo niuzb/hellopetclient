@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform
+END
+CSocketUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CSocketUtil.h
+END
+FileUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/FileUtils.cpp
+END
+IPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IPlatform.h
+END
+CrossPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CrossPlatform.h
+END
+FileUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/FileUtils.h
+END
+CCInt.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CCInt.h
+END
+Thread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Thread.cpp
+END
+XPlatformManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/XPlatformManager.cpp
+END
+IExResourceMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IExResourceMgr.h
+END
+AES.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/AES.cpp
+END
+tea.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/tea.cpp
+END
+Thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Thread.h
+END
+XPlatformManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/XPlatformManager.h
+END
+AES.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/AES.h
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/util.cpp
+END
+tea.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/tea.h
+END
+IPUIPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IPUIPlatform.h
+END
+ImageUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/ImageUtil.cpp
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/util.h
+END
+CrossXOS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CrossXOS.cpp
+END
+ImageUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/ImageUtil.h
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/md5.cpp
+END
+CrossXOS.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CrossXOS.h
+END
+CSocketUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CSocketUtil.cpp
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/md5.h
+END
+CrossUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/CrossUtil.h
+END

@@ -1,0 +1,10 @@
+class LevelManager
+{
+public:
+	static LevelManager*		sShareInstance();
+	/// check current level is ppve map level
+	bool	isCurrentPPVELevel();
+    /// check current level is pve map level
+	bool	isCurrentPVELevel();
+	bool	isCurrentPVPLevel();
+}

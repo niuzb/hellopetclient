@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js
+END
+HashTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js/HashTable.h
+END
+MemoryMetrics.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js/MemoryMetrics.h
+END
+TemplateLib.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js/TemplateLib.h
+END
+Vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js/Vector.h
+END
+Utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js/Utility.h
+END
+LegacyIntTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/spidermonkey-android/include/js/LegacyIntTypes.h
+END

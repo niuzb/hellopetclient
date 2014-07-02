@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite
+END
+AnimSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/AnimSprite.h
+END
+ASprite_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/ASprite_config.h
+END
+GameEnginePlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/GameEnginePlayer.h
+END
+AspriteManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/AspriteManager.cpp
+END
+EnginePlayerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/EnginePlayerManager.h
+END
+ASprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/ASprite.cpp
+END
+AspriteManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/AspriteManager.h
+END
+ASprite_Flags.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/ASprite_Flags.h
+END
+ASprite_defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/ASprite_defines.h
+END
+AnimSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/AnimSprite.cpp
+END
+ASprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/ASprite.h
+END
+GameEnginePlayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/GameEnginePlayer.cpp
+END
+EnginePlayerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ASprite/EnginePlayerManager.cpp
+END

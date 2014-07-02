@@ -1,0 +1,17 @@
+﻿Build started 2014/6/21 20:36:12.
+     1>Project "D:\android\hello\server\ahero\source\cocos2dx\CocosDenshion\proj.win32\CocosDenshion.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\libCocosDenshion.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         CocosDenshion.vcxproj -> D:\android\hello\server\ahero\source\Win32\Debug.win32\libCocosDenshion.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libCocosDenshion.unsuccessfulbuild".
+         Touching "Debug.win32\libCocosDenshion.lastbuildstate".
+     1>Done Building Project "D:\android\hello\server\ahero\source\cocos2dx\CocosDenshion\proj.win32\CocosDenshion.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer
+END
+EnchaseGemStoneTable.lua
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/EnchaseGemStoneTable.lua
+END
+enchaseUILayer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/enchaseUILayer.lua
+END
+enchaseExchangeUILayer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/enchaseExchangeUILayer.lua
+END
+battleWinLayer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/battleWinLayer.lua
+END
+PlayerInfo.lua
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/PlayerInfo.lua
+END
+battleLayer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/battleLayer.lua
+END
+enchaseRecastContainer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/enchaseRecastContainer.lua
+END
+PvAILayer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/PvAILayer.lua
+END
+backPackLayer.lua
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/UILayer/backPackLayer.lua
+END

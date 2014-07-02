@@ -1,0 +1,78 @@
+// 所有的错误码都定义于此
+
+// Online产生的错误码，范围100001～199999。
+enum ol_errcode_t {
+    // 100001～110000预留给严重的系统错误
+    olerr_decode                        = 100001; // 请求包格式不对
+    olerr_invalid_req                   = 100002; // 客户端发送的协议名不存在
+    olerr_invalid_dbrsp                 = 100003; // DB返回的协议名不存在
+    // 110001以后的错误码描述业务逻辑错误
+    olerr_multi_login                   = 110001; // 重复登录
+    olerr_role_creating                 = 110002; // 正在创建角色，请稍候
+    olerr_no_such_role                  = 110003; // 选择的角色类型不存在
+	olerr_can_transfer_next				= 110004; // 不能跳转副本地图
+	
+	olerr_not_enough_level				= 110005; // 用户等级不够
+	olerr_not_enough_diamond			= 110006; // 钻石不够
+	olerr_not_enough_coin				= 110007; // 没有足够的金币
+	olerr_not_enough_exploit			= 110008; // 没有足够的功勋 
+	olerr_buy_times_logic_err			= 110008;	// 购买进入某系统时逻辑错误
+	olerr_not_enough_explore_times		= 110009;	// 没有足够的探索次数
+	olerr_nofound_explore_id			= 110010;	// 没有探索地图id
+
+// ---物品相关 120000 - 120999------------------------------------------------------
+
+	olerr_nofound_item_id				= 120010;	// 物品不存在
+	olerr_exist_item_id					= 120011;	// 物品已经存在
+	olerr_not_enough_item				= 120012;	// 物品不够
+	olerr_invalid_pos					= 120013;	// pos无效
+	olerr_exist_pos						= 120014;	// pos 已经开启了(即格子已经开启了)
+	olerr_invalid_item_id  				= 120015;	// 无效的物品id
+	olerr_invalid_hole					= 120016;	// 选择不合法
+	olerr_not_enough_reset_gam_times	= 120017;	// 没有足够的装备重铸次数
+	olerr_open_hole_seq_err				= 120018;	// 装备开孔的顺序错误
+	olerr_not_enough_pos				= 120019;	// 没有足够的格子
+	// 庄园
+	olerr_warm_sport_lv_max				= 120020;	// 庄园热身运动达到最大等级
+	olerr_manor_opt_error				= 120021;	// 庄园操作错误
+	olerr_not_clear_manor_cd			= 120022;	// 庄园cd未清除
+	olerr_enter_manor_times_max			= 120023;	// 进入庄园次数达到最大
+	// 神秘商店
+	olerr_old_shop_items_list			= 120030;	// 商店商品列表已经旧了
+	olerr_invalid_buy_item_index		= 120031;	// 不合法的购买id
+	olerr_has_buy_item_index			= 120032;	// 已经购买
+}
+
+// DB业务返回的错误码，可直接返回给客户端。范围200001～299999，其中200001～210000用于
+// 重定义DB框架内部错误码，比如原DB框架错误码1001，返回给客户端时变成201001(200000 + 1001)。
+enum db_errcode_t {
+    dberr_succ                          = 0; // 操作成功
+    // 假设DB返回1001～9999范围内的错误码，Online统一在此基础上加上200000，然后返回给客户端
+    dberr_dbmem         			    = 201001; // 数据库系统出错，一般是内存问题
+    dberr_dbsys						    = 201002; // 数据库系统出错
+    dberr_dbnet						    = 201003; // 数据库系统网络出错
+    dberr_no_cmd 				        = 201004; // 数据库命令ID没有定义
+    dberr_protolen 		 			    = 201005; // 数据库协议长度不符合
+    dberr_range 	 		            = 201006; // 数据库数值越界
+    dberr_setflag       			    = 201007; // 要设置的flag和原有一致
+    dberr_data 	 			            = 201008; // 协议数据不完整
+    dberr_enum         	 			    = 201009; // 枚举越界，如某一字段只允许0和1，却填了2。
+    dberr_sendprotolen  		        = 201010; // 返回报文长度有问题
+    dberr_dbdata                        = 201011; // 数据库中数据有误
+	dberr_netsend					    = 201012; // 数据发送出错
+	dberr_netrecv					    = 201013; // 数据接收出错
+    dberr_keyexists				        = 201014; // KEY 已经存在了
+    dberr_keynotfound			        = 201015; // KEY 不存在
+    dberr_noupdate 			            = 201016; // DB不允许更新
+    dberr_net_timeout		            = 201017; // 网络超时
+    dberr_flowcontrol      		        = 201018; // 当命令号每分钟超过最大限制
+    dberr_md5          					= 201021; // 当命令的md5_tags检查失败
+    dberr_password        		        = 201103; // 用户名和密码出错
+    dberr_uidexists   				    = 201104; // 米米号已存在
+    dberr_uidnofound                    = 201105; // 米米号不存在
+    // DB业务错误码，直接返回客户端
+    dberr_role_notfound                 = 210001; // 角色不存在
+    dberr_role_exists                   = 210002; // 角色已存在。目前一个服只允许创建一个角色。
+    dberr_crtrole_time_limit            = 210003; // 创建角色太频繁，请稍候重试。
+    dberr_duplicated_nickname           = 210004; // 昵称已存在，请尝试别的名字。
+}

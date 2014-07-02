@@ -1,0 +1,28 @@
+enum
+{
+	TIMER_INSTANCE_COUNTDOWN = 20001,
+	TIMER_PVAI_COOLDOWN = 20002,
+	TIMER_PVAI_REWARD = 20003,  
+};
+
+class TimeManager
+{
+	static TimeManager* Get();
+	
+	long getCurServerTime();
+	
+	string secondsToString(long seconds);
+	
+	bool registerLuaTimer(int handler, int counterId, long endTime);
+	bool unregisterLuaTimer(int handler, int counterId);
+	bool attachLuaTimer(int handler, int counterId);
+	
+	//计时器启动、暂停、更新
+	bool startTimer(int counterId, long endTime);
+	bool stopTimer(int counterId);	
+	bool renewTimer(int counterId, long endTime);
+
+	//检测计时器
+	bool hasTimer(int counterId);
+	bool hasLuaObserver(int handler, int counterId);
+};

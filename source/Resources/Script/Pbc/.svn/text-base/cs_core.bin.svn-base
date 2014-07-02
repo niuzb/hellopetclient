@@ -1,0 +1,664 @@
+
+Êc
+cs_core.proto"ó
+BasicUserBattleInfo
+physical_attack (
+magic_attack (
+skill_attack (
+physical_defence (
+magic_defence (
+skill_defence (
+health_point (
+accurate (
+dodge	 (
+wreck
+ (
+parry (
+critical_strike (
+tenacity (
+slay (
+courage (
+charm (
+trick (
+speed (
+proficiency (
+
+current_hp ("å
+UserSkillPart
+part (-
+exp_battle_info (2.BasicUserBattleInfo
+continue_time (
+can_attack_number (
+hurt ("™
+UserSkillInfo
+skill_id (
+skill_level (
+money (
+exploit (
+own_cd (
+share_cd (
+parts (2.UserSkillPart
+	max_level ("—
+BasicUserInfo
+uid (
+name (	
+type (
+gender (
+
+lv (
+xpos (
+ypos (
+orient (
+battle_side	 ()
+battle_info
+ (2.BasicUserBattleInfo
+next_lv ("J
+CSEnterMapReq
+mapid (
+xpos (
+ypos (
+orient ("@
+CSEnterMapRsp
+mapid ( 
+userinfo (2.BasicUserInfo"
+CSLeaveMapRsp
+uid ("
+CSGetMapUsersReq"4
+CSGetMapUsersRsp 
+userinfo (2.BasicUserInfo"#
+CSGetUserSkillReq
+userid ("V
+CSGetUserSkillRsp
+userid ("
+
+userskills (2.UserSkillInfo
+ready (""
+CSGetUserInfoReq
+userid ("D
+CSGetUserInfoRsp
+userid ( 
+userinfo (2.BasicUserInfo":
+CSAddUserSkillReq
+skill_id (
+skill_level (":
+CSAddUserSkillRsp
+skill_id (
+skill_level (";
+CSUserSkillDiffReq
+skill_id (
+skill_level ("Ÿ
+CSUserSkillDiffRsp
+skill_id (
+skill_level (
+money (
+exploit (
+
+lv ()
+battle_info (2.BasicUserBattleInfo
+own_cd (
+share_cd (
+hurt	 (
+continue_time
+ ("E
+	CSWalkReq
+xpos (
+ypos (
+animid (
+flip ("R
+	CSWalkRsp
+uid (
+xpos (
+ypos (
+animid (
+flip ("n
+
+CSItemAttr
+attr_key (
+attr_basic_value (
+attr_intensify_value (
+attr_gem_value ("Ñ
+CSEquipHole
+
+hole_index (
+item_gem_id (
+attr_key (
+
+attr_value (
+
+attr_min_v (
+
+attr_max_v ("¶
+EquipmentBase
+cost_levelup (3
+incr_attr_next_lv (2.EquipmentBase.Item_Attr!
+equip_holes (2.CSEquipHole'
+	Item_Attr
+key (
+value ("3
+SpiritStoneBase
+consume (
+convert (":
+	ManorBase
+hunt_gain_coin (
+pick_gain_exp ("ÿ
+
+CSItemInfo
+pos (
+item_id (
+item_num (
+
+item_level (
+
+item_attrs (2.CSItemAttr"
+
+equip_info (2.EquipmentBase!
+ss_info (2.SpiritStoneBase
+
+manor_info (2
+.ManorBase"
+CSAllItemsReq"Î
+CSAllItemsRsp
+def_bag_size (
+def_store_size (
+def_ss_bag_size (
+def_ss_store_size ( 
+def_equip_lvup_max_times (
+def_reset_gem_times (
+def_enter_manor_times (
+items (2.CSItemInfo"*
+CSItemAddRsp
+items (2.CSItemInfo"/
+CSItemRemoveReq
+pos (
+item_id ("/
+CSItemRemoveRsp
+pos (
+item_id (",
+CSItemUseReq
+pos (
+item_id ("1
+CSItemMoveReq
+pos_from (
+pos_to ("1
+CSItemMoveRsp
+pos_from (
+pos_to (",
+CSItemUpdateRsp
+item (2.CSItemInfo" 
+CSItemOrderReq
+target ("+
+CSInstanceReq
+start (
+end ("Ä
+CSInstanceRsp,
+	instances (2.CSInstanceRsp.CSInstanceA
+
+CSInstance
+instance_id (
+activate (
+star ("Æ
+CSReward%
+rewards (2.CSReward.RewardInfo
+add_coin (
+add_exp (
+add_exploit (C
+
+RewardInfo
+item_id (
+
+item_level (
+item_num ("
+CSLevelUpRsp
+level ("E
+CSBasicUserBattleInfoRsp)
+battle_info (2.BasicUserBattleInfo"
+CSSearchSpiritStoneReq"Y
+CSSearchSpiritStoneRsp
+ret (
+	cost_coin (
+mon_id (
+item_id ("&
+CSSpiritStoneMoveBagReq
+pos ("&
+CSSpiritStoneMoveBagRsp
+ret ("&
+CSSpiritStoneLevelUpReq
+pos ("D
+CSSpiritStoneLevelUpRsp
+ret (
+pos (
+cost_sp ("#
+CSSpiritStoneToSPReq
+pos ("E
+CSSpiritStoneToSPRsp
+ret (
+sp_key (
+sp_value ("
+CSGetExchangeSSInfoReq"p
+ExchangeSSInfo
+ss_id (
+consume (
+convert (
+	need_chip (
+key (
+value (":
+CSGetExchangeSSInfoRsp 
+ss_list (2.ExchangeSSInfo"!
+CSAddManorReq
+manor_id ("
+CSAddManorRsp
+pos (";
+CSWarmSportLvUpReq
+pos (
+	to_max_lv (:false"!
+CSWarmSportLvUpRsp
+pos (")
+CSManorOptReq
+pos (
+opt (")
+CSManorOptRsp
+pos (
+opt (")
+CSMonListReq
+uid (
+name (	"-
+MonInfo
+mon_id (
+
+mon_status ("E
+CSMonListRsp
+uid (
+name (	
+mon_info (2.MonInfo"7
+CSSetMonStatusReq
+mon_id (
+
+mon_status ("D
+CSSetMonStatusRsp
+ret (
+mon_id (
+
+mon_status ("
+CSPVPQueryRoomReq"]
+PVPRoomBase
+room_id (
+	top_level (
+current_online (
+
+max_online ("0
+CSPVPQueryRoomRsp
+rooms (2.PVPRoomBase"9
+CSPVPBaseInfoRsp
+winning (
+remain_times ("5
+CSPVPCreateRoomReq
+type (
+	top_level ("#
+CSPVPJoinRoomReq
+room_id ("U
+PVPSeatBase
+
+id (
+avatar (
+name (	
+level (
+ready ("a
+CSPVPJoinRoomRsp
+room_id (
+type (
+	top_level (
+seats (2.PVPSeatBase"
+CSPVPExitRoomReq"
+CSPVPExitRoomRsp"
+CSPVPCloseRoomRsp""
+CSPVPChangeSeatReq
+seat ("
+CSPVPReadyReq"
+CSPVPCancelReadyReq"
+CSPVPKickoffReq
+seat ("
+CSPVPKickoffRsp"
+CSPVPStartReq"
+CSPVPStartRsp
+mapid ("
+CSPPVEBattleReq"
+CSPPVEBattleRsp
+ids ("
+CSPVEQueryRoomReq"]
+PVERoomBase
+room_id (
+	top_level (
+current_online (
+
+max_online ("0
+CSPVEQueryRoomRsp
+rooms (2.PVERoomBase";
+CSPVEBaseInfoRsp
+	countdown (
+remain_times (":
+CSPVECreateRoomReq
+	top_level (
+	battle_id ("#
+CSPVEJoinRoomReq
+room_id ("*
+CSPVEJoinRoomFailureRsp
+errcode ("U
+PVESeatBase
+
+id (
+avatar (
+name (	
+level (
+ready ("S
+CSPVEJoinRoomRsp
+room_id (
+	top_level (
+seats (2.PVESeatBase"
+CSPVEExitRoomReq"
+CSPVEExitRoomRsp"
+CSPVECloseRoomRsp"
+CSPVEReadyReq"
+CSPVECancelReadyReq"
+CSPVEKickoffReq
+seat ("
+CSPVEKickoffRsp"
+CSPVEStartReq"
+CSPVEStartRsp
+mapid ("
+	CSPVAIReq
+userid ("
+CSPVAIInfoReq"ç
+CSPVAIInfoRsq
+rank ((
+infos (2.CSPVAIInfoRsq.CSPVAIInfo&
+logs (2.CSPVAIInfoRsq.CSPVAILogd
+
+CSPVAIInfo
+userid (
+reg_time (
+rank (
+name (	
+type (
+
+lv (6
+	CSPVAILog
+name (	
+direct (
+win ("
+CSGetEquipLvUpCDReq"(
+CSGetEquipLvUpCDRsp
+	cold_time ("K
+CSEquipInlayGemReq
+	equip_pos (
+gem_id (
+
+hole_index ("!
+CSEquipInlayGemRsp
+ret ("R
+CSResetGemAttrReq
+	equip_pos (
+holes_index (
+cost_attr_key (" 
+CSResetGemAttrRsp
+ret ("%
+CSEquipmentStrengthReq
+pos ("H
+CSEquipmentStrengthRsp
+result (
+pos (
+	cold_time ("Z
+CSEquipmentComposeReq
+exchange_item_id (
+from_item_pos (
+multi (:1"A
+CSEquipmentComposeRsp
+exchange_item_id (
+result ("
+CSTaskInfoReq"@
+TaskInfo
+task_id (
+step_id (
+
+step_value ("J
+CSTaskInfoRsp
+acceptable_tasks (
+accept_tasks (2	.TaskInfo"G
+CSTaskDoStepReq
+task_id (
+step_id (
+
+step_value ("G
+CSTaskDoStepRsp
+task_id (
+step_id (
+
+step_value ("
+CSTaskLogReq"(
+CSTaskLogRsp
+tasks (2	.TaskInfo"0
+CSAttributesSetReq
+key (
+value ("
+CSAttributesReq
+keys ("d
+CSAttributesRsp)
+values (2.CSAttributesRsp.KeyValue&
+KeyValue
+key (
+value ("
+CSOnceSetReq
+index ("
+	CSOnceReq
+indexs ("S
+	CSOnceRsp
+values (2.CSOnceRsp.Once%
+Once
+index (
+is_set ("
+CSTrainInfoReq"R
+CSTrainInfoRsp
+	potential (
+courage (
+charm (
+trick ("
+
+CSTrainReq
+type ("I
+
+CSTrainRsp
+courage (
+charm (
+trick (
+succ ("
+CSTrainDetermineReq"
+CSTrainDetermineRsp"
+CSExploreReq
+option (".
+CSExploreRsp
+option (
+map_id ("'
+CSExploreDetermineReq
+option ("C
+CSExploreDetermineRsp
+map_id (
+rewards (2	.CSReward"
+CSQueryDowerReq"°
+CSQueryDowerRsp%
+dower (2.CSQueryDowerRsp.Dower
+timeout (V
+Dower
+
+id (
+level (
+	max_level (
+plus (
+	each_plus ("+
+CSDowerInfoReq
+
+id (
+level ("û
+CSDowerInfoRsp
+
+id (
+level (
+next_exploit (
+	next_time (
+diff_physical_attack (
+diff_magic_attack (
+diff_skill_attack (
+diff_physical_defence (
+diff_magic_defence	 (
+diff_skill_defence
+ (
+diff_hp (
+plus ("
+
+CSDowerReq
+
+id ("P
+
+CSDowerRsp
+timeout (
+level (
+plus (
+next_exploit ("6
+CSExchangeParameterReq
+
+id (
+param (:0"A
+CSExchangeParameterRsp
+succ (
+
+id (
+param ("§
+ShopItemInfo
+index (%
+	from_item (2.ShopItemInfo.Item#
+to_item (2.ShopItemInfo.Item
+is_buy ()
+Item
+item_id (
+item_num ("
+CSGetShopItemsReq"1
+CSGetShopItemsRsp
+items (2.ShopItemInfo"!
+CSBuyShopItemReq
+index ("/
+CSBuyShopItemRsp
+index (
+succ (""
+CSGetUserItemReq
+userid (">
+CSGetUserItemRsp
+userid (
+items (2.CSItemInfo"(
+CSGetUserAttributesReq
+userid ("N
+CSGetUserAttributesRsp
+userid ($
+
+attributes (2.CSAttributesRsp"X
+CSNotifyMoneyConfInfoRsp
+pay (
+diamond (
+explore (
+train (*¡
+PB_PLAYET_ATTR_T
+PB_ATTR_PLAYER_SP
+PB_ATTR_PLAYER_SS_MOD_ID(
+$PB_ATTR_PLAYER_GEM_BACKPACK_CAPACITY"
+PB_ATTR_PLAYER_RESET_GEM_TIMES!
+PB_ATTR_EQUIP_LVUP_USED_TIMES
+PB_ATTR_EFFECTIVENESS$
+ PB_ATTR_PLAYER_ENTER_MANOR_TIMES 
+PB_ATTR_PLAYER_EXPLORE_TIMES
+PB_ATTR_CONSTEL_MIN_DEFd
+PB_ATTR_CONSTEL_1_CAPACITe
+PB_ATTR_CONSTEL_2_CAPACITf
+PB_ATTR_CONSTEL_3_CAPACITg
+PB_ATTR_CONSTEL_4_CAPACITh
+PB_ATTR_CONSTEL_5_CAPACITi
+PB_ATTR_CONSTEL_6_CAPACITj
+PB_ATTR_CONSTEL_7_CAPACITk
+PB_ATTR_CONSTEL_8_CAPACITl
+PB_ATTR_CONSTEL_9_CAPACITm
+PB_ATTR_CONSTEL_10_CAPACITn
+PB_ATTR_CONSTEL_11_CAPACITo
+PB_ATTR_CONSTEL_12_CAPACITp
+PB_ATTR_DEF_MIN_CD‡ß
+PB_ATTR_EQUIP_LVUP_CDƒ®
+PB_ATTR_DOWER_LVUP_CD®©
+PB_ATTR_SKILL_LVUP_CDå™
+PB_ATTR_PVAI_CD™
+PB_ATTR_AB_NORMAL_MAP_CD‘´
+PB_ATTR_AB_SPECIAL_MAP_CD’´
+PB_ATTR_WOELD_BOSS_CD∏¨
+PB_ATTR_MANOR_CDú≠
+PB_ATTR_SHOP_CDÄÆ
+PB_ATTR_DEF_MAX_CDÔı
+PB_ATTR_DEF_MIN_OTHERı
+PB_ATTR_DEF_MAX_OTHER˜ú!
+PB_ATTR_RESET_GEM_BUY_TIMES¯ú
+PB_ATTR_MANOR_BUY_TIMES‹ù
+PB_ATTR_DEF_MAX_BUY_TIMESˇ√
+PB_ATTR_DEF_MIN_CAPACITYÄƒ 
+PB_ATTR_BUY_MANOR_CAPACITYÄƒ 
+PB_ATTR_BUY_SKILL_CAPACITY‰ƒ"
+PB_ATTR_BUY_CONSTEL_CAPACITYñ≈%
+PB_ATTR_BUY_EQUIP_HOLE_CAPACITY™≈!
+PB_ATTR_BUY_SS_BAG_CAPACITY»≈
+PB_ATTR_BUY_BAG_CAPACITY¨∆ 
+PB_ATTR_BUY_STORE_CAPACITYê«
+PB_ATTR_DEF_MAX_CAPACITYèí
+PB_ATTR_PLAYER_STAMINAÄ≤
+PB_ATTR_PLAYER_COINÅ≤
+PB_ATTR_PLAYER_DIAMONDÇ≤
+PB_ATTR_EXPÉ≤
+PB_ATTR_PLAYER_PRESTIGEÑ≤
+PB_ATTR_PLAYER_GEM_ANIMAÖ≤
+PB_ATTR_PLAYER_SS_CHIPÜ≤
+PB_ATTR_PLAYER_EXPLOITá≤ 
+PB_ATTR_PLAYER_EXPLORE_EXPà≤
+PB_ATTR_SEGMENT_DEFøÑ=
+PB_ATTR_EXPLOITá≤#
+PB_ATTR_PLAYER_LAST_LOGIN_MAP¡Ñ=
+PB_ATTR_LAST_EXPLORE_ID¬Ñ=
+PB_ATTR_SET_ONCE_BEGIN‡ëC
+PB_ATTR_SET_ONCE_ENDÄüI
+PB_ATTR_SET_BEGINÅüI
+PB_ATTR_SET_END‰üI
+PB_ATTR_DOWER_STARTêÌI
+PB_ATTR_DOWER_END†ªJ
+PB_ATTR_SHOP_ITEM_START∞âK
+PB_ATTR_SHOP_ITEM_ENDîäK!
+PB_ATTR_SHOP_ITEM_BUY_START¯äK
+PB_ATTR_SHOP_ITEM_BUY_END‹ãK!
+PB_ATTR_PHYSICAL_ATTACK_ADDê◊z
+PB_ATTR_MAGIC_ATTACK_ADD†•{
+PB_ATTR_SKILL_ATTACK_ADD∞Û{"
+PB_ATTR_PHYSICAL_DEFENCE_ADD¿¡|
+PB_ATTR_MAGIC_DEFENCE_ADD–è}
+PB_ATTR_SKILL_DEFENCE_ADD‡›}
+PB_ATTR_HP_ADD´~
+PB_ATTR_COURAGE_ADDÄ˙~
+PB_ATTR_CHARM_ADDê»
+PB_ATTR_TRICK_ADD†ñÄ#
+PB_ATTR_AUTO_BTL_INSTANCE_ID¡ç∑#
+PB_ATTR_AUTO_BTL_REMAIN_TURN¬ç∑*Û
+PB_ITEM_ATTR_T
+PB_ITEM_ATTR_PHYATK
+PB_ITEM_ATTR_MAGATK
+PB_ITEM_ATTR_SKIATK
+PB_ITEM_ATTR_PHYDEF
+PB_ITEM_ATTR_MAGDEF
+PB_ITEM_ATTR_SKIDEF
+PB_ITEM_ATTR_HP
+PB_ITEM_ATTR_ACCU
+PB_ITEM_ATTR_DODG	
+PB_ITEM_ATTR_WRK
+
+PB_ITEM_ATTR_PARRY
+PB_ITEM_ATTR_CRIT
+PB_ITEM_ATTR_TENA
+PB_ITEM_ATTR_SLY
+PB_ITEM_ATTR_SPEED

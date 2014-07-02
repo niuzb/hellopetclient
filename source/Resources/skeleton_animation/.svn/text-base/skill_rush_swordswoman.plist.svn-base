@@ -1,0 +1,1045 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>skill_rush_swordswoman:b nvjian pifeng.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,518},{78,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,53}}</string>
+                <key>sourceSize</key>
+                <string>{78,53}</string>
+            </dict>
+            <key>skill_rush_swordswoman:c nvjian fa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{580,347},{36,34}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,34}}</string>
+                <key>sourceSize</key>
+                <string>{36,34}</string>
+            </dict>
+            <key>skill_rush_swordswoman:c nvjian hujian1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{565,414},{15,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,9}}</string>
+                <key>sourceSize</key>
+                <string>{15,9}</string>
+            </dict>
+            <key>skill_rush_swordswoman:c nvjian shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1010,406},{11,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,9}}</string>
+                <key>sourceSize</key>
+                <string>{11,9}</string>
+            </dict>
+            <key>skill_rush_swordswoman:c nvjian shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1011,325},{9,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,9}}</string>
+                <key>sourceSize</key>
+                <string>{9,9}</string>
+            </dict>
+            <key>skill_rush_swordswoman:c nvjian shoujia 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{293,406},{16,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,10}}</string>
+                <key>sourceSize</key>
+                <string>{16,10}</string>
+            </dict>
+            <key>skill_rush_swordswoman:c nvjian shoujia2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{549,414},{13,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,10}}</string>
+                <key>sourceSize</key>
+                <string>{13,10}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{739,514},{84,55}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{84,55}}</string>
+                <key>sourceSize</key>
+                <string>{84,55}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx10.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{625,0},{294,189}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{294,189}}</string>
+                <key>sourceSize</key>
+                <string>{294,189}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,187},{294,189}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{294,189}}</string>
+                <key>sourceSize</key>
+                <string>{294,189}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{614,514},{122,80}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{122,80}}</string>
+                <key>sourceSize</key>
+                <string>{122,80}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,379},{209,136}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{209,136}}</string>
+                <key>sourceSize</key>
+                <string>{209,136}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{619,360},{209,151}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{209,151}}</string>
+                <key>sourceSize</key>
+                <string>{209,151}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{625,192},{255,165}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{255,165}}</string>
+                <key>sourceSize</key>
+                <string>{255,165}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{325,192},{252,184}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{252,184}}</string>
+                <key>sourceSize</key>
+                <string>{252,184}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{325,184}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{325,184}}</string>
+                <key>sourceSize</key>
+                <string>{325,184}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hx9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{328,0},{294,189}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{294,189}}</string>
+                <key>sourceSize</key>
+                <string>{294,189}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxba 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{921,262},{87,124}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{87,124}}</string>
+                <key>sourceSize</key>
+                <string>{87,124}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxba11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,316},{30,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,26}}</string>
+                <key>sourceSize</key>
+                <string>{30,26}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxba12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{285,543},{49,48}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{49,48}}</string>
+                <key>sourceSize</key>
+                <string>{49,48}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxba7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{318,379},{114,161}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{114,161}}</string>
+                <key>sourceSize</key>
+                <string>{114,161}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxbf 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,192},{33,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,42}}</string>
+                <key>sourceSize</key>
+                <string>{33,42}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxbf2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{831,360},{47,71}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,71}}</string>
+                <key>sourceSize</key>
+                <string>{47,71}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxbf5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{922,0},{88,129}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{88,129}}</string>
+                <key>sourceSize</key>
+                <string>{88,129}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxbf6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{922,132},{89,127}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{89,127}}</string>
+                <key>sourceSize</key>
+                <string>{89,127}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxbf8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{435,379},{111,153}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{111,153}}</string>
+                <key>sourceSize</key>
+                <string>{111,153}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hxbf9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{909,468},{108,150}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,150}}</string>
+                <key>sourceSize</key>
+                <string>{108,150}</string>
+            </dict>
+            <key>skill_rush_swordswoman:hyba3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{549,427},{52,77}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{52,77}}</string>
+                <key>sourceSize</key>
+                <string>{52,77}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nv jian p1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{435,535},{64,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{64,39}}</string>
+                <key>sourceSize</key>
+                <string>{64,39}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nv jian p5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{337,543},{49,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{49,46}}</string>
+                <key>sourceSize</key>
+                <string>{49,46}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nv jian xie6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{549,396},{13,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,15}}</string>
+                <key>sourceSize</key>
+                <string>{13,15}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian fa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{580,311},{40,33}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{40,33}}</string>
+                <key>sourceSize</key>
+                <string>{40,33}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian fa3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,237},{35,37}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,37}}</string>
+                <key>sourceSize</key>
+                <string>{35,37}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian huijian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{881,387},{16,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,14}}</string>
+                <key>sourceSize</key>
+                <string>{16,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian hujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1010,418},{11,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,8}}</string>
+                <key>sourceSize</key>
+                <string>{11,8}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian hujian3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{600,415},{12,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,8}}</string>
+                <key>sourceSize</key>
+                <string>{12,8}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian jiao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,287},{17,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,22}}</string>
+                <key>sourceSize</key>
+                <string>{17,22}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian jiao2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{881,404},{13,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,14}}</string>
+                <key>sourceSize</key>
+                <string>{13,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian kudang1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{565,401},{17,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,10}}</string>
+                <key>sourceSize</key>
+                <string>{17,10}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian kudang2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{585,402},{17,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,10}}</string>
+                <key>sourceSize</key>
+                <string>{17,10}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian lian1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,214},{24,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,25}}</string>
+                <key>sourceSize</key>
+                <string>{24,25}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian lian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,187},{25,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,24}}</string>
+                <key>sourceSize</key>
+                <string>{25,24}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian pifeng1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{831,512},{72,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{72,47}}</string>
+                <key>sourceSize</key>
+                <string>{72,47}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shenti1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,312},{21,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,15}}</string>
+                <key>sourceSize</key>
+                <string>{21,15}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shou4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{605,402},{11,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,10}}</string>
+                <key>sourceSize</key>
+                <string>{11,10}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shou5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1011,279},{10,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,12}}</string>
+                <key>sourceSize</key>
+                <string>{10,12}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shoubi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1010,389},{11,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,14}}</string>
+                <key>sourceSize</key>
+                <string>{11,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shoubi1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{578,384},{17,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,14}}</string>
+                <key>sourceSize</key>
+                <string>{17,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shoubi3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1011,294},{9,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,13}}</string>
+                <key>sourceSize</key>
+                <string>{9,13}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shoubi4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1013,16},{7,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,12}}</string>
+                <key>sourceSize</key>
+                <string>{7,12}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shoujia4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{598,384},{16,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,15}}</string>
+                <key>sourceSize</key>
+                <string>{16,15}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian shoujia5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{275,411},{13,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,12}}</string>
+                <key>sourceSize</key>
+                <string>{13,12}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian tui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,352},{19,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,14}}</string>
+                <key>sourceSize</key>
+                <string>{19,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian tui2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{995,389},{12,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,17}}</string>
+                <key>sourceSize</key>
+                <string>{12,17}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian tui3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1013,0},{8,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{8,13}}</string>
+                <key>sourceSize</key>
+                <string>{8,13}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian tui4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{583,415},{14,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,9}}</string>
+                <key>sourceSize</key>
+                <string>{14,9}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian tui5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{995,409},{12,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,11}}</string>
+                <key>sourceSize</key>
+                <string>{12,11}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian tuijia2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{296,386},{14,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,17}}</string>
+                <key>sourceSize</key>
+                <string>{14,17}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian weijing2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,345},{32,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{32,18}}</string>
+                <key>sourceSize</key>
+                <string>{32,18}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian weijing3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{881,366},{36,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,18}}</string>
+                <key>sourceSize</key>
+                <string>{36,18}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian xie3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{275,395},{15,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,13}}</string>
+                <key>sourceSize</key>
+                <string>{15,13}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian xie5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,330},{15,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,19}}</string>
+                <key>sourceSize</key>
+                <string>{15,19}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian xie6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,242},{22,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,19}}</string>
+                <key>sourceSize</key>
+                <string>{22,19}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjian xie7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,369},{18,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,14}}</string>
+                <key>sourceSize</key>
+                <string>{18,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjiang tou5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,277},{35,36}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,36}}</string>
+                <key>sourceSize</key>
+                <string>{35,36}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjianshenti2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{297,264},{21,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,20}}</string>
+                <key>sourceSize</key>
+                <string>{21,20}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjianshoubi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1011,310},{9,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,12}}</string>
+                <key>sourceSize</key>
+                <string>{9,12}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjiantui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{897,406},{14,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,11}}</string>
+                <key>sourceSize</key>
+                <string>{14,11}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjiantui3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{900,387},{13,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,16}}</string>
+                <key>sourceSize</key>
+                <string>{13,16}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjiantui4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{275,379},{18,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,13}}</string>
+                <key>sourceSize</key>
+                <string>{18,13}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjiantuijia1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1011,262},{10,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,14}}</string>
+                <key>sourceSize</key>
+                <string>{10,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:nvjianweijing1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{549,379},{26,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,14}}</string>
+                <key>sourceSize</key>
+                <string>{26,14}</string>
+            </dict>
+            <key>skill_rush_swordswoman:txbf13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{212,512},{70,70}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{70,70}}</string>
+                <key>sourceSize</key>
+                <string>{70,70}</string>
+            </dict>
+            <key>skill_rush_swordswoman:txbf14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{916,389},{76,76}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{76,76}}</string>
+                <key>sourceSize</key>
+                <string>{76,76}</string>
+            </dict>
+            <key>skill_rush_swordswoman:txbf15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{831,434},{75,75}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,75}}</string>
+                <key>sourceSize</key>
+                <string>{75,75}</string>
+            </dict>
+            <key>skill_rush_swordswoman:txbf16.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{549,507},{62,63}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,63}}</string>
+                <key>sourceSize</key>
+                <string>{62,63}</string>
+            </dict>
+            <key>skill_rush_swordswoman:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{580,192},{42,116}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,116}}</string>
+                <key>sourceSize</key>
+                <string>{42,116}</string>
+            </dict>
+            <key>skill_rush_swordswoman:wuqi_80.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{212,379},{60,130}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,130}}</string>
+                <key>sourceSize</key>
+                <string>{60,130}</string>
+            </dict>
+            <key>skill_rush_swordswoman:z nvjian pifeng1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{81,518},{78,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,47}}</string>
+                <key>sourceSize</key>
+                <string>{78,47}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>skill_rush_swordswoman.pvr.ccz</string>
+            <key>size</key>
+            <string>{1022,607}</string>
+            <key>textureFileName</key>
+            <string>skill_rush_swordswoman.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

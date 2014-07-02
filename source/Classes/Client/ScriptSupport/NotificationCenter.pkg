@@ -1,0 +1,8 @@
+class NotificationCenter
+{
+public:
+	static NotificationCenter* defaultCenter();
+	int registerScriptObserver(LUA_FUNCTION handler);
+	void unregisterScriptObserver(int handler);
+	void unregisterAllScriptObservers();
+}

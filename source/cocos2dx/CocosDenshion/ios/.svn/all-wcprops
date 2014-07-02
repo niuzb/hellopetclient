@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios
+END
+CDConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CDConfig.h
+END
+CocosDenshion.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CocosDenshion.h
+END
+SimpleAudioEngine_objc.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/SimpleAudioEngine_objc.h
+END
+CDOpenALSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CDOpenALSupport.h
+END
+CDAudioManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CDAudioManager.h
+END
+CocosDenshion.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CocosDenshion.m
+END
+SimpleAudioEngine.mm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/SimpleAudioEngine.mm
+END
+SimpleAudioEngine_objc.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/SimpleAudioEngine_objc.m
+END
+CDOpenALSupport.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CDOpenALSupport.m
+END
+CDAudioManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/ios/CDAudioManager.m
+END

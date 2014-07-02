@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes
+END
+CCProgressTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCProgressTimer.h
+END
+CCClippingNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCClippingNode.cpp
+END
+CCMotionStreak.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCMotionStreak.cpp
+END
+CCClippingNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCClippingNode.h
+END
+CCRenderTexture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCRenderTexture.cpp
+END
+CCMotionStreak.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCMotionStreak.h
+END
+CCProgressTimer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCProgressTimer.cpp
+END
+CCRenderTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/misc_nodes/CCRenderTexture.h
+END

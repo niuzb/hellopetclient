@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer
+END
+EquipMixLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/EquipMixLayer.cpp
+END
+TaskChatLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/TaskChatLayer.cpp
+END
+WaitingLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/WaitingLayer.cpp
+END
+BackPackLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BackPackLayer.h
+END
+CityListLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/CityListLayer.cpp
+END
+ChatToolbar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/ChatToolbar.cpp
+END
+ShopUILayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/ShopUILayer.cpp
+END
+BattleUILayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BattleUILayer.cpp
+END
+PPVELayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/PPVELayer.cpp
+END
+PVPLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/PVPLayer.h
+END
+GameUILayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/GameUILayer.h
+END
+LoadingLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/LoadingLayer.cpp
+END
+EquipmentUpgradeUILayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/EquipmentUpgradeUILayer.cpp
+END
+MainMenuLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/MainMenuLayer.h
+END
+BattleCoverLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BattleCoverLayer.h
+END
+AlchemyUILayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/AlchemyUILayer.h
+END
+TalentLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/TalentLayer.cpp
+END
+UIMessageLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/UIMessageLayer.h
+END
+BattleWinLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BattleWinLayer.cpp
+END
+AutoOnHook.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/AutoOnHook.h
+END
+BackPackLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BackPackLayer.cpp
+END
+ItemDragLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/ItemDragLayer.h
+END
+MessageBoxLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/MessageBoxLayer.h
+END
+TaskListLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/TaskListLayer.h
+END
+InstanceListLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/InstanceListLayer.h
+END
+PVPLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/PVPLayer.cpp
+END
+EquipMixLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/EquipMixLayer.h
+END
+GameUILayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/GameUILayer.cpp
+END
+TaskChatLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/TaskChatLayer.h
+END
+WaitingLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/WaitingLayer.h
+END
+MainMenuLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/MainMenuLayer.cpp
+END
+CityListLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/CityListLayer.h
+END
+BattleCoverLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BattleCoverLayer.cpp
+END
+ChatToolbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/ChatToolbar.h
+END
+ShopUILayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/ShopUILayer.h
+END
+BattleUILayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BattleUILayer.h
+END
+PPVELayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/PPVELayer.h
+END
+AlchemyUILayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/AlchemyUILayer.cpp
+END
+LoadingLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/LoadingLayer.h
+END
+EquipmentUpgradeUILayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/EquipmentUpgradeUILayer.h
+END
+UIMessageLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/UIMessageLayer.cpp
+END
+AutoOnHook.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/AutoOnHook.cpp
+END
+ItemDragLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/ItemDragLayer.cpp
+END
+TalentLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/TalentLayer.h
+END
+MessageBoxLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/MessageBoxLayer.cpp
+END
+BattleWinLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/BattleWinLayer.h
+END
+TaskListLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/TaskListLayer.cpp
+END
+InstanceListLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/UILayer/InstanceListLayer.cpp
+END

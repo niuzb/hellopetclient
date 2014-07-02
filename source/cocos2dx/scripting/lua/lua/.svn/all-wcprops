@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua
+END
+lauxlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lauxlib.c
+END
+ldebug.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ldebug.c
+END
+lauxlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lauxlib.h
+END
+ldebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ldebug.h
+END
+ltablib.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ltablib.c
+END
+liolib.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/liolib.c
+END
+lstrlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lstrlib.c
+END
+lualib.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lualib.h
+END
+ldo.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ldo.c
+END
+ldump.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ldump.c
+END
+ldo.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ldo.h
+END
+loslib.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/loslib.c
+END
+lundump.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lundump.c
+END
+ldblib.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ldblib.c
+END
+lundump.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lundump.h
+END
+lmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lmem.c
+END
+lmathlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lmathlib.c
+END
+lstate.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lstate.c
+END
+ltm.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ltm.c
+END
+lvm.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lvm.c
+END
+lmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lmem.h
+END
+lstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lstate.h
+END
+ltm.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ltm.h
+END
+ltable.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ltable.c
+END
+lvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lvm.h
+END
+llex.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/llex.c
+END
+lgc.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lgc.c
+END
+loadlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/loadlib.c
+END
+lfunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lfunc.c
+END
+lparser.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lparser.c
+END
+lopcodes.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lopcodes.c
+END
+ltable.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/ltable.h
+END
+llex.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/llex.h
+END
+lgc.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lgc.h
+END
+lfunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lfunc.h
+END
+lopcodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lopcodes.h
+END
+lbaselib.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lbaselib.c
+END
+lparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lparser.h
+END
+lzio.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lzio.c
+END
+linit.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/linit.c
+END
+lua.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lua.c
+END
+lobject.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lobject.c
+END
+llimits.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/llimits.h
+END
+lstring.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lstring.c
+END
+lzio.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lzio.h
+END
+lapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lapi.c
+END
+lcode.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lcode.c
+END
+lua.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lua.h
+END
+lobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lobject.h
+END
+lstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lstring.h
+END
+lapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lapi.h
+END
+lcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/lcode.h
+END
+luaconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/luaconf.h
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/lua/lua/print.c
+END

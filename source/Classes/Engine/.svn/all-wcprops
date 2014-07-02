@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine
+END
+CameraController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/CameraController.h
+END
+MapDataManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/MapDataManager.cpp
+END
+Painter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Painter.cpp
+END
+EventID.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/EventID.h
+END
+GameManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/GameManager.cpp
+END
+Engine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Engine.cpp
+END
+CCShake.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/CCShake.h
+END
+NameBkg.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/NameBkg.h
+END
+NPCManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/NPCManager.cpp
+END
+NPC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/NPC.cpp
+END
+MineManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/MineManager.cpp
+END
+Event.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Event.h
+END
+FloatHint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/FloatHint.cpp
+END
+GameAudioManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/GameAudioManager.h
+END
+CameraController.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/CameraController.cpp
+END
+MathUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/MathUtil.h
+END
+Define.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Define.h
+END
+SceneLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SceneLayer.h
+END
+CCShake.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/CCShake.cpp
+END
+NameBkg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/NameBkg.cpp
+END
+EnginePCH.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/EnginePCH.h
+END
+ILogicManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ILogicManager.h
+END
+MapDataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/MapDataManager.h
+END
+Painter.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Painter.h
+END
+GameManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/GameManager.h
+END
+Engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Engine.h
+END
+TouchChecker.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/TouchChecker.h
+END
+NPCManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/NPCManager.h
+END
+Event.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Event.cpp
+END
+NPC.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/NPC.h
+END
+GameAudioManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/GameAudioManager.cpp
+END
+MathUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/MathUtil.cpp
+END
+MineManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/MineManager.h
+END
+SceneLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SceneLayer.cpp
+END
+Singleton_t.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Singleton_t.h
+END
+FloatHint.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/FloatHint.h
+END

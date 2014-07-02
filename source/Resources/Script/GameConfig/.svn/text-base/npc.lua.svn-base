@@ -1,0 +1,10 @@
+npcs={}
+npcs[501]={Name='NPC_501_name',Type='0',HeadIcon='icon_npc_501',BodyIcon='ui_npc_bodyicon_501',TypeFlagIcon='1',motto='NPC_501_motto',}
+npcs[502]={Name='NPC_502_name',Type='1',HeadIcon='icon_npc_502',BodyIcon='ui_npc_bodyicon_502',TypeFlagIcon='2',motto='NPC_502_motto',}
+npcs[503]={Name='NPC_503_name',Type='2',HeadIcon='icon_npc_503',BodyIcon='ui_npc_bodyicon_503',TypeFlagIcon='3',motto='NPC_503_motto',}
+npcs[504]={Name='NPC_504_name',Type='3',HeadIcon='icon_npc_504',BodyIcon='ui_npc_bodyicon_504',TypeFlagIcon='4',motto='NPC_504_motto',}
+npcs[505]={Name='NPC_505_name',Type='4',HeadIcon='icon_npc_505',BodyIcon='ui_npc_bodyicon_505',TypeFlagIcon='5',motto='NPC_505_motto',}
+npcs[506]={Name='NPC_506_name',Type='0',HeadIcon='icon_npc_506',BodyIcon='ui_npc_bodyicon_506',TypeFlagIcon='6',motto='NPC_506_motto',}
+npcs[507]={Name='NPC_507_name',Type='0',HeadIcon='icon_npc_507',BodyIcon='ui_npc_bodyicon_507',TypeFlagIcon='7',motto='NPC_507_motto',}
+npcs[508]={Name='NPC_508_name',Type='0',HeadIcon='icon_npc_508',BodyIcon='ui_npc_bodyicon_508',TypeFlagIcon='8',motto='NPC_508_motto',}
+npcs[509]={Name='NPC_509_name',Type='0',HeadIcon='icon_npc_509',BodyIcon='ui_npc_bodyicon_509',TypeFlagIcon='9',motto='NPC_509_motto',}

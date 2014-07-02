@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI
+END
+TXGUIHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/TXGUIHeader.h
+END
+GameFontManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/GameFontManager.h
+END
+LuaTXGUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/LuaTXGUI.cpp
+END
+UICreator.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/UICreator.h
+END
+LuaTXGUI.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/LuaTXGUI.h
+END
+UIManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/UIManager.cpp
+END
+GameFontManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/GameFontManager.cpp
+END
+UIColorDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/UIColorDefine.h
+END
+UICreator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/UICreator.cpp
+END
+UIDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/UIDefine.h
+END
+UIManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/TXGUI/UIManager.h
+END

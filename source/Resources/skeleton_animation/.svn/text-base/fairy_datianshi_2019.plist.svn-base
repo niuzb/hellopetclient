@@ -1,0 +1,564 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>fairy_datianshi_2019: t shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{845,185},{9,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,9}}</string>
+                <key>sourceSize</key>
+                <string>{9,9}</string>
+            </dict>
+            <key>fairy_datianshi_2019:g1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,344},{86,81}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{86,81}}</string>
+                <key>sourceSize</key>
+                <string>{86,81}</string>
+            </dict>
+            <key>fairy_datianshi_2019:jinglin tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{801,196},{21,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,14}}</string>
+                <key>sourceSize</key>
+                <string>{21,14}</string>
+            </dict>
+            <key>fairy_datianshi_2019:jinglingshoubi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{851,210},{5,7}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{5,7}}</string>
+                <key>sourceSize</key>
+                <string>{5,7}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t beishi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,112},{11,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,14}}</string>
+                <key>sourceSize</key>
+                <string>{11,14}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t fa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1007,160},{14,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,26}}</string>
+                <key>sourceSize</key>
+                <string>{14,26}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t fa2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,29},{12,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,26}}</string>
+                <key>sourceSize</key>
+                <string>{12,26}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t fa3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,85},{10,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,24}}</string>
+                <key>sourceSize</key>
+                <string>{10,24}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t fa4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,0},{12,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,26}}</string>
+                <key>sourceSize</key>
+                <string>{12,26}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t fa6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{827,172},{15,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,26}}</string>
+                <key>sourceSize</key>
+                <string>{15,26}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t jiao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{681,172},{4,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{4,11}}</string>
+                <key>sourceSize</key>
+                <string>{4,11}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t jiao2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{681,186},{4,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{4,10}}</string>
+                <key>sourceSize</key>
+                <string>{4,10}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t jiao3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{853,197},{4,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{4,10}}</string>
+                <key>sourceSize</key>
+                <string>{4,10}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t jiao5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{681,199},{4,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{4,9}}</string>
+                <key>sourceSize</key>
+                <string>{4,9}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t shen1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,144},{8,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{8,13}}</string>
+                <key>sourceSize</key>
+                <string>{8,13}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,129},{9,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,12}}</string>
+                <key>sourceSize</key>
+                <string>{9,12}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{845,172},{9,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,10}}</string>
+                <key>sourceSize</key>
+                <string>{9,10}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t shoubi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{842,210},{6,6}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{6,6}}</string>
+                <key>sourceSize</key>
+                <string>{6,6}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t shoubi3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{833,211},{5,6}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{5,6}}</string>
+                <key>sourceSize</key>
+                <string>{5,6}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t shoubi5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{833,201},{6,7}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{6,7}}</string>
+                <key>sourceSize</key>
+                <string>{6,7}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t tou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1007,189},{14,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,15}}</string>
+                <key>sourceSize</key>
+                <string>{14,15}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t tui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{845,197},{5,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{5,10}}</string>
+                <key>sourceSize</key>
+                <string>{5,10}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t tui2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1007,207},{4,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{4,9}}</string>
+                <key>sourceSize</key>
+                <string>{4,9}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t tui3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1014,207},{4,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{4,9}}</string>
+                <key>sourceSize</key>
+                <string>{4,9}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{645,331},{93,95}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{93,95}}</string>
+                <key>sourceSize</key>
+                <string>{93,95}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{344,172},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,172},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{172,172},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t17.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{344,0},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t19.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{688,0},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t21.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{516,0},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{860,0},{146,146}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{146,146}}</string>
+                <key>sourceSize</key>
+                <string>{146,146}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{516,284},{126,126}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{126,126}}</string>
+                <key>sourceSize</key>
+                <string>{126,126}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:t9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{172,0},{169,169}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{169,169}}</string>
+                <key>sourceSize</key>
+                <string>{169,169}</string>
+            </dict>
+            <key>fairy_datianshi_2019:tfa5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,58},{10,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,24}}</string>
+                <key>sourceSize</key>
+                <string>{10,24}</string>
+            </dict>
+            <key>fairy_datianshi_2019:tian jiao4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{825,201},{5,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{5,10}}</string>
+                <key>sourceSize</key>
+                <string>{5,10}</string>
+            </dict>
+            <key>fairy_datianshi_2019:vxvx.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{801,172},{23,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,21}}</string>
+                <key>sourceSize</key>
+                <string>{23,21}</string>
+            </dict>
+            <key>fairy_datianshi_2019:z1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{516,172},{162,109}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{162,109}}</string>
+                <key>sourceSize</key>
+                <string>{162,109}</string>
+            </dict>
+            <key>fairy_datianshi_2019:z2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{801,274},{194,97}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{194,97}}</string>
+                <key>sourceSize</key>
+                <string>{194,97}</string>
+            </dict>
+            <key>fairy_datianshi_2019:z3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{688,172},{110,156}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{110,156}}</string>
+                <key>sourceSize</key>
+                <string>{110,156}</string>
+            </dict>
+            <key>fairy_datianshi_2019:z4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{860,149},{144,122}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{144,122}}</string>
+                <key>sourceSize</key>
+                <string>{144,122}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>fairy_datianshi_2019.pvr.ccz</string>
+            <key>size</key>
+            <string>{1022,424}</string>
+            <key>textureFileName</key>
+            <string>fairy_datianshi_2019.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,221 @@
+
+ê"
+cs_battle.protocs_core.proto"%
+CSPoint
+xpos (
+ypos ("\
+CSBattleMoveReq
+
+id (
+direct (2.CSPoint
+pos (2.CSPoint
+time ("\
+CSBattleMoveRsp
+
+id (
+direct (2.CSPoint
+pos (2.CSPoint
+time ("Q
+MonsterMoveValue
+
+id (
+direct (2.CSPoint
+paths (2.CSPoint"4
+CSMonsterMoveRsp 
+moves (2.MonsterMoveValue"6
+CSBattleCreateReq
+	battle_id (
+map_id ("√
+MonsterBattleInfo
+physical_attack (
+magic_attack (
+skill_attack (
+physical_defence (
+magic_defence (
+skill_defence (
+health_point (
+accurate (
+dodge	 (
+wreck
+ (
+parry (
+critical_strike (
+tenacity (
+slay (
+proficiency ("Ú
+MonsterInfo
+
+id (
+type_id (
+level (
+blood (
+point (2.CSPoint
+direct (2.CSPoint
+speed (
+boss ( 
+moves	 (2.MonsterMoveValue'
+battle_info
+ (2.MonsterBattleInfo
+elite ("›
+CSBattleCreateRsp!
+monsterinfo (2.MonsterInfo 
+userinfo (2.BasicUserInfo
+	battle_id (
+map_id (
+portal (2.CSPoint
+portal_map_id (
+timeout (
+monsterbirth (2.CSPoint"=
+CSBattleMonsterCreateRsp!
+monsterinfo (2.MonsterInfo"7
+CSBattleUserJoinRsp 
+userinfo (2.BasicUserInfo"&
+CSBattleUserLeaveRsp
+userid ("
+CSBattleLoadCompleteReq"*
+CSBattleLoadCompleteRsp
+timeout ("
+CSBattleLeaveReq"P
+CSBattleLeaveRsp
+
+initiative (
+star (
+rewards (2	.CSReward"
+CSBattleTimeoutRsp"
+CSBattlePlayerDelRsp"å
+AttackMonsterInfo
+
+id (
+	start_pos (2.CSPoint
+pos (2.CSPoint
+direct (2.CSPoint
+blood (
+status ("Y
+CSAttackMonsterBackInfo
+
+id (
+monster_type (
+blood (
+elite ("˜
+CSMonsterAttackInfo
+
+id (
+pos (2.CSPoint
+direct (2.CSPoint
+	action_id (
+type (
+userid (
+	effect_id (
+	start_pos (2.CSPoint
+end_pos	 (2.CSPoint
+skill_speed
+ (
+
+delay_time ("â
+CSMonsterEffectInfo
+	effect_id (
+	start_pos (2.CSPoint
+end_pos (2.CSPoint
+skill_speed (
+
+delay_time (";
+CSMonsterAttackRsp%
+attacks (2.CSMonsterAttackInfo";
+CSMonsterEffectRsp%
+effects (2.CSMonsterEffectInfo"y
+CSMonsterHitRsp(
+users (2.CSMonsterHitRsp.UserInfo<
+UserInfo
+	hurt_type (
+userid (
+blood ("ƒ
+CSSkillBeginReq
+userid (
+	action_id (
+pos (2.CSPoint
+start_dir_x (
+start_dir_y (
+
+target_pos (2.CSPoint
+direct_x (
+direct_y (
+aim	 ("ƒ
+CSSkillBeginRsp
+userid (
+	action_id (
+pos (2.CSPoint
+start_dir_x (
+start_dir_y (
+
+target_pos (2.CSPoint
+direct_x (
+direct_y (
+aim	 ("“
+CSPlayerAttackReq
+userid (
+	start_pos (2.CSPoint
+start_direct (2.CSPoint
+end_pos (2.CSPoint
+
+end_direct (2.CSPoint
+	action_id ($
+monsters (2.AttackMonsterInfo"“
+CSPlayerAttackRsp
+userid (
+	start_pos (2.CSPoint
+start_direct (2.CSPoint
+end_pos (2.CSPoint
+
+end_direct (2.CSPoint
+	action_id ($
+monsters (2.AttackMonsterInfo"D
+AttackPlayerInfo
+userid (
+blood (
+	hurt_type ("—
+CSPlayerHitPlayerReq
+userid (
+	start_pos (2.CSPoint
+start_direct (2.CSPoint
+end_pos (2.CSPoint
+
+end_direct (2.CSPoint
+	action_id ( 
+users (2.AttackPlayerInfo"—
+CSPlayerHitPlayerRsp
+userid (
+	start_pos (2.CSPoint
+start_direct (2.CSPoint
+end_pos (2.CSPoint
+
+end_direct (2.CSPoint
+	action_id ( 
+users (2.AttackPlayerInfo".
+CSPlayerHPRsp
+userid (
+blood ("?
+CSMonsterBloodRsp*
+monsters (2.CSAttackMonsterBackInfo"#
+CSMonsterDieRsp
+monsters ("%
+CSABMonsterReq
+instance_id ("}
+CSABMonsterRsp
+instance_id (*
+	mon_infos (2.CSABMonsterRsp.MonInfo*
+MonInfo
+mon_id (
+mon_num ("8
+CSAutoBattleReq
+instance_id (
+turn_num ("?
+CSAutoBattleRsp
+ret (
+
+cd (
+instance_id ("@
+CSABRewardRsp
+instance_id (
+rewards (2	.CSReward"
+CSCancelAutoBattleReq"
+CSCancelAutoBattleRsp

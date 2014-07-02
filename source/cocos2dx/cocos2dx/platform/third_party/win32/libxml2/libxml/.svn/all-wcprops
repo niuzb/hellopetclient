@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml
+END
+xmlschemastypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlschemastypes.h
+END
+nanohttp.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/nanohttp.h
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/parser.h
+END
+xmlwriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlwriter.h
+END
+relaxng.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/relaxng.h
+END
+nanoftp.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/nanoftp.h
+END
+xmlversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlversion.h
+END
+debugXML.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/debugXML.h
+END
+xpointer.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xpointer.h
+END
+catalog.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/catalog.h
+END
+SAX2.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/SAX2.h
+END
+xmlsave.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlsave.h
+END
+HTMLparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/HTMLparser.h
+END
+dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/dict.h
+END
+hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/hash.h
+END
+xmlexports.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlexports.h
+END
+encoding.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/encoding.h
+END
+xmlmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlmemory.h
+END
+threads.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/threads.h
+END
+SAX.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/SAX.h
+END
+xmlautomata.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlautomata.h
+END
+valid.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/valid.h
+END
+uri.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/uri.h
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/tree.h
+END
+schematron.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/schematron.h
+END
+schemasInternals.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/schemasInternals.h
+END
+xmlschemas.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlschemas.h
+END
+xpathInternals.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xpathInternals.h
+END
+c14n.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/c14n.h
+END
+xmlmodule.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlmodule.h
+END
+xmlunicode.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlunicode.h
+END
+xmlerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlerror.h
+END
+chvalid.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/chvalid.h
+END
+xinclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xinclude.h
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/list.h
+END
+xmlregexp.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlregexp.h
+END
+parserInternals.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/parserInternals.h
+END
+pattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/pattern.h
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/globals.h
+END
+xmlreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlreader.h
+END
+DOCBparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/DOCBparser.h
+END
+HTMLtree.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/HTMLtree.h
+END
+entities.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/entities.h
+END
+xpath.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xpath.h
+END
+xlink.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xlink.h
+END
+xmlstring.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlstring.h
+END
+xmlIO.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libxml2/libxml/xmlIO.h
+END

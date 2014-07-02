@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/OGLES/GL
+END
+glew.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/OGLES/GL/glew.h
+END
+wglew.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/OGLES/GL/wglew.h
+END
+glxew.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/OGLES/GL/glxew.h
+END

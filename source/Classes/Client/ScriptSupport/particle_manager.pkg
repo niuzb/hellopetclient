@@ -1,0 +1,7 @@
+class ParticleManagerX
+{
+public:
+	static ParticleManagerX* sharedManager(void);
+	CCNode* getParticles(const char* name);
+	CCNode* getParticles_uieffect(const char* name);
+}

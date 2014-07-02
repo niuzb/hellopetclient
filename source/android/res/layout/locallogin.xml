@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/localLoginLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_center" >
+
+    <RelativeLayout
+        android:id="@+id/middlePart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/native_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/native_login" />
+        <!-- 滑动区域图片 -->
+
+        <RelativeLayout
+            android:id="@+id/whitebox_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/localTip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_tip_words"
+                android:textColor="@color/login_tip_color"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnPart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/back_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/box_ah" />
+
+            <ImageView
+                android:id="@+id/box_bh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/box_bh" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

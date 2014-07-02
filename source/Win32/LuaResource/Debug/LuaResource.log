@@ -1,0 +1,12 @@
+﻿Build started 2014/6/21 0:47:45.
+     1>Project "D:\android\hello\server\ahero\source\Win32\LuaResource\LuaResource.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LuaResource.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Debug\LuaResource.unsuccessfulbuild".
+         Touching "Debug\LuaResource.lastbuildstate".
+     1>Done Building Project "D:\android\hello\server\ahero\source\Win32\LuaResource\LuaResource.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

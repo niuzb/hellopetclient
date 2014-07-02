@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items
+END
+ItemBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/ItemBase.h
+END
+ItemManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/ItemManager.h
+END
+GemStonesFromLua.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/GemStonesFromLua.h
+END
+EquipmentItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/EquipmentItem.cpp
+END
+ItemBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/ItemBase.cpp
+END
+ItemManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/ItemManager.cpp
+END
+GemStonesFromLua.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/GemStonesFromLua.cpp
+END
+EquipmentItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Items/EquipmentItem.h
+END

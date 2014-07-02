@@ -1,0 +1,4920 @@
+{
+    "battle_pos_left":
+    {   "1":{"x":360, "y":300},
+        "2":{"x":330, "y":400},
+        "3":{"x":300, "y":500},
+        "4":{"x":250, "y":300},
+        "5":{"x":220, "y":400},
+        "6":{"x":190, "y":500},
+        "7":{"x":140, "y":300},
+        "8":{"x":110, "y":400},
+        "9":{"x":80, "y":500}
+    },
+    "battle_pos_right":
+    {
+        "1":{"x":580, "y":300},
+        "2":{"x":610, "y":400},
+        "3":{"x":640, "y":500},
+        "4":{"x":690, "y":300},
+        "5":{"x":720, "y":400},
+        "6":{"x":750, "y":500},
+        "7":{"x":800, "y":300},
+        "8":{"x":830, "y":400},
+        "9":{"x":860, "y":500}
+    },
+    "hero_ini":
+    {
+        //廖化
+        "1":
+        {
+            "id":1,
+            "herotype":1,
+            "width":260,
+            "height":210,
+            "mx":-112,
+            "my":0,
+            "image":"hero/1.png",
+            "image2":"hero/a1.png",
+            "attackt":480,
+            "rx":-90,
+            "sx":62,
+            "sy":0,
+            "bx":80,
+            "by":0,
+            "lx":132,
+            "ly":28,
+            "px":40,
+            "animations":
+            [
+                {"rect":[0,0,260,210],"label":"stand","interval":80},
+                {"rect":[260,0,260,210],"label":"stand","interval":80},
+                {"rect":[520,0,260,210],"label":"stand","interval":80},
+                {"rect":[780,0,260,210],"label":"stand","interval":80}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack", "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80}
+             ]
+        },
+        "2":
+        {
+            "id":2,
+            "herotype":2,
+            "width":182,
+            "height":160,
+            "mx":-40,
+            "my":0,
+            "image":"hero/2.png",
+            "image2":"hero/a2.png",
+            "attackt":480,
+            "rx":-234,
+            "sx":-8,
+            "sy":0,
+            "bx":8,
+            "by":0,
+            "lx":50,
+            "ly":132,
+            "px":-34,
+            "animations":
+            [
+                {"rect":[0,0,182,158], "label":"stand", "interval":80},
+                {"rect":[182,0,182,158], "interval":80},
+                {"rect":[364,0,182,158], "interval":80},
+                {"rect":[546,0,182,158], "jump":"stand", "interval":80}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,182,158], "label":"attack", "interval":80},
+                {"rect":[182,0,182,158], "interval":80},
+                {"rect":[364,0,182,158], "interval":80},
+                {"rect":[546,0,182,158], "interval":80},
+                {"rect":[728,0,182,158], "interval":80},
+                {"rect":[0,160,182,158], "interval":80}
+             ]
+        },
+        "3":
+        {
+            "id":3,
+            "herotype":1,
+            "width":260,
+            "height":210,
+            "mx":-70,
+            "my":0,
+            "image":"hero/3.png",
+            "image2":"hero/a3.png",
+            "attackt":800,
+            "rx":-172,
+            "sx":22,
+            "sy":0,
+            "bx":38,
+            "by":0,
+            "lx":91,
+            "ly":128,
+            "px":0,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "jump":"stand", "interval":80}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80},
+             {"rect":[0,210,260,210], "interval":80},
+             {"rect":[260,210,260,210], "interval":80},
+             {"rect":[520,210,260,210], "interval":80},
+             {"rect":[780,210,260,210], "interval":80},
+             {"rect":[1040,210,260,210], "interval":80}
+             ]
+        },
+        //周仓
+        "4":
+        {
+        	"id":4,
+        	"herotype":1, 
+        	"width":260, 
+        	"height":210, 
+        	"mx":-106, 
+        	"my":0, 
+            "image":"hero/4.png",
+            "image2":"hero/a4.png",
+            "attackt":800,
+            "rx":-102,
+            "sx":54, 
+            "sy":0,
+            "bx":74, 
+            "by":0,
+            "lx":127, 
+            "ly":128,
+            "px":32,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "jump":"stand", "interval":80}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80},
+             {"rect":[0,210,260,210], "interval":80},
+             {"rect":[260,210,260,210], "interval":80}
+             ]
+        },
+        "5":
+        {
+            "id":5, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-80, 
+            "my":0,
+            "image":"hero/5.png",
+            "image2":"hero/a5.png",
+            "attackt":400,
+            "rx":-156,
+            "sx":30, 
+            "sy":0,
+            "bx":46, 
+            "by":0,
+            "lx":92, 
+            "ly":128,
+            "px":0,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand", "interval":80},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand", "interval":80}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        
+        "6":
+        {
+            "id":6, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-86, 
+            "my":0, 
+            "image":"hero/6.png",
+            "image2":"hero/a6.png",
+            "attackt":400,
+            "rx":-140,
+            "sx":36, 
+            "sy":0,
+            "bx":54, 
+            "by":0,
+            "lx":105, 
+            "ly":128,
+            "px":10,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand", "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "7":
+        {
+            "id":7, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-76, 
+            "my":0, 
+            "image":"hero/7.png",
+            "image2":"hero/a7.png",
+            "attackt":400,
+            "rx":-156,
+            "sx":28, 
+            "sy":0,
+            "bx":45, 
+            "by":0,
+            "lx":97, 
+            "ly":128,
+            "px":0,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand", "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack", "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80},
+                {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "8":
+        {
+            "id":8, 
+            "herotype":1, 
+            "width":301, 
+            "height":210, 
+            "mx":-128, 
+            "my":0,
+            "image":"hero/8.png",
+            "image2":"hero/a8.png",
+            "attackt":320,
+            "rx":-58,
+            "sx":78, 
+            "sy":0,
+            "bx":97, 
+            "by":0,
+            "lx":150, 
+            "ly":128,
+            "px":50,
+            "animations":
+            [
+                {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                {"rect":[301,0,301,210], "interval":90},
+                {"rect":[602,0,301,210], "interval":90},
+                {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,301,210], "label":"attack", "interval":80},
+                {"rect":[301,0,301,210], "interval":80},
+                {"rect":[602,0,301,210], "interval":80},
+                {"rect":[903,0,301,210], "interval":80}
+             ]
+        },
+        "9":
+        {
+            "id":9, 
+            "herotype":1, 
+            "width":301, 
+            "height":210, 
+            "mx":-140, 
+            "my":0,
+            "image":"hero/9.png",
+            "image2":"hero/a9.png",
+            "attackt":540,
+            "rx":-36,
+            "sx":92,
+            "sy":0,
+            "bx":105, 
+            "by":0,
+            "lx":156, 
+            "ly":128,
+            "px":60,
+            "animations":
+            [
+                {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                {"rect":[301,0,301,210], "interval":90},
+                {"rect":[602,0,301,210], "interval":90},
+                {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,301,210], "label":"attack", "interval":60},
+                {"rect":[301,0,301,210], "interval":60},
+                {"rect":[602,0,301,210], "interval":60},
+                {"rect":[903,0,301,210], "interval":60},
+                {"rect":[1204,0,301,210], "interval":60},
+                {"rect":[0,210,301,210], "interval":60},
+                {"rect":[301,210,301,210], "interval":60},
+                {"rect":[602,210,301,210], "interval":60},
+                {"rect":[903,210,301,210], "interval":60}
+             ]
+        },
+        "10":
+        {
+            "id":10, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-126, 
+            "my":0,
+            "image":"hero/10.png",
+            "image2":"hero/a10.png",
+            "attackt":576,
+			"rx":-66,
+            "sx":76, 
+            "sy":0,
+            "bx":90, 
+            "by":0,
+            "lx":141, 
+            "ly":128,
+            "px":50,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand", "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                {"rect":[260,0,260,210], "interval":72},
+                {"rect":[520,0,260,210], "interval":72},
+                {"rect":[780,0,260,210], "interval":72},
+                {"rect":[1040,0,260,210], "interval":72},
+                {"rect":[0,210,260,210], "interval":72},
+                {"rect":[260,210,260,210], "interval":72},
+                {"rect":[520,210,260,210],  "interval":72}
+             ]
+        },
+        "11":
+        {
+        	"id":11, 
+        	"herotype":1, 
+        	"width":260, 
+        	"height":210, 
+        	"mx":-114, 
+        	"my":0,
+            "image":"hero/11.png",
+            "image2":"hero/a11.png",
+            "attackt":400,
+            "rx":-88,
+            "sx":62, 
+            "sy":0,
+            "bx":80, 
+            "by":0,
+            "lx":133, 
+            "ly":126,
+            "px":42,
+            "animations":
+             [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80},
+                {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "12":
+        {
+        	"id":12, 
+        	"herotype":1, 
+        	"width":301, 
+        	"height":210, 
+        	"mx":-135, 
+        	"my":0,
+            "image":"hero/12.png",
+            "image2":"hero/a12.png",
+            "attackt":288,
+            "rx":-48,
+            "sx":83, 
+            "sy":0,
+            "bx":98, 
+            "by":0,
+            "lx":150, 
+            "ly":126,
+            "px":63,
+            "animations":
+            [
+                {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                {"rect":[301,0,301,210], "interval":90},
+                {"rect":[602,0,301,210], "interval":90},
+                {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,301,210], "label":"attack", "interval":72},
+                {"rect":[301,0,301,210], "interval":72},
+                {"rect":[602,0,301,210], "interval":72},
+                {"rect":[903,0,301,210], "interval":72}
+             ]
+        },
+        "13":
+        {
+        	"id":13, 
+        	"herotype":2, 
+        	"width":260, 
+        	"height":210, 
+        	"mx":-88, 
+        	"my":0,
+            "image":"hero/13.png",
+            "image2":"hero/a13.png",
+            "attackt":644,
+            "rx":-140,
+            "sx":42, 
+            "sy":0,
+            "bx":53, 
+            "by":0,
+            "lx":105, 
+            "ly":126,
+            "px":14,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                {"rect":[260,0,260,210], "interval":72},
+                {"rect":[520,0,260,210], "interval":72},
+                {"rect":[780,0,260,210], "interval":72},
+                {"rect":[1040,0,260,210], "interval":72},
+                {"rect":[0,210,260,210], "interval":72},
+                {"rect":[260,210,260,210], "interval":72},
+                {"rect":[520,210,260,210], "interval":140}
+             ]
+        },
+        "14":
+        {
+        	"id":14, 
+        	"herotype":1, 
+        	"width":260, 
+        	"height":210, 
+        	"mx":-113, 
+        	"my":0,
+            "image":"hero/14.png",
+            "image2":"hero/a14.png",
+            "attackt":400,
+            "rx":-90,
+            "sx":66, 
+            "sy":0,
+            "bx":77, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":42,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80},
+                {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "15":
+        {
+        	"id":15, 
+        	"herotype":1, 
+        	"width":315, 
+        	"height":253, 
+        	"mx":-122, 
+        	"my":0,
+            "image":"hero/15.png",
+            "image2":"hero/a15.png",
+            "attackt":420,
+            "rx":-70,
+            "sx":72, 
+            "sy":0,
+            "bx":88, 
+            "by":0,
+            "lx":140, 
+            "ly":126,
+            "px":48,
+            "animations":
+            [
+                {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                {"rect":[315,0,315,253], "interval":90},
+                {"rect":[630,0,315,253], "interval":90},
+                {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+                {"rect":[315,0,315,253], "interval":60},
+                {"rect":[630,0,315,253], "interval":60},
+                {"rect":[945,0,315,253], "interval":60},
+                {"rect":[1260,0,315,253], "interval":60},
+                {"rect":[0,253,315,253], "interval":60},
+                {"rect":[315,253,315,253], "interval":60}
+             ]
+        },
+        "16":
+        {
+            "id":16, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-110, 
+            "my":0,
+            "image":"hero/16.png",
+            "image2":"hero/a16.png",
+            "attackt":560,
+            "rx":-94,
+            "sx":62, 
+            "sy":0,
+            "bx":75, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":38,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80},
+                {"rect":[1040,0,260,210], "interval":80},
+                {"rect":[0,210,260,210], "interval":80},
+                {"rect":[260,210,260,210], "interval":80}
+             ]
+        },
+        "17":
+        {
+            "id":17, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-84, 
+            "my":0,
+			"image":"hero/17.png",
+			"image2":"hero/a17.png",
+			"attackt":648,
+            "rx":-148,
+            "sx":33, 
+            "sy":0,
+            "bx":50, 
+            "by":0,
+            "lx":102, 
+            "ly":126,
+            "px":10,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                {"rect":[260,0,260,210], "interval":72},
+                {"rect":[520,0,260,210], "interval":72},
+                {"rect":[780,0,260,210], "interval":72},
+                {"rect":[1040,0,260,210], "interval":72},
+                {"rect":[0,210,260,210], "interval":72},
+                {"rect":[260,210,260,210], "interval":72},
+                {"rect":[520,210,260,210], "interval":72},
+                {"rect":[780,210,260,210], "interval":72}
+             ]
+        },
+        "18":
+        {
+            "id":18, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-110, 
+            "my":0,
+			"image":"hero/18.png",
+			"image2":"hero/a18.png",
+			"attackt":320,
+            "rx":-94,
+            "sx":62, 
+            "sy":0,
+            "bx":75, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":42,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+             [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80}
+             ]
+        },
+        "19":
+        {
+            "id":19, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-90, 
+            "my":0,
+			"image":"hero/19.png",
+			"image2":"hero/a19.png",
+			"attackt":432,
+            "rx":-136,
+            "sx":38, 
+            "sy":0,
+            "bx":55, 
+            "by":0,
+            "lx":108, 
+            "ly":126,
+            "px":16,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                {"rect":[260,0,260,210], "interval":72},
+                {"rect":[520,0,260,210], "interval":72},
+                {"rect":[780,0,260,210], "interval":72},
+                {"rect":[1040,0,260,210], "interval":72},
+                {"rect":[0,210,260,210], "interval":72}
+             ]
+        },
+        "20":
+        {
+            "id":20, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-110, 
+            "my":0, 
+			"image":"hero/20.png",
+			"image2":"hero/a20.png",
+			"attackt":760,
+            "rx":-96,
+            "sx":62, 
+            "sy":0,
+            "bx":75, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":36,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":60},
+                {"rect":[260,0,260,210], "interval":60},
+                {"rect":[520,0,260,210], "interval":60},
+                {"rect":[780,0,260,210], "interval":60},
+                {"rect":[1040,0,260,210], "interval":60},
+                {"rect":[0,210,260,210], "interval":60},
+                {"rect":[260,210,260,210], "interval":60},
+                {"rect":[520,210,260,210], "interval":60},
+                {"rect":[780,210,260,210], "interval":60},
+                {"rect":[1040,210,260,210], "interval":60},
+                {"rect":[0,420,260,210], "interval":160}
+             ]
+        },
+        "21":
+        {
+            "id":21, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-108, 
+            "my":0,
+			"image":"hero/21.png",
+			"image2":"hero/a21.png",
+			"attackt":360,
+            "rx":-98,
+            "sx":62, 
+            "sy":0,
+            "bx":75, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":36,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+             {"rect":[260,0,260,210], "interval":72},
+             {"rect":[520,0,260,210], "interval":72},
+             {"rect":[780,0,260,210], "interval":72},
+             {"rect":[1040,0,260,210], "interval":72}
+             ]
+        },
+        "22":
+        {
+            "id":22, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-110, 
+            "my":0,
+			"image":"hero/22.png",
+			"image2":"hero/a22.png",
+			"attackt":560,
+            "rx":-96,
+            "sx":62, 
+            "sy":0,
+            "bx":75, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":36,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80},
+                {"rect":[1040,0,260,210], "interval":80},
+                {"rect":[0,210,260,210], "interval":80},
+                {"rect":[260,210,260,210], "interval":80}
+             ]
+        },
+        "23":
+        {
+            "id":23, 
+            "herotype":1, 
+            "width":301, 
+            "height":210, 
+            "mx":-125, 
+            "my":0,
+			"image":"hero/23.png",
+			"image2":"hero/a23.png",
+			"attackt":504,
+            "rx":-60,
+            "sx":78, 
+            "sy":0,
+            "bx":93, 
+            "by":0,
+            "lx":145, 
+            "ly":126,
+            "px":58,
+            "animations":
+            [
+                {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                {"rect":[301,0,301,210], "interval":90},
+                {"rect":[602,0,301,210], "interval":90},
+                {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+             ],
+			"animations2":
+            [
+                {"rect":[0,0,301,210], "label":"attack", "interval":72},
+                {"rect":[301,0,301,210], "interval":72},
+                {"rect":[602,0,301,210], "interval":72},
+                {"rect":[903,0,301,210], "interval":72},
+                {"rect":[1204,0,301,210], "interval":72},
+                {"rect":[0,210,301,210], "interval":72},
+                {"rect":[301,210,301,210], "interval":72}
+             ]
+        },
+        "24":
+        {
+            "id":24, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-124, 
+            "my":0,
+            "image":"hero/24.png",
+			"image2":"hero/a24.png",
+			"attackt":400,
+            "rx":-68,
+            "sx":76, 
+            "sy":0,
+            "bx":90, 
+            "by":0,
+            "lx":142, 
+            "ly":126,
+            "px":50,
+            "animations":
+            [
+                {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                {"rect":[260,0,260,210], "interval":90},
+                {"rect":[520,0,260,210], "interval":90},
+                {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+                {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+                {"rect":[260,0,260,210], "interval":80},
+                {"rect":[520,0,260,210], "interval":80},
+                {"rect":[780,0,260,210], "interval":80},
+                {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "25":
+        {
+            "id":25, 
+            "herotype":1, 
+            "width":301, 
+            "height":210, 
+            "mx":-140, 
+            "my":0, 
+            "image":"hero/25.png",
+            "image2":"hero/a25.png",
+            "attackt":400,
+            "rx":-38,
+            "sx":88, 
+            "sy":0,
+            "bx":103, 
+            "by":0,
+            "lx":155, 
+            "ly":126,
+            "px":68,
+            "at":500,
+            "animations":
+            [
+                {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                {"rect":[301,0,301,210], "interval":90},
+                {"rect":[602,0,301,210], "interval":90},
+                {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+                {"rect":[0,0,301,210], "label":"attack", "interval":80},
+                {"rect":[301,0,301,210], "interval":80},
+                {"rect":[602,0,301,210], "interval":80},
+                {"rect":[903,0,301,210], "interval":80},
+                {"rect":[1204,0,301,210], "interval":80}
+             ]
+        },
+        "26":
+        {
+            "id":26, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-86, 
+            "my":0, 
+            "image":"hero/26.png",
+            "image2":"hero/a26.png",
+            "attackt":400,
+            "rx":-140,
+            "sx":36, 
+            "sy":0,
+            "bx":54, 
+            "by":0,
+            "lx":105, 
+            "ly":128,
+            "px":10,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand", "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "27":
+        {
+            "id":27, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-86,
+            "my":0, 
+            "image":"hero/27.png",
+            "image2":"hero/a27.png",
+            "attackt":400,
+            "rx":-140,
+            "sx":36, 
+            "sy":0,
+            "bx":54, 
+            "by":0,
+            "lx":105, 
+            "ly":128,
+            "px":10,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand", "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand", "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack", "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "28":
+        {
+            "id":28, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-86, 
+            "my":0, 
+            "image":"hero/28.png",
+            "image2":"hero/a28.png",
+            "attackt":400,
+            "rx":-140,
+            "sx":36, 
+            "sy":0,
+            "bx":54, 
+            "by":0,
+            "lx":105, 
+            "ly":128,
+            "px":10,
+            "animations":
+            [
+                 {"rect":[0,0,260,210], "label":"stand", "interval":90},
+                 {"rect":[260,0,260,210], "interval":90},
+                 {"rect":[520,0,260,210], "interval":90},
+                 {"rect":[780,0,260,210], "jump":"stand", "interval":90}
+            ],
+            "animations2":
+            [
+                 {"rect":[0,0,260,210], "label":"attack", "interval":80},
+                 {"rect":[260,0,260,210], "interval":80},
+                 {"rect":[520,0,260,210], "interval":80},
+                 {"rect":[780,0,260,210], "interval":80},
+                 {"rect":[1040,0,260,210], "interval":80}
+            ]
+        },
+        "29":{"id": 29, "herotype":2, "width":182, "height":160, "mx":-40, "my": 0, 
+            "image":"hero/29.png",
+            "image2":"hero/a29.png",
+            "attackt":480,
+			"rx":-234,
+            "sx":-8, "sy":0,
+            "bx":8, "by":0,
+            "lx":50, "ly":132,
+            "px":-34,
+            "animations":[
+                          {"rect":[0,0,182,158], "label":"stand", "interval":90},
+                          {"rect":[182,0,182,158], "interval":90},
+                          {"rect":[364,0,182,158], "interval":90},
+                          {"rect":[546,0,182,158], "jump":"stand", "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,182,158], "label":"attack", "interval":80},
+                           {"rect":[182,0,182,158], "interval":80},
+                           {"rect":[364,0,182,158], "interval":80},
+                           {"rect":[546,0,182,158], "interval":80},
+                           {"rect":[728,0,182,158], "interval":80},
+                           {"rect":[0,160,182,158], "interval":80}
+                           ]
+        },
+        "30":{"id": 30, "herotype":2, "width":182, "height":160, "mx":-40, "my": 0, 
+            "image":"hero/30.png",
+            "image2":"hero/a30.png",
+            "attackt":480,
+			"rx":-234,
+            "sx":-8, "sy":0,
+            "bx":8, "by":0,
+            "lx":50, "ly":132,
+            "px":-34,
+            "animations":[
+                          {"rect":[0,0,182,158], "label":"stand", "interval":90},
+                          {"rect":[182,0,182,158], "interval":90},
+                          {"rect":[364,0,182,158], "interval":90},
+                          {"rect":[546,0,182,158], "jump":"stand", "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,182,158], "label":"attack", "interval":80},
+                           {"rect":[182,0,182,158], "interval":80},
+                           {"rect":[364,0,182,158], "interval":80},
+                           {"rect":[546,0,182,158], "interval":80},
+                           {"rect":[728,0,182,158], "interval":80},
+                           {"rect":[0,160,182,158], "interval":80}
+                           ]
+        },
+        "31":{"id": 31, "herotype":2, "width":182, "height":160, "mx":-40, "my": 0, 
+            "image":"hero/31.png",
+            "image2":"hero/a31.png",
+            "attackt":480,
+			"rx":-234,
+            "sx":-8, "sy":0,
+            "bx":8, "by":0,
+            "lx":50, "ly":132,
+            "px":-34,
+            "animations":[
+                          {"rect":[0,0,182,158], "label":"stand", "interval":90},
+                          {"rect":[182,0,182,158], "interval":90},
+                          {"rect":[364,0,182,158], "interval":90},
+                          {"rect":[546,0,182,158], "jump":"stand", "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,182,158], "label":"attack", "interval":80},
+                           {"rect":[182,0,182,158], "interval":80},
+                           {"rect":[364,0,182,158], "interval":80},
+                           {"rect":[546,0,182,158], "interval":80},
+                           {"rect":[728,0,182,158], "interval":80},
+                           {"rect":[0,160,182,158], "interval":80}
+                           ]
+        },
+        "32":{"id": 32, "herotype":1, "width":301, "height":210, "mx":-125, "my": 0,
+			"image":"hero/32.png",
+			"image2":"hero/a32.png",
+			"attackt":504,
+            "rx":-60,
+            "sx":78, "sy":0,
+            "bx":93, "by":0,
+            "lx":145, "ly":126,
+            "px":58,
+            "animations":[
+                          {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                          {"rect":[301,0,301,210], "interval":90},
+                          {"rect":[602,0,301,210], "interval":90},
+                          {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,301,210], "label":"attack", "interval":72},
+                           {"rect":[301,0,301,210], "interval":72},
+                           {"rect":[602,0,301,210], "interval":72},
+                           {"rect":[903,0,301,210], "interval":72},
+                           {"rect":[1204,0,301,210], "interval":72},
+                           {"rect":[0,210,301,210], "interval":72},
+                           {"rect":[301,210,301,210], "interval":72}
+                           ]
+        },
+        "33":{"id": 33, "herotype":1, "width":301, "height":210, "mx":-135, "my": 0,
+            "image":"hero/33.png",
+            "image2":"hero/a33.png",
+            "attackt":288,
+            "rx":-48,
+            "sx":83, "sy":0,
+            "bx":98, "by":0,
+            "lx":150, "ly":126,
+            "px":63,
+            "animations":[
+                          {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                          {"rect":[301,0,301,210], "interval":90},
+                          {"rect":[602,0,301,210], "interval":90},
+                          {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,301,210], "label":"attack", "interval":72},
+                           {"rect":[301,0,301,210], "interval":72},
+                           {"rect":[602,0,301,210], "interval":72},
+                           {"rect":[903,0,301,210], "interval":72}
+                           ]
+        },
+        "34":{"id": 34, "herotype":2, "width":260, "height":210, "mx":-84, "my": 0,
+			"image":"hero/34.png",
+			"image2":"hero/a34.png",
+			"attackt":648,
+            "rx":-148,
+            "sx":33, "sy":0,
+            "bx":50, "by":0,
+            "lx":102, "ly":126,
+            "px":10,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                           {"rect":[260,0,260,210], "interval":72},
+                           {"rect":[520,0,260,210], "interval":72},
+                           {"rect":[780,0,260,210], "interval":72},
+                           {"rect":[1040,0,260,210], "interval":72},
+                           {"rect":[0,210,260,210], "interval":72},
+                           {"rect":[260,210,260,210], "interval":72},
+                           {"rect":[520,210,260,210], "interval":72},
+                           {"rect":[780,210,260,210], "interval":72}
+                           ]
+        },
+        "35":{"id": 35, "herotype":1, "width":260, "height":210, "mx":-90, "my": 0,
+			"image":"hero/35.png",
+			"image2":"hero/a35.png",
+			"attackt":432,
+            "rx":-136,
+            "sx":38, "sy":0,
+            "bx":55, "by":0,
+            "lx":108, "ly":126,
+            "px":16,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                           {"rect":[260,0,260,210], "interval":72},
+                           {"rect":[520,0,260,210], "interval":72},
+                           {"rect":[780,0,260,210], "interval":72},
+                           {"rect":[1040,0,260,210], "interval":72},
+                           {"rect":[0,210,260,210], "interval":72}
+                           ]
+        },
+        "36":{"id": 36, "herotype":1, "width":260, "height":210, "mx":-90, "my": 0,
+			"image":"hero/36.png",
+			"image2":"hero/a36.png",
+			"attackt":432,
+            "rx":-136,
+            "sx":38, "sy":0,
+            "bx":55, "by":0,
+            "lx":108, "ly":126,
+            "px":16,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                           {"rect":[260,0,260,210], "interval":72},
+                           {"rect":[520,0,260,210], "interval":72},
+                           {"rect":[780,0,260,210], "interval":72},
+                           {"rect":[1040,0,260,210], "interval":72},
+                           {"rect":[0,210,260,210], "interval":72}
+                           ]
+        },
+        "37":{"id": 37, "herotype":1, "width":260, "height":210, "mx":-90, "my": 0,
+			"image":"hero/37.png",
+			"image2":"hero/a37.png",
+			"attackt":432,
+            "rx":-136,
+            "sx":38, "sy":0,
+            "bx":55, "by":0,
+            "lx":108, "ly":126,
+            "px":16,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                           {"rect":[260,0,260,210], "interval":72},
+                           {"rect":[520,0,260,210], "interval":72},
+                           {"rect":[780,0,260,210], "interval":72},
+                           {"rect":[1040,0,260,210], "interval":72},
+                           {"rect":[0,210,260,210], "interval":72}
+                           ]
+        },
+        "38":{"id": 38, "herotype":2, "width":315, "height":253, "mx":-72, "my": 0,
+            "image":"hero/38.png",
+            "image2":"hero/a38.png",
+            "attackt":540,
+            "rx":-170,
+            "sx":22, "sy":0,
+            "bx":38, "by":0,
+            "lx":90, "ly":126,
+            "px":-2,
+            "animations":[
+                          {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                          {"rect":[315,0,315,253], "interval":90},
+                          {"rect":[630,0,315,253], "interval":90},
+                          {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+                           {"rect":[315,0,315,253], "interval":60},
+                           {"rect":[630,0,315,253], "interval":60},
+                           {"rect":[945,0,315,253], "interval":60},
+                           {"rect":[1260,0,315,253], "interval":60},
+                           {"rect":[0,253,315,253], "interval":60},
+                           {"rect":[315,253,315,253], "interval":60},
+                           {"rect":[630,253,315,253], "interval":60},
+                           {"rect":[945,253,315,253], "interval":60}
+                           ]
+        },
+        "39":{"id": 39, "herotype":1, "width":260, "height":210, "mx":-100, "my": 0,
+			"image":"hero/39.png",
+			"image2":"hero/a39.png",
+			"attackt":504,
+            "rx":-116,
+            "sx":48, "sy":0,
+            "bx":65, "by":0,
+            "lx":118, "ly":126,
+            "px":26,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                           {"rect":[260,0,260,210], "interval":72},
+                           {"rect":[520,0,260,210], "interval":72},
+                           {"rect":[780,0,260,210], "interval":72},
+                           {"rect":[1040,0,260,210], "interval":72},
+                           {"rect":[0,210,260,210], "interval":72},
+                           {"rect":[260,210,260,210], "interval":72}
+                           ]
+        },
+        "40":{"id": 40, "herotype":1, "width":260, "height":210, "mx":-90, "my": 0,
+			"image":"hero/40.png",
+			"image2":"hero/a40.png",
+			"attackt":432,
+            "rx":-136,
+            "sx":38, "sy":0,
+            "bx":55, "by":0,
+            "lx":108, "ly":126,
+            "px":16,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                           {"rect":[260,0,260,210], "interval":72},
+                           {"rect":[520,0,260,210], "interval":72},
+                           {"rect":[780,0,260,210], "interval":72},
+                           {"rect":[1040,0,260,210], "interval":72},
+                           {"rect":[0,210,260,210], "interval":72}
+                           ]
+        },
+        "41":
+        {
+            "id":41, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-84, 
+            "my":0,
+			"image":"hero/41.png",
+			"image2":"hero/a41.png",
+			"attackt":504,
+            "rx":-148,
+            "sx":32, 
+            "sy":0,
+            "bx":50, 
+            "by":0,
+            "lx":102, 
+            "ly":126,
+            "px":10,
+            "animations":
+            [
+                 {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                 {"rect":[260,0,260,210], "interval":90},
+                 {"rect":[520,0,260,210], "interval":90},
+                 {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+            ],
+			"animations2":
+            [
+                 {"rect":[0,0,260,210], "label":"attack",  "interval":72},
+                 {"rect":[260,0,260,210], "interval":72},
+                 {"rect":[520,0,260,210], "interval":72},
+                 {"rect":[780,0,260,210], "interval":72},
+                 {"rect":[1040,0,260,210], "interval":72},
+                 {"rect":[0,210,260,210], "interval":72},
+                 {"rect":[260,210,260,210], "interval":72}
+            ]
+        },
+        "42":
+        {
+            "id":42, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-102, 
+            "my":0,
+            "image":"hero/42.png",
+            "image2":"hero/a42.png",
+            "attackt":504,
+            "rx":-110,
+            "sx":52, 
+            "sy":0,
+            "bx":68, 
+            "by":0,
+            "lx":120, 
+            "ly":126,
+            "px":28,
+            "animations":
+            [
+                {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                {"rect":[315,0,315,253], "interval":90},
+                {"rect":[630,0,315,253], "interval":90},
+                {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+            ],
+            "animations2":
+            [
+                {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+                {"rect":[315,0,315,253], "interval":72},
+                {"rect":[630,0,315,253], "interval":72},
+                {"rect":[945,0,315,253], "interval":72},
+                {"rect":[1260,0,315,253], "interval":72},
+                {"rect":[0,253,315,253], "interval":72},
+                {"rect":[315,253,315,253], "interval":72}
+             ]
+        },
+        "43":
+        {
+            "id":43, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-120, 
+            "my":0,
+			"image":"hero/43.png",
+			"image2":"hero/a43.png",
+			"attackt":600,
+            "rx":-76,
+            "sx":68, 
+            "sy":0,
+            "bx":85, 
+            "by":0,
+            "lx":138, 
+            "ly":126,
+            "px":46,
+            "animations":
+            [
+                 {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                 {"rect":[260,0,260,210], "interval":90},
+                 {"rect":[520,0,260,210], "interval":90},
+                 {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+                 {"rect":[0,0,260,210], "label":"attack",  "interval":60},
+                 {"rect":[260,0,260,210], "interval":60},
+                 {"rect":[520,0,260,210], "interval":60},
+                 {"rect":[780,0,260,210], "interval":60},
+                 {"rect":[1040,0,260,210], "interval":60},
+                 {"rect":[0,210,260,210], "interval":60},
+                 {"rect":[260,210,260,210], "interval":60},
+                 {"rect":[520,210,260,210], "interval":60},
+                 {"rect":[780,210,260,210], "interval":60},
+                 {"rect":[1040,210,260,210], "interval":60}
+            ]
+        },
+        "44":{"id": 44, "herotype":1, "width":315, "height":253, "mx":-112, "my": 0,
+            "image":"hero/44.png",
+            "image2":"hero/a44.png",
+            "attackt":432,
+            "rx":-90,
+            "sx":62, "sy":0,
+            "bx":78, "by":0,
+            "lx":130, "ly":126,
+            "px":38,
+            "animations":[
+                          {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                          {"rect":[315,0,315,253], "interval":90},
+                          {"rect":[630,0,315,253], "interval":90},
+                          {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+                           {"rect":[315,0,315,253], "interval":72},
+                           {"rect":[630,0,315,253], "interval":72},
+                           {"rect":[945,0,315,253], "interval":72},
+                           {"rect":[1260,0,315,253], "interval":72},
+                           {"rect":[0,253,315,253], "interval":72}
+                           ]
+        },
+        "45":{"id": 45, "herotype":1, "width":315, "height":253, "mx":-122, "my": 0,
+            "image":"hero/45.png",
+            "image2":"hero/a45.png",
+            "attackt":432,
+            "rx":-70,
+            "sx":72, "sy":0,
+            "bx":88, "by":0,
+            "lx":140, "ly":126,
+            "px":48,
+            "animations":[
+                          {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                          {"rect":[315,0,315,253], "interval":90},
+                          {"rect":[630,0,315,253], "interval":90},
+                          {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+                           {"rect":[315,0,315,253], "interval":72},
+                           {"rect":[630,0,315,253], "interval":72},
+                           {"rect":[945,0,315,253], "interval":72},
+                           {"rect":[1260,0,315,253], "interval":72},
+                           {"rect":[0,253,315,253], "interval":72}
+                           ]
+        },
+        "46":{"id": 46, "herotype":1, "width":301, "height":210, "mx":-155, "my": 0,
+            "image":"hero/46.png",
+            "image2":"hero/a46.png",
+            "attackt":540,
+            "rx":-8,
+            "sx":103, "sy":0,
+            "bx":118, "by":0,
+            "lx":170, "ly":126,
+            "px":83,
+            "animations":[
+                          {"rect":[0,0,301,210], "label":"stand", "interval":90},
+                          {"rect":[301,0,301,210], "interval":90},
+                          {"rect":[602,0,301,210], "interval":90},
+                          {"rect":[903,0,301,210], "jump":"stand", "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,301,210], "label":"attack", "interval":60},
+                           {"rect":[301,0,301,210], "interval":60},
+                           {"rect":[602,0,301,210], "interval":60},
+                           {"rect":[903,0,301,210], "interval":60},
+                           {"rect":[1204,0,301,210], "interval":60},
+                           {"rect":[0,210,301,210], "interval":60},
+                           {"rect":[301,210,301,210], "interval":60},
+                           {"rect":[602,210,301,210], "interval":60},
+                           {"rect":[903,210,301,210], "interval":60}
+                           ]
+        },
+        "47":{"id": 47, "herotype":1, "width":315, "height":253, "mx":-158, "my": 0,
+            "image":"hero/47.png",
+            "image2":"hero/a47.png",
+            "attackt":360,
+            "rx":2,
+            "sx":108, "sy":0,
+            "bx":124, "by":0,
+            "lx":176, "ly":126,
+            "px":84,
+            "animations":[
+                          {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                          {"rect":[315,0,315,253], "interval":90},
+                          {"rect":[630,0,315,253], "interval":90},
+                          {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+                           {"rect":[315,0,315,253], "interval":72},
+                           {"rect":[630,0,315,253], "interval":72},
+                           {"rect":[945,0,315,253], "interval":72},
+                           {"rect":[1260,0,315,253], "interval":72}
+                           ]
+        },
+        "48":{"id": 48, "herotype":1, "width":315, "height":253, "mx":-142, "my": 0,
+            "image":"hero/48.png",
+            "image2":"hero/a48.png",
+            "attackt":420,
+            "rx":-30,
+            "sx":92, "sy":0,
+            "bx":108, "by":0,
+            "lx":160, "ly":126,
+            "px":68,
+            "animations":[
+                          {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                          {"rect":[315,0,315,253], "interval":90},
+                          {"rect":[630,0,315,253], "interval":90},
+                          {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+                          ],
+            "animations2":[
+                           {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+                           {"rect":[315,0,315,253], "interval":60},
+                           {"rect":[630,0,315,253], "interval":60},
+                           {"rect":[945,0,315,253], "interval":60},
+                           {"rect":[1260,0,315,253], "interval":60},
+                           {"rect":[0,253,315,253], "interval":60},
+                           {"rect":[315,253,315,253], "interval":60}
+                           ]
+        },
+        "49":{"id": 49, "herotype":2, "width":260, "height":210, "mx":-80, "my": 0,
+			"image":"hero/49.png",
+			"image2":"hero/a49.png",
+			"attackt":648,
+            "rx":-156,
+            "sx":28, "sy":0,
+            "bx":45, "by":0,
+            "lx":98, "ly":126,
+            "px":6,
+            "animations":[
+                          {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+                          {"rect":[260,0,260,210], "interval":90},
+                          {"rect":[520,0,260,210], "interval":90},
+                          {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+                          ],
+			"animations2":[
+                           {"rect":[0,0,260,210], "label":"attack",  "interval":60},
+                           {"rect":[260,0,260,210], "interval":60},
+                           {"rect":[520,0,260,210], "interval":60},
+                           {"rect":[780,0,260,210], "interval":60},
+                           {"rect":[1040,0,260,210], "interval":60},
+                           {"rect":[0,210,260,210], "interval":60},
+                           {"rect":[260,210,260,210], "interval":60},
+                           {"rect":[520,210,260,210], "interval":60},
+                           {"rect":[780,210,260,210], "interval":60}
+                           ]
+        },
+        "50":{"id": 50, "herotype":2, "width":315, "height":253, "mx":-76, "my": 0,
+            "image":"hero/50.png",
+            "image2":"hero/a50.png",
+            "attackt":600,
+            "rx":-162,
+            "sx":26, "sy":0,
+            "bx":42, "by":0,
+            "lx":94, "ly":126,
+            "px":2,
+            "animations":[
+                          {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+                          {"rect":[315,0,315,253], "interval":90},
+                          {"rect":[630,0,315,253], "interval":90},
+                          {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+                          ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+             {"rect":[315,0,315,253], "interval":60},
+             {"rect":[630,0,315,253], "interval":60},
+             {"rect":[945,0,315,253], "interval":60},
+             {"rect":[1260,0,315,253], "interval":60},
+             {"rect":[0,253,315,253], "interval":60},
+             {"rect":[315,253,315,253], "interval":60},
+             {"rect":[630,253,315,253], "interval":60},
+             {"rect":[945,253,315,253], "interval":60},
+             {"rect":[1260,253,315,253], "interval":60}
+             ]
+        },
+        "51":
+        {
+            "id":51, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-110, 
+            "my":0,
+			"image":"hero/51.png",
+			"image2":"hero/a51.png",
+			"attackt":400,
+            "rx":-96,
+            "sx":58, 
+            "sy":0,
+            "bx":75, 
+            "by":0,
+            "lx":128, 
+            "ly":126,
+            "px":36,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80}
+             ]
+        },
+        "52":
+        {
+            "id":52, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-142, 
+            "my":0,
+            "image":"hero/52.png",
+            "image2":"hero/a52.png",
+            "attackt":504,
+            "rx":-30,
+            "sx":92, 
+            "sy":0,
+            "bx":108, 
+            "by":0,
+            "lx":160, 
+            "ly":126,
+            "px":68,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72}
+             ]
+        },
+        "53":
+        {
+            "id":53, 
+            "herotype":2, 
+            "width":260, 
+            "height":210, 
+            "mx":-90, 
+            "my":0,
+			"image":"hero/53.png",
+			"image2":"hero/a53.png",
+			"attackt":680,
+            "rx":-136,
+            "sx":38, 
+            "sy":0,
+            "bx":55, 
+            "by":0,
+            "lx":108, 
+            "ly":126,
+            "px":16,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80},
+             {"rect":[0,210,260,210], "interval":80},
+             {"rect":[260,210,260,210], "interval":80},
+             {"rect":[520,210,260,210], "interval":120}
+             ]
+        },
+        "54":
+        {
+            "id":54, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-142, 
+            "my":0,
+            "image":"hero/54.png",
+            "image2":"hero/a54.png",
+            "attackt":660,
+            "rx":-30,
+            "sx":92, 
+            "sy":0,
+            "bx":108, 
+            "by":0,
+            "lx":160, 
+            "ly":126,
+            "px":68,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+             {"rect":[315,0,315,253], "interval":60},
+             {"rect":[630,0,315,253], "interval":60},
+             {"rect":[945,0,315,253], "interval":60},
+             {"rect":[1260,0,315,253], "interval":60},
+             {"rect":[0,253,315,253], "interval":60},
+             {"rect":[315,253,315,253], "interval":60},
+             {"rect":[630,253,315,253], "interval":80},
+             {"rect":[945,253,315,253], "interval":80},
+             {"rect":[1260,253,315,253], "interval":80}
+             ]
+        },
+        "55":
+        {
+            "id":55, 
+            "herotype":2, 
+            "width":315, 
+            "height":253, 
+            "mx":-112, 
+            "my":0,
+            "image":"hero/55.png",
+            "image2":"hero/a55.png",
+            "attackt":540,
+            "rx":-90,
+            "sx":62, 
+            "sy":0,
+            "bx":78, 
+            "by":0,
+            "lx":130, 
+            "ly":126,
+            "px":38,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+             {"rect":[315,0,315,253], "interval":60},
+             {"rect":[630,0,315,253], "interval":60},
+             {"rect":[945,0,315,253], "interval":60},
+             {"rect":[1260,0,315,253], "interval":60},
+             {"rect":[0,253,315,253], "interval":60},
+             {"rect":[315,253,315,253], "interval":60},
+             {"rect":[630,253,315,253], "interval":60},
+             {"rect":[945,253,315,253], "interval":60}
+             ]
+        },
+        "56":
+        {
+            "id":56, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-142, 
+            "my":0,
+            "image":"hero/56.png",
+            "image2":"hero/a56.png",
+            "attackt":420,
+            "rx":-30,
+            "sx":92, 
+            "sy":0,
+            "bx":108, 
+            "by":0,
+            "lx":160, 
+            "ly":126,
+            "px":68,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":60},
+             {"rect":[315,0,315,253], "interval":60},
+             {"rect":[630,0,315,253], "interval":60},
+             {"rect":[945,0,315,253], "interval":60},
+             {"rect":[1260,0,315,253], "interval":60},
+             {"rect":[0,253,315,253], "interval":60},
+             {"rect":[315,253,315,253], "interval":60}
+             ]
+        },
+        "57":
+        {
+            "id":57, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-82, 
+            "my":0,
+            "image":"hero/57.png",
+            "image2":"hero/a57.png",
+            "attackt":720,
+            "rx":-150,
+            "sx":32, 
+            "sy":0,
+            "bx":48, 
+            "by":0,
+            "lx":100, 
+            "ly":126,
+            "px":8,
+            "ax":-36,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":80},
+             {"rect":[315,0,315,253], "interval":80},
+             {"rect":[630,0,315,253], "interval":80},
+             {"rect":[945,0,315,253], "interval":80},
+             {"rect":[1260,0,315,253], "interval":80},
+             {"rect":[0,253,315,253], "interval":80},
+             {"rect":[315,253,315,253], "interval":80},
+             {"rect":[630,253,315,253], "interval":80},
+             {"rect":[945,253,315,253], "interval":80}
+             ]
+        },
+        "58":
+        {
+            "id":58, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-98, 
+            "my":0,
+            "image":"hero/58.png",
+            "image2":"hero/a58.png",
+            "attackt":880,
+            "rx":-118,
+            "sx":48, 
+            "sy":0,
+            "bx":64, 
+            "by":0,
+            "lx":116, 
+            "ly":126,
+            "px":24,
+            "ax":-50,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":80},
+             {"rect":[315,0,315,253], "interval":80},
+             {"rect":[630,0,315,253], "interval":80},
+             {"rect":[945,0,315,253], "interval":80},
+             {"rect":[1260,0,315,253], "interval":80},
+             {"rect":[0,253,315,253], "interval":80},
+             {"rect":[315,253,315,253], "interval":80},
+             {"rect":[630,253,315,253], "interval":80},
+             {"rect":[945,253,315,253], "interval":80},
+             {"rect":[1260,253,315,253], "interval":80}
+             ]
+        },
+        "59":
+        {
+            "id":59, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-132, 
+            "my":0,
+            "image":"hero/59.png",
+            "image2":"hero/a59.png",
+            "attackt":640,
+            "rx":-50,
+            "sx":82, 
+            "sy":0,
+            "bx":98, 
+            "by":0,
+            "lx":150, 
+            "ly":126,
+            "px":58,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":80},
+             {"rect":[315,0,315,253], "interval":80},
+             {"rect":[630,0,315,253], "interval":80},
+             {"rect":[945,0,315,253], "interval":80},
+             {"rect":[1260,0,315,253], "interval":80},
+             {"rect":[0,253,315,253], "interval":80},
+             {"rect":[315,253,315,253], "interval":80},
+             {"rect":[630,253,315,253], "interval":80}
+             ]
+        },
+        "60":
+        {
+            "id":60, 
+            "herotype":1, 
+            "width":260, 
+            "height":210, 
+            "mx":-120, 
+            "my":0,
+			"image":"hero/60.png",
+			"image2":"hero/a60.png",
+			"attackt":480,
+            "rx":-76,
+            "sx":68, 
+            "sy":0,
+            "bx":85, 
+            "by":0,
+            "lx":138, 
+            "ly":126,
+            "px":46,
+            "animations":
+            [
+             {"rect":[0,0,260,210], "label":"stand",  "interval":90},
+             {"rect":[260,0,260,210], "interval":90},
+             {"rect":[520,0,260,210], "interval":90},
+             {"rect":[780,0,260,210], "jump":"stand",  "interval":90}
+             ],
+			"animations2":
+            [
+             {"rect":[0,0,260,210], "label":"attack",  "interval":80},
+             {"rect":[260,0,260,210], "interval":80},
+             {"rect":[520,0,260,210], "interval":80},
+             {"rect":[780,0,260,210], "interval":80},
+             {"rect":[1040,0,260,210], "interval":80},
+             {"rect":[0,210,260,210], "interval":80}
+             ]
+        },
+        "61":
+        {
+            "id": 61, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-112, 
+            "my": 0,
+            "image":"hero/61.png",
+            "image2":"hero/a61.png",
+            "attackt":480,
+            "rx":-90,
+            "sx":62, 
+            "sy":0,
+            "bx":78, 
+            "by":0,
+            "lx":130, 
+            "ly":126,
+            "px":38,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":80},
+             {"rect":[315,0,315,253], "interval":80},
+             {"rect":[630,0,315,253], "interval":80},
+             {"rect":[945,0,315,253], "interval":80},
+             {"rect":[1260,0,315,253], "interval":80},
+             {"rect":[0,253,315,253], "interval":80}
+             ]
+        },
+        "62":{
+            "id": 62, 
+            "herotype":1, 
+            "width":315, 
+            "height":253, 
+            "mx":-158, 
+            "my": 0,
+            "image":"hero/62.png",
+            "image2":"hero/a62.png",
+            "attackt":480,
+            "rx":2,
+            "sx":108, 
+            "sy":0,
+            "bx":124, 
+            "by":0,
+            "lx":176, 
+            "ly":126,
+            "px":84,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":80},
+             {"rect":[315,0,315,253], "interval":80},
+             {"rect":[630,0,315,253], "interval":80},
+             {"rect":[945,0,315,253], "interval":80},
+             {"rect":[1260,0,315,253], "interval":80},
+             {"rect":[0,253,315,253], "interval":80}
+             ]
+        },
+        "63":{
+            "id": 63, 
+            "herotype":2, 
+            "width":315, 
+            "height":253, 
+            "mx":-88, 
+            "my": 0,
+            "image":"hero/63.png",
+            "image2":"hero/a63.png",
+            "attackt":700,
+            "rx":-138,
+            "sx":38, 
+            "sy":0,
+            "bx":54, 
+            "by":0,
+            "lx":106, 
+            "ly":126,
+            "px":14,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":100},
+             {"rect":[315,0,315,253], "interval":100},
+             {"rect":[630,0,315,253], "interval":100},
+             {"rect":[945,0,315,253], "interval":100},
+             {"rect":[1260,0,315,253], "interval":100},
+             {"rect":[0,253,315,253], "interval":100},
+             {"rect":[315,253,315,253], "interval":100}
+             ]
+        },
+        "64":{"id":64,
+        	"herotype":1,
+        	"width":315,
+        	"height":253,
+        	"mx":-122,
+        	"my":0,
+            "image":"hero/64.png",
+            "image2":"hero/a64.png",
+            "attackt":432,
+            "rx":-70,
+            "sx":72,
+            "sy":0,
+            "bx":88,
+            "by":0,
+            "lx":140,
+            "ly":126,
+            "px":48,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72}
+             ]
+        },
+        "65":{
+        	"id":65,
+        	"herotype":1,
+        	"width":315,
+        	"height":253,
+        	"mx":-172,
+        	"my":6,
+            "image":"hero/65.png",
+            "image2":"hero/a65.png",
+            "attackt":728,
+            "rx":30,
+            "sx":122,
+            "sy":0,
+            "bx":138,
+            "by":0,
+            "lx":190,
+            "ly":126,
+            "px":98,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72}
+             ]
+        },
+        "66":{
+        	"id":66,
+        	"herotype":1,
+        	"width":315,
+        	"height":253,
+        	"mx":-152,
+        	"my":0,
+            "image":"hero/66.png",
+            "image2":"hero/a66.png",
+            "attackt":864,
+            "rx":-10,
+            "sx":102,
+            "sy":0,
+            "bx":118,
+            "by":0,
+            "lx":170,
+            "ly":126,
+            "px":78,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72}
+             ]
+        },
+        "67":{
+        	"id":67,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-112,
+        	"my":0,
+            "image":"hero/67.png",
+            "image2":"hero/a67.png",
+            "attackt":792,
+            "rx":-90,
+            "sx":62,
+            "sy":0,
+            "bx":78,
+            "by":0,
+            "lx":130,
+            "ly":126,
+            "px":38,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72}
+             ]
+        },
+        "68":{
+        	"id":68,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-88,
+        	"my":0,
+            "image":"hero/68.png",
+            "image2":"hero/a68.png",
+            "attackt":864,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72},
+             {"rect":[1260,253,315,253], "interval":72},
+             {"rect":[0,506,315,253], "interval":72},
+             {"rect":[315,506,315,253], "interval":72}
+             ]
+        },
+        "69":{
+        	"id":69,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-110,
+        	"my":0,
+            "image":"hero/69.png",
+            "image2":"hero/a69.png",
+            "attackt":864,
+            "rx":-94,
+            "sx":60,
+            "sy":0,
+            "bx":76,
+            "by":0,
+            "lx":128,
+            "ly":126,
+            "px":36,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72},
+             {"rect":[1260,253,315,253], "interval":72},
+             {"rect":[0,506,315,253], "interval":72},
+             {"rect":[315,506,315,253], "interval":72}
+             ]
+        },
+        "70":{
+        	"id":70,
+        	"herotype":1,
+        	"width":315,
+        	"height":253,
+        	"mx":-142,
+        	"my":4,
+            "image":"hero/70.png",
+            "image2":"hero/a70.png",
+            "attackt":720,
+            "rx":-28,
+            "sx":94,
+            "sy":0,
+            "bx":110,
+            "by":0,
+            "lx":160,
+            "ly":126,
+            "px":70,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72},
+             {"rect":[1260,253,315,253], "interval":72}
+             ]
+        },
+        "71":{
+        	"id":71,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-58,
+        	"my":0,
+            "image":"hero/71.png",
+            "image2":"hero/a71.png",
+            "attackt":1224,
+            "rx":-198,
+            "sx":8,
+            "sy":0,
+            "bx":24,
+            "by":0,
+            "lx":76,
+            "ly":126,
+            "px":-16,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72},
+             {"rect":[1260,253,315,253], "interval":72}
+             ]
+        },
+        "72":{
+        	"id":72,
+        	"herotype":1,
+        	"width":315,
+        	"height":253,
+        	"mx":-88,
+        	"my":0,
+            "image":"hero/72.png",
+            "image2":"hero/a72.png",
+            "attackt":648,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72}
+             ]
+        },
+        "73":{
+        	"id":73,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-52,
+        	"my":0,
+            "image":"hero/73.png",
+            "image2":"hero/a73.png",
+            "attackt":648,
+            "rx":-210,
+            "sx":2,
+            "sy":0,
+            "bx":18,
+            "by":0,
+            "lx":70,
+            "ly":126,
+            "px":-22,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72}
+             ]
+        },
+        "74":{
+        	"id":74,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-94,
+        	"my":0,
+            "image":"hero/74.png",
+            "image2":"hero/a74.png",
+            "attackt":792,
+            "rx":-126,
+            "sx":44,
+            "sy":0,
+            "bx":60,
+            "by":0,
+            "lx":112,
+            "ly":126,
+            "px":20,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72},
+             {"rect":[1260,253,315,253], "interval":72},
+             {"rect":[0,506,315,253], "interval":72}
+             ]
+        },
+        "75":{
+        	"id":75,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-108,
+        	"my":20,
+            "image":"hero/75.png",
+            "image2":"hero/a75.png",
+            "attackt":585,
+            "rx":-98,
+            "sx":58,
+            "sy":0,
+            "bx":74,
+            "by":0,
+            "lx":126,
+            "ly":126,
+            "px":34,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":80}
+             ]
+        },
+        "76":{
+        	"id":76,
+        	"herotype":2,
+        	"width":315,
+        	"height":253,
+        	"mx":-78,
+        	"my":10,
+            "image":"hero/76.png",
+            "image2":"hero/a76.png",
+            "attackt":648,
+            "rx":-158,
+            "sx":28,
+            "sy":0,
+            "bx":44,
+            "by":0,
+            "lx":96,
+            "ly":126,
+            "px":4,
+            "animations":
+            [
+             {"rect":[0,0,315,253], "label":"stand",  "interval":90},
+             {"rect":[315,0,315,253], "interval":90},
+             {"rect":[630,0,315,253], "interval":90},
+             {"rect":[945,0,315,253], "jump":"stand",  "interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253], "label":"attack",  "interval":72},
+             {"rect":[315,0,315,253], "interval":72},
+             {"rect":[630,0,315,253], "interval":72},
+             {"rect":[945,0,315,253], "interval":72},
+             {"rect":[1260,0,315,253], "interval":72},
+             {"rect":[0,253,315,253], "interval":72},
+             {"rect":[315,253,315,253], "interval":72},
+             {"rect":[630,253,315,253], "interval":72},
+             {"rect":[945,253,315,253], "interval":72}
+             ]
+        },
+        "77":
+        {
+            "id":77,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-130,
+            "my":10,
+            "attackt":648,
+            "rx":-54,
+            "sx":80,
+            "sy":0,
+            "bx":96,
+            "by":0,
+            "lx":158,
+            "ly":126,
+            "ly":56,
+            "animations":
+            [
+             {"rect":[0,0,315,253],"label":"stand","interval":90},
+             {"rect":[315,0,315,253],"interval":90},
+             {"rect":[630,0,315,253],"interval":90},
+             {"rect":[945,0,315,253],"jump":"stand","interval":90}
+             ],
+            "animations2":
+            [
+             {"rect":[0,0,315,253],"label":"attack","interval":72},
+             {"rect":[315,0,315,253],"interval":72},
+             {"rect":[630,0,315,253],"interval":72},
+             {"rect":[945,0,315,253],"interval":72},
+             {"rect":[1260,0,315,253],"interval":72},
+             {"rect":[0,253,315,253],"interval":72},
+             {"rect":[315,253,315,253],"interval":72},
+             {"rect":[630,253,315,253],"interval":72},
+             {"rect":[945,253,315,253],"interval":72}
+             ]
+        },
+        
+        "78":
+        {
+            "id":78,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-152,
+            "my":0,
+            "attackt":420,
+            "rx":-10,
+            "sx":102,
+            "sy":0,
+            "bx":118,
+            "by":0,
+            "lx":170,
+            "ly":126,
+            "px":78,
+            "animations2":
+            [
+             {"rect":[0, 0, 315, 253],"label":"attack","interval":60},
+             {"rect":[315, 0, 315, 253],"interval":60},
+             {"rect":[630, 0, 315, 253],"interval":60},
+             {"rect":[945, 0, 315, 253],"interval":60},
+             {"rect":[1260, 0, 315, 253],"interval":60},
+             {"rect":[0, 253, 315, 253],"interval":60},
+             {"rect":[315, 253, 315, 253],"interval":60}
+            ]
+        },
+        "79":
+        {
+            "id":79,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-112,
+            "my":0,
+            "attackt":960,
+            "rx":-90,
+            "sx":62,
+            "sy":0,
+            "bx":78,
+            "by":0,
+            "lx":130,
+            "ly":126,
+            "px":38,
+            "animations2":
+            [
+             {"rect":[0, 0, 315, 253],"label":"attack","interval":60},
+             {"rect":[315, 0, 315, 253],"interval":60},
+             {"rect":[630, 0, 315, 253],"interval":60},
+             {"rect":[945, 0, 315, 253],"interval":60},
+             {"rect":[1260, 0, 315, 253],"interval":60},
+             {"rect":[0, 253, 315, 253],"interval":60},
+             {"rect":[315, 253, 315, 253],"interval":80},
+             {"rect":[630, 253, 315, 253],"interval":80},
+             {"rect":[945, 253, 315, 253],"interval":80},
+             {"rect":[1260, 253, 315, 253],"interval":80},
+             {"rect":[0, 506, 315, 253],"interval":80}
+            ]
+        },
+        "80":
+        {
+            "id":80,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-102,
+            "my":0,
+            "attackt":720,
+            "rx":-110,
+            "sx":52,
+            "sy":0,
+            "bx":68,
+            "by":0,
+            "lx":120,
+            "ly":126,
+            "px":28,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                {"rect":[315, 253, 315, 253],"interval":72},
+                {"rect":[630, 253, 315, 253],"interval":72},
+                {"rect":[945, 253, 315, 253],"interval":72},
+                {"rect":[1260, 253, 315, 253], "interval":72}
+            ]
+        },
+        "81":
+        {
+            "id":81,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-102,
+            "my":0,
+            "attackt":560,
+            "rx":-110,
+            "sx":52,
+            "sy":0,
+            "bx":68,
+            "by":0,
+            "lx":120,
+            "ly":126,
+            "px":28,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":80},
+                {"rect":[315, 0, 315, 253],"interval":80},
+                {"rect":[630, 0, 315, 253],"interval":80},
+                {"rect":[945, 0, 315, 253],"interval":80},
+                {"rect":[1260, 0, 315, 253],"interval":80},
+                {"rect":[0, 253, 315, 253],"interval":80},
+                {"rect":[315, 253, 315, 253],"interval":80}
+            ]
+        },
+        "82":
+        {
+            "id":82,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-82,
+            "my":0,
+            "attackt":792,
+            "rx":-150,
+            "sx":32,
+            "sy":0,
+            "bx":48,
+            "by":0,
+            "lx":100,
+            "ly":126,
+            "px":8,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                {"rect":[315, 253, 315, 253],"interval":72},
+                {"rect":[630, 253, 315, 253],"interval":72},
+                {"rect":[945, 253, 315, 253],"interval":72},
+                {"rect":[1260, 253, 315, 253],"interval":72},
+                {"rect":[0, 506, 315, 253],"interval":72}
+           ]
+        },
+        "83":
+        {
+            "id":83,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-122,
+            "my":0,
+            "attackt":480,
+            "rx":-70,
+            "sx":72,
+            "sy":0,
+            "bx":88,
+            "by":0,
+            "lx":140,
+            "ly":126,
+            "px":48,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":80},
+                {"rect":[315, 0, 315, 253],"interval":80},
+                {"rect":[630, 0, 315, 253],"interval":80},
+                {"rect":[945, 0, 315, 253],"interval":80},
+                {"rect":[1260, 0, 315, 253],"interval":80},
+                {"rect":[0, 253, 315, 253],"interval":80}
+             ]
+        },
+        "84":
+        {
+            "id":84,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-122,
+            "my":0,
+            "attackt":720,
+            "rx":-70,
+            "sx":72,
+            "sy":0,
+            "bx":88,
+            "by":0,
+            "lx":140,
+            "ly":126,
+            "px":48,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                {"rect":[315, 253, 315, 253],"interval":72},
+                {"rect":[630, 253, 315, 253],"interval":72},
+                {"rect":[945, 253, 315, 253],"interval":72},
+                {"rect":[1260, 253, 315, 253],"interval":72}
+            ]
+        },
+        "85":
+        {
+            "id":85,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-142,
+            "my":0,
+            "attackt":720,
+            "rx":-30,
+            "sx":92,
+            "sy":0,
+            "bx":108,
+            "by":0,
+            "lx":160,
+            "ly":126,
+            "px":68,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":80},
+                {"rect":[315, 0, 315, 253],"interval":80},
+                {"rect":[630, 0, 315, 253],"interval":80},
+                {"rect":[945, 0, 315, 253],"interval":80},
+                {"rect":[1260, 0, 315, 253],"interval":80},
+                {"rect":[0, 253, 315, 253],"interval":80},
+                {"rect":[315, 253, 315, 253],"interval":80},
+                {"rect":[630, 253, 315, 253],"interval":80},
+                {"rect":[945, 253, 315, 253],"interval":80}
+            ]
+        },
+        "86":
+        {
+            "id":86,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-122,
+            "my":0,
+            "attackt":720,
+            "rx":-70,
+            "sx":72,
+            "sy":0,
+            "bx":88,
+            "by":0,
+            "lx":140,
+            "ly":126,
+            "px":48,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":80},
+                {"rect":[315, 0, 315, 253],"interval":80},
+                {"rect":[630, 0, 315, 253],"interval":80},
+                {"rect":[945, 0, 315, 253],"interval":80},
+                {"rect":[1260, 0, 315, 253],"interval":80},
+                {"rect":[0, 253, 315, 253],"interval":80},
+                {"rect":[315, 253, 315, 253],"interval":80},
+                {"rect":[630, 253, 315, 253],"interval":80},
+                {"rect":[945, 253, 315, 253],"interval":80}
+             ]
+        },
+        "87":
+        {
+            "id":87,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-108,
+            "my":0,
+            "attackt":720,
+            "rx":-98,
+            "sx":58,
+            "sy":0,
+            "bx":74,
+            "by":0,
+            "lx":126,
+            "ly":126,
+            "px":34,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                           {
+                           "rect":[315, 253, 315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253, 315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 253, 315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 253, 315, 253],
+                           "interval":72
+                           }
+           ]
+        },
+        "88":
+        {
+            "id":88,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-138,
+            "my":0,
+            "attackt":576,
+            "rx":-38,
+            "sx":88,
+            "sy":0,
+            "bx":104,
+            "by":0,
+            "lx":156,
+            "ly":126,
+            "px":64,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                {"rect":[315, 253, 315, 253],"interval":72},
+                {"rect":[630, 253, 315, 253],"interval":72}
+            ]
+        },
+        "89":
+        {
+            "id":89,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-108,
+            "my":14,
+            "attackt":648,
+            "rx":-98,
+            "sx":58,
+            "sy":0,
+            "bx":74,
+            "by":0,
+            "lx":126,
+            "ly":126,
+            "px":34,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":7},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                {"rect":[315, 253, 315, 253],"interval":72},
+                {"rect":[630, 253, 315, 253],"interval":72},
+                {"rect":[945, 253, 315, 253],"interval":72}
+            ]
+        },
+        "90":
+        {
+            "id":90,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-118,
+            "my":10,
+            "attackt":648,
+            "rx":-78,
+            "sx":68,
+            "sy":0,
+            "bx":84,
+            "by":0,
+            "lx":136,
+            "ly":126,
+            "px":44,
+            "animations2":
+            [
+                {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+                {"rect":[315, 0, 315, 253],"interval":72},
+                {"rect":[630, 0, 315, 253],"interval":72},
+                {"rect":[945, 0, 315, 253],"interval":72},
+                {"rect":[1260, 0, 315, 253],"interval":72},
+                {"rect":[0, 253, 315, 253],"interval":72},
+                {"rect":[315, 253, 315, 253],"interval":72},
+                {"rect":[630, 253, 315, 253],"interval":72},
+                {"rect":[945, 253, 315, 253],"interval":72}
+             ]
+        },
+        "91":
+        {
+            "id":91,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-88,
+            "my":0,
+            "attackt":864,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "ax":-50,
+            "animations2":
+            [
+              {"rect":[0, 0, 315, 253],"label":"attack","interval":72},
+              {"rect":[315, 0, 315, 253],"interval":72},
+              {"rect":[630, 0, 315, 253],"interval":72},
+              {"rect":[945, 0, 315, 253],"interval":72},
+              {"rect":[1260, 0, 315, 253],"interval":72},
+              {"rect":[0, 253, 315, 253],"interval":72},
+              {"rect":[315, 253, 315, 253],"interval":72},
+              {"rect":[630, 253, 315, 253],"interval":72},
+              {"rect":[945, 253, 315, 253],"interval":72},
+              {"rect":[1260, 253, 315, 253],"interval":72}
+            ]
+        },
+        "92":{
+            "id":92,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-112,
+            "my":0,
+            "attackt":560,
+            "rx":-90,
+            "sx":62,
+            "sy":0,
+            "bx":78,
+            "by":0,
+            "lx":130,
+            "ly":126,
+            "px":38,
+            "ax":-26,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":80
+                           }
+                           ]
+        },
+        "93":{
+            "id":93,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-102,
+            "my":0,
+            "attackt":480,
+            "rx":-110,
+            "sx":52,
+            "sy":0,
+            "bx":68,
+            "by":0,
+            "lx":120,
+            "ly":126,
+            "px":28,
+            "ax":-30,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":80
+                           }
+                           ]
+        },
+        "94":{
+            "id":94,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-144,
+            "my":12,
+            "attackt":400,
+            "rx":-26,
+            "sx":94,
+            "sy":0,
+            "bx":110,
+            "by":0,
+            "lx":162,
+            "ly":126,
+            "px":70,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           }
+                           ]
+        },
+        "95":{
+            "id":95,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-112,
+            "my":0,
+            "attackt":400,
+            "rx":-90,
+            "sx":62,
+            "sy":0,
+            "bx":78,
+            "by":0,
+            "lx":130,
+            "ly":126,
+            "px":38,
+            "ax":-20,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           }
+                           ]
+        },
+        "96":{
+            "id":96,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-108,
+            "my":0,
+            "attackt":480,
+            "rx":-98,
+            "sx":58,
+            "sy":0,
+            "bx":74,
+            "by":0,
+            "lx":126,
+            "ly":126,
+            "px":34,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":80
+                           }
+                           ]
+        },
+        "97":{
+            "id":97,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-88,
+            "my":0,
+            "attackt":640,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":80
+                           }
+                           ]
+        },
+        "98":{
+            "id":98,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-118,
+            "my":0,
+            "attackt":576,
+            "rx":-78,
+            "sx":68,
+            "sy":0,
+            "bx":84,
+            "by":0,
+            "lx":136,
+            "ly":126,
+            "px":44,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "99":{// 大BOSS，需要单独处理
+            "id":99,
+            "herotype":2,
+            "width":640,
+            "height":320,
+            "mx":-248,
+            "my":10,
+            "attackt":576,
+            "rx":-142,
+            "sx":198,
+            "sy":0,
+            "bx":214,
+            "by":0,
+            "lx":266,
+            "ly":126,
+            "px":174,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[640, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1280, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1920, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[2560, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 320],
+                           "interval":72
+                           },
+                           {
+                           "rect":[640, 320],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1280, 320],
+                           "interval":72
+                           }
+                           ]
+        },
+        "100":{
+            "id":100,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-118,
+            "my":-4,
+            "attackt":576,
+            "rx":-78,
+            "sx":68,
+            "sy":0,
+            "bx":84,
+            "by":0,
+            "lx":136,
+            "ly":126,
+            "px":44,
+            "ax":-20,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "101":{
+            "id":101,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-88,
+            "my":0,
+            "attackt":480,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "ax":-20,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":80
+                           }
+                           ]
+        },
+        "102":{
+            "id":102,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-108,
+            "my":16,
+            "attackt":504,
+            "rx":-98,
+            "sx":58,
+            "sy":0,
+            "bx":74,
+            "by":0,
+            "lx":126,
+            "ly":126,
+            "px":34,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "103":{
+            "id":103,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-134,
+            "my":0,
+            "attackt":504,
+            "rx":-46,
+            "sx":84,
+            "sy":0,
+            "bx":100,
+            "by":0,
+            "lx":152,
+            "ly":126,
+            "px":60,
+            "ax":-20,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "104":{
+            "id":104,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-88,
+            "my":0,
+            "attackt":504,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "105":{
+            "id":105,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-94,
+            "my":0,
+            "attackt":576,
+            "rx":-126,
+            "sx":44,
+            "sy":0,
+            "bx":60,
+            "by":0,
+            "lx":112,
+            "ly":126,
+            "px":20,
+            "ax":-40,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "106":{
+            "id":106,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-88,
+            "my":-2,
+            "attackt":576,
+            "rx":-138,
+            "sx":38,
+            "sy":0,
+            "bx":54,
+            "by":0,
+            "lx":106,
+            "ly":126,
+            "px":14,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "107":{
+            "id":107,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-148,
+            "my":4,
+            "attackt":576,
+            "rx":-18,
+            "sx":98,
+            "sy":0,
+            "bx":114,
+            "by":0,
+            "lx":166,
+            "ly":126,
+            "px":74,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "108":{
+            "id":108,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-102,
+            "my":0,
+            "attackt":576,
+            "rx":-110,
+            "sx":52,
+            "sy":0,
+            "bx":68,
+            "by":0,
+            "lx":120,
+            "ly":126,
+            "px":28,
+            "ax":-30,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "109":{
+            "id":109,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-118,
+            "my":4,
+            "attackt":576,
+            "rx":-78,
+            "sx":68,
+            "sy":0,
+            "bx":84,
+            "by":0,
+            "lx":136,
+            "ly":126,
+            "px":44,
+            "ax":-24,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "110":{
+            "id":110,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-118,
+            "my":2,
+            "attackt":576,
+            "rx":-78,
+            "sx":68,
+            "sy":0,
+            "bx":84,
+            "by":0,
+            "lx":136,
+            "ly":126,
+            "px":44,
+            "ax":-40,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "111":{
+            "id":111,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-68,
+            "my":0,
+            "attackt":576,
+            "rx":-178,
+            "sx":18,
+            "sy":0,
+            "bx":34,
+            "by":0,
+            "lx":86,
+            "ly":126,
+            "px":-6,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "112":{
+            "id":112,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-104,
+            "my":4,
+            "attackt":480,
+            "rx":-106,
+            "sx":54,
+            "sy":0,
+            "bx":70,
+            "by":0,
+            "lx":122,
+            "ly":126,
+            "px":30,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":80
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":80
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":80
+                           }
+                           ]
+        },
+        "113":{
+            "id":113,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-62,
+            "my":-4,
+            "attackt":576,
+            "rx":-190,
+            "sx":12,
+            "sy":0,
+            "bx":28,
+            "by":0,
+            "lx":80,
+            "ly":126,
+            "px":-12,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "114":{
+            "id":114,
+            "herotype":1,
+            "width":315,
+            "height":253,
+            "mx":-102,
+            "my":20,
+            "attackt":576,
+            "rx":-110,
+            "sx":52,
+            "sy":0,
+            "bx":68,
+            "by":0,
+            "lx":120,
+            "ly":126,
+            "px":28,
+            "ax":-50,
+            "animations2":[{
+                           "rect":[0, 0],
+                           "label":"attack",
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[945, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[1260, 0],
+                           "interval":72
+                           },
+                           {
+                           "rect":[0, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[315, 253],
+                           "interval":72
+                           },
+                           {
+                           "rect":[630, 253],
+                           "interval":72
+                           }
+                           ]
+        },
+        "115":{
+            "id":115,
+            "herotype":2,
+            "width":315,
+            "height":253,
+            "mx":-84,
+            "my":16,
+            "attackt":576,
+            "rx":-146,
+            "sx":34,
+            "sy":0,
+            "bx":50,
+            "by":0,
+            "lx":102,
+            "ly":126,
+            "px":10,
+            "ax":-20,
+            "animations2":
+            [
+                {"rect":[0,0],"label":"attack","interval":72},
+                {"rect":[315,0],"interval":72},
+                {"rect":[630,0],"interval":72},
+                {"rect":[945,0],"interval":72},
+                {"rect":[1260,0],"interval":72},
+                {"rect":[0,253],"interval":72},
+                {"rect":[315,253],"interval":72}
+            ]
+        },
+        "116":{//神赵云
+        "id":116,
+        "herotype":1,
+        "width":315,
+        "height":253,
+        "attackt": 576,
+        "mx":-96,
+        "my":10,
+        "rx":-122,
+        "sx":46,
+        "sy":0,
+        "bx":62,
+        "by":0,
+        "lx":114,
+        "ly":126,
+        "px":22,
+        "ax":0,
+        "animations2":
+            [
+                {"rect": [0, 0],"label": "attack","interval":72},
+                {"rect": [315, 0],"interval":72},
+                {"rect": [630, 0],"interval":72},
+                {"rect": [945, 0],"interval":72},
+                {"rect": [1260, 0],"interval":72},
+                {"rect": [0, 253],"interval":72},
+                {"rect": [315, 253],"interval":72}
+             ]
+        },
+        "117":{//小乔
+            "id": 117,
+            "herotype": 2,
+            "width": 315,
+            "height": 253,
+            "attackt":420,
+            "mx": -96,
+            "my": 10,
+            "rx": -122,
+            "sx": 46,
+            "sy": 0,
+            "bx": 62,
+            "by": 0,
+            "lx": 114,
+            "ly": 126,
+            "px": 22,
+            "ax": -40,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [315, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [630, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [945, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1260, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 253],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [315, 253],
+                            "interval": 60
+                            }
+                            ]
+        },
+        
+        
+        //四象圣域
+        "201" : {
+            "id": 201,
+            "herotype":2,
+            "width": 360,
+            "height": 180,
+            "mx": -102,
+            "my": 0,
+            "attackt": 640,
+            "rx": -140,
+            "sx": 52,
+            "sy": 0,
+            "bx": 68,
+            "by": 0,
+            "lx": 120,
+            "ly": 126,
+            "px": 28,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 80
+                            },
+                            {
+                            "rect": [360, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1080, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1440, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 180],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "202" : {
+            "id": 202,
+            "herotype": 2,
+            "width": 524,
+            "height": 262,
+            "mx": -142,
+            "my": 10,
+            "attackt": 480,
+            "rx": -230,
+            "sx": 92,
+            "sy": 0,
+            "bx": 108,
+            "by": 0,
+            "lx": 160,
+            "ly": 126,
+            "px": 68,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1572, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2096, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 262],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "203" : {
+            "id": 203,
+            "herotype": 2,
+            "width": 640,
+            "height": 320,
+            "mx": -188,
+            "my": 20,
+            "attackt": 480,
+            "rx": -262,
+            "sx": 138,
+            "sy": 0,
+            "bx": 154,
+            "by": 0,
+            "lx": 206,
+            "ly": 126,
+            "px": 114,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1920, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2560, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 320],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "204" : {
+            "id": 204,
+            "herotype":2,
+            "width": 360,
+            "height": 180,
+            "mx": -122,
+            "my": 10,
+            "attackt": 480,
+            "rx": -140,
+            "sx": 52,
+            "sy": 0,
+            "bx": 68,
+            "by": 0,
+            "lx": 120,
+            "ly": 126,
+            "px": 28,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1080, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1440, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 180],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "205" : {
+            "id": 205,
+            "herotype": 2,
+            "width": 524,
+            "height": 262,
+            "mx": -162,
+            "my": 10,
+            "attackt": 480,
+            "rx": -230,
+            "sx": 92,
+            "sy": 0,
+            "bx": 108,
+            "by": 0,
+            "lx": 160,
+            "ly": 126,
+            "px": 68,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1572, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2096, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 262],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "206" : {
+            "id": 206,
+            "herotype": 2,
+            "width": 640,
+            "height": 320,
+            "mx": -208,
+            "my": 20,
+            "attackt": 480,
+            "rx": -280,
+            "sx": 138,
+            "sy": 0,
+            "bx": 154,
+            "by": 0,
+            "lx": 206,
+            "ly": 126,
+            "px": 114,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1920, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2560, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 320],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "207" : {
+            "id": 207,
+            "herotype":2,
+            "width": 360,
+            "height": 180,
+            "mx": -102,
+            "my": 0,
+            "attackt": 480,
+            "rx": -140,
+            "sx": 52,
+            "sy": 0,
+            "bx": 68,
+            "by": 0,
+            "lx": 120,
+            "ly": 126,
+            "px": 28,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1080, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1440, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 180],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "208" : {
+            "id": 208,
+            "herotype": 2,
+            "width": 524,
+            "height": 262,
+            "mx": -142,
+            "my": 10,
+            "attackt": 480,
+            "rx": -230,
+            "sx": 92,
+            "sy": 0,
+            "bx": 108,
+            "by": 0,
+            "lx": 160,
+            "ly": 126,
+            "px": 68,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1572, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2096, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 262],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "209" : {
+            "id": 209,
+            "herotype": 2,
+            "width": 640,
+            "height": 320,
+            "mx": -188,
+            "my": 20,
+            "attackt": 480,
+            "rx": -262,
+            "sx": 138,
+            "sy": 0,
+            "bx": 154,
+            "by": 0,
+            "lx": 206,
+            "ly": 126,
+            "px": 114,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1920, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2560, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 320],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "210" : {
+            "id": 210,
+            "herotype":2,
+            "width": 360,
+            "height": 180,
+            "mx": -102,
+            "my": 20,
+            "attackt": 480,
+            "rx": -150,
+            "sx": 52,
+            "sy": 0,
+            "bx": 68,
+            "by": 0,
+            "lx": 120,
+            "ly": 126,
+            "px": 28,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1080, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1440, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [360, 180],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [720, 180],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "211" : {
+            "id": 211,
+            "herotype": 2,
+            "width": 524,
+            "height": 262,
+            "mx": -142,
+            "my": 24,
+            "attackt": 480,
+            "rx": -230,
+            "sx": 92,
+            "sy": 0,
+            "bx": 108,
+            "by": 0,
+            "lx": 160,
+            "ly": 126,
+            "px": 68,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1572, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2096, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [524, 262],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1048, 262],
+                            "interval": 60
+                            }
+                            ]
+        },
+        "212" : {
+            "id": 212,
+            "herotype": 2,
+            "width": 640,
+            "height": 320,
+            "mx": -188,
+            "my": 30,
+            "attackt": 480,
+            "rx": -300,
+            "sx": 138,
+            "sy": 0,
+            "bx": 154,
+            "by": 0,
+            "lx": 206,
+            "ly": 126,
+            "px": 114,
+            "animations2": [{
+                            "rect": [0, 0],
+                            "label": "attack",
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1920, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [2560, 0],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [0, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [640, 320],
+                            "interval": 60
+                            },
+                            {
+                            "rect": [1280, 320],
+                            "interval": 60
+                            }
+                            ]
+        }
+        
+        
+    }
+    
+}

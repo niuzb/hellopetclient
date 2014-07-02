@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect
+END
+ParticleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/ParticleManager.cpp
+END
+AParticleNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/AParticleNode.h
+END
+ComboLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/ComboLayer.h
+END
+EffectSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/EffectSprite.cpp
+END
+ParticleManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/ParticleManager.h
+END
+HeroParticleListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/HeroParticleListener.cpp
+END
+DamageValueEffect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/DamageValueEffect.cpp
+END
+EffectSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/EffectSprite.h
+END
+AParticleNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/AParticleNode.cpp
+END
+HeroEffectDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/HeroEffectDefine.h
+END
+ComboLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/ComboLayer.cpp
+END
+HeroParticleListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/HeroParticleListener.h
+END
+DamageValueEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Effect/DamageValueEffect.h
+END

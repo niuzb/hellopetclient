@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite
+END
+ElfSkillAttackState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfSkillAttackState.cpp
+END
+SpriteFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteFactory.cpp
+END
+SpriteElfLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfLayer.h
+END
+ElfExploreManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfExploreManager.cpp
+END
+ElfCloseToState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfCloseToState.cpp
+END
+SpriteElf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElf.h
+END
+ElfBaseState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfBaseState.cpp
+END
+ElfSkillAttackState.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfSkillAttackState.h
+END
+SpriteFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteFactory.h
+END
+ElfExploreManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfExploreManager.h
+END
+ElfCloseToState.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfCloseToState.h
+END
+ElfBaseState.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfBaseState.h
+END
+SpriteElfConfigFromLua.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfConfigFromLua.cpp
+END
+ElfChaseState.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfChaseState.cpp
+END
+SpriteElfConfigFromLua.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfConfigFromLua.h
+END
+ElfChaseState.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/ElfChaseState.h
+END
+SpriteElfDataCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfDataCenter.cpp
+END
+SpriteElfManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfManager.cpp
+END
+SpriteElfLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfLayer.cpp
+END
+SpriteElfDataCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfDataCenter.h
+END
+SpriteElf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElf.cpp
+END
+SpriteElfManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Sprite/SpriteElfManager.h
+END

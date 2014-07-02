@@ -1,0 +1,61 @@
+
+¾
+cs_basic.proto"4
+CSMessageHeader
+msg_name (	
+errcode ("7
+
+CSLoginReq
+uid (
+sid (	
+tokenid ("R
+
+CSLoginRsp
+tokenid (
+name (	
+
+lv (
+exp (
+type	 ("/
+CSCrtRoleReq
+name (	
+	role_type ("
+CSDelRoleReq"Z
+CSCrtRoleRsp
+tokenid (
+mapid (
+xpos (
+ypos (
+orient ("
+CSQueryShardReq"V
+CSServerBase
+desc (	
+
+ip (	
+port (
+online (
+newsvr ("T
+CSShardBase
+
+id (
+
+os (
+provider (
+svrs (2.CSServerBase"/
+CSQueryShardRsp
+shards (2.CSShardBase"
+FlushOnline
+online ("6
+FlushServer
+
+id (
+svrs (2.CSServerBase"
+	CSPingReq"(
+	CSPingRsp
+time (
+utime ("
+CSTaskAccept*<
+CSMessageConst
+cs_msg_min_size
+
+cs_msg_max_size€

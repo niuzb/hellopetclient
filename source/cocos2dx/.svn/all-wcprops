@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/1101077902/!svn/ver/928/hellopet/1/server/ahero/source/cocos2dx
+END
+build-win32.bat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/build-win32.bat
+END
+create-android-project.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/create-android-project.bat
+END
+install-templates-xcode.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/install-templates-xcode.sh
+END
+install-templates-msvc.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/install-templates-msvc.bat
+END
+create-android-project.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/create-android-project.sh
+END

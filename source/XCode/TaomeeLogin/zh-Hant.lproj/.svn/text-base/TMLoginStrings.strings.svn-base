@@ -1,0 +1,75 @@
+/* 
+  TMLoginStrings.strings
+  TaomeeLogin
+
+  Created by Delle on 12-11-13.
+  Copyright (c) 2012年 Taomee Inc. All rights reserved.
+*/
+"Language" = "cht";
+
+"SendToSina" = "分享";
+"SendToTencent" = "分享";
+"SendToTwitter" = "分享";
+"Sina" = "新浪微博";
+"Tencent" = "騰訊微博";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+
+"AccessError" = "訪問錯誤";
+"TitleClose" = "關閉";
+"FailedAtShare" = "分享時發生錯誤";
+"FailedAtAccessRequest" = "在%@請求訪問時發生錯誤";
+"AuthorizationIng" = "正在授權...";
+"FailedAuthoriza" = "授權錯誤";
+"FailedAuthorizaRequest" = "取消授權或授權時發生錯誤";
+
+"RequestError" = "請求錯誤";
+"FailedAtShareRequest" = "在%@請求授權發生錯誤";
+"Connectting" = "正在連接...";
+
+"AuthorizeFailed" = "不能授權，請重新登錄.";
+"FailedAtShareError" = "分享到%@發生錯誤:%@";
+"Error" = "錯誤";
+"RequestOverTime" = "請求超時，請重試！";
+"SendOverTime" = "連接超時, 請重試！";
+"ShareTo" = "分享到%@";
+"ShareComplete" = "分享成功";
+"OffLine" = "離線";
+"ShouldShareOnline" = "你必須在線才能分享到%@";
+"ShouldLoginOnline" = "你必須在線才能登錄到%@";
+"PassThisWhenAutoShare" = "選擇自動分享在將來跳過這一步.";
+"AutoShare" = "自動分享";
+"SendTo" = "發送到";
+
+"UserName" = "用戶名";
+"Password" = "密碼";
+"Login" = "登錄";
+
+"MessageTooLong" = "內容太長";
+"ExceedMaxLength" = "只能發送%d個文字。";
+"MessageIsEmpty" = "空字符串";
+"CannotMessageEmpty" = "不能發送空字符串。";
+"RepeatSendingTitle" = "重複髮送";
+"RepeatSending" = "不能髮送重複的內容";
+"ImageAttachment" = "還可以輸入字數：";
+"NO_NET_CONNECTED" = "你的設備現在無法連接網絡。請檢查您的網絡後，再次登錄，謝謝。";
+"OVER_LONG" = "已經超出字數:";
+// for login
+"GameLogin" = "遊戲登錄";
+"NativeLogin" = "本機登錄";
+"SinaWeiboLogin" = "新浪微博";
+"LoginHistory" = "登錄曆史";
+"Welcome" = "歡迎進入遊戲, 請選擇登錄方式";
+"Account" = "賬戶管理";
+"BtnBack" = "返回";
+"BtnCancel" = "取消";
+"BtnRetry" = "重試";
+"BtnDelete" = "删除";
+"BtnLogin" = "登錄";
+"DeleteTips" = "確定要刪除該賬號嗎？";
+"BtnManagement" = "賬戶管理";
+"NativeLoginTip" = "       歡迎進入%@，使用本機登錄模式，無需輸入賬號密碼。但您的遊戲數據將與當前設備綁定，暫時無法切換設備。";
+"SinaLoginTip" = "        歡迎進入%@, 遊戲將綁定您的新浪微博爲賬戶登錄遊戲。這樣您可以的其他移動設備上用此賬戶進行遊戲。";
+"Login" = "正在登錄...";
+"LoginSucc" = "登錄成功";
+"LoginFailed" = "連接超時，請重試！";

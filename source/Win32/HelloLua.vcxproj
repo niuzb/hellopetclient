@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{13E55395-94A2-4CD9-BFC2-1A051F80C17D}</ProjectGuid>
+    <RootNamespace>HelloLua.win32</RootNamespace>
+    <ProjectName>Adventure</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)HelloLua.tlb</TypeLibraryName>
+      <HeaderFileName>HelloLua.h</HeaderFileName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <InterfaceIdentifierFileName>HelloLua_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>HelloLua_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Classes\Client\Monster;$(ProjectDir)..\Classes;$(ProjectDir)..\cocos2dx\scripting\lua\cocos2dx_support;$(ProjectDir)..\cocos2dx\scripting\lua\lua;$(ProjectDir)..\cocos2dx\scripting\lua\tolua;$(ProjectDir)..\cocos2dx\scripting\lua\src;$(ProjectDir)..\cocos2dx\cocos2dx;$(ProjectDir)..\cocos2dx\cocos2dx\include;$(ProjectDir)..\cocos2dx\cocos2dx\kazmath\include;$(ProjectDir)..\cocos2dx\cocos2dx\platform;$(ProjectDir)..\cocos2dx\cocos2dx\platform\win32;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\iconv;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\libxml2;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\curl;$(ProjectDir)..\cocos2dx\extensions;$(ProjectDir)..\cocos2dx\cocos2dx\support;$(ProjectDir)..\cocos2dx\cocos2dx\support\zip_support;$(ProjectDir)..\cocos2dx\CocosDenshion\include;$(ProjectDir)..\libs\PageManager;$(ProjectDir)..\libs\PageManager\Resource;$(ProjectDir)..\libs\CrossPlatform;$(ProjectDir)..\libs\cocos2dx_support;$(ProjectDir)..\libs\TXGUI;$(ProjectDir)..\libs\TXGUI\Common;$(ProjectDir)..\libs\TXGUI\Controls;$(ProjectDir)..\libs\ASprite;$(ProjectDir)..\libs\tinyxml;$(ProjectDir)..\libs\ASprite\spriteDefine;$(ProjectDir)..\libs\Flash2Cocos2d-X;$(ProjectDir)..\libs\ProtoBuf\include\google\protobuf;$(ProjectDir)..\libs\ProtoBuf\include\;$(ProjectDir)..\Classes\Client\Tutorials;$(ProjectDir)..\Classes\Client\NPC;$(ProjectDir)..\Classes\Client;$(ProjectDir)..\Classes\Engine\SASprite;$(ProjectDir)..\Classes\Engine;$(ProjectDir)..\Classes\Engine\Level;$(ProjectDir)..\Classes\Engine\Level\Listener;$(ProjectDir)..\Classes\Engine\Sprite;$(ProjectDir)..\Classes\Engine\StateMachine;$(ProjectDir)..\Classes\Engine\SkillSys;$(ProjectDir)..\Classes\Engine\Map;$(ProjectDir)..\Classes\Engine\Effect;$(ProjectDir)..\Classes\Engine\Localization;$(ProjectDir)..\Classes\NetWork;$(ProjectDir)..\Classes\Client\GameManager;$(ProjectDir)..\Classes\Client\GUI;$(ProjectDir)..\Classes\Client\Misc;$(ProjectDir)..\Classes\Client\CharacterSelect;$(ProjectDir)..\Classes\Client\UILayer;$(ProjectDir)..\Classes\Client\Items;$(ProjectDir)..\Classes\Client\Task;$(ProjectDir)..\Classes\Client\Sprite;$(ProjectDir)..\Classes\Client\DressUp;$(ProjectDir)..\Classes\Client\ScriptSupport;$(ProjectDir)..\Classes\particleSystem;$(ProjectDir)..\Classes\Client\UILogic;$(ProjectDir)..\Classes\Client\UILogic\SkillUI;$(ProjectDir)..\Classes\Client\Story;$(ProjectDir)..\Classes\Engine\ScriptSupport;$(ProjectDir)..\Classes\Server;$(ProjectDir)..\Classes\Server\frontend</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_32BIT_TIME_T;COCOS2DXWIN32_EXPORTS;_EXPORT_DLL_;COCOS2D_DEBUG=1;GL_GLEXT_PROTOTYPES=1;inline=__inline;_CRT_SECURE_NO_WARNINGS;ZLIB_DLL;_CRTDBG_MAP_ALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ForcedIncludeFiles>AdvPch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;libxml2.lib;libzlib.lib;libiconv.lib;libcurl_imp.lib;libcocos2d.lib;libCocosDenshion.lib;libExtensions.lib;liblua.lib;Wininet.lib;ws2_32.lib;%(AdditionalDependencies);libprotoc.lib;libprotobuf-lite.lib;libprotobuf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);$(ProjectDir)..\libs\ProtoBuf\lib\Win32;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)HelloLua.tlb</TypeLibraryName>
+      <HeaderFileName>HelloLua.h</HeaderFileName>
+      <DllDataFileName>
+      </DllDataFileName>
+      <InterfaceIdentifierFileName>HelloLua_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>HelloLua_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Classes;$(ProjectDir)..\cocos2dx\scripting\lua\cocos2dx_support;$(ProjectDir)..\cocos2dx\scripting\lua\lua;$(ProjectDir)..\cocos2dx\scripting\lua\tolua;$(ProjectDir)..\cocos2dx\scripting\lua\src;$(ProjectDir)..\cocos2dx\cocos2dx;$(ProjectDir)..\cocos2dx\cocos2dx\include;$(ProjectDir)..\cocos2dx\cocos2dx\kazmath\include;$(ProjectDir)..\cocos2dx\cocos2dx\platform;$(ProjectDir)..\cocos2dx\cocos2dx\platform\win32;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\curl;$(ProjectDir)..\cocos2dx\cocos2dx\support;$(ProjectDir)..\cocos2dx\cocos2dx\support\zip_support;$(ProjectDir)..\cocos2dx\CocosDenshion\include;$(ProjectDir)..\libs\PageManager;$(ProjectDir)..\libs\PageManager\Resource;$(ProjectDir)..\libs\CrossPlatform;$(ProjectDir)..\libs\TXGUI;$(ProjectDir)..\libs\TXGUI\Common;$(ProjectDir)..\libs\TXGUI\Controls;$(ProjectDir)..\libs\ASprite;$(ProjectDir)..\libs\ASprite\spriteDefine;$(ProjectDir)..\Classes\Engine;$(ProjectDir)..\Classes\Engine\Level;$(ProjectDir)..\Classes\Engine\Sprite;$(ProjectDir)..\Classes\Client\NPC</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libzlib.lib;libcurl_imp.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;liblua.lib;Wininet.lib;ws2_32.lib;%(AdditionalDependencies);libprotoc.lib;libprotobuf-lite.lib;libprotobuf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);$(ProjectDir)..\libs\ProtoBuf\lib\Win32;$(ProjectDir)..\cocos2dx\cocos2dx\platform\third_party\win32\libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\Client\AreaItemNode.cpp" />
+    <ClCompile Include="..\Classes\Client\CharacterSelect\CharacterSelectLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\DressUp\DressUpManager.cpp" />
+    <ClCompile Include="..\Classes\Client\FrontCoverLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\GameConfigFromLuaManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\GameDataManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\HeroRoleManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\InstanceManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\ItemUpdateManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\LuaTinkerManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\MainLandManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\PvAIManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\TimeManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\XLogicManager.cpp" />
+    <ClCompile Include="..\Classes\Client\GameManager\SpriteDataManager.cpp" />
+    <ClCompile Include="..\Classes\Client\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Client\HeroFighter.cpp" />
+    <ClCompile Include="..\Classes\Client\Items\EquipmentItem.cpp" />
+    <ClCompile Include="..\Classes\Client\Items\GemStonesFromLua.cpp" />
+    <ClCompile Include="..\Classes\Client\Items\ItemBase.cpp" />
+    <ClCompile Include="..\Classes\Client\Items\ItemManager.cpp" />
+    <ClCompile Include="..\Classes\Client\LuaGameAPI.cpp" />
+    <ClCompile Include="..\Classes\Client\lua_tinker.cpp" />
+    <ClCompile Include="..\Classes\Client\Misc\MonsterData.cpp" />
+    <ClCompile Include="..\Classes\Client\Misc\UserData.cpp" />
+    <ClCompile Include="..\Classes\Client\Monster\MonsterHaozhu.cpp" />
+    <ClCompile Include="..\Classes\Client\Monster\MonsterSingleEffect.cpp" />
+    <ClCompile Include="..\Classes\Client\Monster\SpriteMonster.cpp" />
+    <ClCompile Include="..\Classes\Client\Monster\SpriteMonsterArcher.cpp" />
+    <ClCompile Include="..\Classes\Client\Monster\SpriteMonsterMgr.cpp" />
+    <ClCompile Include="..\Classes\Client\NPC\BoneNPCManager.cpp" />
+    <ClCompile Include="..\Classes\Client\NPC\NpcSprite.cpp" />
+    <ClCompile Include="..\Classes\Client\ScriptSupport\LuaClient.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\ElfBaseState.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\ElfChaseState.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\ElfCloseToState.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\ElfExploreManager.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\ElfSkillAttackState.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElf.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfConfigFromLua.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfDataCenter.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfManager.cpp" />
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteFactory.cpp" />
+    <ClCompile Include="..\Classes\Client\Story\InstanceDialogLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\Story\StoryData.cpp" />
+    <ClCompile Include="..\Classes\Client\Story\StoryDataCenter.cpp" />
+    <ClCompile Include="..\Classes\Client\Story\StoryInstanceDirector.cpp" />
+    <ClCompile Include="..\Classes\Client\Task\TaskConfigFromLuaManager.cpp" />
+    <ClCompile Include="..\Classes\Client\Task\TaskData.cpp" />
+    <ClCompile Include="..\Classes\Client\Task\TaskManager.cpp" />
+    <ClCompile Include="..\Classes\Client\TipMgr.cpp" />
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialBase.cpp" />
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialsDataCenter.cpp" />
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialsManager.cpp" />
+    <ClCompile Include="..\Classes\Client\Tutorials\UITutorial.cpp" />
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\AlchemyUILayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\AutoOnHook.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\BattleCoverLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\ChatToolbar.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\CityListLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\EquipmentUpgradeUILayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\EquipMixLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\ItemDragLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\BackPackLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\InstanceListLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\BattleUILayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\BattleWinLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\GameUILayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\LoadingLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\MainMenuLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\MessageBoxLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\PPVELayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\PVPLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\ShopUILayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\TalentLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\TaskChatLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\TaskListLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\UIMessageLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILayer\WaitingLayer.cpp" />
+    <ClCompile Include="..\Classes\Client\UILogic\SkillUI\SkillUIManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\BevTree\BevTree.cpp" />
+    <ClCompile Include="..\Classes\Engine\CameraController.cpp" />
+    <ClCompile Include="..\Classes\Engine\CCShake.cpp" />
+    <ClCompile Include="..\Classes\Engine\Effect\AParticleNode.cpp" />
+    <ClCompile Include="..\Classes\Engine\Effect\ComboLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\Effect\DamageValueEffect.cpp" />
+    <ClCompile Include="..\Classes\Engine\Effect\EffectSprite.cpp" />
+    <ClCompile Include="..\Classes\Engine\Effect\HeroParticleListener.cpp" />
+    <ClCompile Include="..\Classes\Engine\Effect\ParticleManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\Engine.cpp" />
+    <ClCompile Include="..\Classes\Engine\Event.cpp" />
+    <ClCompile Include="..\Classes\Engine\FloatHint.cpp" />
+    <ClCompile Include="..\Classes\Engine\GameAudioManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\GameManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\BaseLevelBuilder.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LevelBuilderCreator.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LevelBuilderNormalScene.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LevelBuilderRoom.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LevelLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LevelManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LevelObjectCreator.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\Listener\BaseListener.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteNpcPointListener.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteOtherSeerListener.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteSeerListener.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteTranspointListener.cpp" />
+    <ClCompile Include="..\Classes\Engine\Level\LuaLevelCreator.cpp" />
+    <ClCompile Include="..\Classes\Engine\Localization\Localization.cpp" />
+    <ClCompile Include="..\Classes\Engine\MapDataManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\Map\ATLMapInfo.cpp" />
+    <ClCompile Include="..\Classes\Engine\Map\ATLMapLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\Map\ATLObjectInfo.cpp" />
+    <ClCompile Include="..\Classes\Engine\Map\ATLObjectLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\Map\TileMap.cpp" />
+    <ClCompile Include="..\Classes\Engine\MathUtil.cpp" />
+    <ClCompile Include="..\Classes\Engine\MineManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\NameBkg.cpp" />
+    <ClCompile Include="..\Classes\Engine\NPC.cpp" />
+    <ClCompile Include="..\Classes\Engine\NPCManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\Painter.cpp" />
+    <ClCompile Include="..\Classes\Engine\SASprite\BoneAnimSprite.cpp" />
+    <ClCompile Include="..\Classes\Engine\SASprite\BoneSpriteBase.cpp" />
+    <ClCompile Include="..\Classes\Engine\SASprite\BoneSpriteMoveable.cpp" />
+    <ClCompile Include="..\Classes\Engine\SASprite\RoleActorBase.cpp" />
+    <ClCompile Include="..\Classes\Engine\SASprite\RoleBase.cpp" />
+    <ClCompile Include="..\Classes\Engine\SASprite\SkeletonAnimRcsManager.cpp" />
+    <ClCompile Include="..\Classes\Engine\SceneLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\ScriptSupport\LuaEngine.cpp" />
+    <ClCompile Include="..\Classes\Engine\SkillSys\ABoxAnimation.cpp" />
+    <ClCompile Include="..\Classes\Engine\SkillSys\AttackChecker.cpp" />
+    <ClCompile Include="..\Classes\Engine\SkillSys\SkillDispMgr.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\HSJoystick.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\MapObject.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\PhysicsLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\SpriteBase.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\SpriteSeer.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\SpriteTransPoint.cpp" />
+    <ClCompile Include="..\Classes\Engine\Sprite\TriggerObject.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\ApocalypseState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\AssassinationState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\BaseAttackState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\CalvingState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\ChopseriesState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\ExtremeSpeedState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\FAbstractTransition.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\FatalDarkKnivesState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\FStateMachine.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\GreatFireBallState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\IdleState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\InvincibilityState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\InvisibleKillerState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\IronDefenseState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\LinkTimeState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\NormalAttackState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\RunState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\simplefsm.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\SpecialAttackState.cpp" />
+    <ClCompile Include="..\Classes\Engine\StateMachine\TeleportState.cpp" />
+    <ClCompile Include="..\Classes\NetWork\cs_basic.pb.cc" />
+    <ClCompile Include="..\Classes\NetWork\cs_battle.pb.cc" />
+    <ClCompile Include="..\Classes\NetWork\cs_core.pb.cc" />
+    <ClCompile Include="..\Classes\NetWork\db.pb.cc" />
+    <ClCompile Include="..\Classes\NetWork\errcode.pb.cc" />
+    <ClCompile Include="..\Classes\NetWork\LuaNetwork.cpp" />
+    <ClCompile Include="..\Classes\NetWork\MessageCache.cpp" />
+    <ClCompile Include="..\Classes\NetWork\MessageFilter.cpp" />
+    <ClCompile Include="..\Classes\NetWork\MessageHandler.cpp" />
+    <ClCompile Include="..\Classes\NetWork\MessageLog.cpp" />
+    <ClCompile Include="..\Classes\NetWork\MessageUtil.cpp" />
+    <ClCompile Include="..\Classes\NetWork\NetStateChecker.cpp" />
+    <ClCompile Include="..\Classes\NetWork\NetWorkUtil.cpp" />
+    <ClCompile Include="..\Classes\NetWork\OnlineNetworkManager.cpp" />
+    <ClCompile Include="..\Classes\NetWork\PPVEMessage.cpp" />
+    <ClCompile Include="..\Classes\NetWork\PVPMessage.cpp" />
+    <ClCompile Include="..\Classes\particleSystem\particle_emitters.cpp" />
+    <ClCompile Include="..\Classes\particleSystem\particle_manager.cpp" />
+    <ClCompile Include="..\Classes\Server\base\EventHandler.cpp" />
+    <ClCompile Include="..\Classes\Server\base\Pathname.cpp" />
+    <ClCompile Include="..\Classes\Server\base\TimerEvent.cpp" />
+    <ClCompile Include="..\Classes\Server\battlefields\battlefield.cc" />
+    <ClCompile Include="..\Classes\Server\battlefields\battlehandlers.cc" />
+    <ClCompile Include="..\Classes\Server\battlefields\instance.cc" />
+    <ClCompile Include="..\Classes\Server\config\config.cc" />
+    <ClCompile Include="..\Classes\Server\entities\monster.cc" />
+    <ClCompile Include="..\Classes\Server\entities\object.cc" />
+    <ClCompile Include="..\Classes\Server\entities\skill.cc" />
+    <ClCompile Include="..\Classes\Server\frontend\explorer.cc" />
+    <ClCompile Include="..\Classes\Server\frontend\virtualplayer.cc" />
+    <ClCompile Include="..\Classes\Server\proto\protocodec.cc" />
+    <ClCompile Include="..\libs\ASprite\AnimSprite.cpp" />
+    <ClCompile Include="..\libs\ASprite\ASprite.cpp" />
+    <ClCompile Include="..\libs\ASprite\AspriteManager.cpp" />
+    <ClCompile Include="..\libs\ASprite\EnginePlayerManager.cpp" />
+    <ClCompile Include="..\libs\ASprite\GameEnginePlayer.cpp" />
+    <ClCompile Include="..\libs\cocos2dx_support\CCLuaEngine.cpp" />
+    <ClCompile Include="..\libs\cocos2dx_support\Cocos2dxLuaLoader.cpp" />
+    <ClCompile Include="..\libs\cocos2dx_support\LuaCocos2d.cpp" />
+    <ClCompile Include="..\libs\cocos2dx_support\tolua_fix.c" />
+    <ClCompile Include="..\libs\CrossPlatform\AES.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\CrossXOS.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\CSocketUtil.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\FileUtils.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\ImageUtil.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\md5.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\tea.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\Thread.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\util.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\Win32Platform\IAP\ProductManager.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\Win32Platform\XPlatform.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\Win32Platform\XUIPlatform.cpp" />
+    <ClCompile Include="..\libs\CrossPlatform\XPlatformManager.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CAnimation.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CArmature.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CArmatureAniData.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CBaseNode.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CBone.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CBoneAniData.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CConnectionData.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CEventFrame.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CFrameNode.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CFrameNodeList.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CMathHelper.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CProcessBase.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CTween.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CTweenNode.cpp" />
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CXLog.cpp" />
+    <ClCompile Include="..\libs\PageManager\AssetsManager.cpp" />
+    <ClCompile Include="..\libs\PageManager\GameResourceManager.cpp" />
+    <ClCompile Include="..\libs\PageManager\ResourceCache.cpp" />
+    <ClCompile Include="..\libs\PageManager\ResourcePage.cpp" />
+    <ClCompile Include="..\libs\PageManager\ResourcePageManager.cpp" />
+    <ClCompile Include="..\libs\PageManager\Resource\ResourcePlistArray.cpp" />
+    <ClCompile Include="..\libs\PageManager\Resource\ResourcePlistDictionary.cpp" />
+    <ClCompile Include="..\libs\PageManager\Resource\ResourceTexture.cpp" />
+    <ClCompile Include="..\libs\PageManager\ResoureUpdate.cpp" />
+    <ClCompile Include="..\libs\pbc\alloc.cpp" />
+    <ClCompile Include="..\libs\pbc\array.cpp" />
+    <ClCompile Include="..\libs\pbc\bootstrap.cpp" />
+    <ClCompile Include="..\libs\pbc\context.cpp" />
+    <ClCompile Include="..\libs\pbc\decode.cpp" />
+    <ClCompile Include="..\libs\pbc\map.cpp" />
+    <ClCompile Include="..\libs\pbc\pattern.cpp" />
+    <ClCompile Include="..\libs\pbc\pbc-lua.cpp" />
+    <ClCompile Include="..\libs\pbc\proto.cpp" />
+    <ClCompile Include="..\libs\pbc\register.cpp" />
+    <ClCompile Include="..\libs\pbc\rmessage.cpp" />
+    <ClCompile Include="..\libs\pbc\stringpool.cpp" />
+    <ClCompile Include="..\libs\pbc\varint.cpp" />
+    <ClCompile Include="..\libs\pbc\wmessage.cpp" />
+    <ClCompile Include="..\libs\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\libs\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\libs\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\libs\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\CustomScene.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\DragReceiver.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\LayerBase.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\NiRTTI.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\NiStream.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\NotificationCenter.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\TXAudioEngine.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\UIDragLayer.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\UILabelTTF.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\UILayerBase.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\UILayerColorBase.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Common\UIMenu.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\CCScale9Sprite.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\IconButton.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\ListItemButton.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\NiObject.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\TextInputField.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIAnimation.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIButton.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIButtonToggle.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIContainer.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIControlBase.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UILabel.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UILabelAtlas.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UILayout.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UILayoutRenderNode.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIList.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIPicture.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollLayer.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollList.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollPage.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollView.cpp" />
+    <ClCompile Include="..\libs\TXGUI\Controls\UITextInputField.cpp" />
+    <ClCompile Include="..\libs\TXGUI\GameFontManager.cpp" />
+    <ClCompile Include="..\libs\TXGUI\LuaTXGUI.cpp" />
+    <ClCompile Include="..\libs\TXGUI\UICreator.cpp" />
+    <ClCompile Include="..\libs\TXGUI\UIManager.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\Client\AreaItemNode.h" />
+    <ClInclude Include="..\Classes\Client\CharacterSelect\CharacterSelectLayer.h" />
+    <ClInclude Include="..\Classes\Client\DressUp\DressUpManager.h" />
+    <ClInclude Include="..\Classes\Client\FrontCoverLayer.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\GameConfigFromLuaManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\GameDataManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\HeroRoleManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\InstanceManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\ItemUpdateManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\LuaTinkerManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\MainLandManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\PvAIManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\TimeManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\TimeProtocol.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\XLogicManager.h" />
+    <ClInclude Include="..\Classes\Client\GameManager\SpriteDataManager.h" />
+    <ClInclude Include="..\Classes\Client\GMessage.h" />
+    <ClInclude Include="..\Classes\Client\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Client\HeroFighter.h" />
+    <ClInclude Include="..\Classes\Client\IEvent.h" />
+    <ClInclude Include="..\Classes\Client\Items\EquipmentItem.h" />
+    <ClInclude Include="..\Classes\Client\Items\GemStonesFromLua.h" />
+    <ClInclude Include="..\Classes\Client\Items\ItemBase.h" />
+    <ClInclude Include="..\Classes\Client\Items\ItemManager.h" />
+    <ClInclude Include="..\Classes\Client\luaconf.h" />
+    <ClInclude Include="..\Classes\Client\LuaGameAPI.h" />
+    <ClInclude Include="..\Classes\Client\lua_tinker.h" />
+    <ClInclude Include="..\Classes\Client\Misc\AdvPch.h" />
+    <ClInclude Include="..\Classes\Client\Misc\CharacterInfo.h" />
+    <ClInclude Include="..\Classes\Client\Misc\MonsterData.h" />
+    <ClInclude Include="..\Classes\Client\Misc\MonsterInfo.h" />
+    <ClInclude Include="..\Classes\Client\Misc\PetInfo.h" />
+    <ClInclude Include="..\Classes\Client\Misc\UserData.h" />
+    <ClInclude Include="..\Classes\Client\Monster\MonsterHaozhu.h" />
+    <ClInclude Include="..\Classes\Client\Monster\MonsterSingleEffect.h" />
+    <ClInclude Include="..\Classes\Client\Monster\SpriteMonster.h" />
+    <ClInclude Include="..\Classes\Client\Monster\SpriteMonsterArcher.h" />
+    <ClInclude Include="..\Classes\Client\Monster\SpriteMonsterMgr.h" />
+    <ClInclude Include="..\Classes\Client\NPC\NPCDataDefine.h" />
+    <ClInclude Include="..\Classes\Client\NPC\BoneNPCManager.h" />
+    <ClInclude Include="..\Classes\Client\NPC\NpcSprite.h" />
+    <ClInclude Include="..\Classes\Client\ScriptSupport\LuaClient.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\ElfBaseState.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\ElfChaseState.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\ElfCloseToState.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\ElfExploreManager.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\ElfSkillAttackState.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElf.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfConfigFromLua.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfDataCenter.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfLayer.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfManager.h" />
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteFactory.h" />
+    <ClInclude Include="..\Classes\Client\Story\InstanceDialogLayer.h" />
+    <ClInclude Include="..\Classes\Client\Story\StoryData.h" />
+    <ClInclude Include="..\Classes\Client\Story\StoryDataCenter.h" />
+    <ClInclude Include="..\Classes\Client\Story\StoryInstanceDirector.h" />
+    <ClInclude Include="..\Classes\Client\Task\TaskConfigFromLuaManager.h" />
+    <ClInclude Include="..\Classes\Client\Task\TaskData.h" />
+    <ClInclude Include="..\Classes\Client\Task\TaskManager.h" />
+    <ClInclude Include="..\Classes\Client\TipMgr.h" />
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialBase.h" />
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialsDataCenter.h" />
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialsManager.h" />
+    <ClInclude Include="..\Classes\Client\Tutorials\UITutorial.h" />
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\AlchemyUILayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\AutoOnHook.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\BattleCoverLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\ChatToolbar.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\CityListLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\EquipmentUpgradeUILayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\EquipMixLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\ItemDragLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\BackPackLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\InstanceListLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\BattleUILayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\BattleWinLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\GameUILayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\LoadingLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\MainMenuLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\MessageBoxLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\PPVELayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\PVPLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\ShopUILayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\TalentLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\TaskChatLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\TaskListLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\UIMessageLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILayer\WaitingLayer.h" />
+    <ClInclude Include="..\Classes\Client\UILogic\SkillUI\SkillUIManager.h" />
+    <ClInclude Include="..\Classes\Engine\BevTree\AnyData.h" />
+    <ClInclude Include="..\Classes\Engine\BevTree\BevTree.h" />
+    <ClInclude Include="..\Classes\Engine\CameraController.h" />
+    <ClInclude Include="..\Classes\Engine\CCShake.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\AParticleNode.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\ComboLayer.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\DamageValueEffect.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\EffectSprite.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\HeroEffectDefine.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\HeroParticleListener.h" />
+    <ClInclude Include="..\Classes\Engine\Effect\ParticleManager.h" />
+    <ClInclude Include="..\Classes\Engine\Engine.h" />
+    <ClInclude Include="..\Classes\Engine\Event.h" />
+    <ClInclude Include="..\Classes\Engine\EventID.h" />
+    <ClInclude Include="..\Classes\Engine\FloatHint.h" />
+    <ClInclude Include="..\Classes\Engine\GameAudioManager.h" />
+    <ClInclude Include="..\Classes\Engine\GameManager.h" />
+    <ClInclude Include="..\Classes\Engine\ILogicManager.h" />
+    <ClInclude Include="..\Classes\Engine\Level\BaseLevelBuilder.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelBuilderCreator.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelBuilderNormalScene.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelBuilderRoom.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelDefine.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelLayer.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelManager.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LevelObjectCreator.h" />
+    <ClInclude Include="..\Classes\Engine\Level\Listener\BaseListener.h" />
+    <ClInclude Include="..\Classes\Engine\Level\Listener\ListenerDefine.h" />
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteNpcPointListener.h" />
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteOtherSeerListener.h" />
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteSeerListener.h" />
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteTranspointListener.h" />
+    <ClInclude Include="..\Classes\Engine\Level\LuaLevelCreator.h" />
+    <ClInclude Include="..\Classes\Engine\Localization\Localization.h" />
+    <ClInclude Include="..\Classes\Engine\MapDataManager.h" />
+    <ClInclude Include="..\Classes\Engine\Map\ATLMapInfo.h" />
+    <ClInclude Include="..\Classes\Engine\Map\ATLMapLayer.h" />
+    <ClInclude Include="..\Classes\Engine\Map\ATLObjectInfo.h" />
+    <ClInclude Include="..\Classes\Engine\Map\ATLObjectLayer.h" />
+    <ClInclude Include="..\Classes\Engine\Map\TileMap.h" />
+    <ClInclude Include="..\Classes\Engine\MathUtil.h" />
+    <ClInclude Include="..\Classes\Engine\MineManager.h" />
+    <ClInclude Include="..\Classes\Engine\NameBkg.h" />
+    <ClInclude Include="..\Classes\Engine\NPC.h" />
+    <ClInclude Include="..\Classes\Engine\NPCManager.h" />
+    <ClInclude Include="..\Classes\Engine\Painter.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\BoneAnimSprite.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\BoneSpriteBase.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\BoneSpriteMoveable.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\RoleActorBase.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\RoleBase.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\SASpriteDefine.h" />
+    <ClInclude Include="..\Classes\Engine\SASprite\SkeletonAnimRcsManager.h" />
+    <ClInclude Include="..\Classes\Engine\SceneLayer.h" />
+    <ClInclude Include="..\Classes\Engine\ScriptSupport\LuaEngine.h" />
+    <ClInclude Include="..\Classes\Engine\Singleton_t.h" />
+    <ClInclude Include="..\Classes\Engine\SkillSys\ABox.h" />
+    <ClInclude Include="..\Classes\Engine\SkillSys\ABoxAnimation.h" />
+    <ClInclude Include="..\Classes\Engine\SkillSys\AttackChecker.h" />
+    <ClInclude Include="..\Classes\Engine\SkillSys\SkillDispMgr.h" />
+    <ClInclude Include="..\Classes\Engine\SkillSys\SkillInfo.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\HSJoystick.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\MapObject.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\ObjectDefine.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\PhysicsLayer.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\SpriteBase.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\SpriteSeer.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\SpriteTransPoint.h" />
+    <ClInclude Include="..\Classes\Engine\Sprite\TriggerObject.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\ApocalypseState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\AssassinationState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\BaseAttackState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\CalvingState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\ChopseriesState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\ExtremeSpeedState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\FAbstractTransition.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\FatalDarkKnivesState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\FStateMachine.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\GreatFireBallState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\IdleState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\InvincibilityState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\InvisibleKillerState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\IronDefenseState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\LinkTimeState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\NormalAttackState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\RunState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\simplefsm.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\simplefsm_macro.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\SpecialAttackState.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\StateEventType.h" />
+    <ClInclude Include="..\Classes\Engine\StateMachine\TeleportState.h" />
+    <ClInclude Include="..\Classes\NetWork\BaseMsgHandler.h" />
+    <ClInclude Include="..\Classes\NetWork\byte_array_t.h" />
+    <ClInclude Include="..\Classes\NetWork\cmdDefine.h" />
+    <ClInclude Include="..\Classes\NetWork\cs_basic.pb.h" />
+    <ClInclude Include="..\Classes\NetWork\cs_battle.pb.h" />
+    <ClInclude Include="..\Classes\NetWork\cs_core.pb.h" />
+    <ClInclude Include="..\Classes\NetWork\db.pb.h" />
+    <ClInclude Include="..\Classes\NetWork\errcode.pb.h" />
+    <ClInclude Include="..\Classes\NetWork\LuaNetwork.h" />
+    <ClInclude Include="..\Classes\NetWork\MessageCache.h" />
+    <ClInclude Include="..\Classes\NetWork\MessageFilter.h" />
+    <ClInclude Include="..\Classes\NetWork\MessageHandler.h" />
+    <ClInclude Include="..\Classes\NetWork\MessageLog.h" />
+    <ClInclude Include="..\Classes\NetWork\MessageUtil.h" />
+    <ClInclude Include="..\Classes\NetWork\NetStateChecker.h" />
+    <ClInclude Include="..\Classes\NetWork\NetWorkConfigure.h" />
+    <ClInclude Include="..\Classes\NetWork\NetWorkUtil.h" />
+    <ClInclude Include="..\Classes\NetWork\OnlineNetworkManager.h" />
+    <ClInclude Include="..\Classes\NetWork\PPVEMessage.h" />
+    <ClInclude Include="..\Classes\NetWork\proto_encry.h" />
+    <ClInclude Include="..\Classes\NetWork\PVPMessage.h" />
+    <ClInclude Include="..\Classes\particleSystem\particle_emitters.h" />
+    <ClInclude Include="..\Classes\particleSystem\particle_manager.h" />
+    <ClInclude Include="..\Classes\Server\base\byteswap.h" />
+    <ClInclude Include="..\Classes\Server\base\byteswap.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Event.hpp" />
+    <ClInclude Include="..\Classes\Server\base\EventableObject.hpp" />
+    <ClInclude Include="..\Classes\Server\base\JointManager.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Manager.hpp" />
+    <ClInclude Include="..\Classes\Server\base\MemSort.hpp" />
+    <ClInclude Include="..\Classes\Server\base\MsgBlock.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Number.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Pathname.hpp" />
+    <ClInclude Include="..\Classes\Server\base\ProbabilityGen.hpp" />
+    <ClInclude Include="..\Classes\Server\base\sigslot.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Singleton.hpp" />
+    <ClInclude Include="..\Classes\Server\base\StringParse.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Time.hpp" />
+    <ClInclude Include="..\Classes\Server\base\TimerEvent.hpp" />
+    <ClInclude Include="..\Classes\Server\base\TinyxmlAdapt.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Utils.hpp" />
+    <ClInclude Include="..\Classes\Server\base\Vector.hpp" />
+    <ClInclude Include="..\Classes\Server\base\wordsize.h" />
+    <ClInclude Include="..\Classes\Server\battlefields\battlefield.h" />
+    <ClInclude Include="..\Classes\Server\battlefields\battlehandlers.h" />
+    <ClInclude Include="..\Classes\Server\battlefields\def_grid_data.hpp" />
+    <ClInclude Include="..\Classes\Server\battlefields\instance.h" />
+    <ClInclude Include="..\Classes\Server\battlefields\tileworld.hpp" />
+    <ClInclude Include="..\Classes\Server\common\fwd_decl.h" />
+    <ClInclude Include="..\Classes\Server\config\config.h" />
+    <ClInclude Include="..\Classes\Server\config\LuatableAdapt.hpp" />
+    <ClInclude Include="..\Classes\Server\entities\boss.h" />
+    <ClInclude Include="..\Classes\Server\entities\monster.h" />
+    <ClInclude Include="..\Classes\Server\entities\object.h" />
+    <ClInclude Include="..\Classes\Server\entities\skill.h" />
+    <ClInclude Include="..\Classes\Server\frontend\explorer.h" />
+    <ClInclude Include="..\Classes\Server\frontend\virtualplayer.h" />
+    <ClInclude Include="..\Classes\Server\log.h" />
+    <ClInclude Include="..\Classes\Server\msg_dispatcher\msg_handler_mgr.h" />
+    <ClInclude Include="..\Classes\Server\proto\protocodec.h" />
+    <ClInclude Include="..\libs\ASprite\AnimSprite.h" />
+    <ClInclude Include="..\libs\ASprite\ASprite.h" />
+    <ClInclude Include="..\libs\ASprite\AspriteManager.h" />
+    <ClInclude Include="..\libs\ASprite\ASprite_config.h" />
+    <ClInclude Include="..\libs\ASprite\ASprite_defines.h" />
+    <ClInclude Include="..\libs\ASprite\ASprite_Flags.h" />
+    <ClInclude Include="..\libs\ASprite\EnginePlayerManager.h" />
+    <ClInclude Include="..\libs\ASprite\GameEnginePlayer.h" />
+    <ClInclude Include="..\libs\ASprite\spriteDefine\resources.h" />
+    <ClInclude Include="..\libs\ASprite\spriteDefine\spriteDataList.h" />
+    <ClInclude Include="..\libs\cocos2dx_support\CCLuaEngine.h" />
+    <ClInclude Include="..\libs\cocos2dx_support\Cocos2dxLuaLoader.h" />
+    <ClInclude Include="..\libs\cocos2dx_support\LuaCocos2d.h" />
+    <ClInclude Include="..\libs\cocos2dx_support\tolua_fix.h" />
+    <ClInclude Include="..\libs\CrossPlatform\AES.h" />
+    <ClInclude Include="..\libs\CrossPlatform\CCInt.h" />
+    <ClInclude Include="..\libs\CrossPlatform\CrossPlatform.h" />
+    <ClInclude Include="..\libs\CrossPlatform\CrossUtil.h" />
+    <ClInclude Include="..\libs\CrossPlatform\CrossXOS.h" />
+    <ClInclude Include="..\libs\CrossPlatform\CSocketUtil.h" />
+    <ClInclude Include="..\libs\CrossPlatform\FileUtils.h" />
+    <ClInclude Include="..\libs\CrossPlatform\IExResourceMgr.h" />
+    <ClInclude Include="..\libs\CrossPlatform\ImageUtil.h" />
+    <ClInclude Include="..\libs\CrossPlatform\IPlatform.h" />
+    <ClInclude Include="..\libs\CrossPlatform\IPUIPlatform.h" />
+    <ClInclude Include="..\libs\CrossPlatform\md5.h" />
+    <ClInclude Include="..\libs\CrossPlatform\tea.h" />
+    <ClInclude Include="..\libs\CrossPlatform\Thread.h" />
+    <ClInclude Include="..\libs\CrossPlatform\util.h" />
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\IAP\ProductManager.h" />
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\socket_win32.h" />
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\thread_win32.h" />
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\XPlatform.h" />
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\XUIPlatform.h" />
+    <ClInclude Include="..\libs\CrossPlatform\XPlatformManager.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CAnimation.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CArmature.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CArmatureAniData.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CBaseNode.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CBone.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CBoneAniData.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CCFlash2Cocos2d-x.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CConnectionData.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CConstValue.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CEventFrame.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CFrameNode.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CFrameNodeList.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CMathHelper.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CProcessBase.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CTextureData.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CTween.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CTweenNode.h" />
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CXLog.h" />
+    <ClInclude Include="..\libs\PageManager\AssetsManager.h" />
+    <ClInclude Include="..\libs\PageManager\GameResourceManager.h" />
+    <ClInclude Include="..\libs\PageManager\ResourceCache.h" />
+    <ClInclude Include="..\libs\PageManager\ResourcePage.h" />
+    <ClInclude Include="..\libs\PageManager\ResourcePageManager.h" />
+    <ClInclude Include="..\libs\PageManager\Resource\ResourceBase.h" />
+    <ClInclude Include="..\libs\PageManager\Resource\ResourcePlistArray.h" />
+    <ClInclude Include="..\libs\PageManager\Resource\ResourcePlistDictionary.h" />
+    <ClInclude Include="..\libs\PageManager\Resource\ResourceTexture.h" />
+    <ClInclude Include="..\libs\PageManager\ResoureUpdate.h" />
+    <ClInclude Include="..\libs\PageManager\UpdateResourceDelegate.h" />
+    <ClInclude Include="..\libs\pbc\alloc.h" />
+    <ClInclude Include="..\libs\pbc\array.h" />
+    <ClInclude Include="..\libs\pbc\bootstrap.h" />
+    <ClInclude Include="..\libs\pbc\context.h" />
+    <ClInclude Include="..\libs\pbc\descriptor.pbc.h" />
+    <ClInclude Include="..\libs\pbc\map.h" />
+    <ClInclude Include="..\libs\pbc\pattern.h" />
+    <ClInclude Include="..\libs\pbc\pbc.h" />
+    <ClInclude Include="..\libs\pbc\proto.h" />
+    <ClInclude Include="..\libs\pbc\stringpool.h" />
+    <ClInclude Include="..\libs\pbc\varint.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\code_generator.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\command_line_interface.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\cpp\cpp_generator.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\importer.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\java\java_generator.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\parser.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\plugin.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\python\python_generator.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\config.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\descriptor.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\descriptor.pb.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\descriptor_database.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\dynamic_message.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\extension_set.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\generated_message_reflection.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\coded_stream.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\coded_stream_inl.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\gzip_stream.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\package_info.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\printer.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\tokenizer.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\zero_copy_stream.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\zero_copy_stream_impl.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\zero_copy_stream_impl_lite.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\message.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\message_lite.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\reflection_ops.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\repeated_field.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\service.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\common.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\hash.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\map-util.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\once.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\stl_util-inl.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\strutil.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\substitute.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\text_format.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\unknown_field_set.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\wire_format.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\wire_format_lite.h" />
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\wire_format_lite_inl.h" />
+    <ClInclude Include="..\libs\tinyxml\tinystr.h" />
+    <ClInclude Include="..\libs\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\CustomScene.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\DragReceiver.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\UIDragLayer.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\LayerBase.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\NiRTTI.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\NiStream.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\NiStreamMacros.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\NotificationCenter.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\ObserverProtocol.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\TXAudioEngine.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\TXGUI.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\UILabelTTF.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\UILayerBase.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\UILayerColorBase.h" />
+    <ClInclude Include="..\libs\TXGUI\Common\UIMenu.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\CCScale9Sprite.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\IconButton.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\ListItemButton.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\NiObject.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\TextInputField.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIAnimation.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIButton.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIButtonToggle.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIContainer.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIControlBase.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UILabel.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UILabelAtlas.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UILayout.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UILayoutRenderNode.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIList.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIPicture.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollLayer.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollList.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollPage.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollView.h" />
+    <ClInclude Include="..\libs\TXGUI\Controls\UITextInputField.h" />
+    <ClInclude Include="..\libs\TXGUI\GameFontManager.h" />
+    <ClInclude Include="..\libs\TXGUI\LuaTXGUI.h" />
+    <ClInclude Include="..\libs\TXGUI\TXGUIHeader.h" />
+    <ClInclude Include="..\libs\TXGUI\UIColorDefine.h" />
+    <ClInclude Include="..\libs\TXGUI\UICreator.h" />
+    <ClInclude Include="..\libs\TXGUI\UIDefine.h" />
+    <ClInclude Include="..\libs\TXGUI\UIManager.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2dx\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2dx\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2dx\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2dx\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2dx\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2dx\scripting\lua\proj.win32\liblua.vcxproj">
+      <Project>{ddc3e27f-004d-4dd4-9dd3-931a013d2159}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\NetWork\proto\cs_basic.proto" />
+    <None Include="..\Classes\NetWork\proto\cs_battle.proto" />
+    <None Include="..\Classes\NetWork\proto\cs_core.proto" />
+    <None Include="..\Classes\NetWork\proto\db.proto" />
+    <None Include="..\Classes\NetWork\proto\errcode.proto" />
+    <None Include="..\libs\tinyxml\tinyxml.suo" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

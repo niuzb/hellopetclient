@@ -1,0 +1,330 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>effect_dropice_112:bing2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{906,0},{74,143}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{74,143}}</string>
+                <key>sourceSize</key>
+                <string>{74,143}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 42.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{592,468},{280,96}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{280,96}}</string>
+                <key>sourceSize</key>
+                <string>{280,96}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 43.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{663,371},{285,94}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{285,94}}</string>
+                <key>sourceSize</key>
+                <string>{285,94}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 44.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,580},{280,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{280,90}}</string>
+                <key>sourceSize</key>
+                <string>{280,90}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 46.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{730,587},{266,83}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{266,83}}</string>
+                <key>sourceSize</key>
+                <string>{266,83}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 47.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{283,666},{243,84}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{243,84}}</string>
+                <key>sourceSize</key>
+                <string>{243,84}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 48.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,209},{234,94}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{234,94}}</string>
+                <key>sourceSize</key>
+                <string>{234,94}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 49.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{184,360},{261,118}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{261,118}}</string>
+                <key>sourceSize</key>
+                <string>{261,118}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn 2 50.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{447,567},{280,96}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{280,96}}</string>
+                <key>sourceSize</key>
+                <string>{280,96}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{459,0},{224,185}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{224,185}}</string>
+                <key>sourceSize</key>
+                <string>{224,185}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{237,206}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{237,206}}</string>
+                <key>sourceSize</key>
+                <string>{237,206}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{240,0},{216,201}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{216,201}}</string>
+                <key>sourceSize</key>
+                <string>{216,201}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{459,188},{201,183}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{201,183}}</string>
+                <key>sourceSize</key>
+                <string>{201,183}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 16.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{686,186},{203,182}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{203,182}}</string>
+                <key>sourceSize</key>
+                <string>{203,182}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 17.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{240,204},{185,153}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{185,153}}</string>
+                <key>sourceSize</key>
+                <string>{185,153}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 31.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{892,249},{119,57}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{119,57}}</string>
+                <key>sourceSize</key>
+                <string>{119,57}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 32.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,306},{181,103}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{181,103}}</string>
+                <key>sourceSize</key>
+                <string>{181,103}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 33.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,412},{161,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{161,112}}</string>
+                <key>sourceSize</key>
+                <string>{161,112}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 34.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{448,374},{141,140}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{141,140}}</string>
+                <key>sourceSize</key>
+                <string>{141,140}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 35.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{875,468},{131,116}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{131,116}}</string>
+                <key>sourceSize</key>
+                <string>{131,116}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 36.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{906,146},{110,100}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{110,100}}</string>
+                <key>sourceSize</key>
+                <string>{110,100}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 41.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{164,481},{280,96}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{280,96}}</string>
+                <key>sourceSize</key>
+                <string>{280,96}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn2 51.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{184,306},{48,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{48,19}}</string>
+                <key>sourceSize</key>
+                <string>{48,19}</string>
+            </dict>
+            <key>effect_dropice_112:fs jn214.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{686,0},{217,183}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{217,183}}</string>
+                <key>sourceSize</key>
+                <string>{217,183}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>effect_dropice_112.pvr.ccz</string>
+            <key>size</key>
+            <string>{1019,748}</string>
+            <key>textureFileName</key>
+            <string>effect_dropice_112.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

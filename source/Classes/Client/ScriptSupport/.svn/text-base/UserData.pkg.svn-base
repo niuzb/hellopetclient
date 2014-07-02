@@ -1,0 +1,112 @@
+enum
+{
+	GM_ATTR_COIN_UPDATE ,
+	GM_ATTR_SP_UPDATE,
+	GM_ATTR_SP_CHIP_UPDATE,
+	GM_ATTR_SP_DIAMOND_UPDATE,
+	GM_ATTR_HERO_LEVEL_UPDATE,
+	GM_ATTR_PHYSICAL_ATTACK_UPDATE,
+	GM_ATTR_MAGIC_ATTACK_UPDATE,
+	GM_ATTR_SKILL_ATTACK_UPDATE,
+	GM_ATTR_PHYSICAL_DEFENCE_UPDATE,
+	GM_ATTR_MAGIC_DEFENCE_UPDATE,
+	GM_ATTR_SKILL_DEFENCE_UPDATE,
+	GM_ATTR_HEALTH_POINT_UPDATE,
+	GM_ATTR_ACCURATE_UPDATE,
+	GM_ATTR_DODGE_UPDATE,
+	GM_ATTR_WRECK_UPDATE,
+	GM_ATTR_PARRY_UPDATE,
+	GM_ATTR_CRITICAL_STRIKE_UPDATE,
+	GM_ATTR_TENACITY_UPDATE,
+	GM_ATTR_SLAY_UPDATE,
+	GM_ATTR_SPEED_UPDATE,
+	GM_ATTR_PROFICIENCY_UPDATE,
+	GM_ATTR_ABILITY_ALL_UPDATE,
+	GM_ATTR_COURAGE_UPDATE,
+	GM_ATTR_CHARM_UPDATE,
+	GM_ATTR_TRICK_UPDATE,
+	GM_ATTR_STAMINA_UPDATE,
+	GM_ATTR_REPUTATION_UPDATE,
+	GM_ATTR_EXP_UPDATE,
+	GM_ATTR_EQUIP_LVUP_UESED_TIMES,
+	GM_ATTR_EQUIP_LVUP_MAX_TIMES,
+	GM_NETWORK_DISCONNCT,
+	GM_CLOSE_TALENTLAYER,
+	GM_CLOSE_AUTOONHOOK,
+	GM_ATTR_PLAYER_EXPOLIT,
+	GM_LUA_LAYER_CLOSE,
+	GM_ATTR_PLAYER_EXPLOER_EXP,
+	GM_ATTR_GEM_RECAST,
+	GM_ATTR_PLAYER_GEM_ANIMA
+};
+
+class USERINFO
+{
+	USERINFO(void);
+	unsigned int  id;
+	char userSession[SESSION_LENGTH];
+	char szName[16];	
+	char ip[30];
+	char lastServerName[30];
+	unsigned int port;
+	long createdTime;
+
+	unsigned int tokenId;
+	unsigned int level;
+	unsigned int exp;
+	unsigned int mapId;
+	unsigned int xPos;
+	unsigned int yPos;
+	unsigned int orient;
+	unsigned int type;
+	// add more data parameters
+	unsigned int battleId;
+	
+	unsigned int battleSide;
+
+	unsigned int m_spriteEnergy;
+	unsigned int m_gold;
+	unsigned int m_diamond;
+	unsigned int m_spriteChip;
+	unsigned int m_alchemyBagUnlockPos;
+	unsigned int m_alchemyStorageUnlockPos;
+	unsigned int m_gemRecastTimes;			//宝石重铸次数
+
+	unsigned int physical_attack;
+	unsigned int magic_attack;
+	unsigned int skill_attack;
+	unsigned int physical_defence;
+	unsigned int magic_defence;
+	unsigned int skill_defence;
+	unsigned int health_point;
+	unsigned int accurate ;
+	unsigned int dodge;
+	unsigned int wreck;
+	unsigned int parry;
+	unsigned int critical_strike;
+	unsigned int tenacity;
+	unsigned int slay;
+	unsigned int proficiency;
+	unsigned int speed;
+	unsigned int total_hp;
+	unsigned int courage; // 勇气
+	unsigned int charm; // 魔力
+	unsigned int trick; // 技巧
+	unsigned int effectiveness;
+	unsigned int m_player_exploit;
+	unsigned int m_playerExploerExperience;
+	unsigned int m_playerGemAnima;
+};
+
+class UserData
+{
+public:
+	static UserData* Get();
+	static unsigned int getUserId();
+	static unsigned int getHeroHp();
+	static unsigned int getHeroTotalHp();
+	static unsigned int GetUserType();
+	static USERINFO & GetUserInfo();
+	static unsigned int GetUserLevel();
+	USERINFO* GetUserInfo(unsigned int id);
+}

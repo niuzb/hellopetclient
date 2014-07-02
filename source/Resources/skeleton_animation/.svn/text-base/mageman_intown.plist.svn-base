@@ -1,0 +1,642 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>mageman_intown:c nvjian shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{226,121},{11,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,9}}</string>
+                <key>sourceSize</key>
+                <string>{11,9}</string>
+            </dict>
+            <key>mageman_intown:c nvjian shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,0},{9,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,9}}</string>
+                <key>sourceSize</key>
+                <string>{9,9}</string>
+            </dict>
+            <key>mageman_intown:fgnr.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,12},{6,7}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{6,7}}</string>
+                <key>sourceSize</key>
+                <string>{6,7}</string>
+            </dict>
+            <key>mageman_intown:nanfa beijian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{193,101},{30,57}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,57}}</string>
+                <key>sourceSize</key>
+                <string>{30,57}</string>
+            </dict>
+            <key>mageman_intown:nanfa bi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{162,216},{16,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,14}}</string>
+                <key>sourceSize</key>
+                <string>{16,14}</string>
+            </dict>
+            <key>mageman_intown:nanfa bi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{162,197},{16,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,16}}</string>
+                <key>sourceSize</key>
+                <string>{16,16}</string>
+            </dict>
+            <key>mageman_intown:nanfa bi3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{226,101},{12,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,17}}</string>
+                <key>sourceSize</key>
+                <string>{12,17}</string>
+            </dict>
+            <key>mageman_intown:nanfa bi5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{208,190},{15,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,15}}</string>
+                <key>sourceSize</key>
+                <string>{15,15}</string>
+            </dict>
+            <key>mageman_intown:nanfa hujian1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{23,217},{25,29}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,29}}</string>
+                <key>sourceSize</key>
+                <string>{25,29}</string>
+            </dict>
+            <key>mageman_intown:nanfa hujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{241,54},{12,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,25}}</string>
+                <key>sourceSize</key>
+                <string>{12,25}</string>
+            </dict>
+            <key>mageman_intown:nanfa huujian5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{52,195},{41,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,26}}</string>
+                <key>sourceSize</key>
+                <string>{41,26}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{96,195},{20,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,41}}</string>
+                <key>sourceSize</key>
+                <string>{20,41}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku1 111.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{119,195},{19,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,41}}</string>
+                <key>sourceSize</key>
+                <string>{19,41}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{199,0},{42,51}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,51}}</string>
+                <key>sourceSize</key>
+                <string>{42,51}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{141,197},{18,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,41}}</string>
+                <key>sourceSize</key>
+                <string>{18,41}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{226,133},{24,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,45}}</string>
+                <key>sourceSize</key>
+                <string>{24,45}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku4 12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{155,148},{23,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,46}}</string>
+                <key>sourceSize</key>
+                <string>{23,46}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku4 14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{36,115},{25,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,50}}</string>
+                <key>sourceSize</key>
+                <string>{25,50}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku4 15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{27,168},{22,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,46}}</string>
+                <key>sourceSize</key>
+                <string>{22,46}</string>
+            </dict>
+            <key>mageman_intown:nanfa ku5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{64,150},{36,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,42}}</string>
+                <key>sourceSize</key>
+                <string>{36,42}</string>
+            </dict>
+            <key>mageman_intown:nanfa lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{51,224},{30,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,26}}</string>
+                <key>sourceSize</key>
+                <string>{30,26}</string>
+            </dict>
+            <key>mageman_intown:nanfa lian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{222,229},{26,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,24}}</string>
+                <key>sourceSize</key>
+                <string>{26,24}</string>
+            </dict>
+            <key>mageman_intown:nanfa p2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{208,161},{15,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,26}}</string>
+                <key>sourceSize</key>
+                <string>{15,26}</string>
+            </dict>
+            <key>mageman_intown:nanfa pao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{241,82},{10,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,25}}</string>
+                <key>sourceSize</key>
+                <string>{10,25}</string>
+            </dict>
+            <key>mageman_intown:nanfa shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,238},{18,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,22}}</string>
+                <key>sourceSize</key>
+                <string>{18,22}</string>
+            </dict>
+            <key>mageman_intown:nanfa shenti2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,214},{20,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,21}}</string>
+                <key>sourceSize</key>
+                <string>{20,21}</string>
+            </dict>
+            <key>mageman_intown:nanfa shou4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{241,110},{12,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,11}}</string>
+                <key>sourceSize</key>
+                <string>{12,11}</string>
+            </dict>
+            <key>mageman_intown:nanfa shou4 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{162,233},{15,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,11}}</string>
+                <key>sourceSize</key>
+                <string>{15,11}</string>
+            </dict>
+            <key>mageman_intown:nanfa shou9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{113,103},{12,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,11}}</string>
+                <key>sourceSize</key>
+                <string>{12,11}</string>
+            </dict>
+            <key>mageman_intown:nanfa tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{195,54},{43,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{43,44}}</string>
+                <key>sourceSize</key>
+                <string>{43,44}</string>
+            </dict>
+            <key>mageman_intown:nanfa tou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,103},{41,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,44}}</string>
+                <key>sourceSize</key>
+                <string>{41,44}</string>
+            </dict>
+            <key>mageman_intown:nanfa tou3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{113,148},{39,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{39,44}}</string>
+                <key>sourceSize</key>
+                <string>{39,44}</string>
+            </dict>
+            <key>mageman_intown:nanfa yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{107,239},{19,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,13}}</string>
+                <key>sourceSize</key>
+                <string>{19,13}</string>
+            </dict>
+            <key>mageman_intown:nanfa yaodai2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{84,239},{20,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,12}}</string>
+                <key>sourceSize</key>
+                <string>{20,12}</string>
+            </dict>
+            <key>mageman_intown:nanfa zhangku1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,115},{33,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,49}}</string>
+                <key>sourceSize</key>
+                <string>{33,49}</string>
+            </dict>
+            <key>mageman_intown:nanfa zhangku1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,50},{58,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,50}}</string>
+                <key>sourceSize</key>
+                <string>{58,50}</string>
+            </dict>
+            <key>mageman_intown:nanfa zhangku2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{181,161},{24,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,44}}</string>
+                <key>sourceSize</key>
+                <string>{24,44}</string>
+            </dict>
+            <key>mageman_intown:nanfa zhangku2 11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{226,181},{21,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,45}}</string>
+                <key>sourceSize</key>
+                <string>{21,45}</string>
+            </dict>
+            <key>mageman_intown:nanfa zhangku2 31314.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,167},{24,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,44}}</string>
+                <key>sourceSize</key>
+                <string>{24,44}</string>
+            </dict>
+            <key>mageman_intown:nanfahujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{202,208},{17,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,26}}</string>
+                <key>sourceSize</key>
+                <string>{17,26}</string>
+            </dict>
+            <key>mageman_intown:nanfaku6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{130,50},{62,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,45}}</string>
+                <key>sourceSize</key>
+                <string>{62,45}</string>
+            </dict>
+            <key>mageman_intown:nanfaku6 21 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,0},{62,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,47}}</string>
+                <key>sourceSize</key>
+                <string>{62,47}</string>
+            </dict>
+            <key>mageman_intown:nanfaku6 21 1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{130,98},{60,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,47}}</string>
+                <key>sourceSize</key>
+                <string>{60,47}</string>
+            </dict>
+            <key>mageman_intown:nanfaku6 21 1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{134,0},{62,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,47}}</string>
+                <key>sourceSize</key>
+                <string>{62,47}</string>
+            </dict>
+            <key>mageman_intown:nanfap3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{181,208},{18,38}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,38}}</string>
+                <key>sourceSize</key>
+                <string>{18,38}</string>
+            </dict>
+            <key>mageman_intown:nanjian shou7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{113,117},{12,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,10}}</string>
+                <key>sourceSize</key>
+                <string>{12,10}</string>
+            </dict>
+            <key>mageman_intown:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>sourceSize</key>
+                <string>{33,112}</string>
+            </dict>
+            <key>mageman_intown:wuqi_20.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{36,0},{30,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,112}}</string>
+                <key>sourceSize</key>
+                <string>{30,112}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>mageman_intown.pvr.ccz</string>
+            <key>size</key>
+            <string>{254,260}</string>
+            <key>textureFileName</key>
+            <string>mageman_intown.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

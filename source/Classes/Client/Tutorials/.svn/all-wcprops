@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials
+END
+TutorialBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialBase.cpp
+END
+TutorialLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialLayer.cpp
+END
+TutorialsDataCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialsDataCenter.cpp
+END
+TutorialsManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialsManager.cpp
+END
+UITutorial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/UITutorial.cpp
+END
+TutorialBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialBase.h
+END
+TutorialLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialLayer.h
+END
+TutorialsDataCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialsDataCenter.h
+END
+TutorialsManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/TutorialsManager.h
+END
+UITutorial.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Tutorials/UITutorial.h
+END

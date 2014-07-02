@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/1101077902/!svn/ver/928/hellopet/1/server/ahero/source/cocos2dx/extensions
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/Android.mk
+END
+ExtensionMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/ExtensionMacros.h
+END
+cocos-ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/cocos-ext.h
+END

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CityBasicInformation>
+	<City CityID="1001" CityName="新手村" MapID="100100" HeroBornCoordinate="48/30;57/24" BGMID="300100" NormalRaidTransmissionGate="63/20" EliteRaidTransmissionGate="67/20" TaskNPC1ID="501" TaskNPC1position="33/50" TaskNPC1flip="1" TaskNPC5ID="504" TaskNPC5position="74/27" TaskNPC6ID="502" TaskNPC6position="36/24" TaskNPC6flip="1" TaskNPC7ID="505" TaskNPC7position="68/51" TaskNPC7flip="1" TaskNPC8ID="503" TaskNPC8position="57/33"/>
+	<City CityID="1002" CityName="山下小镇" MapID="100200" HeroBornCoordinate="116/100;124/94" BGMID="300110" NormalRaidTransmissionGate="132/128" EliteRaidTransmissionGate="146/128" TaskNPC1ID="501" TaskNPC1position="45/29" TaskNPC1flip="1" TaskNPC2ID="503" TaskNPC2position="78/60" TaskNPC2flip="1" TaskNPC5ID="508" TaskNPC5position="45/90" TaskNPC5flip="1" TaskNPC6ID="507" TaskNPC6position="70/101" TaskNPC7ID="506" TaskNPC7position="131/39"/>
+</CityBasicInformation>

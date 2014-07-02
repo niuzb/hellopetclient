@@ -1,0 +1,677 @@
+// TAOMEE GAME TECHNOLOGIES PROPRIETARY INFORMATION
+//
+// This software is supplied under the terms of a license agreement or
+// nondisclosure agreement with Taomee Game Technologies and may not 
+// be copied or disclosed except in accordance with the terms of that 
+// agreement.
+//
+//      Copyright (c) 2012-2015 Taomee Game Technologies. 
+//      All Rights Reserved.
+//
+// Taomee Game Technologies, Shanghai, China
+// http://www.taomee.com
+//
+#include "OnlineNetworkManager.h"
+
+#include "XLogicManager.h"
+#include "SpriteDataManager.h"
+#include "GameManager.h"
+#include "ItemManager.h"
+#include "HelloWorldScene.h"
+#include "CCDirector.h"
+#include "UserData.h"
+#include "EnginePlayerManager.h"
+#include "MapDataManager.h"
+#include "BattleWinLayer.h"
+#include "MainMenuLayer.h"
+#include "Localization.h"
+#include "SpriteElfDataCenter.h"
+#include "StoryInstanceDirector.h"
+#include "MessageFilter.h"
+#include "ElfExploreManager.h"
+#include "CameraController.h"
+#include "GemStonesFromLua.h"
+
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID) 
+#include <jni.h>
+#include "platform/android/jni/JniHelper.h" 
+//#include <android/log.h> 
+#endif
+
+#include "LevelManager.h"
+#include "ItemManager.h"
+#include "InstanceManager.h"
+#include "GameConfigFromLuaManager.h"
+#include "GameDataManager.h"
+
+#include "TXGUIHeader.h"
+#include "GMessage.h"
+#include "NetStateChecker.h"
+#include "InstanceListLayer.h"
+
+#include "HeroRoleManager.h"
+#include "BoneNPCManager.h"
+#include "TaskManager.h"
+#include "SkeletonAnimRcsManager.h"
+#include "TaskConfigFromLuaManager.h"
+#include "SpriteElfConfigFromLua.h"
+#include "SpriteElfManager.h"
+
+#include "MessageBoxLayer.h"
+#include "SpriteFactory.h"
+#include "MainLandManager.h"
+#include "CCLuaEngine.h"
+#include "StoryDataCenter.h"
+#include "TimeManager.h"
+#include "SkillUIManager.h"
+#include "LuaTinkerManager.h"
+#include "ItemUpdateManager.h"
+#include "DressUpManager.h"
+#include "TutorialsManager.h"
+
+using namespace TXGUI;
+
+
+static XLogicManager *g_sLogicMgr = NULL;
+
+#ifndef FPS
+#define FPS  (1/24.0f)
+
+#endif
+
+
+
+extern long long millisecondNow();
+
+XLogicManager::XLogicManager()
+{
+	GameManager::Create();
+	GameManager::Get()->SetLogicManager(this);
+
+	// 初始化物品管理类
+	GameConfigFromLuaManager::Create();
+
+	ItemManager::Create();
+	ItemManager::Get()->init();
+
+	InstanceManager::Create();
+
+	GameDataManager::Create();
+
+	TimeManager::Create();
+
+	LuaTinkerManager::Create();
+
+	ItemUpdateManager::Create();
+
+	/// add more!
+    NotificationCenter::defaultCenter()->registerAllMsgObserver(this);
+
+	m_eCurLayer = E_NOE;
+	m_eCurStatus = E_WAITIN_FOR_COMMOND;
+	m_loginStep = 0;
+	mErrorCode = dberr_succ;
+	isGameStart = false;
+	isRequiredItemsInfo = false;
+	isInitLoginData = false;
+	m_loginDataTime = 0;
+	b_isLoginGame = false;
+	CCScheduler * pScheduler = CCDirector::sharedDirector()->getScheduler();
+	pScheduler->scheduleSelector(schedule_selector(XLogicManager::updateFps), this, FPS, false);
+
+	m_LastEnterBackgroundTime = millisecondNow();
+
+	HeroRoleManager::Create();
+
+}
+
+XLogicManager::~XLogicManager()
+{
+	HeroRoleManager::Destroy();
+
+	OnlineNetworkManager::sShareInstance()->UnRegisterEvent(this);
+    
+	CCScheduler * pScheduler = CCDirector::sharedDirector()->getScheduler();
+	pScheduler->unscheduleSelector(schedule_selector(XLogicManager::updateFps), this);
+
+	////////// 析构游戏管理器
+	/// destroy gameconfigfromluaManager
+	GameConfigFromLuaManager::Destroy();
+	/// destroy ItemManager
+	ItemManager::Destroy();
+
+	NotificationCenter::Destroy();
+
+	InstanceManager::Destroy();
+
+	GameDataManager::Destroy();
+
+	TimeManager::Destroy();
+	/// add more!
+
+	GameManager::Destroy();
+
+	SkeletonAnimRcsManager::Destroy();
+	BoneNPCManager::Destroy();
+	TaskManager::Destroy();
+	TaskConfigFromLuaManager::Destroy();
+	SpriteElfConfigFromLuaManager::Destroy();
+	SpriteElfManager::Destroy();
+	SpriteElfDataCenter::Destroy();
+	SpriteFactory::Destroy();
+
+	StoryDataCenter::Destroy();
+	SkillUIManager::Destroy();
+
+	ElfExploreManger::Destroy();
+
+	LuaTinkerManager::Destroy();
+
+	ItemUpdateManager::Destroy();
+	GemStonesFromLua::Destroy();
+	DressUpManager::Destroy();
+	TutorialsManager::Destroy();
+}
+
+void XLogicManager::updateFps(float dt)
+{ 
+	
+	if(isInitLoginData)
+	{
+		m_loginDataTime += dt;
+		if(m_loginDataTime > 3.0f)
+		{
+			initUserInfoFromSever(dt);
+		}
+	}
+
+	/// update appliaction background flag
+	long long fCurrentTime = millisecondNow();
+	if (fCurrentTime - m_LastEnterBackgroundTime > 30 * 1000)
+	{
+		/// application has stayed in background for more than 30 seconds
+#if CC_TARGET_PLATFORM != CC_PLATFORM_WIN32
+		OnlineNetworkManager::sShareInstance()->cleanServerConnect(false);
+#endif
+	}
+
+	m_LastEnterBackgroundTime = fCurrentTime;
+}
+
+void XLogicManager::updateNetChecker(float dt)
+{
+	NetStateChecker::getInstance()->SendRqsToServer();
+}
+
+/////////////////////////////////////////////////////////////
+/// application will resume from background
+void XLogicManager::WillEnterForeground()
+{
+	/// send ping to server , used to check network whether is OK
+	OnlineNetworkManager::sShareInstance()->sendReqNetStateMessage();
+
+	/// send global application resume message
+	NotificationCenter::defaultCenter()->broadcast(GM_APPLICATION_RESUME, this);
+}
+
+void XLogicManager::DidEnterBackground()
+{
+	/// send global application resume message
+	NotificationCenter::defaultCenter()->broadcast(GM_APPLICATION_ENTER_BACKGROUND, this);
+	CCLog("XLogicManager::DidEnterBackground()");
+	m_LastEnterBackgroundTime = millisecondNow();
+}
+
+
+/*
+* @prototype: goToFrontend()
+* @note:
+*     bring the game to the front of the screen. prepare the resources and init all the game components.
+* @param: void
+* @return: void
+*/
+void XLogicManager::goToFrontend()
+{
+	m_eCurStatus = E_WAITIN_FOR_COMMOND;
+	b_isLoginGame = true;
+	GameManager::Get()->goToFrontend();
+}
+
+bool XLogicManager::isAlreadyLogin()
+{
+	return b_isLoginGame;
+}
+
+void XLogicManager::loginSuccess()
+{
+	const char* ip = UserData::GetLastIP();
+	const char* name = UserData::GetLastServerName();
+	unsigned int port = UserData::GetLastPort();
+	CCUserDefault::sharedUserDefault()->setIntegerForKey("lastPort",port);
+	CCUserDefault::sharedUserDefault()->setStringForKey("lastIp",ip);
+	CCUserDefault::sharedUserDefault()->setStringForKey("lastServerName",name);
+	CCUserDefault::sharedUserDefault()->flush();
+}
+
+/*
+* @prototype: startGame()
+* @note:
+*     start the game now, bring the player to the hometown.
+* @param: void
+* @return: void
+*/
+void XLogicManager::startGame()
+{
+	if(!isGameStart)
+	{
+		// to do... 
+		this->goToLayer(E_MAIN_GAME_LAYER, NULL);
+		SceneLayer* pGameScenelayer = GameManager::Get()->GetSceneLayer();
+		//unschedule(schedule_selector(XLogicManager::updateFps));
+		this->retain();
+		this->removeFromParent();
+		pGameScenelayer->addChild(this);
+		this->autorelease();
+		
+		//schedule(schedule_selector(XLogicManager::initUserInfoFromSever),1.0f);
+		m_loginDataTime = 0;
+		isInitLoginData = true;
+		CCScheduler * pScheduler = CCDirector::sharedDirector()->getScheduler();
+		pScheduler->scheduleSelector(schedule_selector(XLogicManager::updateFps), this, FPS,false);
+		
+		isGameStart = true;
+		isRequiredItemsInfo = true;
+		
+		/// now start say hello to server! keep one eye on net connection
+		NetStateChecker::getInstance()->Start();
+
+		/// init message filter component
+		MessageFilter::Get()->Init();
+        
+        /// register ISocketEvent to online network manager
+        OnlineNetworkManager::sShareInstance()->RegisterEvent(this);
+
+		// Note: 开始进入游戏 或者 网络断开重新进入游戏
+		// 
+		SpriteFactory::sharedFactory()->ResetValue();
+		SpriteElfManager::Get()->ClearAllData();
+		SpriteElfDataCenter::Get()->ResetValue();
+		SpriteElfConfigFromLuaManager::getInstance()->ResetValue();
+		SpriteElfConfigFromLuaManager::getInstance()->ClearElfLayerAllData();
+		StoryInstanceDirector::Get()->ResetData();
+		ElfExploreManger::Get()->ResetValue();
+
+		CameraController::sharedCameraController()->ResetValue();
+		MainMenuLayer::ClearLayersInQueneData();
+
+		TaskManager::getInstance()->ResetValue();
+		BoneNPCManager::getInstance()->ResetValue();
+
+		InstanceManager::Get()->resetData();
+
+		ItemUpdateManager::Get()->resetData();
+
+		TimeManager::Get()->ResetData();
+		GemStonesFromLua::getInstance();
+	}
+}
+
+void XLogicManager::exitGame()
+{
+
+}
+
+// static instance
+XLogicManager* XLogicManager::sharedManager()
+{
+	if (g_sLogicMgr == NULL)
+	{
+		g_sLogicMgr = new XLogicManager();
+		g_sLogicMgr->autorelease();
+	}
+
+	return g_sLogicMgr;
+}
+
+
+// functions
+// go to a specific scene
+void  XLogicManager::goToLayer(GAME_LOGIC_LAYER sceneTag, void *userData )
+{
+	switch(sceneTag)
+	{
+		case E_CREATE_PLAYER_LAYER:
+			// go to create player layer
+			m_eCurLayer = E_CREATE_PLAYER_LAYER;
+
+			break;
+
+		case E_SELECT_CHARACTER:
+			// select the character
+			m_eCurLayer = E_SELECT_CHARACTER;
+
+			break;
+
+		case E_MAIN_GAME_LAYER:
+			m_eCurLayer = E_MAIN_GAME_LAYER;
+			GameManager::Get()->GetSceneLayer()->enterMyRoom();
+
+			break;
+		case E_SELECT_ZONE:
+
+			break;
+		default:
+			CCLOGWARN("invalid paramerter: %d", sceneTag);
+			break;
+	}
+}
+
+void XLogicManager::connectToServer()
+{
+	CCLog("XLogicManager::connectToServer()");
+	if(UserData::getUserId() != 0)
+	{
+		m_loginStep = 1;
+		CCLog("id: %d", UserData::getUserId());
+		CCLog("session: %s",UserData::getUserSession());
+	}
+}
+
+int XLogicManager::getLoginStep()
+{
+	return m_loginStep;
+}
+
+void XLogicManager::onConnectToSever()
+{
+	m_loginStep = 2;
+}
+
+void XLogicManager::logOut()
+{
+	OnlineNetworkManager::sShareInstance()->sendLogoutMessage();
+	playerlogOut();
+}
+
+void XLogicManager::logIn()
+{
+	if(m_eCurStatus == E_SENDING_SEVER)
+	{
+		return;
+	}
+	m_eCurStatus = E_SENDING_SEVER;
+	b_isLoginGame = false;
+	const char* ip = UserData::GetLastIP();
+	unsigned int port = UserData::GetLastPort();
+
+	OnlineNetworkManager::sShareInstance()->setServerIP(ip);
+	OnlineNetworkManager::sShareInstance()->setServerPort(port);
+	OnlineNetworkManager::sShareInstance()->setServerSelect(false);
+	OnlineNetworkManager::sShareInstance()->startConnect();
+}
+
+void XLogicManager::logInError(db_errcode_t error)
+{
+	//(*pNetErrFun)(error);
+	mErrorCode = error;
+	if(olerr_can_transfer_next == mErrorCode)
+	{
+		m_eCurStatus = E_WAITIN_FOR_COMMOND;
+	}
+}
+
+db_errcode_t  XLogicManager::getNetErrorCode()
+{
+	if(mErrorCode != dberr_succ)
+	{
+		db_errcode_t preError = mErrorCode;
+		mErrorCode = dberr_succ;
+		return preError;
+	}
+	return dberr_succ;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
+//              networkDisConnected()
+//
+void XLogicManager::networkDisConnected()
+{
+	m_eCurLayer = E_SELECT_ZONE;
+	m_eCurStatus = E_WAITIN_FOR_COMMOND;
+    if(isGameStart)
+	{
+		OnlineNetworkManager::sShareInstance()->UnRegisterEvent(this);
+        GameManager::Get()->goToSplash();
+	}
+    
+    //goToLayer(E_SELECT_ZONE,NULL);
+	isGameStart = false;
+	LevelManager::sShareInstance()->setCurrentLevelStatus(EUninit);
+	NotificationCenter::defaultCenter()->broadcast(GM_NETWORK_DISCONNCT,this);
+}
+//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+void XLogicManager::createRole(const std::string nick, const unsigned int type)
+{
+	OnlineNetworkManager::sShareInstance()->sendCreateRoleMessage(nick,type);
+	USERINFO mUserData = UserData::GetUserInfo();
+	strcpy(mUserData.szName,nick.c_str());
+	mUserData.type = type;
+	UserData::SetUserInfo(mUserData);
+}
+
+void XLogicManager::goToFb(unsigned int mapId, unsigned int battleId)
+{
+	m_eCurStatus = E_WAITIN_FOR_COMMOND;
+	USERINFO mUserData = UserData::GetUserInfo();
+
+	mUserData.mapId = mapId;
+	//// add battle id
+	mUserData.battleId = battleId;
+
+	//LevelManager::sShareInstance()->SetBattleLevel(battleId);
+	//InstanceManager::Get()->setCurInstanceId(battleId);
+
+	RemovePPVELayer(false);
+    RemovePVPLayer(false);
+	InstanceListLayer * layer = GetInstanceListLayer();
+	if (layer)
+	{
+		layer->closeInstanceList(NULL);
+	}
+
+	UserData::SetUserInfo(mUserData);
+	GameManager::Get()->changeMap(mUserData.mapId, KMapFromTransition);
+}
+
+void XLogicManager::changeMap(int mapId, KMapFromType fromMapType)
+{
+	m_eCurStatus = E_WAITIN_FOR_COMMOND;
+	GameManager::Get()->changeMap(mapId, fromMapType);
+}
+
+////////////////////////////////////////////////////////////////////
+// called when finish battle ,and go to town
+void XLogicManager::backToTown()
+{
+	if(m_eCurStatus == E_SENDING_SEVER)
+	{
+		return;
+	}
+
+	/// if in pve level , stop local server now!
+	if (LevelManager::sShareInstance()->isCurrentPVELevel())
+	{
+		MessageFilter::Get()->ReleaseBattleLevel();
+	}
+
+	m_eCurStatus = E_SENDING_SEVER;
+	int curCityId = MainLandManager::Get()->getCurCityId();
+	CCPoint heroBornCell = MainLandManager::Get()->getCityCell(curCityId, "born");
+	CCPoint heroBornPoint = LevelManager::sShareInstance()->pointCellToPixel(heroBornCell);
+	OnlineNetworkManager::sShareInstance()->sendPlayerEnterMapMessage(curCityId,heroBornPoint.x,heroBornPoint.y,0);	
+}
+
+void XLogicManager::LeaveBattle()
+{
+	OnlineNetworkManager::sShareInstance()->sendLeaveBattleReqMessage();
+}
+
+void XLogicManager::FinishBattle()
+{
+	BattleWinLayer* layer = GetBattleWinLayer();
+}
+
+void XLogicManager::createBattle(int battleId, int mapId)
+{
+	if(m_eCurStatus == E_SENDING_SEVER)
+	{
+		return;
+	}
+
+	//LevelManager::sShareInstance()->SetBattleLevel(battleId);
+	//InstanceManager::Get()->setCurInstanceId(battleId);
+
+	/// if it is pve battle map, load monster configuration from server
+	if (LevelManager::sShareInstance()->isCurrentPVELevel())
+	{
+		MessageFilter::Get()->PrepareBattleLevel(battleId, mapId);
+	}
+
+	m_eCurStatus = E_SENDING_SEVER;
+	OnlineNetworkManager::sShareInstance()->sendBattleCreateMessage(battleId,mapId);	
+}
+
+void XLogicManager::receivedItemsInfo()
+{
+	if(isRequiredItemsInfo)
+	{
+		isRequiredItemsInfo = false;
+	}
+	else
+	{
+		ItemManager::Get()->openBackPack();
+	}
+}
+
+void XLogicManager::initUserInfoFromSever(float time)
+{
+	OnlineNetworkManager::sShareInstance()->sendBackPackMessage();
+	//OnlineNetworkManager::sShareInstance()->sendUserInfoReq(UserData::getUserId());
+	OnlineNetworkManager::sShareInstance()->sendGetInstanceListMessage(0,0);
+
+	this->reqAllPlayerAttributes();
+	isInitLoginData = false;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+/////////////////////////////
+/////                消息响应函数, 这里可以处理一些系统消息
+///////
+void XLogicManager::onBroadcastMessage(BroadcastMessage* msg)
+{
+	 switch(msg->message)
+	 {
+	 case GM_CLOSE_PPVELAYER:
+		 CCLog("receive close ppve message !!! for test!!");
+		 break;
+
+	 case GM_DOWNLOAD_MAP_FAIL:
+	 case GM_NETWORK_ERROR:
+		 //// receive download map failed
+		 networkDisConnected();
+		 break;
+	 } 
+}
+void XLogicManager::OnConnected(int nResult)
+{
+}
+
+void XLogicManager::OnDisconnect()
+{
+    /// network is down
+	m_eCurStatus = E_WAITIN_FOR_COMMOND;
+    
+	/// stop say hello to server now!
+	NetStateChecker::getInstance()->Stop();
+    NetStateChecker::getInstance()->stopQuickCheck();
+	MessageFilter::Get()->Uninit();
+
+	std::string msg = Localizatioin::getLocalization("M_UPDATEFULL_NETWORKFAILURE");			
+	MessageBox::Show(msg.c_str(), this, SEL_MenuHandler(&XLogicManager::OnNetworkMessageOK), NULL, MB_OK);
+}
+
+void XLogicManager::OnNetworkMessageOK(CCObject* pObject)
+{
+	/// use notification center to call exit game , since if release sceneLayer here, the MessageBoxLayer will crash!
+	
+	NotificationCenter::defaultCenter()->broadcast(GM_NETWORK_ERROR, this);
+}
+
+void XLogicManager::OnSocketError(int nError)
+{
+	
+}
+
+void XLogicManager::reqPlayerAttributes(int* attributes,int length)
+{
+	OnlineNetworkManager::sShareInstance()->sendAttributesReq(attributes,length);
+}
+
+void XLogicManager::reqPlayerAttributes(int attributeId)
+{
+	int attributes[1];
+	attributes[0] = attributeId;
+	OnlineNetworkManager::sShareInstance()->sendAttributesReq(attributes,1);
+}
+
+void XLogicManager::reqAllPlayerAttributes()
+{
+	int attributes[21];
+	attributes[0] = PB_ATTR_BUY_BAG_CAPACITY;
+	attributes[1] = PB_ATTR_BUY_STORE_CAPACITY;
+	attributes[2] = PB_ATTR_BUY_SS_BAG_CAPACITY;
+	attributes[3] = PB_ATTR_PLAYER_PRESTIGE;
+	attributes[4] = PB_ATTR_PLAYER_SP;
+	attributes[5] = PB_ATTR_PLAYER_SS_MOD_ID;
+	attributes[6] = PB_ATTR_PLAYER_GEM_BACKPACK_CAPACITY;
+	attributes[7] = PB_ATTR_PLAYER_RESET_GEM_TIMES;
+	attributes[8] = PB_ATTR_PLAYER_LAST_LOGIN_MAP;
+	attributes[9] = PB_ATTR_PLAYER_COIN;
+	attributes[10] = PB_ATTR_PLAYER_DIAMOND;
+	attributes[11] = PB_ATTR_EXP;
+	attributes[12] = PB_ATTR_PLAYER_GEM_ANIMA;
+	attributes[13] = PB_ATTR_PLAYER_SS_CHIP;
+	attributes[14] = PB_ATTR_EQUIP_LVUP_USED_TIMES;
+	attributes[15] = PB_ATTR_PLAYER_RESET_GEM_TIMES;
+	attributes[16] = PB_ATTR_PLAYER_STAMINA;
+	attributes[17] = PB_ATTR_EFFECTIVENESS;
+	attributes[18] = PB_ATTR_PLAYER_EXPLOIT;
+	attributes[19] = PB_ATTR_PLAYER_EXPLORE_TIMES;
+	attributes[20] = PB_ATTR_PLAYER_EXPLORE_EXP;
+
+	OnlineNetworkManager::sShareInstance()->sendAttributesReq(attributes,21);
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+extern "C"{
+
+	void playerlogOut()
+	{
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID) 
+		JniMethodInfo t;
+		if(JniHelper::getStaticMethodInfo(t, "com/taomee/adventure/adventure", "logOut", "()V"))
+		{
+			t.env->CallStaticVoidMethod(t.classID, t.methodID);
+		}
+#endif 
+	}
+
+}

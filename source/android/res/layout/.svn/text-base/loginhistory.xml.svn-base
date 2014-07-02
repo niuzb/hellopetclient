@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginHistoryLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_center" >
+
+    <ImageView
+        android:id="@+id/management_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/management_account" />
+
+    <RelativeLayout
+        android:id="@+id/middlePart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/login_game_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_game_h" />
+
+        <!-- 滑动区域图片 -->
+
+        <RelativeLayout
+            android:id="@+id/whitebox_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splice" >
+
+            <!-- 滑动区域scroll -->
+
+            <ScrollView
+                android:id="@+id/scrollPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <!-- 滑动R -->
+
+                <RelativeLayout
+                    android:id="@+id/scrollR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 登录历史title -->
+
+                    <ImageView
+                        android:id="@+id/login_history_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/login_history_h" />
+                    <!-- 登录历史记录L -->
+
+                    <LinearLayout
+                        android:id="@+id/scrollL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+        <!-- icon部分 -->
+
+        <RelativeLayout
+            android:id="@+id/iconPart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/sinaPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/sina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sina" />
+
+                <TextView
+                    android:id="@+id/sina_words"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="新浪微博"
+                    android:textColor="#7c3313" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tencentPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/tencent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tencent" />
+
+                <TextView
+                    android:id="@+id/tencent_words"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="腾讯微博"
+                    android:textColor="#7c3313" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/localPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/local"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/local" />
+
+                <TextView
+                    android:id="@+id/local_words"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="本地登录"
+                    android:textColor="#7c3313" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform
+END
+thread_win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform/thread_win32.h
+END
+XUIPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform/XUIPlatform.h
+END
+socket_win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform/socket_win32.h
+END
+XPlatform.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform/XPlatform.h
+END
+XUIPlatform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform/XUIPlatform.cpp
+END
+XPlatform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/Win32Platform/XPlatform.cpp
+END

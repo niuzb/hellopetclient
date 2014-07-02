@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/1101077902/!svn/ver/928/hellopet/1/server/ahero/source/cocos2dx/cocos2dx
+END
+CCCamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCCamera.cpp
+END
+CCDirector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCDirector.cpp
+END
+CCConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCConfiguration.h
+END
+CCCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCCamera.h
+END
+CCScheduler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCScheduler.cpp
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/Android.mk
+END
+CCDirector.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCDirector.h
+END
+CCScheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCScheduler.h
+END
+cocos2d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/cocos2d.cpp
+END
+CCConfiguration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/CCConfiguration.cpp
+END

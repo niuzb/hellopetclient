@@ -1,0 +1,14 @@
+class GameManager
+{
+	static GameManager* Get();
+	SceneLayer* GetSceneLayer();
+	SpriteSeer *getHero();
+	void setHero(SpriteSeer* hero);
+	int getHeroTypeId();
+	void setHeroTypeId(int typeId);
+	void changeMap(int mapId, KMapFromType fromMapType);
+	CCScene* goToSplash();
+	void goToFrontend();
+	void startGame();
+	void exitGame();
+};

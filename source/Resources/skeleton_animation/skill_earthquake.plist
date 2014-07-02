@@ -1,0 +1,1513 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>skill_earthquake:2 hx.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{407,478},{83,63}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{83,63}}</string>
+                <key>sourceSize</key>
+                <string>{83,63}</string>
+            </dict>
+            <key>skill_earthquake:2 hxdg1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{585,152},{214,116}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{214,116}}</string>
+                <key>sourceSize</key>
+                <string>{214,116}</string>
+            </dict>
+            <key>skill_earthquake:2hx 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{424,341},{113,83}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{113,83}}</string>
+                <key>sourceSize</key>
+                <string>{113,83}</string>
+            </dict>
+            <key>skill_earthquake:2hx10.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{265,470},{139,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{139,31}}</string>
+                <key>sourceSize</key>
+                <string>{139,31}</string>
+            </dict>
+            <key>skill_earthquake:2hx11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{580,432},{139,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{139,31}}</string>
+                <key>sourceSize</key>
+                <string>{139,31}</string>
+            </dict>
+            <key>skill_earthquake:2hx13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{142,589},{66,29}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{66,29}}</string>
+                <key>sourceSize</key>
+                <string>{66,29}</string>
+            </dict>
+            <key>skill_earthquake:2hx3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{157,181},{154,87}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{154,87}}</string>
+                <key>sourceSize</key>
+                <string>{154,87}</string>
+            </dict>
+            <key>skill_earthquake:2hx4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,181},{154,94}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{154,94}}</string>
+                <key>sourceSize</key>
+                <string>{154,94}</string>
+            </dict>
+            <key>skill_earthquake:2hx5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{425,263},{154,75}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{154,75}}</string>
+                <key>sourceSize</key>
+                <string>{154,75}</string>
+            </dict>
+            <key>skill_earthquake:2hx6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{582,333},{162,60}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{162,60}}</string>
+                <key>sourceSize</key>
+                <string>{162,60}</string>
+            </dict>
+            <key>skill_earthquake:2hx7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{582,271},{165,59}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{165,59}}</string>
+                <key>sourceSize</key>
+                <string>{165,59}</string>
+            </dict>
+            <key>skill_earthquake:2hx8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{534,466},{167,36}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{167,36}}</string>
+                <key>sourceSize</key>
+                <string>{167,36}</string>
+            </dict>
+            <key>skill_earthquake:2hx9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{582,396},{160,33}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{160,33}}</string>
+                <key>sourceSize</key>
+                <string>{160,33}</string>
+            </dict>
+            <key>skill_earthquake:2hxdg2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{802,0},{150,206}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{150,206}}</string>
+                <key>sourceSize</key>
+                <string>{150,206}</string>
+            </dict>
+            <key>skill_earthquake:asa/11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{530,575},{77,43}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,43}}</string>
+                <key>sourceSize</key>
+                <string>{77,43}</string>
+            </dict>
+            <key>skill_earthquake:b tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{913,209},{39,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{39,39}}</string>
+                <key>sourceSize</key>
+                <string>{39,39}</string>
+            </dict>
+            <key>skill_earthquake:b tou3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{913,251},{38,38}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{38,38}}</string>
+                <key>sourceSize</key>
+                <string>{38,38}</string>
+            </dict>
+            <key>skill_earthquake:b tui5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{267,390},{19,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,22}}</string>
+                <key>sourceSize</key>
+                <string>{19,22}</string>
+            </dict>
+            <key>skill_earthquake:b weijing.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{540,341},{37,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{37,18}}</string>
+                <key>sourceSize</key>
+                <string>{37,18}</string>
+            </dict>
+            <key>skill_earthquake:b weijing 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{910,327},{37,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{37,18}}</string>
+                <key>sourceSize</key>
+                <string>{37,18}</string>
+            </dict>
+            <key>skill_earthquake:b weijing13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{571,505},{62,67}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,67}}</string>
+                <key>sourceSize</key>
+                <string>{62,67}</string>
+            </dict>
+            <key>skill_earthquake:b weijing16.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{787,525},{71,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,53}}</string>
+                <key>sourceSize</key>
+                <string>{71,53}</string>
+            </dict>
+            <key>skill_earthquake:b weijng 14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{71,569},{68,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{68,44}}</string>
+                <key>sourceSize</key>
+                <string>{68,44}</string>
+            </dict>
+            <key>skill_earthquake:b youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{873,414},{18,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,15}}</string>
+                <key>sourceSize</key>
+                <string>{18,15}</string>
+            </dict>
+            <key>skill_earthquake:b youjiao 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{76,415},{18,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,15}}</string>
+                <key>sourceSize</key>
+                <string>{18,15}</string>
+            </dict>
+            <key>skill_earthquake:b youjiao 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,56},{12,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,14}}</string>
+                <key>sourceSize</key>
+                <string>{12,14}</string>
+            </dict>
+            <key>skill_earthquake:b zuojiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{100,385},{22,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,19}}</string>
+                <key>sourceSize</key>
+                <string>{22,19}</string>
+            </dict>
+            <key>skill_earthquake:b zuojiao 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{392,384},{22,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,19}}</string>
+                <key>sourceSize</key>
+                <string>{22,19}</string>
+            </dict>
+            <key>skill_earthquake:b zuojiao 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,0},{13,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,18}}</string>
+                <key>sourceSize</key>
+                <string>{13,18}</string>
+            </dict>
+            <key>skill_earthquake:b zuotui3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,38},{12,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,15}}</string>
+                <key>sourceSize</key>
+                <string>{12,15}</string>
+            </dict>
+            <key>skill_earthquake:gujia/weijing1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{909,348},{38,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{38,15}}</string>
+                <key>sourceSize</key>
+                <string>{38,15}</string>
+            </dict>
+            <key>skill_earthquake:gujia/youbi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{913,292},{35,32}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,32}}</string>
+                <key>sourceSize</key>
+                <string>{35,32}</string>
+            </dict>
+            <key>skill_earthquake:gujia/youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{873,317},{34,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{34,25}}</string>
+                <key>sourceSize</key>
+                <string>{34,25}</string>
+            </dict>
+            <key>skill_earthquake:gujia/youshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{289,390},{21,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,18}}</string>
+                <key>sourceSize</key>
+                <string>{21,18}</string>
+            </dict>
+            <key>skill_earthquake:gujia/youtui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{873,367},{22,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,25}}</string>
+                <key>sourceSize</key>
+                <string>{22,25}</string>
+            </dict>
+            <key>skill_earthquake:gujia/zuobi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{140,356},{14,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,15}}</string>
+                <key>sourceSize</key>
+                <string>{14,15}</string>
+            </dict>
+            <key>skill_earthquake:gujia/zuobi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{112,325},{41,28}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,28}}</string>
+                <key>sourceSize</key>
+                <string>{41,28}</string>
+            </dict>
+            <key>skill_earthquake:gujia/zuojiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{540,405},{20,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,16}}</string>
+                <key>sourceSize</key>
+                <string>{20,16}</string>
+            </dict>
+            <key>skill_earthquake:gujia/zuotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{909,366},{29,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{29,21}}</string>
+                <key>sourceSize</key>
+                <string>{29,21}</string>
+            </dict>
+            <key>skill_earthquake:h1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{636,571},{57,54}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{57,54}}</string>
+                <key>sourceSize</key>
+                <string>{57,54}</string>
+            </dict>
+            <key>skill_earthquake:h10.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{76,436},{65,73}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,73}}</string>
+                <key>sourceSize</key>
+                <string>{65,73}</string>
+            </dict>
+            <key>skill_earthquake:h11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{798,447},{60,75}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,75}}</string>
+                <key>sourceSize</key>
+                <string>{60,75}</string>
+            </dict>
+            <key>skill_earthquake:h12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{747,374},{46,54}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{46,54}}</string>
+                <key>sourceSize</key>
+                <string>{46,54}</string>
+            </dict>
+            <key>skill_earthquake:h2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,474},{71,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,62}}</string>
+                <key>sourceSize</key>
+                <string>{71,62}</string>
+            </dict>
+            <key>skill_earthquake:h3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{313,290},{108,91}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,91}}</string>
+                <key>sourceSize</key>
+                <string>{108,91}</string>
+            </dict>
+            <key>skill_earthquake:h4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,278},{109,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{109,90}}</string>
+                <key>sourceSize</key>
+                <string>{109,90}</string>
+            </dict>
+            <key>skill_earthquake:h5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{157,271},{108,98}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,98}}</string>
+                <key>sourceSize</key>
+                <string>{108,98}</string>
+            </dict>
+            <key>skill_earthquake:h6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{802,209},{108,105}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,105}}</string>
+                <key>sourceSize</key>
+                <string>{108,105}</string>
+            </dict>
+            <key>skill_earthquake:h7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{314,181},{108,106}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,106}}</string>
+                <key>sourceSize</key>
+                <string>{108,106}</string>
+            </dict>
+            <key>skill_earthquake:h8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{313,384},{76,83}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{76,83}}</string>
+                <key>sourceSize</key>
+                <string>{76,83}</string>
+            </dict>
+            <key>skill_earthquake:h9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{954,283},{67,73}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{67,73}}</string>
+                <key>sourceSize</key>
+                <string>{67,73}</string>
+            </dict>
+            <key>skill_earthquake:hujian 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{140,374},{14,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,15}}</string>
+                <key>sourceSize</key>
+                <string>{14,15}</string>
+            </dict>
+            <key>skill_earthquake:hxdg3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{436,0},{146,260}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{146,260}}</string>
+                <key>sourceSize</key>
+                <string>{146,260}</string>
+            </dict>
+            <key>skill_earthquake:hxdg5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{585,0},{214,149}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{214,149}}</string>
+                <key>sourceSize</key>
+                <string>{214,149}</string>
+            </dict>
+            <key>skill_earthquake:hydg 6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{955,0},{50,147}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{50,147}}</string>
+                <key>sourceSize</key>
+                <string>{50,147}</string>
+            </dict>
+            <key>skill_earthquake:jianbang 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{125,392},{19,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,19}}</string>
+                <key>sourceSize</key>
+                <string>{19,19}</string>
+            </dict>
+            <key>skill_earthquake:kudang.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{563,412},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>skill_earthquake:p 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{144,539},{78,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,47}}</string>
+                <key>sourceSize</key>
+                <string>{78,47}</string>
+            </dict>
+            <key>skill_earthquake:p 111.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{702,542},{78,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,47}}</string>
+                <key>sourceSize</key>
+                <string>{78,47}</string>
+            </dict>
+            <key>skill_earthquake:p 11111.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{371,544},{78,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,47}}</string>
+                <key>sourceSize</key>
+                <string>{78,47}</string>
+            </dict>
+            <key>skill_earthquake:pifeng 4131.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,539},{68,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{68,53}}</string>
+                <key>sourceSize</key>
+                <string>{68,53}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/6 13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{493,505},{75,54}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,54}}</string>
+                <key>sourceSize</key>
+                <string>{75,54}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/6 14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{946,472},{72,61}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{72,61}}</string>
+                <key>sourceSize</key>
+                <string>{72,61}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/6 15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{301,504},{67,63}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{67,63}}</string>
+                <key>sourceSize</key>
+                <string>{67,63}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/6 16.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{227,504},{71,61}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,61}}</string>
+                <key>sourceSize</key>
+                <string>{71,61}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/6 17.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{873,435},{70,72}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{70,72}}</string>
+                <key>sourceSize</key>
+                <string>{70,72}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/6 18.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{704,480},{80,59}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{80,59}}</string>
+                <key>sourceSize</key>
+                <string>{80,59}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/619.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{144,483},{80,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{80,53}}</string>
+                <key>sourceSize</key>
+                <string>{80,53}</string>
+            </dict>
+            <key>skill_earthquake:pifeng/620.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{934,536},{76,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{76,50}}</string>
+                <key>sourceSize</key>
+                <string>{76,50}</string>
+            </dict>
+            <key>skill_earthquake:shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{76,397},{21,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,15}}</string>
+                <key>sourceSize</key>
+                <string>{21,15}</string>
+            </dict>
+            <key>skill_earthquake:shenti4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{124,414},{17,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,17}}</string>
+                <key>sourceSize</key>
+                <string>{17,17}</string>
+            </dict>
+            <key>skill_earthquake:shoub8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,87},{7,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,16}}</string>
+                <key>sourceSize</key>
+                <string>{7,16}</string>
+            </dict>
+            <key>skill_earthquake:shoubi5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{540,424},{19,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,9}}</string>
+                <key>sourceSize</key>
+                <string>{19,9}</string>
+            </dict>
+            <key>skill_earthquake:tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{898,390},{49,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{49,42}}</string>
+                <key>sourceSize</key>
+                <string>{49,42}</string>
+            </dict>
+            <key>skill_earthquake:tou 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{745,431},{50,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{50,46}}</string>
+                <key>sourceSize</key>
+                <string>{50,46}</string>
+            </dict>
+            <key>skill_earthquake:tx 63 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{433,178}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{433,178}}</string>
+                <key>sourceSize</key>
+                <string>{433,178}</string>
+            </dict>
+            <key>skill_earthquake:weijing 16.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,568},{67,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{67,50}}</string>
+                <key>sourceSize</key>
+                <string>{67,50}</string>
+            </dict>
+            <key>skill_earthquake:weijing 17.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{295,570},{65,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,47}}</string>
+                <key>sourceSize</key>
+                <string>{65,47}</string>
+            </dict>
+            <key>skill_earthquake:weijing 30.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{861,510},{70,57}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{70,57}}</string>
+                <key>sourceSize</key>
+                <string>{70,57}</string>
+            </dict>
+            <key>skill_earthquake:weijing 31.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{636,505},{63,63}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{63,63}}</string>
+                <key>sourceSize</key>
+                <string>{63,63}</string>
+            </dict>
+            <key>skill_earthquake:weijing 32.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{783,581},{65,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{65,45}}</string>
+                <key>sourceSize</key>
+                <string>{65,45}</string>
+            </dict>
+            <key>skill_earthquake:weijing 33.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{861,570},{59,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{59,52}}</string>
+                <key>sourceSize</key>
+                <string>{59,52}</string>
+            </dict>
+            <key>skill_earthquake:weijing 34.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{74,512},{67,54}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{67,54}}</string>
+                <key>sourceSize</key>
+                <string>{67,54}</string>
+            </dict>
+            <key>skill_earthquake:weijing 35.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{452,562},{75,48}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,48}}</string>
+                <key>sourceSize</key>
+                <string>{75,48}</string>
+            </dict>
+            <key>skill_earthquake:wuqi daoguang 30 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,371},{73,100}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{73,100}}</string>
+                <key>sourceSize</key>
+                <string>{73,100}</string>
+            </dict>
+            <key>skill_earthquake:wuqi daoguang16 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{144,431},{118,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{118,49}}</string>
+                <key>sourceSize</key>
+                <string>{118,49}</string>
+            </dict>
+            <key>skill_earthquake:wuqi daoguang17 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{950,359},{71,110}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,110}}</string>
+                <key>sourceSize</key>
+                <string>{71,110}</string>
+            </dict>
+            <key>skill_earthquake:wuqi daoguang29 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{157,372},{107,56}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{107,56}}</string>
+                <key>sourceSize</key>
+                <string>{107,56}</string>
+            </dict>
+            <key>skill_earthquake:wuqi daoguang8 8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{411,427},{120,48}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{120,48}}</string>
+                <key>sourceSize</key>
+                <string>{120,48}</string>
+            </dict>
+            <key>skill_earthquake:wuqi daoguang9 9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{799,317},{71,127}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,127}}</string>
+                <key>sourceSize</key>
+                <string>{71,127}</string>
+            </dict>
+            <key>skill_earthquake:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{268,271},{42,116}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,116}}</string>
+                <key>sourceSize</key>
+                <string>{42,116}</string>
+            </dict>
+            <key>skill_earthquake:wuqi_80.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{955,150},{60,130}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,130}}</string>
+                <key>sourceSize</key>
+                <string>{60,130}</string>
+            </dict>
+            <key>skill_earthquake:wuqidaoguang 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{750,271},{46,100}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{46,100}}</string>
+                <key>sourceSize</key>
+                <string>{46,100}</string>
+            </dict>
+            <key>skill_earthquake:youbi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,21},{13,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,14}}</string>
+                <key>sourceSize</key>
+                <string>{13,14}</string>
+            </dict>
+            <key>skill_earthquake:youbi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,117},{10,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,10}}</string>
+                <key>sourceSize</key>
+                <string>{10,10}</string>
+            </dict>
+            <key>skill_earthquake:youshou 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{97,423},{21,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,10}}</string>
+                <key>sourceSize</key>
+                <string>{21,10}</string>
+            </dict>
+            <key>skill_earthquake:youshou 5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{289,411},{18,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,16}}</string>
+                <key>sourceSize</key>
+                <string>{18,16}</string>
+            </dict>
+            <key>skill_earthquake:z kudang.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{289,430},{18,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,8}}</string>
+                <key>sourceSize</key>
+                <string>{18,8}</string>
+            </dict>
+            <key>skill_earthquake:z lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{112,356},{25,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,26}}</string>
+                <key>sourceSize</key>
+                <string>{25,26}</string>
+            </dict>
+            <key>skill_earthquake:z shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{540,381},{22,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,21}}</string>
+                <key>sourceSize</key>
+                <string>{22,21}</string>
+            </dict>
+            <key>skill_earthquake:z shou 7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{873,395},{21,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,16}}</string>
+                <key>sourceSize</key>
+                <string>{21,16}</string>
+            </dict>
+            <key>skill_earthquake:z toufa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{112,278},{40,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{40,44}}</string>
+                <key>sourceSize</key>
+                <string>{40,44}</string>
+            </dict>
+            <key>skill_earthquake:z weijing 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{873,345},{33,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,19}}</string>
+                <key>sourceSize</key>
+                <string>{33,19}</string>
+            </dict>
+            <key>skill_earthquake:z youhujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{562,428},{15,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,10}}</string>
+                <key>sourceSize</key>
+                <string>{15,10}</string>
+            </dict>
+            <key>skill_earthquake:z youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{392,406},{16,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,19}}</string>
+                <key>sourceSize</key>
+                <string>{16,19}</string>
+            </dict>
+            <key>skill_earthquake:z youshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{565,397},{14,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,12}}</string>
+                <key>sourceSize</key>
+                <string>{14,12}</string>
+            </dict>
+            <key>skill_earthquake:z youshoubi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{265,431},{14,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,11}}</string>
+                <key>sourceSize</key>
+                <string>{14,11}</string>
+            </dict>
+            <key>skill_earthquake:z youtui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{76,371},{21,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,23}}</string>
+                <key>sourceSize</key>
+                <string>{21,23}</string>
+            </dict>
+            <key>skill_earthquake:z zuohujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{565,381},{14,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,13}}</string>
+                <key>sourceSize</key>
+                <string>{14,13}</string>
+            </dict>
+            <key>skill_earthquake:z zuojiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{392,428},{15,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,13}}</string>
+                <key>sourceSize</key>
+                <string>{15,13}</string>
+            </dict>
+            <key>skill_earthquake:z zuoshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{100,407},{21,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,13}}</string>
+                <key>sourceSize</key>
+                <string>{21,13}</string>
+            </dict>
+            <key>skill_earthquake:z zuoshoubi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,73},{13,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,11}}</string>
+                <key>sourceSize</key>
+                <string>{13,11}</string>
+            </dict>
+            <key>skill_earthquake:z zuotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{267,415},{19,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,13}}</string>
+                <key>sourceSize</key>
+                <string>{19,13}</string>
+            </dict>
+            <key>skill_earthquake:zuobi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1008,106},{12,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,8}}</string>
+                <key>sourceSize</key>
+                <string>{12,8}</string>
+            </dict>
+            <key>skill_earthquake:zuoshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{540,362},{34,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{34,16}}</string>
+                <key>sourceSize</key>
+                <string>{34,16}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>skill_earthquake.pvr.ccz</string>
+            <key>size</key>
+            <string>{1024,639}</string>
+            <key>textureFileName</key>
+            <string>skill_earthquake.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

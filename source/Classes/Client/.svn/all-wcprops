@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client
+END
+HelloWorldScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HelloWorldScene.h
+END
+IEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/IEvent.h
+END
+GMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GMessage.h
+END
+TipMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/TipMgr.cpp
+END
+AreaItemNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/AreaItemNode.h
+END
+lua_tinker.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/lua_tinker.h
+END
+HeroAssassin.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroAssassin.cpp
+END
+LuaGameAPI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/LuaGameAPI.cpp
+END
+HeroFighter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroFighter.cpp
+END
+HeroAssassin.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroAssassin.h
+END
+TipMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/TipMgr.h
+END
+LuaGameAPI.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/LuaGameAPI.h
+END
+HeroFighter.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroFighter.h
+END
+HeroFight.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroFight.cpp
+END
+HeroHunter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroHunter.cpp
+END
+FrontCoverLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/FrontCoverLayer.cpp
+END
+HeroHunter.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HeroHunter.h
+END
+FrontCoverLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/FrontCoverLayer.h
+END
+HelloWorldScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/HelloWorldScene.cpp
+END
+luaconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/luaconf.h
+END
+lua_tinker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/lua_tinker.cpp
+END
+AreaItemNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/AreaItemNode.cpp
+END

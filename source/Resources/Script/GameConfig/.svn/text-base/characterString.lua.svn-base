@@ -1,0 +1,9 @@
+Characters={}
+Characters[1]={Name='剑士',Description='剑士的招式刚猛稳健，在中近距离具备强大的杀伤力。',PictureFile='UI/ui_swordsman_bodyicon.png',HeadPicture='map_ui_system_icon_FRAME_ICON_SWORDSMAN',attrPic='UI/ui_swordsman_wholebody.png',}
+Characters[2]={Name='剑士',Description='剑士的招式刚猛稳健，在中近距离具备强大的杀伤力。',PictureFile='UI/ui_swordswoman_bodyicon.png',HeadPicture='map_ui_system_icon_FRAME_ICON_SWORDSWOMAN',attrPic='UI/ui_swordswoman_wholebody.png',}
+Characters[3]={Name='魔法师',Description='魔法师擅长远距离法术攻击。技能多为范围伤害，将敌人淹没于华丽的魔法风暴之中。',PictureFile='UI/ui_mageman_bodyicon.png',HeadPicture='map_ui_system_icon_FRAME_ICON_MAGEMAN',attrPic='UI/ui_mageman_wholebody.png',}
+Characters[4]={Name='魔法师',Description='魔法师擅长远距离法术攻击。技能多为范围伤害，将敌人淹没于华丽的魔法风暴之中。',PictureFile='UI/ui_magewoman_bodyicon.png',HeadPicture='map_ui_system_icon_FRAME_ICON_MAGEWOMAN',attrPic='UI/ui_magewoman_wholebody.png',}
+Characters[5]={Name='刺客',Description='刺客身手敏捷，擅长高速近身攻击。总能出其不意的发起致命一击。',PictureFile='UI/ui_assassinman_bodyicon.png',HeadPicture='map_ui_system_icon_FRAME_ICON_ASSASSINMAN',attrPic='UI/ui_assassinman_wholebody.png',}
+Characters[6]={Name='刺客',Description='刺客身手敏捷，擅长高速近身攻击。总能出其不意的发起致命一击。',PictureFile='UI/ui_assassinwoman_bodyicon.png',HeadPicture='map_ui_system_icon_FRAME_ICON_ASSASSINWOMAN',attrPic='UI/ui_assassinwoman_wholebody.png',}
+Characters[7]={Name='猎人',Description='描述描述',PictureFile='',HeadPicture='',}
+Characters[8]={Name='猎人',Description='描述描述',PictureFile='',HeadPicture='',}

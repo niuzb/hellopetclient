@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher
+END
+CCTouchDispatcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouchDispatcher.cpp
+END
+CCTouchDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouchDispatcher.h
+END
+CCTouchHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouchHandler.cpp
+END
+CCTouch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouch.cpp
+END
+CCTouchDelegateProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouchDelegateProtocol.h
+END
+CCTouchHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouchHandler.h
+END
+CCTouch.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/touch_dispatcher/CCTouch.h
+END

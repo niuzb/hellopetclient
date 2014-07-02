@@ -1,0 +1,114 @@
+/*
+1. 包格式：
+	total_len(u32) + header_len(u32) + CSMessageHeader + msgpayload(例如CSLoginReq)
+
+2. 使用规则：
+	(1) 字段只能加，不能减；
+	(2) 增加的字段只能是optional类型，且必须给出default值，最好还有相关说明；
+	(3) 不能改变原来字段的序号。
+
+3. 命名规则：
+	CSXXXXReq/Rsp：以大写CS开头，客户端发来的请求以Req结尾，服务端的相应包以Rsp结尾，
+					中间的XXXX代表对应的功能，比如CSLoginReq/Rsp。
+*/
+
+// 本文件只定义最基础的功能模块的协议：登录、延时检测、在线人数、同步时间
+// 社区等核心模块的协议定于cs_core.proto，对战模块的协议定义于cs_battle.proto
+
+// 定义CS协议的一些常量
+enum CSMessageConst {
+    cs_msg_min_size    = 10;      // 客户端发过来的最小包长
+    cs_msg_max_size    = 65537;  // 客户端发过来的最大包长
+}
+
+// 和客户端通讯的标准报文头部
+message CSMessageHeader {
+	required string msg_name   = 1; // 协议名字
+	optional uint32 errcode    = 2; // 返回值，客户端发给后台的包可以不赋值
+}
+
+// 登录协议
+message CSLoginReq {
+	required uint32 uid        = 1; // 登录米米号
+	required string sid        = 2; // 用于验证登录合法性的会话ID（Session ID）
+	optional uint64 tokenid    = 3; // 由Online生成，用于断线重连，可恢复断线前状态。如果是全新登录，则无需发送此字段。
+}
+
+message CSLoginRsp {
+	required uint64 tokenid    = 1; // 由Online生成，用于断线重连，可恢复断线前状态。
+	required string name       = 2; // 玩家昵称
+	required uint32 lv         = 3; // 玩家等级
+	required uint32 exp        = 4; // 玩家经验值
+	required uint32 type	   = 9; // 
+}
+
+// 创建角色协议
+message CSCrtRoleReq {
+    required string name       = 1; // 玩家昵称，单服内唯一
+    required uint32 role_type  = 2; // 1男战士、2女战士
+}
+
+message CSDelRoleReq {
+	
+}
+
+message CSCrtRoleRsp { // 返回这个包，表示角色创建成功，并且自动登录成功，无需再次发送登录协议
+	required uint64 tokenid    = 1; // 由Online生成，用于断线重连，可恢复断线前状态。
+	required uint32 mapid      = 2; // 玩家所在地图ID
+	required uint32 xpos       = 3; // 玩家所在地图x坐标
+	required uint32 ypos       = 4; // 玩家所在地图y坐标
+	required uint32 orient     = 5; // 玩家朝向
+}
+
+// 查询大区及服务器列表
+message CSQueryShardReq 
+{
+}
+
+message CSServerBase
+{
+	required string desc	   	= 1; // 服务器名称
+	required string ip		   	= 2; // IP地址
+	required uint32 port	   	= 3; // Port
+	required uint32 online	   	= 4; // 当前在线人数
+	required uint32 newsvr	   	= 5; // 0: 老服, 1: 新服
+}
+
+message CSShardBase
+{
+	required uint32 id			= 1; // 大区编号
+	required uint32 os		   	= 2; // 1: IOS, 2: Android
+	required uint32 provider  	= 3; // 1: 电信，2: 网通
+	repeated CSServerBase svrs 	= 4; // 服务器列表
+}
+
+// 回复大区及服务器列表
+message CSQueryShardRsp
+{
+	repeated CSShardBase shards	= 1; // 大区列表
+}
+
+// 单独刷新当前在线人数, 该消息并非CS消息，是Online到Login的消息
+message FlushOnline
+{
+	required uint32 online		= 1; // 当前在线人数
+}
+// 单独刷新服务器信息， 该消息并非CS消息，是Online到Login的消息
+message FlushServer
+{
+	required uint32 id			= 1; // 所属大区编号
+	repeated CSServerBase svrs 	= 2; // 服务器信息
+}
+
+// 客户端检测和服务端的延时
+message CSPingReq {
+}
+
+message CSPingRsp {
+	required uint32 time		=  1;//
+	required uint32 utime		=  2;
+}	
+
+// Task message
+message CSTaskAccept {
+}

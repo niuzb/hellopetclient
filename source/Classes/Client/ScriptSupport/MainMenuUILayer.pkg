@@ -1,0 +1,7 @@
+class MainMenuLayer
+{
+public:
+	void  setChatToolbar(bool isChatVisible,bool isFunctionVisible,bool isExtraVisible = false,int order = 0);
+	static MainMenuLayer* getMainMenuLayer();
+	static const char* GetNumByFormat(unsigned int num);
+};

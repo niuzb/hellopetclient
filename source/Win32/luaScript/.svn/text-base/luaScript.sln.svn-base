@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22ECEEAA-3299-42C4-96AA-C850D45D6574}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\ChatToolLayer.lua = ..\..\Resources\Script\ChatToolLayer.lua
+		..\..\Resources\Script\CommonDefine.lua = ..\..\Resources\Script\CommonDefine.lua
+		..\..\Resources\Script\GameUILayer.lua = ..\..\Resources\Script\GameUILayer.lua
+		..\..\Resources\Script\handleMessage.lua = ..\..\Resources\Script\handleMessage.lua
+		..\..\Resources\Script\Language.lua = ..\..\Resources\Script\Language.lua
+		..\..\Resources\Script\main.lua = ..\..\Resources\Script\main.lua
+		..\..\Resources\Script\MainMenuUILayer.lua = ..\..\Resources\Script\MainMenuUILayer.lua
+		..\..\Resources\Script\OsCommonMethod.lua = ..\..\Resources\Script\OsCommonMethod.lua
+		..\..\Resources\Script\ppveRoom.lua = ..\..\Resources\Script\ppveRoom.lua
+		..\..\Resources\Script\ppveUILayer.lua = ..\..\Resources\Script\ppveUILayer.lua
+		..\..\Resources\Script\pvp_1vs1.lua = ..\..\Resources\Script\pvp_1vs1.lua
+		..\..\Resources\Script\pvp_2vs2.lua = ..\..\Resources\Script\pvp_2vs2.lua
+		..\..\Resources\Script\pvp_s1.lua = ..\..\Resources\Script\pvp_s1.lua
+		..\..\Resources\Script\pvpUILayer.lua = ..\..\Resources\Script\pvpUILayer.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameConfig", "GameConfig", "{AF5A6990-4799-402B-BB5C-1EEEDD26645E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\GameConfig\characterString.lua = ..\..\Resources\Script\GameConfig\characterString.lua
+		..\..\Resources\Script\GameConfig\EquipmentItem.lua = ..\..\Resources\Script\GameConfig\EquipmentItem.lua
+		..\..\Resources\Script\GameConfig\ExchangeItem.lua = ..\..\Resources\Script\GameConfig\ExchangeItem.lua
+		..\..\Resources\Script\GameConfig\ExchangeParameter.lua = ..\..\Resources\Script\GameConfig\ExchangeParameter.lua
+		..\..\Resources\Script\GameConfig\InstanceList.lua = ..\..\Resources\Script\GameConfig\InstanceList.lua
+		..\..\Resources\Script\GameConfig\Item.lua = ..\..\Resources\Script\GameConfig\Item.lua
+		..\..\Resources\Script\GameConfig\ItemConfigTab.lua = ..\..\Resources\Script\GameConfig\ItemConfigTab.lua
+		..\..\Resources\Script\GameConfig\Localization.lua = ..\..\Resources\Script\GameConfig\Localization.lua
+		..\..\Resources\Script\GameConfig\MapBasic.lua = ..\..\Resources\Script\GameConfig\MapBasic.lua
+		..\..\Resources\Script\GameConfig\MapDataTable.lua = ..\..\Resources\Script\GameConfig\MapDataTable.lua
+		..\..\Resources\Script\GameConfig\MapMusicTable.lua = ..\..\Resources\Script\GameConfig\MapMusicTable.lua
+		..\..\Resources\Script\GameConfig\MonsterBasicInfomation.lua = ..\..\Resources\Script\GameConfig\MonsterBasicInfomation.lua
+		..\..\Resources\Script\GameConfig\npc.lua = ..\..\Resources\Script\GameConfig\npc.lua
+		..\..\Resources\Script\GameConfig\RaidBasic.lua = ..\..\Resources\Script\GameConfig\RaidBasic.lua
+		..\..\Resources\Script\GameConfig\RaidMusic.lua = ..\..\Resources\Script\GameConfig\RaidMusic.lua
+		..\..\Resources\Script\GameConfig\SearchSpirit.lua = ..\..\Resources\Script\GameConfig\SearchSpirit.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level", "Level", "{A47289BE-8568-45AC-9627-6D51134A1275}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\Level\10001.lua = ..\..\Resources\Script\Level\10001.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skill", "Skill", "{0162BBE8-A8D5-42CC-854D-6EABBAB653BE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\Skill\SkillBasicDataTable.lua = ..\..\Resources\Script\Skill\SkillBasicDataTable.lua
+		..\..\Resources\Script\Skill\SkillDataCenter.lua = ..\..\Resources\Script\Skill\SkillDataCenter.lua
+		..\..\Resources\Script\Skill\SkillEquipLayer.lua = ..\..\Resources\Script\Skill\SkillEquipLayer.lua
+		..\..\Resources\Script\Skill\SkillSelectLayer.lua = ..\..\Resources\Script\Skill\SkillSelectLayer.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpriteElf", "SpriteElf", "{FF71157F-76CC-4E5F-9925-2744A65D1178}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\SpriteElf\ElfConfigParse.lua = ..\..\Resources\Script\SpriteElf\ElfConfigParse.lua
+		..\..\Resources\Script\SpriteElf\fairybasicinfo.lua = ..\..\Resources\Script\SpriteElf\fairybasicinfo.lua
+		..\..\Resources\Script\SpriteElf\SpriteElfLayer.lua = ..\..\Resources\Script\SpriteElf\SpriteElfLayer.lua
+		..\..\Resources\Script\SpriteElf\SpriteElfStrengthenLayer.lua = ..\..\Resources\Script\SpriteElf\SpriteElfStrengthenLayer.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{992B9C56-273F-4FC7-86B1-BA736EC2BB9F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\Task\task.lua = ..\..\Resources\Script\Task\task.lua
+		..\..\Resources\Script\Task\TaskParser.lua = ..\..\Resources\Script\Task\TaskParser.lua
+		..\..\Resources\Script\Task\TaskState.lua = ..\..\Resources\Script\Task\TaskState.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UILayer", "UILayer", "{D6D72890-7B2E-43EC-B8CE-0F1C363B592D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\UILayer\backPackLayer.lua = ..\..\Resources\Script\UILayer\backPackLayer.lua
+		..\..\Resources\Script\UILayer\battleLayer.lua = ..\..\Resources\Script\UILayer\battleLayer.lua
+		..\..\Resources\Script\UILayer\battleWinLayer.lua = ..\..\Resources\Script\UILayer\battleWinLayer.lua
+		..\..\Resources\Script\UILayer\enchaseExchangeUILayer.lua = ..\..\Resources\Script\UILayer\enchaseExchangeUILayer.lua
+		..\..\Resources\Script\UILayer\EnchaseGemStoneTable.lua = ..\..\Resources\Script\UILayer\EnchaseGemStoneTable.lua
+		..\..\Resources\Script\UILayer\enchaseRecastContainer.lua = ..\..\Resources\Script\UILayer\enchaseRecastContainer.lua
+		..\..\Resources\Script\UILayer\enchaseUILayer.lua = ..\..\Resources\Script\UILayer\enchaseUILayer.lua
+		..\..\Resources\Script\UILayer\PlayerInfo.lua = ..\..\Resources\Script\UILayer\PlayerInfo.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpriteElfExplore", "SpriteElfExplore", "{D953CBB6-07EB-46DC-BD07-8A0C3B4C2CED}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\SpriteElfExplore\ElfExploreDataCenter.lua = ..\..\Resources\Script\SpriteElfExplore\ElfExploreDataCenter.lua
+		..\..\Resources\Script\SpriteElfExplore\ElfExploreLayer.lua = ..\..\Resources\Script\SpriteElfExplore\ElfExploreLayer.lua
+		..\..\Resources\Script\SpriteElfExplore\ExchangeElfLayer.lua = ..\..\Resources\Script\SpriteElfExplore\ExchangeElfLayer.lua
+		..\..\Resources\Script\SpriteElfExplore\Explore.lua = ..\..\Resources\Script\SpriteElfExplore\Explore.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manor", "Manor", "{4188B2EB-980F-4788-80F7-FD55780D12D5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Resources\Script\Manor\ManorLayer.lua = ..\..\Resources\Script\Manor\ManorLayer.lua
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF5A6990-4799-402B-BB5C-1EEEDD26645E} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{A47289BE-8568-45AC-9627-6D51134A1275} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{0162BBE8-A8D5-42CC-854D-6EABBAB653BE} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{FF71157F-76CC-4E5F-9925-2744A65D1178} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{992B9C56-273F-4FC7-86B1-BA736EC2BB9F} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{D6D72890-7B2E-43EC-B8CE-0F1C363B592D} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{D953CBB6-07EB-46DC-BD07-8A0C3B4C2CED} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+		{4188B2EB-980F-4788-80F7-FD55780D12D5} = {22ECEEAA-3299-42C4-96AA-C850D45D6574}
+	EndGlobalSection
+EndGlobal

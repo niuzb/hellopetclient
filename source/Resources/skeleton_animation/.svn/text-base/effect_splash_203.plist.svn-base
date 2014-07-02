@@ -1,0 +1,31 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>effect_splash_203:vbcbcbcv.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{76,107}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{76,107}}</string>
+                <key>sourceSize</key>
+                <string>{76,107}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>effect_splash_203.pvr.ccz</string>
+            <key>size</key>
+            <string>{56,86}</string>
+            <key>textureFileName</key>
+            <string>effect_splash_203.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

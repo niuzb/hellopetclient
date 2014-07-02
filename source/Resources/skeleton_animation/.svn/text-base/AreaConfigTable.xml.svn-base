@@ -1,0 +1,3672 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Root>
+  <Role id="101">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-6" upLeftPY="4" downRightPX="5" downRightPY="-4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="102">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-9" upLeftPY="8" downRightPX="9" downRightPY="-8" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="103">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="104">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-4" upLeftPY="2" downRightPX="4" downRightPY="-2" />
+        <V upLeftPX="-6" upLeftPY="5" downRightPX="7" downRightPY="-4" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="6" />
+    </PT>
+  </Role>
+  <Role id="105">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="0" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="1" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="106">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="10" downRightPX="4" downRightPY="-4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="107">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-3" upLeftPY="10" downRightPX="3" downRightPY="-4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="108">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="109">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="110">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-4" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="111">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-8" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="112">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-8" upLeftPY="11" downRightPX="8" downRightPY="-3" />
+        <A startFrame="6" upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-1" />
+        <A startFrame="7" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="18" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="19" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="20" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="21" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="113">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="4" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="114">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="4" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="115">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="12" downRightPX="5" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="116">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="11" downRightPX="5" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="117">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-14" upLeftPY="10" downRightPX="13" downRightPY="-8" />
+        <A startFrame="23" endFrame="36" upLeftPX="-4" upLeftPY="3" downRightPX="3" downRightPY="-4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="118">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="14" downRightPX="5" downRightPY="-2" />
+        <A startFrame="7" endFrame="42" upLeftPX="-4" upLeftPY="2" downRightPX="4" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="119">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="121">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="0" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="1" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="2" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="122">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="0" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="1" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="2" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="4" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="6" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="7" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="123">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="124">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-8" upLeftPY="2" downRightPX="9" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="4" upLeftPX="-7" upLeftPY="2" downRightPX="7" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="-7" upLeftPY="2" downRightPX="8" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="125">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="126">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="8" downRightPX="4" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="7" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="127">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="128">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="129">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-2" upLeftPY="7" downRightPX="3" downRightPY="0" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="130">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-7" upLeftPY="13" downRightPX="7" downRightPY="-3" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="6" upLeftPX="-4" upLeftPY="2" downRightPX="4" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-2" />
+        <A startFrame="8" upLeftPX="-5" upLeftPY="3" downRightPX="5" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="131">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="132">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="6" downRightPX="4" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="0" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="0" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="133">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-10" upLeftPY="8" downRightPX="10" downRightPY="-7" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-3" />
+        <A startFrame="5" upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-3" />
+        <A startFrame="6" upLeftPX="-5" upLeftPY="3" downRightPX="5" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-6" upLeftPY="3" downRightPX="6" downRightPY="-4" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-5" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-5" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-5" />
+        <A startFrame="12" upLeftPX="-8" upLeftPY="6" downRightPX="8" downRightPY="-5" />
+        <A startFrame="13" upLeftPX="-8" upLeftPY="6" downRightPX="8" downRightPY="-5" />
+        <A startFrame="14" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-4" />
+        <A startFrame="15" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-5" />
+        <A startFrame="16" upLeftPX="-8" upLeftPY="5" downRightPX="8" downRightPY="-4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="134">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="6" downRightPX="5" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="135">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-6" upLeftPY="3" downRightPX="7" downRightPY="-3" />
+        <A startFrame="0" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="136">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="137">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-6" upLeftPY="5" downRightPX="6" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-3" upLeftPY="3" downRightPX="1" downRightPY="-1" />
+        <A startFrame="4" upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="1" upLeftPY="3" downRightPX="4" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="7" upLeftPX="-1" upLeftPY="3" downRightPX="2" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="2" downRightPX="-1" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="138">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="8" downRightPX="6" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="139">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-8" upLeftPY="12" downRightPX="9" downRightPY="-4" />
+        <A startFrame="3" upLeftPX="2" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="4" upLeftPX="2" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="1" upLeftPY="2" downRightPX="6" downRightPY="-1" />
+        <A startFrame="6" upLeftPX="1" upLeftPY="2" downRightPX="6" downRightPY="-1" />
+        <A startFrame="7" upLeftPX="-1" upLeftPY="3" downRightPX="6" downRightPY="-3" />
+        <A startFrame="8" upLeftPX="-1" upLeftPY="3" downRightPX="6" downRightPY="-3" />
+        <A startFrame="9" upLeftPX="-1" upLeftPY="3" downRightPX="6" downRightPY="-3" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="3" downRightPX="6" downRightPY="-3" />
+        <A startFrame="11" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-3" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="3" downRightPX="6" downRightPY="-3" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="3" downRightPX="3" downRightPY="-3" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="3" downRightPX="2" downRightPY="-2" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="4" downRightPX="0" downRightPY="-1" />
+        <A startFrame="16" upLeftPX="-6" upLeftPY="3" downRightPX="0" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="140">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="2" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="141">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-7" upLeftPY="9" downRightPX="7" downRightPY="-3" />
+        <A startFrame="4" upLeftPX="-1" upLeftPY="3" downRightPX="2" downRightPY="1" />
+        <A startFrame="5" upLeftPX="-1" upLeftPY="3" downRightPX="2" downRightPY="1" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="1" />
+        <A startFrame="7" upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="1" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="2" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-5" upLeftPY="2" downRightPX="0" downRightPY="-1" />
+        <A startFrame="11" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="14" upLeftPX="1" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="2" downRightPX="5" downRightPY="-1" />
+        <A startFrame="20" upLeftPX="-3" upLeftPY="1" downRightPX="1" downRightPY="-2" />
+        <A startFrame="21" upLeftPX="-3" upLeftPY="1" downRightPX="1" downRightPY="-2" />
+        <A startFrame="22" upLeftPX="-3" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="23" upLeftPX="-3" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="24" upLeftPX="-3" upLeftPY="0" downRightPX="1" downRightPY="-2" />
+        <A startFrame="25" upLeftPX="-3" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="26" upLeftPX="-3" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="27" upLeftPX="-3" upLeftPY="1" downRightPX="2" downRightPY="-2" />
+        <A startFrame="28" upLeftPX="-1" upLeftPY="1" downRightPX="2" downRightPY="-1" />
+        <A startFrame="29" upLeftPX="-1" upLeftPY="1" downRightPX="2" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="142">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="9" downRightPX="5" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="143">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="3" downRightPX="5" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="144">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-27" upLeftPY="18" downRightPX="27" downRightPY="-18" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="145">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-3" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="146">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="-3" />
+        <A startFrame="0" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="147">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="0" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="1" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="2" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="4" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="5" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+        <A startFrame="6" upLeftPX="-1" upLeftPY="1" downRightPX="1" downRightPY="-1" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="148">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="-3" />
+        <A startFrame="0" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="149">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-3" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="150">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="-1" />
+        <A startFrame="7" endFrame="26" upLeftPX="-3" upLeftPY="5" downRightPX="3" downRightPY="0" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="151">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-4" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="4" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="5" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-3" />
+        <A startFrame="8" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="9" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="11" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="12" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="13" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="14" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="15" upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="201">
+    <Actions />
+  </Role>
+  <Role id="202">
+    <Actions />
+  </Role>
+  <Role id="203">
+    <Actions />
+  </Role>
+  <Role id="204">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="205">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-7" upLeftPY="5" downRightPX="7" downRightPY="-4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="206">
+    <Actions>
+      <Action id="100000" direction="back">
+        <V upLeftPX="-4" upLeftPY="2" downRightPX="4" downRightPY="-2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="501">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="3" downRightPY="-2" />
+        <V upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+    </PT>
+  </Role>
+  <Role id="502">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="-2" />
+        <V upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+    </PT>
+  </Role>
+  <Role id="503">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="2" downRightPY="-2" />
+        <V upLeftPX="-3" upLeftPY="5" downRightPX="2" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+    </PT>
+  </Role>
+  <Role id="504">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-3" upLeftPY="5" downRightPX="3" downRightPY="-2" />
+        <V upLeftPX="-3" upLeftPY="5" downRightPX="3" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="6" />
+    </PT>
+  </Role>
+  <Role id="505">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="-2" />
+        <V upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+    </PT>
+  </Role>
+  <Role id="506">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="-1" />
+        <V upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+    </PT>
+  </Role>
+  <Role id="507">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-3" upLeftPY="7" downRightPX="4" downRightPY="-1" />
+        <V upLeftPX="-3" upLeftPY="7" downRightPX="4" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+    </PT>
+  </Role>
+  <Role id="508">
+    <Actions>
+      <Action id="100000" direction="back">
+        <C upLeftPX="-2" upLeftPY="6" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-2" upLeftPY="6" downRightPX="2" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+    </PT>
+  </Role>
+  <Role id="509">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="6" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-3" upLeftPY="6" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+    </PT>
+  </Role>
+  <Role id="1">
+    <Actions>
+      <Action id="1000" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1009" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="4" downRightPY="-1" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1008" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1001" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1010" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1011" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1002" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1014" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="9" downRightPX="0" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="9" downRightPX="0" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-7" upLeftPY="5" downRightPX="0" downRightPY="-2" />
+      </Action>
+      <Action id="1017" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-8" upLeftPY="10" downRightPX="0" downRightPY="2" />
+        <A startFrame="5" upLeftPX="-8" upLeftPY="10" downRightPX="0" downRightPY="2" />
+        <A startFrame="6" upLeftPX="-8" upLeftPY="8" downRightPX="0" downRightPY="-3" />
+      </Action>
+      <Action id="1020" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-13" upLeftPY="15" downRightPX="13" downRightPY="-6" />
+        <A startFrame="5" upLeftPX="-9" upLeftPY="5" downRightPX="-1" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-9" upLeftPY="3" downRightPX="-1" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-9" upLeftPY="3" downRightPX="0" downRightPY="-3" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-2" upLeftPY="11" downRightPX="7" downRightPY="2" />
+        <A startFrame="9" upLeftPX="-2" upLeftPY="11" downRightPX="7" downRightPY="2" />
+        <A startFrame="10" upLeftPX="-6" upLeftPY="11" downRightPX="6" downRightPY="2" />
+      </Action>
+      <Action id="1019" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-6" upLeftPY="12" downRightPX="3" downRightPY="4" />
+        <A startFrame="4" upLeftPX="-3" upLeftPY="13" downRightPX="8" downRightPY="2" />
+      </Action>
+      <Action id="1022" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-4" upLeftPY="10" downRightPX="5" downRightPY="2" />
+        <A startFrame="5" upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="2" />
+        <A startFrame="6" upLeftPX="-5" upLeftPY="8" downRightPX="5" downRightPY="2" />
+        <A startFrame="7" upLeftPX="-5" upLeftPY="8" downRightPX="5" downRightPY="2" />
+      </Action>
+      <Action id="1012" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-1" upLeftPY="2" downRightPX="7" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-1" upLeftPY="2" downRightPX="7" downRightPY="-3" />
+        <A startFrame="8" upLeftPX="-7" upLeftPY="4" downRightPX="4" downRightPY="-3" />
+      </Action>
+      <Action id="1018" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-6" upLeftPY="1" downRightPX="1" downRightPY="-4" />
+        <A startFrame="7" upLeftPX="-6" upLeftPY="1" downRightPX="1" downRightPY="-4" />
+        <A startFrame="8" upLeftPX="-6" upLeftPY="1" downRightPX="1" downRightPY="-4" />
+      </Action>
+      <Action id="1021" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="5" upLeftPX="-6" upLeftPY="3" downRightPX="4" downRightPY="-4" />
+        <A startFrame="6" upLeftPX="-5" upLeftPY="1" downRightPX="4" downRightPY="-4" />
+        <A startFrame="7" upLeftPX="-6" upLeftPY="1" downRightPX="4" downRightPY="-4" />
+      </Action>
+      <Action id="0" direction="back" />
+      <Action id="101" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="102" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-9" upLeftPY="7" downRightPX="9" downRightPY="-4" />
+        <A startFrame="3" upLeftPX="-8" upLeftPY="5" downRightPX="5" downRightPY="-1" />
+        <A startFrame="2" upLeftPX="-8" upLeftPY="5" downRightPX="5" downRightPY="-1" />
+        <A startFrame="1" upLeftPX="-8" upLeftPY="5" downRightPX="5" downRightPY="-1" />
+        <A startFrame="0" upLeftPX="-8" upLeftPY="5" downRightPX="5" downRightPY="-1" />
+      </Action>
+      <Action id="103" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-12" upLeftPY="11" downRightPX="13" downRightPY="-8" />
+      </Action>
+      <Action id="104" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="105" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="9" downRightPX="4" downRightPY="-3" />
+        <A startFrame="2" upLeftPX="-2" upLeftPY="9" downRightPX="4" downRightPY="-3" />
+        <A startFrame="1" upLeftPX="-2" upLeftPY="9" downRightPX="4" downRightPY="-3" />
+        <A startFrame="0" upLeftPX="-2" upLeftPY="9" downRightPX="4" downRightPY="-3" />
+      </Action>
+      <Action id="106" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="107" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="108" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-4" upLeftPY="6" downRightPX="2" downRightPY="-7" />
+        <A startFrame="2" upLeftPX="-4" upLeftPY="6" downRightPX="2" downRightPY="-7" />
+        <A startFrame="1" upLeftPX="-4" upLeftPY="6" downRightPX="2" downRightPY="-7" />
+        <A startFrame="0" upLeftPX="-4" upLeftPY="6" downRightPX="2" downRightPY="-7" />
+      </Action>
+      <Action id="109" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="122" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="120" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="121" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="115" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="116" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="113" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="114" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="117" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="118" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="119" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-13" upLeftPY="9" downRightPX="14" downRightPY="-5" />
+        <A startFrame="0" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="1" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="2" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="3" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="4" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="5" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="6" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+      </Action>
+      <Action id="110" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-27" upLeftPY="17" downRightPX="9" downRightPY="-17" />
+        <A startFrame="9" upLeftPX="-9" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-12" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="11" upLeftPX="-15" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="12" upLeftPX="-20" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="13" upLeftPX="-22" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="14" upLeftPX="-22" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="15" upLeftPX="-22" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="16" upLeftPX="-22" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+      </Action>
+      <Action id="111" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="7" downRightPX="4" downRightPY="2" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="11" downRightPX="4" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="13" downRightPX="4" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="14" downRightPX="4" downRightPY="1" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="16" downRightPX="4" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="18" downRightPX="4" downRightPY="1" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="18" downRightPX="4" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="18" downRightPX="3" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-3" upLeftPY="18" downRightPX="3" downRightPY="2" />
+      </Action>
+      <Action id="112" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="1" downRightPX="2" downRightPY="-4" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="1" downRightPX="2" downRightPY="-7" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="0" downRightPX="2" downRightPY="-9" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="1" downRightPX="2" downRightPY="-12" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="0" downRightPX="2" downRightPY="-12" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="2" downRightPX="2" downRightPY="-13" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="1" downRightPX="2" downRightPY="-12" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="1" downRightPX="2" downRightPY="-12" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="2" downRightPX="2" downRightPY="-12" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="2">
+    <Actions>
+      <Action id="1008" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="4" downRightPY="-2" />
+      </Action>
+      <Action id="1009" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1010" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1000" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1001" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1014" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-7" upLeftPY="6" downRightPX="0" downRightPY="-2" />
+        <A startFrame="9" upLeftPX="-7" upLeftPY="6" downRightPX="0" downRightPY="-2" />
+      </Action>
+      <Action id="1017" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-7" upLeftPY="10" downRightPX="0" downRightPY="3" />
+        <A startFrame="7" upLeftPX="-7" upLeftPY="10" downRightPX="0" downRightPY="3" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="4" downRightPX="0" downRightPY="-4" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="4" downRightPX="0" downRightPY="-4" />
+      </Action>
+      <Action id="1020" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-12" upLeftPY="16" downRightPX="12" downRightPY="-7" />
+        <A startFrame="6" upLeftPX="-9" upLeftPY="6" downRightPX="-1" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-10" upLeftPY="3" downRightPX="-1" downRightPY="-3" />
+        <A startFrame="8" upLeftPX="-10" upLeftPY="2" downRightPX="-1" downRightPY="-3" />
+      </Action>
+      <Action id="1015" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-4" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-4" />
+      </Action>
+      <Action id="1018" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-7" upLeftPY="7" downRightPX="0" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-7" upLeftPY="7" downRightPX="0" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-5" upLeftPY="1" downRightPX="6" downRightPY="-5" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="1" downRightPX="6" downRightPY="-5" />
+      </Action>
+      <Action id="1021" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-3" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="3" downRightPX="5" downRightPY="-3" />
+        <A startFrame="10" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-7" upLeftPY="8" downRightPX="5" downRightPY="2" />
+        <A startFrame="9" upLeftPX="-7" upLeftPY="8" downRightPX="5" downRightPY="2" />
+      </Action>
+      <Action id="1019" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-8" upLeftPY="8" downRightPX="0" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-6" upLeftPY="8" downRightPX="5" downRightPY="1" />
+        <A startFrame="6" upLeftPX="-8" upLeftPY="8" downRightPX="0" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-6" upLeftPY="8" downRightPX="5" downRightPY="1" />
+      </Action>
+      <Action id="1022" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-4" upLeftPY="6" downRightPX="4" downRightPY="1" />
+        <A startFrame="8" upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="1" />
+      </Action>
+      <Action id="1011" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1002" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1026" direction="back" />
+      <Action id="1027" direction="back" />
+      <Action id="1028" direction="back" />
+      <Action id="115" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="116" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="113" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="114" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="117" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="118" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="119" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-13" upLeftPY="9" downRightPX="14" downRightPY="-5" />
+        <A startFrame="0" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="1" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="2" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="3" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="4" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="5" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="6" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-11" upLeftPY="7" downRightPX="11" downRightPY="-3" />
+      </Action>
+      <Action id="101" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="102" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-11" upLeftPY="10" downRightPX="11" downRightPY="-8" />
+        <A startFrame="0" upLeftPX="-8" upLeftPY="5" downRightPX="7" downRightPY="-1" />
+        <A startFrame="2" upLeftPX="-8" upLeftPY="5" downRightPX="7" downRightPY="-1" />
+        <A startFrame="1" upLeftPX="-8" upLeftPY="5" downRightPX="7" downRightPY="-1" />
+        <A startFrame="3" upLeftPX="-8" upLeftPY="5" downRightPX="7" downRightPY="-1" />
+      </Action>
+      <Action id="103" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="107" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="108" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="2" upLeftPX="-3" upLeftPY="8" downRightPX="3" downRightPY="-6" />
+        <A startFrame="3" upLeftPX="-3" upLeftPY="8" downRightPX="3" downRightPY="-6" />
+        <A startFrame="1" upLeftPX="-3" upLeftPY="8" downRightPX="3" downRightPY="-6" />
+        <A startFrame="0" upLeftPX="-3" upLeftPY="8" downRightPX="3" downRightPY="-6" />
+      </Action>
+      <Action id="109" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="104" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="105" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="2" upLeftPX="-3" upLeftPY="10" downRightPX="3" downRightPY="-5" />
+        <A startFrame="3" upLeftPX="-3" upLeftPY="10" downRightPX="3" downRightPY="-5" />
+        <A startFrame="1" upLeftPX="-3" upLeftPY="10" downRightPX="3" downRightPY="-5" />
+        <A startFrame="0" upLeftPX="-3" upLeftPY="10" downRightPX="3" downRightPY="-5" />
+      </Action>
+      <Action id="106" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="120" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="122" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="121" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="110" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-27" upLeftPY="17" downRightPX="8" downRightPY="-16" />
+        <A startFrame="10" upLeftPX="-12" upLeftPY="4" downRightPX="-2" downRightPY="-1" />
+        <A startFrame="11" upLeftPX="-13" upLeftPY="4" downRightPX="-2" downRightPY="-1" />
+        <A startFrame="12" upLeftPX="-19" upLeftPY="4" downRightPX="-2" downRightPY="-1" />
+        <A startFrame="13" upLeftPX="-19" upLeftPY="5" downRightPX="-2" downRightPY="-1" />
+        <A startFrame="14" upLeftPX="-21" upLeftPY="5" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="15" upLeftPX="-21" upLeftPY="4" downRightPX="-3" downRightPY="-1" />
+      </Action>
+      <Action id="111" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="7" downRightPX="3" downRightPY="1" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="8" downRightPX="3" downRightPY="1" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="12" downRightPX="3" downRightPY="1" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="13" downRightPX="3" downRightPY="1" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="18" downRightPX="3" downRightPY="1" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="18" downRightPX="3" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="18" downRightPX="3" downRightPY="2" />
+      </Action>
+      <Action id="112" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-6" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-7" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-11" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-11" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-11" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-11" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-11" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="3">
+    <Actions>
+      <Action id="1008" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1009" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1010" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-3" upLeftPY="7" downRightPX="4" downRightPY="-1" />
+      </Action>
+      <Action id="1000" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1001" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1014" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+      <Action id="1017" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+      </Action>
+      <Action id="1020" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-5" upLeftPY="1" downRightPX="-4" downRightPY="0" />
+        <A startFrame="12" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+      </Action>
+      <Action id="1015" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+      <Action id="1018" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+      </Action>
+      <Action id="1021" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-8" upLeftPY="13" downRightPX="10" downRightPY="-4" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="0" downRightPX="-3" downRightPY="-1" />
+        <A startFrame="12" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-6" upLeftPY="2" downRightPX="-5" downRightPY="1" />
+        <A startFrame="15" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-1" upLeftPY="6" downRightPX="0" downRightPY="5" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="12" upLeftPX="-2" upLeftPY="6" downRightPX="-1" downRightPY="5" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+      </Action>
+      <Action id="1019" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="8" upLeftPX="-2" upLeftPY="7" downRightPX="-1" downRightPY="6" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="11" upLeftPX="-1" upLeftPY="7" downRightPX="0" downRightPY="6" />
+        <A startFrame="12" upLeftPX="-1" upLeftPY="7" downRightPX="0" downRightPY="6" />
+      </Action>
+      <Action id="1022" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-2" upLeftPY="6" downRightPX="-1" downRightPY="5" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+      </Action>
+      <Action id="1011" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1002" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1026" direction="back" />
+      <Action id="1027" direction="back" />
+      <Action id="1028" direction="back" />
+      <Action id="401" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-5" upLeftPY="9" downRightPX="8" downRightPY="-3" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+      </Action>
+      <Action id="402" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="12" upLeftPX="-1" upLeftPY="-1" downRightPX="0" downRightPY="-2" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+      </Action>
+      <Action id="403" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="7" downRightPX="-2" downRightPY="6" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+      </Action>
+      <Action id="410" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="411" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="412" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="404" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="9" downRightPX="5" downRightPY="-2" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="7" downRightPX="-4" downRightPY="6" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+        <A startFrame="17" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="18" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+      <Action id="405" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="7" downRightPX="-4" downRightPY="6" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="7" downRightPX="-4" downRightPY="6" />
+      </Action>
+      <Action id="406" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+      </Action>
+      <Action id="407" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="408" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-10" upLeftPY="10" downRightPX="11" downRightPY="-6" />
+        <A startFrame="0" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="1" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="2" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="3" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="4" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="5" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="6" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="7" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+      </Action>
+      <Action id="409" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="413" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="10" downRightPX="6" downRightPY="-2" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="414" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="415" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="416" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="2" />
+      <pt Type="2" posX="-3" posY="2" />
+      <pt Type="4" posX="0" posY="-1" />
+      <pt Type="3" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="4">
+    <Actions>
+      <Action id="1008" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1009" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1010" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="4" downRightPY="-1" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1000" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1001" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1014" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+      </Action>
+      <Action id="1017" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="10" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+      <Action id="1020" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="7" downRightPX="-4" downRightPY="6" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+      </Action>
+      <Action id="1015" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-2" upLeftPY="3" downRightPX="-1" downRightPY="2" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+      </Action>
+      <Action id="1018" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+      <Action id="1021" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="1" upLeftPY="6" downRightPX="2" downRightPY="5" />
+        <A startFrame="9" upLeftPX="1" upLeftPY="6" downRightPX="2" downRightPY="5" />
+        <A startFrame="10" upLeftPX="1" upLeftPY="6" downRightPX="2" downRightPY="5" />
+        <A startFrame="11" upLeftPX="1" upLeftPY="6" downRightPX="2" downRightPY="5" />
+        <A startFrame="12" upLeftPX="1" upLeftPY="6" downRightPX="2" downRightPY="5" />
+      </Action>
+      <Action id="1019" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="2" upLeftPY="8" downRightPX="3" downRightPY="7" />
+        <A startFrame="10" upLeftPX="2" upLeftPY="9" downRightPX="3" downRightPY="8" />
+        <A startFrame="11" upLeftPX="1" upLeftPY="9" downRightPX="2" downRightPY="8" />
+        <A startFrame="12" upLeftPX="1" upLeftPY="9" downRightPX="2" downRightPY="8" />
+        <A startFrame="13" upLeftPX="1" upLeftPY="8" downRightPX="2" downRightPY="7" />
+      </Action>
+      <Action id="1022" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-9" upLeftPY="16" downRightPX="9" downRightPY="-2" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="11" downRightPX="-2" downRightPY="10" />
+        <A startFrame="12" upLeftPX="0" upLeftPY="12" downRightPX="1" downRightPY="11" />
+        <A startFrame="13" upLeftPX="0" upLeftPY="12" downRightPX="1" downRightPY="11" />
+        <A startFrame="14" upLeftPX="0" upLeftPY="11" downRightPX="1" downRightPY="10" />
+        <A startFrame="15" upLeftPX="0" upLeftPY="11" downRightPX="1" downRightPY="10" />
+      </Action>
+      <Action id="1011" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1002" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1026" direction="back" />
+      <Action id="1027" direction="back" />
+      <Action id="1028" direction="back" />
+      <Action id="401" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="9" downRightPX="7" downRightPY="-3" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+      </Action>
+      <Action id="402" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-2" upLeftPY="3" downRightPX="-1" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+      <Action id="403" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="11" upLeftPX="2" upLeftPY="6" downRightPX="3" downRightPY="5" />
+        <A startFrame="12" upLeftPX="1" upLeftPY="7" downRightPX="2" downRightPY="6" />
+        <A startFrame="13" upLeftPX="1" upLeftPY="8" downRightPX="2" downRightPY="7" />
+        <A startFrame="14" upLeftPX="1" upLeftPY="7" downRightPX="2" downRightPY="6" />
+        <A startFrame="15" upLeftPX="0" upLeftPY="7" downRightPX="1" downRightPY="6" />
+      </Action>
+      <Action id="410" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="411" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="412" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="404" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="9" downRightPX="6" downRightPY="-2" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+        <A startFrame="16" upLeftPX="-6" upLeftPY="6" downRightPX="-5" downRightPY="5" />
+        <A startFrame="17" upLeftPX="-6" upLeftPY="6" downRightPX="-5" downRightPY="5" />
+        <A startFrame="18" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+      <Action id="405" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+      </Action>
+      <Action id="406" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="8" downRightPX="-3" downRightPY="7" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="7" downRightPX="-3" downRightPY="6" />
+        <A startFrame="17" upLeftPX="-3" upLeftPY="6" downRightPX="-2" downRightPY="5" />
+      </Action>
+      <Action id="407" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="408" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-10" upLeftPY="10" downRightPX="11" downRightPY="-6" />
+        <A startFrame="0" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="1" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="2" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="3" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="4" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="5" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="6" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="7" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-8" upLeftPY="5" downRightPX="9" downRightPY="-5" />
+      </Action>
+      <Action id="409" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="413" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="10" downRightPX="6" downRightPY="-2" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="414" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="415" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="416" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+      <pt Type="2" posX="-3" posY="3" />
+      <pt Type="3" posX="0" posY="3" />
+      <pt Type="4" posX="0" posY="-1" />
+    </PT>
+  </Role>
+  <Role id="5">
+    <Actions>
+      <Action id="1008" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-3" upLeftPY="7" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1009" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1000" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1010" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1001" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-4" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="5" downRightPY="-4" />
+      </Action>
+      <Action id="1018" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-5" upLeftPY="2" downRightPX="5" downRightPY="-4" />
+        <A startFrame="8" upLeftPX="-5" upLeftPY="2" downRightPX="4" downRightPY="-3" />
+      </Action>
+      <Action id="1021" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-9" upLeftPY="13" downRightPX="9" downRightPY="-10" />
+        <A startFrame="5" upLeftPX="-4" upLeftPY="6" downRightPX="4" downRightPY="-5" />
+        <A startFrame="6" upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-5" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="3" downRightPX="4" downRightPY="-4" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="0" downRightPX="4" downRightPY="-4" />
+      </Action>
+      <Action id="1011" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1002" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1014" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="5" upLeftPX="-7" upLeftPY="5" downRightPX="0" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="5" downRightPX="-1" downRightPY="-1" />
+      </Action>
+      <Action id="1017" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="2" upLeftPX="-6" upLeftPY="6" downRightPX="0" downRightPY="-1" />
+        <A startFrame="6" upLeftPX="-7" upLeftPY="5" downRightPX="0" downRightPY="-1" />
+      </Action>
+      <Action id="1020" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-6" upLeftPY="10" downRightPX="1" downRightPY="0" />
+        <A startFrame="5" upLeftPX="-6" upLeftPY="11" downRightPX="1" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-8" upLeftPY="6" downRightPX="-1" downRightPY="-2" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="5" upLeftPX="-4" upLeftPY="9" downRightPX="4" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="9" downRightPX="5" downRightPY="2" />
+      </Action>
+      <Action id="1019" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-5" upLeftPY="8" downRightPX="3" downRightPY="2" />
+        <A startFrame="7" upLeftPX="-4" upLeftPY="8" downRightPX="4" downRightPY="1" />
+      </Action>
+      <Action id="1022" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-3" upLeftPY="12" downRightPX="3" downRightPY="1" />
+        <A startFrame="4" upLeftPX="-4" upLeftPY="12" downRightPX="4" downRightPY="2" />
+        <A startFrame="7" upLeftPX="-3" upLeftPY="12" downRightPX="4" downRightPY="1" />
+        <A startFrame="8" upLeftPX="-3" upLeftPY="6" downRightPX="3" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="5" downRightPX="4" downRightPY="1" />
+      </Action>
+      <Action id="517" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="516" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="518" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="514" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="513" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="515" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="back">
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="-3" />
+      </Action>
+      <Action id="1028" direction="back" />
+      <Action id="1026" direction="back" />
+      <Action id="502" direction="back">
+        <A startFrame="6" upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="4" downRightPY="-2" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="3" downRightPX="4" downRightPY="-2" />
+        <A startFrame="18" upLeftPX="-4" upLeftPY="3" downRightPX="5" downRightPY="-1" />
+        <A startFrame="20" upLeftPX="-5" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+        <A startFrame="23" upLeftPX="-4" upLeftPY="4" downRightPX="3" downRightPY="-2" />
+        <A startFrame="27" upLeftPX="-5" upLeftPY="5" downRightPX="1" downRightPY="-2" />
+        <A startFrame="37" upLeftPX="-3" upLeftPY="5" downRightPX="3" downRightPY="-3" />
+        <A startFrame="38" upLeftPX="-3" upLeftPY="5" downRightPX="3" downRightPY="-3" />
+        <A startFrame="39" upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="-3" />
+      </Action>
+      <Action id="501" direction="back">
+        <V upLeftPX="-9" upLeftPY="9" downRightPX="7" downRightPY="-4" />
+        <A startFrame="6" upLeftPX="-6" upLeftPY="6" downRightPX="0" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="5" downRightPX="0" downRightPY="0" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="7" downRightPX="0" downRightPY="0" />
+        <A startFrame="18" upLeftPX="-6" upLeftPY="6" downRightPX="0" downRightPY="0" />
+        <A startFrame="22" upLeftPX="-7" upLeftPY="6" downRightPX="0" downRightPY="0" />
+        <A startFrame="26" upLeftPX="-5" upLeftPY="7" downRightPX="0" downRightPY="0" />
+        <A startFrame="28" upLeftPX="-6" upLeftPY="7" downRightPX="0" downRightPY="0" />
+        <A startFrame="37" upLeftPX="-8" upLeftPY="6" downRightPX="-1" downRightPY="-1" />
+        <A startFrame="38" upLeftPX="-9" upLeftPY="6" downRightPX="-1" downRightPY="-1" />
+        <A startFrame="39" upLeftPX="-8" upLeftPY="4" downRightPX="-1" downRightPY="-1" />
+      </Action>
+      <Action id="503" direction="back">
+        <A startFrame="6" upLeftPX="-4" upLeftPY="8" downRightPX="4" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="7" downRightPX="5" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="8" downRightPX="3" downRightPY="2" />
+        <A startFrame="18" upLeftPX="-3" upLeftPY="8" downRightPX="5" downRightPY="2" />
+        <A startFrame="21" upLeftPX="-3" upLeftPY="8" downRightPX="5" downRightPY="3" />
+        <A startFrame="23" upLeftPX="-4" upLeftPY="8" downRightPX="4" downRightPY="2" />
+        <A startFrame="27" upLeftPX="-2" upLeftPY="8" downRightPX="5" downRightPY="3" />
+        <A startFrame="38" upLeftPX="-2" upLeftPY="8" downRightPX="3" downRightPY="2" />
+        <A startFrame="39" upLeftPX="-2" upLeftPY="7" downRightPX="3" downRightPY="2" />
+        <A startFrame="40" upLeftPX="-2" upLeftPY="6" downRightPX="4" downRightPY="2" />
+      </Action>
+      <Action id="505" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="508" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-4" upLeftPY="6" downRightPX="3" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="6" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="504" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="507" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-12" upLeftPY="9" downRightPX="18" downRightPY="-4" />
+        <A startFrame="7" upLeftPX="-8" upLeftPY="5" downRightPX="6" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="5" downRightPX="6" downRightPY="-1" />
+      </Action>
+      <Action id="506" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="509" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="6" upLeftPX="-4" upLeftPY="8" downRightPX="3" downRightPY="-1" />
+        <A startFrame="7" upLeftPX="-4" upLeftPY="8" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="511" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-17" upLeftPY="15" downRightPX="15" downRightPY="-13" />
+        <A startFrame="13" upLeftPX="-13" upLeftPY="0" downRightPX="10" downRightPY="-8" />
+        <A startFrame="9" upLeftPX="-7" upLeftPY="1" downRightPX="6" downRightPY="-4" />
+        <A startFrame="10" upLeftPX="-9" upLeftPY="0" downRightPX="7" downRightPY="-6" />
+        <A startFrame="11" upLeftPX="-10" upLeftPY="0" downRightPX="7" downRightPY="-6" />
+        <A startFrame="12" upLeftPX="-11" upLeftPY="0" downRightPX="10" downRightPY="-7" />
+      </Action>
+      <Action id="510" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-9" upLeftPY="7" downRightPX="0" downRightPY="-4" />
+        <A startFrame="10" upLeftPX="-11" upLeftPY="8" downRightPX="-3" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-12" upLeftPY="9" downRightPX="-3" downRightPY="-5" />
+        <A startFrame="12" upLeftPX="-16" upLeftPY="10" downRightPX="-4" downRightPY="-7" />
+        <A startFrame="13" upLeftPX="-16" upLeftPY="10" downRightPX="-4" downRightPY="-7" />
+      </Action>
+      <Action id="512" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-6" upLeftPY="8" downRightPX="6" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="10" downRightPX="8" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="10" downRightPX="8" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-11" upLeftPY="14" downRightPX="11" downRightPY="5" />
+        <A startFrame="12" upLeftPX="-11" upLeftPY="14" downRightPX="11" downRightPY="5" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="6">
+    <Actions>
+      <Action id="1000" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1009" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1008" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1001" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1010" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-3" />
+      </Action>
+      <Action id="1018" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-4" upLeftPY="5" downRightPX="5" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="4" downRightPX="5" downRightPY="-3" />
+      </Action>
+      <Action id="1021" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-7" upLeftPY="11" downRightPX="10" downRightPY="-5" />
+        <A startFrame="3" upLeftPX="-2" upLeftPY="10" downRightPX="7" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="8" downRightPX="2" downRightPY="-2" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="2" downRightPX="4" downRightPY="-3" />
+      </Action>
+      <Action id="1002" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1011" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1014" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-6" upLeftPY="7" downRightPX="1" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="5" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1017" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-7" upLeftPY="6" downRightPX="0" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="6" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1020" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-5" upLeftPY="9" downRightPX="7" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-6" upLeftPY="9" downRightPX="7" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="9" downRightPX="0" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-7" upLeftPY="4" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-5" upLeftPY="7" downRightPX="3" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="9" downRightPX="4" downRightPY="1" />
+      </Action>
+      <Action id="1019" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-4" upLeftPY="8" downRightPX="5" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="8" downRightPX="5" downRightPY="1" />
+      </Action>
+      <Action id="1022" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="3" upLeftPX="-5" upLeftPY="9" downRightPX="4" downRightPY="0" />
+        <A startFrame="4" upLeftPX="-6" upLeftPY="10" downRightPX="5" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="9" downRightPX="6" downRightPY="1" />
+      </Action>
+      <Action id="517" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="516" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="518" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="514" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="513" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="515" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="back">
+        <V upLeftPX="-8" upLeftPY="7" downRightPX="7" downRightPY="-3" />
+      </Action>
+      <Action id="1026" direction="back" />
+      <Action id="1028" direction="back" />
+      <Action id="502" direction="back">
+        <A startFrame="6" upLeftPX="-5" upLeftPY="5" downRightPX="4" downRightPY="-1" />
+        <A startFrame="10" upLeftPX="-5" upLeftPY="4" downRightPX="5" downRightPY="-2" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="5" downRightPX="4" downRightPY="-3" />
+        <A startFrame="19" upLeftPX="-5" upLeftPY="3" downRightPX="4" downRightPY="-2" />
+        <A startFrame="21" upLeftPX="-5" upLeftPY="5" downRightPX="2" downRightPY="-2" />
+        <A startFrame="26" upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-2" />
+        <A startFrame="31" upLeftPX="-5" upLeftPY="4" downRightPX="4" downRightPY="-2" />
+        <A startFrame="33" upLeftPX="-5" upLeftPY="6" downRightPX="6" downRightPY="-1" />
+        <A startFrame="37" upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-3" />
+        <A startFrame="39" upLeftPX="-5" upLeftPY="3" downRightPX="4" downRightPY="-3" />
+      </Action>
+      <Action id="501" direction="back">
+        <V upLeftPX="-9" upLeftPY="8" downRightPX="8" downRightPY="-3" />
+        <A startFrame="7" upLeftPX="-6" upLeftPY="6" downRightPX="1" downRightPY="0" />
+        <A startFrame="11" upLeftPX="-8" upLeftPY="5" downRightPX="1" downRightPY="0" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="7" downRightPX="1" downRightPY="0" />
+        <A startFrame="19" upLeftPX="-7" upLeftPY="5" downRightPX="0" downRightPY="-1" />
+        <A startFrame="21" upLeftPX="-6" upLeftPY="6" downRightPX="1" downRightPY="-1" />
+        <A startFrame="27" upLeftPX="-8" upLeftPY="5" downRightPX="0" downRightPY="0" />
+        <A startFrame="30" upLeftPX="-7" upLeftPY="5" downRightPX="0" downRightPY="-1" />
+        <A startFrame="33" upLeftPX="-6" upLeftPY="6" downRightPX="4" downRightPY="0" />
+        <A startFrame="37" upLeftPX="-8" upLeftPY="5" downRightPX="0" downRightPY="0" />
+      </Action>
+      <Action id="503" direction="back">
+        <A startFrame="6" upLeftPX="-5" upLeftPY="8" downRightPX="3" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-5" upLeftPY="8" downRightPX="4" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="9" downRightPX="3" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="8" downRightPX="4" downRightPY="2" />
+        <A startFrame="21" upLeftPX="-4" upLeftPY="9" downRightPX="4" downRightPY="2" />
+        <A startFrame="26" upLeftPX="-5" upLeftPY="9" downRightPX="3" downRightPY="2" />
+        <A startFrame="29" upLeftPX="-3" upLeftPY="7" downRightPX="4" downRightPY="2" />
+        <A startFrame="33" upLeftPX="-6" upLeftPY="7" downRightPX="4" downRightPY="-1" />
+        <A startFrame="37" upLeftPX="-5" upLeftPY="9" downRightPX="4" downRightPY="2" />
+        <A startFrame="31" upLeftPX="-5" upLeftPY="6" downRightPX="4" downRightPY="1" />
+      </Action>
+      <Action id="505" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="508" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-4" upLeftPY="6" downRightPX="4" downRightPY="-4" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="6" downRightPX="4" downRightPY="-4" />
+      </Action>
+      <Action id="504" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="507" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-11" upLeftPY="10" downRightPX="19" downRightPY="-5" />
+        <A startFrame="7" upLeftPX="-8" upLeftPY="5" downRightPX="7" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-8" upLeftPY="5" downRightPX="7" downRightPY="-1" />
+      </Action>
+      <Action id="506" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="509" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="7" upLeftPX="-3" upLeftPY="9" downRightPX="4" downRightPY="-1" />
+        <A startFrame="8" upLeftPX="-3" upLeftPY="9" downRightPX="4" downRightPY="-1" />
+      </Action>
+      <Action id="511" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-16" upLeftPY="13" downRightPX="15" downRightPY="-12" />
+        <A startFrame="9" upLeftPX="-6" upLeftPY="2" downRightPX="5" downRightPY="-3" />
+        <A startFrame="10" upLeftPX="-8" upLeftPY="1" downRightPX="7" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-8" upLeftPY="1" downRightPX="7" downRightPY="-5" />
+        <A startFrame="12" upLeftPX="-11" upLeftPY="0" downRightPX="10" downRightPY="-9" />
+        <A startFrame="13" upLeftPX="-11" upLeftPY="0" downRightPX="10" downRightPY="-10" />
+      </Action>
+      <Action id="510" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-8" upLeftPY="7" downRightPX="0" downRightPY="-3" />
+        <A startFrame="10" upLeftPX="-12" upLeftPY="8" downRightPX="0" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-12" upLeftPY="9" downRightPX="0" downRightPY="-5" />
+        <A startFrame="12" upLeftPX="-16" upLeftPY="10" downRightPX="-1" downRightPY="-8" />
+        <A startFrame="13" upLeftPX="-16" upLeftPY="10" downRightPX="-1" downRightPY="-8" />
+      </Action>
+      <Action id="512" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="9" upLeftPX="-5" upLeftPY="8" downRightPX="6" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-7" upLeftPY="10" downRightPX="8" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-7" upLeftPY="10" downRightPX="8" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-11" upLeftPY="15" downRightPX="12" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-11" upLeftPY="15" downRightPX="12" downRightPY="3" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="1101" />
+  <Role id="2001">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-3" upLeftPY="-1" downRightPX="-2" downRightPY="-2" />
+        <A startFrame="8" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="7" upLeftPX="2" upLeftPY="2" downRightPX="3" downRightPY="1" />
+        <A startFrame="8" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="4" posX="-3" posY="-2" />
+      <pt Type="3" posX="3" posY="2" />
+    </PT>
+  </Role>
+  <Role id="2002">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <A startFrame="6" upLeftPX="-2" upLeftPY="-1" downRightPX="-1" downRightPY="-2" />
+        <A startFrame="7" upLeftPX="-2" upLeftPY="2" downRightPX="-1" downRightPY="1" />
+        <A startFrame="8" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="6" upLeftPX="1" upLeftPY="2" downRightPX="2" downRightPY="1" />
+        <A startFrame="7" upLeftPX="-3" upLeftPY="1" downRightPX="-2" downRightPY="0" />
+        <A startFrame="8" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="4" posX="-2" posY="-1" />
+      <pt Type="3" posX="2" posY="1" />
+    </PT>
+  </Role>
+  <Role id="2003">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="-1" downRightPX="-2" downRightPY="-2" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="0" downRightPX="-1" downRightPY="-1" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="0" downRightPX="-2" downRightPY="-1" />
+        <A startFrame="12" upLeftPX="-2" upLeftPY="0" downRightPX="-1" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="9" upLeftPX="2" upLeftPY="1" downRightPX="3" downRightPY="0" />
+        <A startFrame="10" upLeftPX="2" upLeftPY="1" downRightPX="3" downRightPY="0" />
+        <A startFrame="11" upLeftPX="2" upLeftPY="1" downRightPX="3" downRightPY="0" />
+        <A startFrame="12" upLeftPX="3" upLeftPY="1" downRightPX="4" downRightPY="0" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="3" posX="2" posY="1" />
+      <pt Type="4" posX="-2" posY="-1" />
+    </PT>
+  </Role>
+  <Role id="2004">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="1" downRightPX="-2" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="2" downRightPX="-1" downRightPY="1" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="9" upLeftPX="2" upLeftPY="2" downRightPX="3" downRightPY="1" />
+        <A startFrame="10" upLeftPX="2" upLeftPY="3" downRightPX="3" downRightPY="2" />
+        <A startFrame="11" upLeftPX="2" upLeftPY="3" downRightPX="3" downRightPY="2" />
+        <A startFrame="12" upLeftPX="2" upLeftPY="4" downRightPX="3" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2005">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-4" upLeftPY="6" downRightPX="4" downRightPY="-5" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="1" downRightPX="-2" downRightPY="0" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="12" upLeftPX="3" upLeftPY="4" downRightPX="4" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="6" downRightPX="-3" downRightPY="5" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2006">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="-3" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="1" downRightPX="-3" downRightPY="0" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="18" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="16" upLeftPX="3" upLeftPY="4" downRightPX="4" downRightPY="3" />
+        <A startFrame="17" upLeftPX="5" upLeftPY="5" downRightPX="6" downRightPY="4" />
+        <A startFrame="18" upLeftPX="2" upLeftPY="5" downRightPX="3" downRightPY="4" />
+        <A startFrame="19" upLeftPX="3" upLeftPY="5" downRightPX="4" downRightPY="4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2007">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-3" />
+        <A startFrame="9" upLeftPX="-3" upLeftPY="1" downRightPX="-2" downRightPY="0" />
+        <A startFrame="10" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="9" upLeftPX="2" upLeftPY="2" downRightPX="3" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2008">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="4" downRightPX="5" downRightPY="-3" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="-1" downRightPX="-4" downRightPY="-2" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="13" upLeftPX="3" upLeftPY="3" downRightPX="4" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2009">
+    <Actions>
+      <Action id="1004" direction="back" />
+      <Action id="1003" direction="front" />
+      <Action id="1016" direction="back">
+        <V upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="-2" />
+        <A startFrame="12" upLeftPX="2" upLeftPY="3" downRightPX="3" downRightPY="2" />
+        <A startFrame="13" upLeftPX="3" upLeftPY="4" downRightPX="4" downRightPY="3" />
+        <A startFrame="14" upLeftPX="3" upLeftPY="3" downRightPX="4" downRightPY="2" />
+        <A startFrame="15" upLeftPX="3" upLeftPY="4" downRightPX="4" downRightPY="3" />
+        <A startFrame="16" upLeftPX="2" upLeftPY="3" downRightPX="3" downRightPY="2" />
+      </Action>
+      <Action id="1015" direction="front">
+        <A startFrame="12" upLeftPX="-3" upLeftPY="-1" downRightPX="-2" downRightPY="-2" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="3" downRightPX="-2" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2010">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="9" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="10" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="9" upLeftPX="2" upLeftPY="3" downRightPX="3" downRightPY="2" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="4" downRightPX="-1" downRightPY="3" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2011">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="-4" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="-1" downRightPX="-2" downRightPY="-2" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="11" upLeftPX="3" upLeftPY="1" downRightPX="4" downRightPY="0" />
+        <A startFrame="12" upLeftPX="5" upLeftPY="4" downRightPX="6" downRightPY="3" />
+        <A startFrame="13" upLeftPX="3" upLeftPY="4" downRightPX="4" downRightPY="3" />
+        <A startFrame="14" upLeftPX="3" upLeftPY="3" downRightPX="4" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2012">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="4" downRightPY="-3" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="2" downRightPX="-3" downRightPY="1" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="12" upLeftPX="3" upLeftPY="3" downRightPX="4" downRightPY="2" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="16" upLeftPX="-6" upLeftPY="5" downRightPX="-5" downRightPY="4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2013">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-5" />
+        <A startFrame="10" upLeftPX="-2" upLeftPY="0" downRightPX="-1" downRightPY="-1" />
+        <A startFrame="11" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-2" upLeftPY="4" downRightPX="-1" downRightPY="3" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="10" upLeftPX="2" upLeftPY="2" downRightPX="3" downRightPY="1" />
+        <A startFrame="11" upLeftPX="3" upLeftPY="3" downRightPX="4" downRightPY="2" />
+        <A startFrame="12" upLeftPX="3" upLeftPY="3" downRightPX="4" downRightPY="2" />
+        <A startFrame="13" upLeftPX="2" upLeftPY="4" downRightPX="3" downRightPY="3" />
+        <A startFrame="14" upLeftPX="2" upLeftPY="3" downRightPX="3" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2014">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-6" upLeftPY="7" downRightPX="5" downRightPY="-3" />
+        <A startFrame="18" upLeftPX="-5" upLeftPY="0" downRightPX="-4" downRightPY="-1" />
+        <A startFrame="19" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="20" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="21" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="20" upLeftPX="4" upLeftPY="4" downRightPX="5" downRightPY="3" />
+        <A startFrame="21" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="22" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="23" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2015">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="-3" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="0" downRightPX="-4" downRightPY="-1" />
+        <A startFrame="15" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="2" downRightPX="-4" downRightPY="1" />
+        <A startFrame="18" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="14" upLeftPX="5" upLeftPY="2" downRightPX="6" downRightPY="1" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="18" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2016">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-7" upLeftPY="6" downRightPX="8" downRightPY="-6" />
+        <A startFrame="15" upLeftPX="7" upLeftPY="2" downRightPX="8" downRightPY="1" />
+        <A startFrame="16" upLeftPX="-7" upLeftPY="5" downRightPX="-6" downRightPY="4" />
+        <A startFrame="17" upLeftPX="-6" upLeftPY="5" downRightPX="-5" downRightPY="4" />
+        <A startFrame="18" upLeftPX="-7" upLeftPY="4" downRightPX="-6" downRightPY="3" />
+        <A startFrame="19" upLeftPX="-7" upLeftPY="5" downRightPX="-6" downRightPY="4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="15" upLeftPX="7" upLeftPY="2" downRightPX="8" downRightPY="1" />
+        <A startFrame="16" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="17" upLeftPX="-6" upLeftPY="5" downRightPX="-5" downRightPY="4" />
+        <A startFrame="18" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="19" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2017">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="5" downRightPY="-3" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="1" downRightPX="-4" downRightPY="0" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="17" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="13" upLeftPX="4" upLeftPY="3" downRightPX="5" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="16" upLeftPX="-5" upLeftPY="3" downRightPX="-4" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2018">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-4" upLeftPY="8" downRightPX="5" downRightPY="-4" />
+        <A startFrame="11" upLeftPX="4" upLeftPY="2" downRightPX="5" downRightPY="1" />
+        <A startFrame="12" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-2" upLeftPY="5" downRightPX="-1" downRightPY="4" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="11" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="13" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2019">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="6" downRightPY="-4" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="3" downRightPX="-3" downRightPY="2" />
+        <A startFrame="17" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="18" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="19" upLeftPX="-6" upLeftPY="6" downRightPX="-5" downRightPY="5" />
+        <A startFrame="20" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="16" upLeftPX="4" upLeftPY="4" downRightPX="5" downRightPY="3" />
+        <A startFrame="17" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="18" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="19" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="20" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2020">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-7" upLeftPY="7" downRightPX="7" downRightPY="-5" />
+        <A startFrame="15" upLeftPX="-7" upLeftPY="1" downRightPX="-6" downRightPY="0" />
+        <A startFrame="16" upLeftPX="-7" upLeftPY="4" downRightPX="-6" downRightPY="3" />
+        <A startFrame="17" upLeftPX="-6" upLeftPY="6" downRightPX="-5" downRightPY="5" />
+        <A startFrame="18" upLeftPX="-6" upLeftPY="5" downRightPX="-5" downRightPY="4" />
+        <A startFrame="19" upLeftPX="-7" upLeftPY="5" downRightPX="-6" downRightPY="4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <A startFrame="16" upLeftPX="7" upLeftPY="3" downRightPX="8" downRightPY="2" />
+        <A startFrame="17" upLeftPX="6" upLeftPY="5" downRightPX="7" downRightPY="4" />
+        <A startFrame="18" upLeftPX="-6" upLeftPY="5" downRightPX="-5" downRightPY="4" />
+        <A startFrame="19" upLeftPX="-7" upLeftPY="5" downRightPX="-6" downRightPY="4" />
+        <A startFrame="20" upLeftPX="-7" upLeftPY="5" downRightPX="-6" downRightPY="4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2021">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="-5" />
+        <A startFrame="11" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+        <A startFrame="12" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="11" upLeftPX="4" upLeftPY="4" downRightPX="5" downRightPY="3" />
+        <A startFrame="12" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="14" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2022">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-5" upLeftPY="5" downRightPX="6" downRightPY="-5" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="0" downRightPX="-4" downRightPY="-1" />
+        <A startFrame="14" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="16" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="17" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="12" upLeftPX="4" upLeftPY="4" downRightPX="5" downRightPY="3" />
+        <A startFrame="13" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="5" downRightPX="-4" downRightPY="4" />
+        <A startFrame="15" upLeftPX="-2" upLeftPY="5" downRightPX="-1" downRightPY="4" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="5" downRightPX="-3" downRightPY="4" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2023">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-4" upLeftPY="5" downRightPX="4" downRightPY="-3" />
+        <A startFrame="13" upLeftPX="-5" upLeftPY="1" downRightPX="-4" downRightPY="0" />
+        <A startFrame="14" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-5" upLeftPY="4" downRightPX="-4" downRightPY="3" />
+        <A startFrame="16" upLeftPX="-3" upLeftPY="5" downRightPX="-2" downRightPY="4" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="13" upLeftPX="5" upLeftPY="3" downRightPX="6" downRightPY="2" />
+        <A startFrame="14" upLeftPX="-3" upLeftPY="4" downRightPX="-2" downRightPY="3" />
+        <A startFrame="15" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+        <A startFrame="16" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2024">
+    <Actions>
+      <Action id="1003" direction="front" />
+      <Action id="1015" direction="front">
+        <V upLeftPX="-8" upLeftPY="6" downRightPX="9" downRightPY="-6" />
+        <A startFrame="24" upLeftPX="-5" upLeftPY="-5" downRightPX="-4" downRightPY="-6" />
+        <A startFrame="26" upLeftPX="-7" upLeftPY="3" downRightPX="-6" downRightPY="2" />
+        <A startFrame="25" upLeftPX="-9" upLeftPY="4" downRightPX="-8" downRightPY="3" />
+        <A startFrame="27" upLeftPX="-7" upLeftPY="3" downRightPX="-6" downRightPY="2" />
+        <A startFrame="28" upLeftPX="-7" upLeftPY="3" downRightPX="-6" downRightPY="2" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="24" upLeftPX="7" upLeftPY="1" downRightPX="8" downRightPY="0" />
+        <A startFrame="25" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+        <A startFrame="26" upLeftPX="-7" upLeftPY="4" downRightPX="-6" downRightPY="3" />
+        <A startFrame="27" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+        <A startFrame="28" upLeftPX="-6" upLeftPY="3" downRightPX="-5" downRightPY="2" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="2025">
+    <Actions>
+      <Action id="1003" direction="front">
+        <V upLeftPX="-7" upLeftPY="11" downRightPX="7" downRightPY="-3" />
+      </Action>
+      <Action id="1015" direction="front">
+        <A startFrame="14" upLeftPX="-8" upLeftPY="2" downRightPX="-7" downRightPY="1" />
+        <A startFrame="15" upLeftPX="-6" upLeftPY="7" downRightPX="-5" downRightPY="6" />
+        <A startFrame="16" upLeftPX="-7" upLeftPY="7" downRightPX="-6" downRightPY="6" />
+        <A startFrame="17" upLeftPX="-6" upLeftPY="7" downRightPX="-5" downRightPY="6" />
+        <A startFrame="18" upLeftPX="-7" upLeftPY="9" downRightPX="-6" downRightPY="8" />
+      </Action>
+      <Action id="1004" direction="back" />
+      <Action id="1016" direction="back">
+        <A startFrame="14" upLeftPX="6" upLeftPY="6" downRightPX="7" downRightPY="5" />
+        <A startFrame="15" upLeftPX="-6" upLeftPY="8" downRightPX="-5" downRightPY="7" />
+        <A startFrame="16" upLeftPX="-6" upLeftPY="8" downRightPX="-5" downRightPY="7" />
+        <A startFrame="17" upLeftPX="-6" upLeftPY="8" downRightPX="-5" downRightPY="7" />
+        <A startFrame="18" upLeftPX="-6" upLeftPY="7" downRightPX="-5" downRightPY="6" />
+      </Action>
+    </Actions>
+  </Role>
+  <Role id="10001">
+    <Actions>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-5" upLeftPY="5" downRightPX="5" downRightPY="-2" />
+        <A startFrame="8" endFrame="9" upLeftPX="-3" upLeftPY="2" downRightPX="0" downRightPY="-1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="8" endFrame="9" upLeftPX="0" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="1" posX="0" posY="1" />
+    </PT>
+  </Role>
+  <Role id="10002">
+    <Actions>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-1" />
+        <A startFrame="12" endFrame="13" upLeftPX="-3" upLeftPY="2" downRightPX="0" downRightPY="-1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="1" upLeftPY="1" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+        <A startFrame="12" endFrame="13" upLeftPX="0" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="1" posX="0" posY="1" />
+    </PT>
+  </Role>
+  <Role id="19001">
+    <Actions>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <V upLeftPX="-21" upLeftPY="15" downRightPX="20" downRightPY="-10" />
+        <A startFrame="36" endFrame="38" upLeftPX="-17" upLeftPY="1" downRightPX="-6" downRightPY="-7" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+      </Action>
+      <Action id="0" direction="back" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <A startFrame="36" endFrame="38" upLeftPX="2" upLeftPY="9" downRightPX="14" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+      </Action>
+      <Action id="1900100" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <A startFrame="24" endFrame="0" upLeftPX="-10" upLeftPY="9" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1900102" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <A startFrame="0" endFrame="6" upLeftPX="-9" upLeftPY="7" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1900101" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <A startFrame="24" endFrame="0" upLeftPX="-6" upLeftPY="7" downRightPX="6" downRightPY="-1" />
+      </Action>
+      <Action id="1900103" direction="back">
+        <C upLeftPX="-6" upLeftPY="3" downRightPX="3" downRightPY="-2" />
+        <A startFrame="0" endFrame="6" upLeftPX="-6" upLeftPY="7" downRightPX="6" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="1" posX="-1" posY="3" />
+    </PT>
+  </Role>
+  <Role id="19002">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-10" upLeftPY="11" downRightPX="10" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-10" upLeftPY="11" downRightPX="10" downRightPY="0" />
+        <V upLeftPX="-24" upLeftPY="18" downRightPX="25" downRightPY="-18" />
+        <A startFrame="20" endFrame="21" upLeftPX="-13" upLeftPY="0" downRightPX="13" downRightPY="-17" />
+      </Action>
+      <Action id="1900200" direction="back">
+        <C upLeftPX="-10" upLeftPY="11" downRightPX="10" downRightPY="0" />
+        <A startFrame="24" endFrame="28" upLeftPX="-16" upLeftPY="1" downRightPX="-4" downRightPY="-4" />
+      </Action>
+      <Action id="1027" direction="front" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="17" />
+      <pt Type="1" posX="0" posY="4" />
+    </PT>
+  </Role>
+  <Role id="10003">
+    <Actions>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-3" upLeftPY="5" downRightPX="5" downRightPY="-1" />
+        <A startFrame="28" endFrame="29" upLeftPX="-3" upLeftPY="2" downRightPX="-2" downRightPY="1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="29" endFrame="30" upLeftPX="2" upLeftPY="5" downRightPX="3" downRightPY="4" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="1" posX="0" posY="2" />
+      <pt Type="4" posX="-3" posY="1" />
+      <pt Type="3" posX="3" posY="4" />
+    </PT>
+  </Role>
+  <Role id="10004">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <V upLeftPX="-6" upLeftPY="17" downRightPX="7" downRightPY="-2" />
+        <A startFrame="28" endFrame="29" upLeftPX="-2" upLeftPY="9" downRightPX="-1" downRightPY="8" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="28" endFrame="29" upLeftPX="1" upLeftPY="9" downRightPX="2" downRightPY="8" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+      <Action id="1012" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10005">
+    <Actions>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="9" downRightPX="8" downRightPY="-4" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="9" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10006">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+        <V upLeftPX="-13" upLeftPY="11" downRightPX="16" downRightPY="-5" />
+        <A startFrame="21" endFrame="26" upLeftPX="-8" upLeftPY="0" downRightPX="-1" downRightPY="-4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="3" downRightPY="0" />
+        <A startFrame="21" endFrame="26" upLeftPX="2" upLeftPY="5" downRightPX="9" downRightPY="1" />
+      </Action>
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10007">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-5" upLeftPY="4" downRightPX="5" downRightPY="-3" />
+        <A startFrame="14" endFrame="15" upLeftPX="-4" upLeftPY="-1" downRightPX="-3" downRightPY="-2" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="14" endFrame="0" upLeftPX="3" upLeftPY="4" downRightPX="4" downRightPY="3" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="4" />
+      <pt Type="1" posX="0" posY="1" />
+      <pt Type="3" posX="3" posY="2" />
+      <pt Type="4" posX="-3" posY="-2" />
+    </PT>
+  </Role>
+  <Role id="10008">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-7" upLeftPY="8" downRightPX="8" downRightPY="-3" />
+        <A startFrame="10" endFrame="12" upLeftPX="-6" upLeftPY="4" downRightPX="0" downRightPY="-2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="10" endFrame="12" upLeftPX="0" upLeftPY="6" downRightPX="8" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10009">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="10" downRightPX="7" downRightPY="-4" />
+        <A startFrame="12" endFrame="14" upLeftPX="-5" upLeftPY="1" downRightPX="0" downRightPY="-3" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="12" endFrame="14" upLeftPX="0" upLeftPY="5" downRightPX="5" downRightPY="0" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="6" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10010">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+        <V upLeftPX="-4" upLeftPY="7" downRightPX="5" downRightPY="-2" />
+        <A startFrame="15" endFrame="18" upLeftPX="-3" upLeftPY="3" downRightPX="0" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+        <A startFrame="15" endFrame="18" upLeftPX="0" upLeftPY="4" downRightPX="3" downRightPY="1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-1" upLeftPY="3" downRightPX="1" downRightPY="1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10011">
+    <Actions>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+        <V upLeftPX="-10" upLeftPY="10" downRightPX="10" downRightPY="-4" />
+        <A startFrame="15" endFrame="16" upLeftPX="-9" upLeftPY="2" downRightPX="-1" downRightPY="-3" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1013" direction="back">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+        <A startFrame="15" endFrame="16" upLeftPX="1" upLeftPY="4" downRightPX="7" downRightPY="0" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="4" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10012">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+        <V upLeftPX="-5" upLeftPY="8" downRightPX="5" downRightPY="0" />
+        <A startFrame="12" endFrame="13" upLeftPX="-4" upLeftPY="4" downRightPX="-3" downRightPY="3" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+        <A startFrame="13" endFrame="14" upLeftPX="4" upLeftPY="5" downRightPX="5" downRightPY="4" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="6" />
+      <pt Type="4" posX="-4" posY="1" />
+      <pt Type="3" posX="4" posY="4" />
+    </PT>
+  </Role>
+  <Role id="10013">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-8" upLeftPY="8" downRightPX="8" downRightPY="-2" />
+        <A startFrame="24" endFrame="26" upLeftPX="-6" upLeftPY="2" downRightPX="-2" downRightPY="-2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="24" endFrame="26" upLeftPX="2" upLeftPY="3" downRightPX="7" downRightPY="-1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10014">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-6" upLeftPY="7" downRightPX="6" downRightPY="-4" />
+        <A startFrame="10" endFrame="15" upLeftPX="-5" upLeftPY="2" downRightPX="0" downRightPY="-2" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="10" endFrame="15" upLeftPX="1" upLeftPY="5" downRightPX="7" downRightPY="1" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10015">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-9" upLeftPY="9" downRightPX="8" downRightPY="-3" />
+        <A startFrame="15" endFrame="17" upLeftPX="-8" upLeftPY="2" downRightPX="6" downRightPY="-3" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="15" endFrame="17" upLeftPX="-6" upLeftPY="3" downRightPX="8" downRightPY="-2" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="6" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10016">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="7" downRightPY="-4" />
+        <A startFrame="8" endFrame="19" upLeftPX="-4" upLeftPY="1" downRightPX="0" downRightPY="-3" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+        <A startFrame="8" endFrame="19" upLeftPX="0" upLeftPY="5" downRightPX="5" downRightPY="1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10017">
+    <Actions>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-4" upLeftPY="4" downRightPX="4" downRightPY="-1" />
+        <A startFrame="13" endFrame="14" upLeftPX="-4" upLeftPY="2" downRightPX="-1" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+        <A startFrame="13" endFrame="14" upLeftPX="0" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="4" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10018">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+        <V upLeftPX="-5" upLeftPY="6" downRightPX="5" downRightPY="-2" />
+        <A startFrame="10" endFrame="13" upLeftPX="-3" upLeftPY="2" downRightPX="0" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+        <A startFrame="10" endFrame="13" upLeftPX="0" upLeftPY="4" downRightPX="4" downRightPY="1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-1" upLeftPY="2" downRightPX="1" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10019">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+        <V upLeftPX="-9" upLeftPY="11" downRightPX="11" downRightPY="-4" />
+        <A startFrame="10" endFrame="14" upLeftPX="-9" upLeftPY="4" downRightPX="0" downRightPY="-2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+        <A startFrame="10" endFrame="14" upLeftPX="2" upLeftPY="7" downRightPX="8" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+      <pt Type="1" posX="0" posY="4" />
+    </PT>
+  </Role>
+  <Role id="10020">
+    <Actions>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-6" upLeftPY="9" downRightPX="6" downRightPY="-2" />
+        <A startFrame="27" endFrame="28" upLeftPX="-6" upLeftPY="1" downRightPX="-5" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="27" endFrame="28" upLeftPX="4" upLeftPY="4" downRightPX="5" downRightPY="3" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="3" posX="5" posY="4" />
+      <pt Type="4" posX="-5" posY="-3" />
+      <pt Type="0" posX="0" posY="5" />
+    </PT>
+  </Role>
+  <Role id="10021">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="6" downRightPY="-2" />
+        <A startFrame="14" endFrame="15" upLeftPX="-6" upLeftPY="4" downRightPX="-5" downRightPY="3" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+        <A startFrame="14" endFrame="15" upLeftPX="4" upLeftPY="4" downRightPX="5" downRightPY="3" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="3" downRightPX="2" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+    </PT>
+  </Role>
+  <Role id="10022">
+    <Actions>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+        <V upLeftPX="-5" upLeftPY="7" downRightPX="9" downRightPY="-6" />
+        <A startFrame="10" endFrame="12" upLeftPX="-4" upLeftPY="1" downRightPX="0" downRightPY="-5" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1013" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="0" />
+        <A startFrame="10" endFrame="12" upLeftPX="0" upLeftPY="7" downRightPX="4" downRightPY="1" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="0" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="1" posX="0" posY="1" />
+    </PT>
+  </Role>
+  <Role id="10023">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-7" upLeftPY="7" downRightPX="7" downRightPY="-1" />
+        <A startFrame="19" endFrame="20" upLeftPX="-5" upLeftPY="6" downRightPX="-4" downRightPY="5" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="19" endFrame="20" upLeftPX="3" upLeftPY="8" downRightPX="4" downRightPY="7" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="4" posX="-5" posY="0" />
+      <pt Type="3" posX="4" posY="5" />
+    </PT>
+  </Role>
+  <Role id="10024">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="4" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="6" downRightPX="2" downRightPY="2" />
+        <V upLeftPX="-5" upLeftPY="9" downRightPX="6" downRightPY="0" />
+        <A startFrame="0" endFrame="6" upLeftPX="-3" upLeftPY="8" downRightPX="4" downRightPY="2" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="6" downRightPX="2" downRightPY="2" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="6" downRightPX="2" downRightPY="2" />
+        <A startFrame="0" endFrame="6" upLeftPX="-3" upLeftPY="8" downRightPX="3" downRightPY="2" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="6" downRightPX="2" downRightPY="2" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+      <pt Type="1" posX="0" posY="4" />
+    </PT>
+  </Role>
+  <Role id="10025">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <V upLeftPX="-7" upLeftPY="8" downRightPX="9" downRightPY="-5" />
+        <A startFrame="24" endFrame="26" upLeftPX="-5" upLeftPY="0" downRightPX="0" downRightPY="-4" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="24" endFrame="26" upLeftPX="2" upLeftPY="3" downRightPX="8" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10026">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-7" upLeftPY="9" downRightPX="8" downRightPY="-3" />
+        <A startFrame="10" endFrame="11" upLeftPX="-5" upLeftPY="2" downRightPX="1" downRightPY="-3" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="10" endFrame="11" upLeftPX="-2" upLeftPY="6" downRightPX="5" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="6" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10027">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <V upLeftPX="-9" upLeftPY="10" downRightPX="9" downRightPY="-3" />
+        <A startFrame="28" endFrame="29" upLeftPX="-8" upLeftPY="6" downRightPX="-7" downRightPY="5" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="1" upLeftPY="0" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+        <A startFrame="28" endFrame="29" upLeftPX="4" upLeftPY="8" downRightPX="5" downRightPY="7" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="2" downRightPX="2" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+      <pt Type="3" posX="4" posY="5" />
+      <pt Type="4" posX="-4" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10028">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <V upLeftPX="-12" upLeftPY="9" downRightPX="12" downRightPY="-2" />
+      </Action>
+      <Action id="0" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+        <A startFrame="0" endFrame="7" upLeftPX="-3" upLeftPY="9" downRightPX="12" downRightPY="1" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back" />
+      <Action id="1013" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="3" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="7" />
+      <pt Type="1" posX="0" posY="3" />
+    </PT>
+  </Role>
+  <Role id="10029">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+        <V upLeftPX="-11" upLeftPY="7" downRightPX="14" downRightPY="-6" />
+        <A startFrame="11" endFrame="35" upLeftPX="-10" upLeftPY="0" downRightPX="-1" downRightPY="-5" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1004" direction="back">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+        <A startFrame="11" endFrame="35" upLeftPX="3" upLeftPY="5" downRightPX="12" downRightPY="1" />
+      </Action>
+      <Action id="1025" direction="back">
+        <C upLeftPX="-3" upLeftPY="2" downRightPX="3" downRightPY="-1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="5" />
+      <pt Type="1" posX="0" posY="2" />
+    </PT>
+  </Role>
+  <Role id="10030">
+    <Actions>
+      <Action id="1003" direction="front">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1004" direction="back">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1012" direction="front">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1013" direction="back">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1015" direction="front">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+        <V upLeftPX="-8" upLeftPY="10" downRightPX="10" downRightPY="-3" />
+        <A startFrame="24" endFrame="27" upLeftPX="-6" upLeftPY="4" downRightPX="1" downRightPY="-2" />
+      </Action>
+      <Action id="1016" direction="back">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+        <A startFrame="24" endFrame="27" upLeftPX="-1" upLeftPY="6" downRightPX="6" downRightPY="0" />
+      </Action>
+      <Action id="1024" direction="front">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1027" direction="front" />
+      <Action id="1025" direction="back">
+        <C upLeftPX="-2" upLeftPY="5" downRightPX="2" downRightPY="1" />
+      </Action>
+      <Action id="1028" direction="back" />
+    </Actions>
+    <PT>
+      <pt Type="0" posX="0" posY="8" />
+      <pt Type="1" posX="0" posY="4" />
+    </PT>
+  </Role>
+</Root>

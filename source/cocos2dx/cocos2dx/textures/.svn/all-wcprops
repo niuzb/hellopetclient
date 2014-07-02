@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures
+END
+CCTexturePVR.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTexturePVR.cpp
+END
+CCTextureCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTextureCache.h
+END
+CCTextureAtlas.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTextureAtlas.h
+END
+CCTexture2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTexture2D.h
+END
+CCTexturePVR.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTexturePVR.h
+END
+CCTextureCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTextureCache.cpp
+END
+CCTextureAtlas.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTextureAtlas.cpp
+END
+CCTexture2D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/textures/CCTexture2D.cpp
+END

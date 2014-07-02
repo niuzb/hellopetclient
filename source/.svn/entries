@@ -1,0 +1,89 @@
+10
+
+dir
+928
+https://gzsvn.yun.qq.com/1101077902/hellopet/1/server/ahero/source
+https://gzsvn.yun.qq.com/1101077902
+
+
+
+2014-06-22T16:01:24.002560Z
+928
+app1101077902
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b27535a-3093-11e3-bee6-ef76e5a89f25
+
+android
+dir
+
+tools
+dir
+
+Win32
+dir
+
+XCode
+dir
+
+proto
+dir
+
+cocos2dx
+dir
+
+make_proto.bat
+file
+
+
+
+
+2014-06-22T13:26:11.000000Z
+dede4b2a54977296f148d1859ccd21d6
+2014-06-22T15:22:54.801091Z
+923
+app1101077902
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1903
+
+libs
+dir
+
+Resources
+dir
+
+Classes
+dir
+

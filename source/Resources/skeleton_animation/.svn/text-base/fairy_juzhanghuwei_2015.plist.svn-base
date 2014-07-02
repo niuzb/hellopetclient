@@ -1,0 +1,356 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>fairy_juzhanghuwei_2015:g1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{288,245},{23,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,23}}</string>
+                <key>sourceSize</key>
+                <string>{23,23}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{451,201},{47,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,47}}</string>
+                <key>sourceSize</key>
+                <string>{47,47}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,158},{95,95}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{95,95}}</string>
+                <key>sourceSize</key>
+                <string>{95,95}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{316,138},{115,115}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{115,115}}</string>
+                <key>sourceSize</key>
+                <string>{115,115}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{316,0},{135,135}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{135,135}}</string>
+                <key>sourceSize</key>
+                <string>{135,135}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g16.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{155,155}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{155,155}}</string>
+                <key>sourceSize</key>
+                <string>{155,155}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g17.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{158,0},{155,155}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{155,155}}</string>
+                <key>sourceSize</key>
+                <string>{155,155}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:g22.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{151,158},{71,71}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,71}}</string>
+                <key>sourceSize</key>
+                <string>{71,71}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:jnydewbqe/z 43.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{98,158},{50,56}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{50,56}}</string>
+                <key>sourceSize</key>
+                <string>{50,56}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:jnydewbqe/z 60.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{454,81},{55,59}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{55,59}}</string>
+                <key>sourceSize</key>
+                <string>{55,59}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:jnydewbqe/z 61.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{454,143},{55,55}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{55,55}}</string>
+                <key>sourceSize</key>
+                <string>{55,55}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:jnydewbqe/z 62.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{131,232},{32,28}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{32,28}}</string>
+                <key>sourceSize</key>
+                <string>{32,28}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju jian1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{166,232},{32,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{32,24}}</string>
+                <key>sourceSize</key>
+                <string>{32,24}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju jian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{259,245},{26,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,20}}</string>
+                <key>sourceSize</key>
+                <string>{26,20}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju qiangguan1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{201,232},{18,32}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,32}}</string>
+                <key>sourceSize</key>
+                <string>{18,32}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shenti1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{454,0},{49,78}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{49,78}}</string>
+                <key>sourceSize</key>
+                <string>{49,78}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shenti2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,158},{39,65}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{39,65}}</string>
+                <key>sourceSize</key>
+                <string>{39,65}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{267,158},{35,40}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,40}}</string>
+                <key>sourceSize</key>
+                <string>{35,40}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{267,201},{32,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{32,41}}</string>
+                <key>sourceSize</key>
+                <string>{32,41}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shou3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{98,217},{30,37}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,37}}</string>
+                <key>sourceSize</key>
+                <string>{30,37}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shou4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,226},{31,35}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{31,35}}</string>
+                <key>sourceSize</key>
+                <string>{31,35}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shoubi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{457,251},{19,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,16}}</string>
+                <key>sourceSize</key>
+                <string>{19,16}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shoubi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{434,251},{20,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,18}}</string>
+                <key>sourceSize</key>
+                <string>{20,18}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju shoubi3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{434,138},{17,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,19}}</string>
+                <key>sourceSize</key>
+                <string>{17,19}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:ju yanguan1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{434,160},{14,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,19}}</string>
+                <key>sourceSize</key>
+                <string>{14,19}</string>
+            </dict>
+            <key>fairy_juzhanghuwei_2015:jushoubi4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{434,182},{14,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,17}}</string>
+                <key>sourceSize</key>
+                <string>{14,17}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>fairy_juzhanghuwei_2015.pvr.ccz</string>
+            <key>size</key>
+            <string>{509,278}</string>
+            <key>textureFileName</key>
+            <string>fairy_juzhanghuwei_2015.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

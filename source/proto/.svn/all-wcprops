@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto
+END
+cs_core.proto
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/cs_core.proto
+END
+cs_battle.proto
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/cs_battle.proto
+END
+iAd.cs.proto
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/iAd.cs.proto
+END
+errcode.proto
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/errcode.proto
+END
+db.proto
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/db.proto
+END
+cs_basic.proto
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/cs_basic.proto
+END
+cs_config.proto
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/923/hellopet/1/server/ahero/source/proto/cs_config.proto
+END

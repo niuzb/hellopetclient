@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src
+END
+plane.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/plane.c
+END
+vec2.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/vec2.c
+END
+vec3.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/vec3.c
+END
+vec4.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/vec4.c
+END
+utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/utility.c
+END
+mat3.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/mat3.c
+END
+neon_matrix_impl.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/neon_matrix_impl.c
+END
+aabb.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/aabb.c
+END
+mat4.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/mat4.c
+END
+quaternion.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/quaternion.c
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/ChangeLog
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/CMakeLists.txt
+END
+ray2.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/kazmath/src/ray2.c
+END

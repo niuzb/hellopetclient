@@ -1,0 +1,30 @@
+{
+    "worldboss1":{
+        "id":"worldboss1",
+        "herotype":1,
+        "width":525,
+        "height":262,
+        "mx":-200,
+        "my":0,
+        "image":"hero/1.png",
+        "image2":"hero/a1.png",
+        "attackt":320,
+        "rx":-124,
+        "sx":152,
+        "sy":0,
+        "bx":50,
+        "by":0,
+        "animations2":
+            [
+                {"rect":[0,0,525,262],"label":"attack","interval":80},
+                {"rect":[525,0,525,262],"interval":80},
+                {"rect":[1050,0,525,262],"interval":80},
+                {"rect":[0,262,525,262],"interval":80},
+                {"rect":[525,262,525,262],"interval":80},
+                {"rect":[1050,262,525,262],"interval":80},
+                {"rect":[0,524,525,262],"interval":80},
+                {"rect":[525,524,525,262],"interval":80}
+             ]
+    }
+    
+}

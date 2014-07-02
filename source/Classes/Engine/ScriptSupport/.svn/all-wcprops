@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport
+END
+AspriteManager.pkg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/AspriteManager.pkg
+END
+IconButton.pkg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/IconButton.pkg
+END
+LuaEngine.pkg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/LuaEngine.pkg
+END
+LuaEngine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/LuaEngine.cpp
+END
+tolua.bat
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/tolua.bat
+END
+tolua++.exe
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/tolua++.exe
+END
+UILabelTTF.pkg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/UILabelTTF.pkg
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/readme.txt
+END
+GameResourceManager.pkg
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/GameResourceManager.pkg
+END
+LuaEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/ScriptSupport/LuaEngine.h
+END

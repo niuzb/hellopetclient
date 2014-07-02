@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints
+END
+cpDampedSpring.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpDampedSpring.c
+END
+cpDampedRotarySpring.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpDampedRotarySpring.c
+END
+cpRatchetJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpRatchetJoint.c
+END
+cpGearJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpGearJoint.c
+END
+cpRotaryLimitJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpRotaryLimitJoint.c
+END
+cpConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpConstraint.c
+END
+cpSlideJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpSlideJoint.c
+END
+cpGrooveJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpGrooveJoint.c
+END
+cpPivotJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpPivotJoint.c
+END
+cpPinJoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpPinJoint.c
+END
+cpSimpleMotor.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/1101077902/!svn/ver/723/hellopet/1/server/ahero/source/cocos2dx/external/chipmunk/src/constraints/cpSimpleMotor.c
+END

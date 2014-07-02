@@ -1,0 +1,14 @@
+class SpriteFactory
+{
+	void PrintLog();
+	static SpriteFactory* sharedFactory();
+	int GetValue();
+	void ShowElfOnLayerAtPoint(CCNode* parentNode,int type,CCPoint pos);
+	void RemoveElfFromHero(unsigned int roleId);
+	void AttachElfToOneHero(unsigned int elfTypeId,unsigned int heroId);
+	CCNode* GetMainMenuLayerNode();
+	void ResetValue();
+	bool ShowElfPanelWithBackPackLayer();
+	void SendElfAwakeMessage(unsigned int awakeType);
+	void SendAwakeConfigMessage();
+};

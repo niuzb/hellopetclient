@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story
+END
+StoryData.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/StoryData.h
+END
+StoryDataCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/StoryDataCenter.h
+END
+InstanceDialogLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/InstanceDialogLayer.cpp
+END
+StoryInstanceDirector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/StoryInstanceDirector.cpp
+END
+InstanceDialogLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/InstanceDialogLayer.h
+END
+StoryInstanceDirector.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/StoryInstanceDirector.h
+END
+StoryData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/StoryData.cpp
+END
+StoryDataCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Story/StoryDataCenter.cpp
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/compiler/python
+END
+python_plugin_unittest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/compiler/python/python_plugin_unittest.cc
+END
+python_generator.cc
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/compiler/python/python_generator.cc
+END
+python_generator.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/compiler/python/python_generator.h
+END

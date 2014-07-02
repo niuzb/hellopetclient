@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg
+END
+jconfig_win.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg/jconfig_win.h
+END
+jmorecfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg/jmorecfg.h
+END
+jpeglib.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg/jpeglib.h
+END
+jconfig_linux.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg/jconfig_linux.h
+END
+jconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg/jconfig.h
+END
+jerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/libjpeg/jerror.h
+END

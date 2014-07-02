@@ -1,0 +1,772 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>assassin_intown: Z ku.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{74,102},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>assassin_intown:234fsaw.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{156,112},{14,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,14}}</string>
+                <key>sourceSize</key>
+                <string>{14,14}</string>
+            </dict>
+            <key>assassin_intown:345gt.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{24,116},{14,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,12}}</string>
+                <key>sourceSize</key>
+                <string>{14,12}</string>
+            </dict>
+            <key>assassin_intown:890s.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{169,92},{17,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,17}}</string>
+                <key>sourceSize</key>
+                <string>{17,17}</string>
+            </dict>
+            <key>assassin_intown:90bfr.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{125,74},{18,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,18}}</string>
+                <key>sourceSize</key>
+                <string>{18,18}</string>
+            </dict>
+            <key>assassin_intown:ASDQWRT.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,53},{27,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,17}}</string>
+                <key>sourceSize</key>
+                <string>{27,17}</string>
+            </dict>
+            <key>assassin_intown:B kua.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{221,75},{27,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,13}}</string>
+                <key>sourceSize</key>
+                <string>{27,13}</string>
+            </dict>
+            <key>assassin_intown:B shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{173,51},{25,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,22}}</string>
+                <key>sourceSize</key>
+                <string>{25,22}</string>
+            </dict>
+            <key>assassin_intown:B weijin.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{98,38},{35,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,16}}</string>
+                <key>sourceSize</key>
+                <string>{35,16}</string>
+            </dict>
+            <key>assassin_intown:B xie.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{146,79},{20,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,15}}</string>
+                <key>sourceSize</key>
+                <string>{20,15}</string>
+            </dict>
+            <key>assassin_intown:B yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{46,94},{25,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,8}}</string>
+                <key>sourceSize</key>
+                <string>{25,8}</string>
+            </dict>
+            <key>assassin_intown:B youdat.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{74,45},{21,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,17}}</string>
+                <key>sourceSize</key>
+                <string>{21,17}</string>
+            </dict>
+            <key>assassin_intown:B youshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{136,51},{9,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,9}}</string>
+                <key>sourceSize</key>
+                <string>{9,9}</string>
+            </dict>
+            <key>assassin_intown:B youxiaobi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{136,38},{9,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,10}}</string>
+                <key>sourceSize</key>
+                <string>{9,10}</string>
+            </dict>
+            <key>assassin_intown:B youxiaot.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,117},{14,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,11}}</string>
+                <key>sourceSize</key>
+                <string>{14,11}</string>
+            </dict>
+            <key>assassin_intown:B zuohujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{30,53},{15,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,21}}</string>
+                <key>sourceSize</key>
+                <string>{15,21}</string>
+            </dict>
+            <key>assassin_intown:B zuoqianbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{125,57},{7,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,8}}</string>
+                <key>sourceSize</key>
+                <string>{7,8}</string>
+            </dict>
+            <key>assassin_intown:B zuoxiaobi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{117,95},{17,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,14}}</string>
+                <key>sourceSize</key>
+                <string>{17,14}</string>
+            </dict>
+            <key>assassin_intown:F kua.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{170,76},{26,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,13}}</string>
+                <key>sourceSize</key>
+                <string>{26,13}</string>
+            </dict>
+            <key>assassin_intown:F kuu.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,110},{18,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,10}}</string>
+                <key>sourceSize</key>
+                <string>{18,10}</string>
+            </dict>
+            <key>assassin_intown:F shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,91},{22,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,12}}</string>
+                <key>sourceSize</key>
+                <string>{22,12}</string>
+            </dict>
+            <key>assassin_intown:F tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{98,0},{47,35}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,35}}</string>
+                <key>sourceSize</key>
+                <string>{47,35}</string>
+            </dict>
+            <key>assassin_intown:F toufa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{45,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{45,50}}</string>
+                <key>sourceSize</key>
+                <string>{45,50}</string>
+            </dict>
+            <key>assassin_intown:F weijin.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{173,27},{33,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,21}}</string>
+                <key>sourceSize</key>
+                <string>{33,21}</string>
+            </dict>
+            <key>assassin_intown:F yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{44,105},{22,7}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,7}}</string>
+                <key>sourceSize</key>
+                <string>{22,7}</string>
+            </dict>
+            <key>assassin_intown:F youdat.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{98,57},{24,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,18}}</string>
+                <key>sourceSize</key>
+                <string>{24,18}</string>
+            </dict>
+            <key>assassin_intown:F youhoubi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{135,63},{7,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,8}}</string>
+                <key>sourceSize</key>
+                <string>{7,8}</string>
+            </dict>
+            <key>assassin_intown:F youhujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{29,77},{14,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,20}}</string>
+                <key>sourceSize</key>
+                <string>{14,20}</string>
+            </dict>
+            <key>assassin_intown:F youqianbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{221,91},{18,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,16}}</string>
+                <key>sourceSize</key>
+                <string>{18,16}</string>
+            </dict>
+            <key>assassin_intown:F youxiaot.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{201,52},{18,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,19}}</string>
+                <key>sourceSize</key>
+                <string>{18,19}</string>
+            </dict>
+            <key>assassin_intown:F zuoqianb.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{135,114},{14,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,13}}</string>
+                <key>sourceSize</key>
+                <string>{14,13}</string>
+            </dict>
+            <key>assassin_intown:F zuoxiaot.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{93,113},{14,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,14}}</string>
+                <key>sourceSize</key>
+                <string>{14,14}</string>
+            </dict>
+            <key>assassin_intown:Y houbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{209,40},{10,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,9}}</string>
+                <key>sourceSize</key>
+                <string>{10,9}</string>
+            </dict>
+            <key>assassin_intown:Y hujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{173,112},{13,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,14}}</string>
+                <key>sourceSize</key>
+                <string>{13,14}</string>
+            </dict>
+            <key>assassin_intown:Y qianbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{97,94},{17,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,16}}</string>
+                <key>sourceSize</key>
+                <string>{17,16}</string>
+            </dict>
+            <key>assassin_intown:Z datui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{222,53},{25,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,19}}</string>
+                <key>sourceSize</key>
+                <string>{25,19}</string>
+            </dict>
+            <key>assassin_intown:Z xiaotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{222,0},{27,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,26}}</string>
+                <key>sourceSize</key>
+                <string>{27,26}</string>
+            </dict>
+            <key>assassin_intown:asdcd.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{117,112},{15,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,13}}</string>
+                <key>sourceSize</key>
+                <string>{15,13}</string>
+            </dict>
+            <key>assassin_intown:asdqex.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,106},{21,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,8}}</string>
+                <key>sourceSize</key>
+                <string>{21,8}</string>
+            </dict>
+            <key>assassin_intown:bgrthg.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{208,110},{14,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,15}}</string>
+                <key>sourceSize</key>
+                <string>{14,15}</string>
+            </dict>
+            <key>assassin_intown:cs34.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{48,75},{23,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,16}}</string>
+                <key>sourceSize</key>
+                <string>{23,16}</string>
+            </dict>
+            <key>assassin_intown:dao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{148,0},{22,54}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,54}}</string>
+                <key>sourceSize</key>
+                <string>{22,54}</string>
+            </dict>
+            <key>assassin_intown:kui4563.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{189,107},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>assassin_intown:langer.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{74,85},{20,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,14}}</string>
+                <key>sourceSize</key>
+                <string>{20,14}</string>
+            </dict>
+            <key>assassin_intown:mjkui003.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{25,100},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>assassin_intown:nhm43.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{209,27},{10,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,10}}</string>
+                <key>sourceSize</key>
+                <string>{10,10}</string>
+            </dict>
+            <key>assassin_intown:pen.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,73},{26,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,15}}</string>
+                <key>sourceSize</key>
+                <string>{26,15}</string>
+            </dict>
+            <key>assassin_intown:podf778.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{74,65},{20,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,17}}</string>
+                <key>sourceSize</key>
+                <string>{20,17}</string>
+            </dict>
+            <key>assassin_intown:rt45ef.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{148,57},{19,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,19}}</string>
+                <key>sourceSize</key>
+                <string>{19,19}</string>
+            </dict>
+            <key>assassin_intown:sdfcw.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{201,74},{17,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,18}}</string>
+                <key>sourceSize</key>
+                <string>{17,18}</string>
+            </dict>
+            <key>assassin_intown:tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{48,0},{47,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,42}}</string>
+                <key>sourceSize</key>
+                <string>{47,42}</string>
+            </dict>
+            <key>assassin_intown:vfgbrty.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{137,97},{16,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,14}}</string>
+                <key>sourceSize</key>
+                <string>{16,14}</string>
+            </dict>
+            <key>assassin_intown:weiba.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{173,0},{46,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{46,24}}</string>
+                <key>sourceSize</key>
+                <string>{46,24}</string>
+            </dict>
+            <key>assassin_intown:weijin.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{222,29},{31,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{31,21}}</string>
+                <key>sourceSize</key>
+                <string>{31,21}</string>
+            </dict>
+            <key>assassin_intown:weijinwei.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{48,45},{23,27}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,27}}</string>
+                <key>sourceSize</key>
+                <string>{23,27}</string>
+            </dict>
+            <key>assassin_intown:yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{189,95},{21,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,9}}</string>
+                <key>sourceSize</key>
+                <string>{21,9}</string>
+            </dict>
+            <key>assassin_intown:youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{44,115},{19,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,8}}</string>
+                <key>sourceSize</key>
+                <string>{19,8}</string>
+            </dict>
+            <key>assassin_intown:zuijiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{97,78},{22,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,13}}</string>
+                <key>sourceSize</key>
+                <string>{22,13}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>assassin_intown.pvr.ccz</string>
+            <key>size</key>
+            <string>{253,129}</string>
+            <key>textureFileName</key>
+            <string>assassin_intown.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

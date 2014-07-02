@@ -1,0 +1,5 @@
+class TutorialsManager
+{
+	static TutorialsManager* Get();
+	void StartOneTutorial(unsigned int id);
+};

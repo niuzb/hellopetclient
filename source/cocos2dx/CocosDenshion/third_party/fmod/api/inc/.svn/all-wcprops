@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc
+END
+fmod_memoryinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod_memoryinfo.h
+END
+fmod_dsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod_dsp.h
+END
+fmod_errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod_errors.h
+END
+fmod_codec.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod_codec.h
+END
+fmod.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod.h
+END
+fmod.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod.hpp
+END
+fmod_output.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmod_output.h
+END
+fmodlinux.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/721/hellopet/1/server/ahero/source/cocos2dx/CocosDenshion/third_party/fmod/api/inc/fmodlinux.h
+END

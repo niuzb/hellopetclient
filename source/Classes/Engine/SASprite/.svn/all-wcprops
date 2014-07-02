@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite
+END
+BoneAnimSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/BoneAnimSprite.cpp
+END
+RoleBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/RoleBase.h
+END
+SkeletonAnimRcsManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/SkeletonAnimRcsManager.h
+END
+BoneAnimSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/BoneAnimSprite.h
+END
+BoneSpriteBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/BoneSpriteBase.cpp
+END
+BoneSpriteMoveable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/BoneSpriteMoveable.cpp
+END
+RoleActorBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/RoleActorBase.cpp
+END
+BoneSpriteBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/BoneSpriteBase.h
+END
+BoneSpriteMoveable.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/BoneSpriteMoveable.h
+END
+RoleActorBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/RoleActorBase.h
+END
+SASpriteDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/SASpriteDefine.h
+END
+RoleBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/RoleBase.cpp
+END
+SkeletonAnimRcsManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/SASprite/SkeletonAnimRcsManager.cpp
+END

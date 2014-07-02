@@ -1,0 +1,1474 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>skill_storm:aa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{264,304},{75,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,79}}</string>
+                <key>sourceSize</key>
+                <string>{75,79}</string>
+            </dict>
+            <key>skill_storm:asa/-1asa-11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,620},{77,43}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,43}}</string>
+                <key>sourceSize</key>
+                <string>{77,43}</string>
+            </dict>
+            <key>skill_storm:asa/13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,518},{79,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{79,49}}</string>
+                <key>sourceSize</key>
+                <string>{79,49}</string>
+            </dict>
+            <key>skill_storm:asdr.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{947,496},{73,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{73,52}}</string>
+                <key>sourceSize</key>
+                <string>{73,52}</string>
+            </dict>
+            <key>skill_storm:asva.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{954,420},{59,73}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{59,73}}</string>
+                <key>sourceSize</key>
+                <string>{59,73}</string>
+            </dict>
+            <key>skill_storm:axa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,925},{115,82}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{115,82}}</string>
+                <key>sourceSize</key>
+                <string>{115,82}</string>
+            </dict>
+            <key>skill_storm:axcv.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{518,419},{23,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,22}}</string>
+                <key>sourceSize</key>
+                <string>{23,22}</string>
+            </dict>
+            <key>skill_storm:axcvxx.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,65},{19,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,16}}</string>
+                <key>sourceSize</key>
+                <string>{19,16}</string>
+            </dict>
+            <key>skill_storm:azc.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{233,595},{105,86}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{105,86}}</string>
+                <key>sourceSize</key>
+                <string>{105,86}</string>
+            </dict>
+            <key>skill_storm:b tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{518,340},{39,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{39,39}}</string>
+                <key>sourceSize</key>
+                <string>{39,39}</string>
+            </dict>
+            <key>skill_storm:b weijing.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,257},{37,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{37,18}}</string>
+                <key>sourceSize</key>
+                <string>{37,18}</string>
+            </dict>
+            <key>skill_storm:b youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,101},{18,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,15}}</string>
+                <key>sourceSize</key>
+                <string>{18,15}</string>
+            </dict>
+            <key>skill_storm:b zuojiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{485,433},{22,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,19}}</string>
+                <key>sourceSize</key>
+                <string>{22,19}</string>
+            </dict>
+            <key>skill_storm:bdvf.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,785},{68,43}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{68,43}}</string>
+                <key>sourceSize</key>
+                <string>{68,43}</string>
+            </dict>
+            <key>skill_storm:c jn11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{351,166},{209,124}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{209,124}}</string>
+                <key>sourceSize</key>
+                <string>{209,124}</string>
+            </dict>
+            <key>skill_storm:c jn12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{345,293},{170,137}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{170,137}}</string>
+                <key>sourceSize</key>
+                <string>{170,137}</string>
+            </dict>
+            <key>skill_storm:c jn13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{664,137},{254,107}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{254,107}}</string>
+                <key>sourceSize</key>
+                <string>{254,107}</string>
+            </dict>
+            <key>skill_storm:caz.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,473},{62,67}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,67}}</string>
+                <key>sourceSize</key>
+                <string>{62,67}</string>
+            </dict>
+            <key>skill_storm:cds.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,166},{15,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,15}}</string>
+                <key>sourceSize</key>
+                <string>{15,15}</string>
+            </dict>
+            <key>skill_storm:cdsb.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{71,820},{197,102}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{197,102}}</string>
+                <key>sourceSize</key>
+                <string>{197,102}</string>
+            </dict>
+            <key>skill_storm:csvb.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,84},{20,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,14}}</string>
+                <key>sourceSize</key>
+                <string>{20,14}</string>
+            </dict>
+            <key>skill_storm:cxa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{606,846},{225,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{225,44}}</string>
+                <key>sourceSize</key>
+                <string>{225,44}</string>
+            </dict>
+            <key>skill_storm:czs.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{561,325},{88,63}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{88,63}}</string>
+                <key>sourceSize</key>
+                <string>{88,63}</string>
+            </dict>
+            <key>skill_storm:gujia/kudang.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{485,466},{54,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{54,44}}</string>
+                <key>sourceSize</key>
+                <string>{54,44}</string>
+            </dict>
+            <key>skill_storm:gujia/weijing1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{518,382},{38,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{38,15}}</string>
+                <key>sourceSize</key>
+                <string>{38,15}</string>
+            </dict>
+            <key>skill_storm:gujia/youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,229},{34,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{34,25}}</string>
+                <key>sourceSize</key>
+                <string>{34,25}</string>
+            </dict>
+            <key>skill_storm:gujia/youshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{309,439},{21,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,18}}</string>
+                <key>sourceSize</key>
+                <string>{21,18}</string>
+            </dict>
+            <key>skill_storm:gujia/youtui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{997,201},{22,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,25}}</string>
+                <key>sourceSize</key>
+                <string>{22,25}</string>
+            </dict>
+            <key>skill_storm:gujia/zuobi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,200},{14,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,15}}</string>
+                <key>sourceSize</key>
+                <string>{14,15}</string>
+            </dict>
+            <key>skill_storm:gujia/zuojiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,23},{20,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,16}}</string>
+                <key>sourceSize</key>
+                <string>{20,16}</string>
+            </dict>
+            <key>skill_storm:gujia/zuotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{309,415},{29,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{29,21}}</string>
+                <key>sourceSize</key>
+                <string>{29,21}</string>
+            </dict>
+            <key>skill_storm:jtjk.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{794,757},{67,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{67,45}}</string>
+                <key>sourceSize</key>
+                <string>{67,45}</string>
+            </dict>
+            <key>skill_storm:kudang.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,184},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>skill_storm:mhn.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{271,885},{163,59}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{163,59}}</string>
+                <key>sourceSize</key>
+                <string>{163,59}</string>
+            </dict>
+            <key>skill_storm:opv.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,710},{71,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,44}}</string>
+                <key>sourceSize</key>
+                <string>{71,44}</string>
+            </dict>
+            <key>skill_storm:p 111.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{924,551},{78,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,47}}</string>
+                <key>sourceSize</key>
+                <string>{78,47}</string>
+            </dict>
+            <key>skill_storm:p 11111.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,570},{78,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,47}}</string>
+                <key>sourceSize</key>
+                <string>{78,47}</string>
+            </dict>
+            <key>skill_storm:ppd.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,137},{13,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,17}}</string>
+                <key>sourceSize</key>
+                <string>{13,17}</string>
+            </dict>
+            <key>skill_storm:qqx.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,135},{18,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,14}}</string>
+                <key>sourceSize</key>
+                <string>{18,14}</string>
+            </dict>
+            <key>skill_storm:sadav.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{820,455},{71,60}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,60}}</string>
+                <key>sourceSize</key>
+                <string>{71,60}</string>
+            </dict>
+            <key>skill_storm:shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{510,444},{21,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,15}}</string>
+                <key>sourceSize</key>
+                <string>{21,15}</string>
+            </dict>
+            <key>skill_storm:tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{485,513},{49,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{49,42}}</string>
+                <key>sourceSize</key>
+                <string>{49,42}</string>
+            </dict>
+            <key>skill_storm:tx 1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{233,684},{103,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,31}}</string>
+                <key>sourceSize</key>
+                <string>{103,31}</string>
+            </dict>
+            <key>skill_storm:tx 13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,751},{103,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,31}}</string>
+                <key>sourceSize</key>
+                <string>{103,31}</string>
+            </dict>
+            <key>skill_storm:tx 14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{228,947},{108,37}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,37}}</string>
+                <key>sourceSize</key>
+                <string>{108,37}</string>
+            </dict>
+            <key>skill_storm:tx 15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{118,925},{107,40}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{107,40}}</string>
+                <key>sourceSize</key>
+                <string>{107,40}</string>
+            </dict>
+            <key>skill_storm:tx 21.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{479,767},{124,87}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{124,87}}</string>
+                <key>sourceSize</key>
+                <string>{124,87}</string>
+            </dict>
+            <key>skill_storm:tx 22.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{650,553},{143,160}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{143,160}}</string>
+                <key>sourceSize</key>
+                <string>{143,160}</string>
+            </dict>
+            <key>skill_storm:tx 23.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{106,559},{124,161}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{124,161}}</string>
+                <key>sourceSize</key>
+                <string>{124,161}</string>
+            </dict>
+            <key>skill_storm:tx 24.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{877,601},{111,163}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{111,163}}</string>
+                <key>sourceSize</key>
+                <string>{111,163}</string>
+            </dict>
+            <key>skill_storm:tx 26.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{563,166},{78,156}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,156}}</string>
+                <key>sourceSize</key>
+                <string>{78,156}</string>
+            </dict>
+            <key>skill_storm:tx 31.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{840,368},{62,84}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,84}}</string>
+                <key>sourceSize</key>
+                <string>{62,84}</string>
+            </dict>
+            <key>skill_storm:tx 32.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{264,183},{78,118}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,118}}</string>
+                <key>sourceSize</key>
+                <string>{78,118}</string>
+            </dict>
+            <key>skill_storm:tx 33.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,559},{103,189}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,189}}</string>
+                <key>sourceSize</key>
+                <string>{103,189}</string>
+            </dict>
+            <key>skill_storm:tx 34.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{132,183},{129,187}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{129,187}}</string>
+                <key>sourceSize</key>
+                <string>{129,187}</string>
+            </dict>
+            <key>skill_storm:tx 35.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{122,373},{119,183}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{119,183}}</string>
+                <key>sourceSize</key>
+                <string>{119,183}</string>
+            </dict>
+            <key>skill_storm:tx 36.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{341,433},{141,165}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{141,165}}</string>
+                <key>sourceSize</key>
+                <string>{141,165}</string>
+            </dict>
+            <key>skill_storm:tx 37.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{479,857},{108,98}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,98}}</string>
+                <key>sourceSize</key>
+                <string>{108,98}</string>
+            </dict>
+            <key>skill_storm:tx 38.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{339,748},{137,134}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{137,134}}</string>
+                <key>sourceSize</key>
+                <string>{137,134}</string>
+            </dict>
+            <key>skill_storm:tx 39.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,666},{78,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,41}}</string>
+                <key>sourceSize</key>
+                <string>{78,41}</string>
+            </dict>
+            <key>skill_storm:tx 41.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{894,493},{50,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{50,41}}</string>
+                <key>sourceSize</key>
+                <string>{50,41}</string>
+            </dict>
+            <key>skill_storm:tx 42.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{590,893},{108,98}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,98}}</string>
+                <key>sourceSize</key>
+                <string>{108,98}</string>
+            </dict>
+            <key>skill_storm:tx 44.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{652,385},{141,165}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{141,165}}</string>
+                <key>sourceSize</key>
+                <string>{141,165}</string>
+            </dict>
+            <key>skill_storm:tx 45.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,373},{119,183}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{119,183}}</string>
+                <key>sourceSize</key>
+                <string>{119,183}</string>
+            </dict>
+            <key>skill_storm:tx 46.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,183},{129,187}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{129,187}}</string>
+                <key>sourceSize</key>
+                <string>{129,187}</string>
+            </dict>
+            <key>skill_storm:tx 47.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{544,438},{103,189}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,189}}</string>
+                <key>sourceSize</key>
+                <string>{103,189}</string>
+            </dict>
+            <key>skill_storm:tx 48.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{840,247},{78,118}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,118}}</string>
+                <key>sourceSize</key>
+                <string>{78,118}</string>
+            </dict>
+            <key>skill_storm:tx 49.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,386},{62,84}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,84}}</string>
+                <key>sourceSize</key>
+                <string>{62,84}</string>
+            </dict>
+            <key>skill_storm:tx 51.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,427},{22,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,22}}</string>
+                <key>sourceSize</key>
+                <string>{22,22}</string>
+            </dict>
+            <key>skill_storm:tx 52.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{905,445},{43,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{43,45}}</string>
+                <key>sourceSize</key>
+                <string>{43,45}</string>
+            </dict>
+            <key>skill_storm:tx 53.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{966,361},{47,56}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,56}}</string>
+                <key>sourceSize</key>
+                <string>{47,56}</string>
+            </dict>
+            <key>skill_storm:tx 54.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,385},{41,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,39}}</string>
+                <key>sourceSize</key>
+                <string>{41,39}</string>
+            </dict>
+            <key>skill_storm:tx 61.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{834,858},{168,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{168,90}}</string>
+                <key>sourceSize</key>
+                <string>{168,90}</string>
+            </dict>
+            <key>skill_storm:tx 62.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{341,601},{157,144}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{157,144}}</string>
+                <key>sourceSize</key>
+                <string>{157,144}</string>
+            </dict>
+            <key>skill_storm:tx 63.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{664,0},{334,134}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{334,134}}</string>
+                <key>sourceSize</key>
+                <string>{334,134}</string>
+            </dict>
+            <key>skill_storm:tx 64.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{348,180}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{348,180}}</string>
+                <key>sourceSize</key>
+                <string>{348,180}</string>
+            </dict>
+            <key>skill_storm:tx 65.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{351,0},{310,163}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{310,163}}</string>
+                <key>sourceSize</key>
+                <string>{310,163}</string>
+            </dict>
+            <key>skill_storm:tx 66.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{661,247},{176,135}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{176,135}}</string>
+                <key>sourceSize</key>
+                <string>{176,135}</string>
+            </dict>
+            <key>skill_storm:tx 67.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{641,716},{150,127}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{150,127}}</string>
+                <key>sourceSize</key>
+                <string>{150,127}</string>
+            </dict>
+            <key>skill_storm:tx 68.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{966,300},{52,58}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{52,58}}</string>
+                <key>sourceSize</key>
+                <string>{52,58}</string>
+            </dict>
+            <key>skill_storm:tx1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{233,718},{103,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,31}}</string>
+                <key>sourceSize</key>
+                <string>{103,31}</string>
+            </dict>
+            <key>skill_storm:tx43.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{501,630},{137,134}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{137,134}}</string>
+                <key>sourceSize</key>
+                <string>{137,134}</string>
+            </dict>
+            <key>skill_storm:tx53.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{905,389},{46,53}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{46,53}}</string>
+                <key>sourceSize</key>
+                <string>{46,53}</string>
+            </dict>
+            <key>skill_storm:vbf.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{701,893},{115,82}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{115,82}}</string>
+                <key>sourceSize</key>
+                <string>{115,82}</string>
+            </dict>
+            <key>skill_storm:vdc.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{231,752},{80,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{80,41}}</string>
+                <key>sourceSize</key>
+                <string>{80,41}</string>
+            </dict>
+            <key>skill_storm:vdx.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{878,537},{43,40}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{43,40}}</string>
+                <key>sourceSize</key>
+                <string>{43,40}</string>
+            </dict>
+            <key>skill_storm:vvde.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{864,767},{123,88}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{123,88}}</string>
+                <key>sourceSize</key>
+                <string>{123,88}</string>
+            </dict>
+            <key>skill_storm:vvft.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{559,391},{88,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{88,44}}</string>
+                <key>sourceSize</key>
+                <string>{88,44}</string>
+            </dict>
+            <key>skill_storm:wuqi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{106,723},{122,94}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{122,94}}</string>
+                <key>sourceSize</key>
+                <string>{122,94}</string>
+            </dict>
+            <key>skill_storm:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{921,270},{42,116}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,116}}</string>
+                <key>sourceSize</key>
+                <string>{42,116}</string>
+            </dict>
+            <key>skill_storm:wuqi_80.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{921,137},{60,130}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,130}}</string>
+                <key>sourceSize</key>
+                <string>{60,130}</string>
+            </dict>
+            <key>skill_storm:wwec.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,543},{78,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{78,49}}</string>
+                <key>sourceSize</key>
+                <string>{78,49}</string>
+            </dict>
+            <key>skill_storm:xzc.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,0},{19,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,20}}</string>
+                <key>sourceSize</key>
+                <string>{19,20}</string>
+            </dict>
+            <key>skill_storm:youbi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,157},{13,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,14}}</string>
+                <key>sourceSize</key>
+                <string>{13,14}</string>
+            </dict>
+            <key>skill_storm:youbi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,199},{10,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,10}}</string>
+                <key>sourceSize</key>
+                <string>{10,10}</string>
+            </dict>
+            <key>skill_storm:z kudang.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{485,455},{18,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,8}}</string>
+                <key>sourceSize</key>
+                <string>{18,8}</string>
+            </dict>
+            <key>skill_storm:z lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{309,386},{25,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,26}}</string>
+                <key>sourceSize</key>
+                <string>{25,26}</string>
+            </dict>
+            <key>skill_storm:z shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1000,178},{21,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,20}}</string>
+                <key>sourceSize</key>
+                <string>{21,20}</string>
+            </dict>
+            <key>skill_storm:z toufa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{518,293},{40,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{40,44}}</string>
+                <key>sourceSize</key>
+                <string>{40,44}</string>
+            </dict>
+            <key>skill_storm:z weijing 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,278},{33,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,19}}</string>
+                <key>sourceSize</key>
+                <string>{33,19}</string>
+            </dict>
+            <key>skill_storm:z youhujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{966,270},{15,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,10}}</string>
+                <key>sourceSize</key>
+                <string>{15,10}</string>
+            </dict>
+            <key>skill_storm:z youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,42},{16,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,20}}</string>
+                <key>sourceSize</key>
+                <string>{16,20}</string>
+            </dict>
+            <key>skill_storm:z youshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,250},{14,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,12}}</string>
+                <key>sourceSize</key>
+                <string>{14,12}</string>
+            </dict>
+            <key>skill_storm:z youshoubi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,265},{14,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,11}}</string>
+                <key>sourceSize</key>
+                <string>{14,11}</string>
+            </dict>
+            <key>skill_storm:z youtui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1000,152},{21,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,23}}</string>
+                <key>sourceSize</key>
+                <string>{21,23}</string>
+            </dict>
+            <key>skill_storm:z zuohujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,234},{14,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,13}}</string>
+                <key>sourceSize</key>
+                <string>{14,13}</string>
+            </dict>
+            <key>skill_storm:z zuojiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{644,218},{15,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,13}}</string>
+                <key>sourceSize</key>
+                <string>{15,13}</string>
+            </dict>
+            <key>skill_storm:z zuoshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{796,452},{21,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,13}}</string>
+                <key>sourceSize</key>
+                <string>{21,13}</string>
+            </dict>
+            <key>skill_storm:z zuoshoubi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,174},{13,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,11}}</string>
+                <key>sourceSize</key>
+                <string>{13,11}</string>
+            </dict>
+            <key>skill_storm:z zuotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1001,119},{19,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,13}}</string>
+                <key>sourceSize</key>
+                <string>{19,13}</string>
+            </dict>
+            <key>skill_storm:zuobi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{984,188},{12,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,8}}</string>
+                <key>sourceSize</key>
+                <string>{12,8}</string>
+            </dict>
+            <key>skill_storm:zuoshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{518,400},{34,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{34,16}}</string>
+                <key>sourceSize</key>
+                <string>{34,16}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>skill_storm.pvr.ccz</string>
+            <key>size</key>
+            <string>{1023,1007}</string>
+            <key>textureFileName</key>
+            <string>skill_storm.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

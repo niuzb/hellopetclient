@@ -1,0 +1,1032 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>skill_deadlinesschop: Z ku.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{487,203},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:12sd.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,123},{118,37}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{118,37}}</string>
+                <key>sourceSize</key>
+                <string>{118,37}</string>
+            </dict>
+            <key>skill_deadlinesschop:23dr.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{388,219},{110,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{110,18}}</string>
+                <key>sourceSize</key>
+                <string>{110,18}</string>
+            </dict>
+            <key>skill_deadlinesschop:334f.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,163},{118,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{118,24}}</string>
+                <key>sourceSize</key>
+                <string>{118,24}</string>
+            </dict>
+            <key>skill_deadlinesschop:B B ku.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{283,199},{18,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,11}}</string>
+                <key>sourceSize</key>
+                <string>{18,11}</string>
+            </dict>
+            <key>skill_deadlinesschop:B kua.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{432,189},{27,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,13}}</string>
+                <key>sourceSize</key>
+                <string>{27,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:B shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{379,179},{25,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,22}}</string>
+                <key>sourceSize</key>
+                <string>{25,22}</string>
+            </dict>
+            <key>skill_deadlinesschop:B weijin.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{341,179},{35,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,16}}</string>
+                <key>sourceSize</key>
+                <string>{35,16}</string>
+            </dict>
+            <key>skill_deadlinesschop:B xie.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{171,146},{20,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,15}}</string>
+                <key>sourceSize</key>
+                <string>{20,15}</string>
+            </dict>
+            <key>skill_deadlinesschop:B yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{222,202},{25,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,8}}</string>
+                <key>sourceSize</key>
+                <string>{25,8}</string>
+            </dict>
+            <key>skill_deadlinesschop:B youdat.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{122,96},{21,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,17}}</string>
+                <key>sourceSize</key>
+                <string>{21,17}</string>
+            </dict>
+            <key>skill_deadlinesschop:B youshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,147},{9,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,9}}</string>
+                <key>sourceSize</key>
+                <string>{9,9}</string>
+            </dict>
+            <key>skill_deadlinesschop:B youxiaobi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,134},{9,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,10}}</string>
+                <key>sourceSize</key>
+                <string>{9,10}</string>
+            </dict>
+            <key>skill_deadlinesschop:B youxiaot.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{307,179},{14,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,11}}</string>
+                <key>sourceSize</key>
+                <string>{14,11}</string>
+            </dict>
+            <key>skill_deadlinesschop:B zuodatui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{485,161},{24,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,21}}</string>
+                <key>sourceSize</key>
+                <string>{24,21}</string>
+            </dict>
+            <key>skill_deadlinesschop:B zuohujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{324,88},{15,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,21}}</string>
+                <key>sourceSize</key>
+                <string>{15,21}</string>
+            </dict>
+            <key>skill_deadlinesschop:B zuoqianbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{469,165},{7,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,8}}</string>
+                <key>sourceSize</key>
+                <string>{7,8}</string>
+            </dict>
+            <key>skill_deadlinesschop:B zuoxiaobi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{170,197},{17,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,14}}</string>
+                <key>sourceSize</key>
+                <string>{17,14}</string>
+            </dict>
+            <key>skill_deadlinesschop:B zuoxiaotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{121,138},{17,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,19}}</string>
+                <key>sourceSize</key>
+                <string>{17,19}</string>
+            </dict>
+            <key>skill_deadlinesschop:Bzuoshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{121,160},{16,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,18}}</string>
+                <key>sourceSize</key>
+                <string>{16,18}</string>
+            </dict>
+            <key>skill_deadlinesschop:F kua.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{193,191},{26,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,13}}</string>
+                <key>sourceSize</key>
+                <string>{26,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:F kuu.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{432,205},{18,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,10}}</string>
+                <key>sourceSize</key>
+                <string>{18,10}</string>
+            </dict>
+            <key>skill_deadlinesschop:F shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{407,196},{22,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,12}}</string>
+                <key>sourceSize</key>
+                <string>{22,12}</string>
+            </dict>
+            <key>skill_deadlinesschop:F tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{435,127},{47,35}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,35}}</string>
+                <key>sourceSize</key>
+                <string>{47,35}</string>
+            </dict>
+            <key>skill_deadlinesschop:F toufa.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{438,74},{45,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{45,50}}</string>
+                <key>sourceSize</key>
+                <string>{45,50}</string>
+            </dict>
+            <key>skill_deadlinesschop:F weijin.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{433,165},{33,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,21}}</string>
+                <key>sourceSize</key>
+                <string>{33,21}</string>
+            </dict>
+            <key>skill_deadlinesschop:F yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{462,203},{22,7}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,7}}</string>
+                <key>sourceSize</key>
+                <string>{22,7}</string>
+            </dict>
+            <key>skill_deadlinesschop:F youdat.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{256,180},{24,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,18}}</string>
+                <key>sourceSize</key>
+                <string>{24,18}</string>
+            </dict>
+            <key>skill_deadlinesschop:F youhoubi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{228,166},{7,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,8}}</string>
+                <key>sourceSize</key>
+                <string>{7,8}</string>
+            </dict>
+            <key>skill_deadlinesschop:F youhujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{324,112},{14,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,20}}</string>
+                <key>sourceSize</key>
+                <string>{14,20}</string>
+            </dict>
+            <key>skill_deadlinesschop:F youqianbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{283,180},{18,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,16}}</string>
+                <key>sourceSize</key>
+                <string>{18,16}</string>
+            </dict>
+            <key>skill_deadlinesschop:F yous.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{388,204},{16,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,12}}</string>
+                <key>sourceSize</key>
+                <string>{16,12}</string>
+            </dict>
+            <key>skill_deadlinesschop:F youxiaot.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{122,116},{18,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,19}}</string>
+                <key>sourceSize</key>
+                <string>{18,19}</string>
+            </dict>
+            <key>skill_deadlinesschop:F zuodat.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{118,199},{16,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,15}}</string>
+                <key>sourceSize</key>
+                <string>{16,15}</string>
+            </dict>
+            <key>skill_deadlinesschop:F zuoqianb.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{324,171},{14,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,13}}</string>
+                <key>sourceSize</key>
+                <string>{14,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:F zuos.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,107},{12,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,12}}</string>
+                <key>sourceSize</key>
+                <string>{12,12}</string>
+            </dict>
+            <key>skill_deadlinesschop:F zuoxiaot.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{307,162},{14,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,14}}</string>
+                <key>sourceSize</key>
+                <string>{14,14}</string>
+            </dict>
+            <key>skill_deadlinesschop:Y houbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,122},{10,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,9}}</string>
+                <key>sourceSize</key>
+                <string>{10,9}</string>
+            </dict>
+            <key>skill_deadlinesschop:Y hujian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,90},{13,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,14}}</string>
+                <key>sourceSize</key>
+                <string>{13,14}</string>
+            </dict>
+            <key>skill_deadlinesschop:Y qianbi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{304,193},{17,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,16}}</string>
+                <key>sourceSize</key>
+                <string>{17,16}</string>
+            </dict>
+            <key>skill_deadlinesschop:Y shou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{121,181},{16,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,15}}</string>
+                <key>sourceSize</key>
+                <string>{16,15}</string>
+            </dict>
+            <key>skill_deadlinesschop:Z datui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{228,180},{25,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,19}}</string>
+                <key>sourceSize</key>
+                <string>{25,19}</string>
+            </dict>
+            <key>skill_deadlinesschop:Z xiaotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{140,177},{27,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,26}}</string>
+                <key>sourceSize</key>
+                <string>{27,26}</string>
+            </dict>
+            <key>skill_deadlinesschop:asdcfd.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{438,0},{67,71}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{67,71}}</string>
+                <key>sourceSize</key>
+                <string>{67,71}</string>
+            </dict>
+            <key>skill_deadlinesschop:asdvrt.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{324,154},{15,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,14}}</string>
+                <key>sourceSize</key>
+                <string>{15,14}</string>
+            </dict>
+            <key>skill_deadlinesschop:cd23.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,219},{125,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{125,25}}</string>
+                <key>sourceSize</key>
+                <string>{125,25}</string>
+            </dict>
+            <key>skill_deadlinesschop:cdvrt.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{143,43}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{143,43}}</string>
+                <key>sourceSize</key>
+                <string>{143,43}</string>
+            </dict>
+            <key>skill_deadlinesschop:dao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{486,74},{22,54}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,54}}</string>
+                <key>sourceSize</key>
+                <string>{22,54}</string>
+            </dict>
+            <key>skill_deadlinesschop:dwd.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,190},{115,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{115,26}}</string>
+                <key>sourceSize</key>
+                <string>{115,26}</string>
+            </dict>
+            <key>skill_deadlinesschop:hasdq.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{324,187},{14,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,9}}</string>
+                <key>sourceSize</key>
+                <string>{14,9}</string>
+            </dict>
+            <key>skill_deadlinesschop:hjt6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,75},{119,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{119,45}}</string>
+                <key>sourceSize</key>
+                <string>{119,45}</string>
+            </dict>
+            <key>skill_deadlinesschop:langer.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{171,164},{20,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,14}}</string>
+                <key>sourceSize</key>
+                <string>{20,14}</string>
+            </dict>
+            <key>skill_deadlinesschop:lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{141,146},{27,28}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,28}}</string>
+                <key>sourceSize</key>
+                <string>{27,28}</string>
+            </dict>
+            <key>skill_deadlinesschop:mjkui003.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{369,204},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:nfgty.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{343,0},{92,87}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{92,87}}</string>
+                <key>sourceSize</key>
+                <string>{92,87}</string>
+            </dict>
+            <key>skill_deadlinesschop:pen.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{469,185},{26,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,15}}</string>
+                <key>sourceSize</key>
+                <string>{26,15}</string>
+            </dict>
+            <key>skill_deadlinesschop:qsxe.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{342,157},{68,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{68,19}}</string>
+                <key>sourceSize</key>
+                <string>{68,19}</string>
+            </dict>
+            <key>skill_deadlinesschop:qszcs.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,46},{138,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{138,26}}</string>
+                <key>sourceSize</key>
+                <string>{138,26}</string>
+            </dict>
+            <key>skill_deadlinesschop:sdfcw.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{413,159},{17,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,18}}</string>
+                <key>sourceSize</key>
+                <string>{17,18}</string>
+            </dict>
+            <key>skill_deadlinesschop:shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{122,75},{21,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,18}}</string>
+                <key>sourceSize</key>
+                <string>{21,18}</string>
+            </dict>
+            <key>skill_deadlinesschop:tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{194,94},{47,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{47,42}}</string>
+                <key>sourceSize</key>
+                <string>{47,42}</string>
+            </dict>
+            <key>skill_deadlinesschop:vd455.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{243,162},{61,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{61,15}}</string>
+                <key>sourceSize</key>
+                <string>{61,15}</string>
+            </dict>
+            <key>skill_deadlinesschop:vfdfw.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{342,90},{77,64}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,64}}</string>
+                <key>sourceSize</key>
+                <string>{77,64}</string>
+            </dict>
+            <key>skill_deadlinesschop:vrfsrtwev.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{146,94},{45,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{45,49}}</string>
+                <key>sourceSize</key>
+                <string>{45,49}</string>
+            </dict>
+            <key>skill_deadlinesschop:vsdws.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,0},{96,85}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{96,85}}</string>
+                <key>sourceSize</key>
+                <string>{96,85}</string>
+            </dict>
+            <key>skill_deadlinesschop:weas.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{244,88},{77,71}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,71}}</string>
+                <key>sourceSize</key>
+                <string>{77,71}</string>
+            </dict>
+            <key>skill_deadlinesschop:wecf.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{146,0},{95,91}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{95,91}}</string>
+                <key>sourceSize</key>
+                <string>{95,91}</string>
+            </dict>
+            <key>skill_deadlinesschop:wecfc.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{313,240},{103,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,24}}</string>
+                <key>sourceSize</key>
+                <string>{103,24}</string>
+            </dict>
+            <key>skill_deadlinesschop:weiba.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{194,139},{46,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{46,24}}</string>
+                <key>sourceSize</key>
+                <string>{46,24}</string>
+            </dict>
+            <key>skill_deadlinesschop:weijin.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{194,166},{31,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{31,22}}</string>
+                <key>sourceSize</key>
+                <string>{31,22}</string>
+            </dict>
+            <key>skill_deadlinesschop:weijinwei.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{485,131},{23,27}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,27}}</string>
+                <key>sourceSize</key>
+                <string>{23,27}</string>
+            </dict>
+            <key>skill_deadlinesschop:wwdv.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{190,213},{120,32}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{120,32}}</string>
+                <key>sourceSize</key>
+                <string>{120,32}</string>
+            </dict>
+            <key>skill_deadlinesschop:y datui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{341,198},{25,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,13}}</string>
+                <key>sourceSize</key>
+                <string>{25,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{256,201},{21,9}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,9}}</string>
+                <key>sourceSize</key>
+                <string>{21,9}</string>
+            </dict>
+            <key>skill_deadlinesschop:youjiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{137,206},{19,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,8}}</string>
+                <key>sourceSize</key>
+                <string>{19,8}</string>
+            </dict>
+            <key>skill_deadlinesschop:youxiaotui.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{170,181},{20,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,13}}</string>
+                <key>sourceSize</key>
+                <string>{20,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:zuijiao.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{407,180},{22,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,13}}</string>
+                <key>sourceSize</key>
+                <string>{22,13}</string>
+            </dict>
+            <key>skill_deadlinesschop:zuoshou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{324,135},{15,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,16}}</string>
+                <key>sourceSize</key>
+                <string>{15,16}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>skill_deadlinesschop.pvr.ccz</string>
+            <key>size</key>
+            <string>{510,268}</string>
+            <key>textureFileName</key>
+            <string>skill_deadlinesschop.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

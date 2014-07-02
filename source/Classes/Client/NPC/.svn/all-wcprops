@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/NPC
+END
+BoneNPCManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/NPC/BoneNPCManager.cpp
+END
+BoneNPCManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/NPC/BoneNPCManager.h
+END
+NpcSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/NPC/NpcSprite.cpp
+END
+NPCDataDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/NPC/NPCDataDefine.h
+END
+NpcSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/NPC/NpcSprite.h
+END

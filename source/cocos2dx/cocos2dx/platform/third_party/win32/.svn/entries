@@ -1,0 +1,92 @@
+10
+
+dir
+928
+https://gzsvn.yun.qq.com/1101077902/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32
+https://gzsvn.yun.qq.com/1101077902
+
+
+
+2014-02-21T12:25:25.791488Z
+707
+app1101077902
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b27535a-3093-11e3-bee6-ef76e5a89f25
+
+libtiff
+dir
+
+third_party_versions.txt
+file
+
+
+
+
+2014-03-03T14:51:21.000000Z
+c64fb2b808e18411b11914c185995b20
+2014-02-21T12:25:25.791488Z
+707
+app1101077902
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+121
+
+zlib
+dir
+
+curl
+dir
+
+pthread
+dir
+
+OGLES
+dir
+
+libxml2
+dir
+
+libpng
+dir
+
+libjpeg
+dir
+
+libraries
+dir
+
+iconv
+dir
+

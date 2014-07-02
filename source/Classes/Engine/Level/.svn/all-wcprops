@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level
+END
+LevelBuilderCreator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelBuilderCreator.cpp
+END
+LuaLevelCreator.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LuaLevelCreator.h
+END
+LevelManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelManager.cpp
+END
+LevelBuilderCreator.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelBuilderCreator.h
+END
+LevelLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelLayer.cpp
+END
+LevelBuilderNormalScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelBuilderNormalScene.cpp
+END
+LevelManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelManager.h
+END
+LevelLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelLayer.h
+END
+BaseLevelBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/BaseLevelBuilder.cpp
+END
+LevelBuilderNormalScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelBuilderNormalScene.h
+END
+LevelBuilderRoom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelBuilderRoom.cpp
+END
+LevelObjectCreator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelObjectCreator.cpp
+END
+BaseLevelBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/BaseLevelBuilder.h
+END
+LevelBuilderRoom.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelBuilderRoom.h
+END
+LevelObjectCreator.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelObjectCreator.h
+END
+LevelDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LevelDefine.h
+END
+LuaLevelCreator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Level/LuaLevelCreator.cpp
+END

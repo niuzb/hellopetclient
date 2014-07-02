@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/accountmanagerLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_center" >
+
+    <ImageView
+        android:id="@+id/back_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_h" />
+
+    <RelativeLayout
+        android:id="@+id/middlePart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/management_account_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/management_account_a" />
+
+        <!-- 滑动区域图片 -->
+
+        <RelativeLayout
+            android:id="@+id/whitebox_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splice" >
+
+            <!-- 滑动区域scroll -->
+
+            <ScrollView
+                android:id="@+id/scrollPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <!-- 滑动R -->
+
+                <RelativeLayout
+                    android:id="@+id/scrollR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 登录历史title -->
+
+                    <ImageView
+                        android:id="@+id/login_history_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/login_history_h" />
+                    <!-- 登录历史记录L -->
+
+                    <LinearLayout
+                        android:id="@+id/scrollL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

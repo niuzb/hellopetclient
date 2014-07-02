@@ -1,0 +1,772 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>mage_intown:b fs maozi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{147,0},{75,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,44}}</string>
+                <key>sourceSize</key>
+                <string>{75,44}</string>
+            </dict>
+            <key>mage_intown:b fs pao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,47},{62,28}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,28}}</string>
+                <key>sourceSize</key>
+                <string>{62,28}</string>
+            </dict>
+            <key>mage_intown:b fs pidai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{19,152},{14,6}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,6}}</string>
+                <key>sourceSize</key>
+                <string>{14,6}</string>
+            </dict>
+            <key>mage_intown:b fs shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{78,148},{14,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,16}}</string>
+                <key>sourceSize</key>
+                <string>{14,16}</string>
+            </dict>
+            <key>mage_intown:b fs xie1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{36,135},{20,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,17}}</string>
+                <key>sourceSize</key>
+                <string>{20,17}</string>
+            </dict>
+            <key>mage_intown:b fs xie1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,139},{16,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,20}}</string>
+                <key>sourceSize</key>
+                <string>{16,20}</string>
+            </dict>
+            <key>mage_intown:b fs xie15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{187,143},{14,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,18}}</string>
+                <key>sourceSize</key>
+                <string>{14,18}</string>
+            </dict>
+            <key>mage_intown:bei fs xie2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{120,107},{11,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,15}}</string>
+                <key>sourceSize</key>
+                <string>{11,15}</string>
+            </dict>
+            <key>mage_intown:bei fs xie23.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{120,125},{11,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{11,13}}</string>
+                <key>sourceSize</key>
+                <string>{11,13}</string>
+            </dict>
+            <key>mage_intown:c fs  lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{179,73},{27,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,24}}</string>
+                <key>sourceSize</key>
+                <string>{27,24}</string>
+            </dict>
+            <key>mage_intown:c fs maozi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,169},{77,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,41}}</string>
+                <key>sourceSize</key>
+                <string>{77,41}</string>
+            </dict>
+            <key>mage_intown:c fs pao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,78},{21,30}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,30}}</string>
+                <key>sourceSize</key>
+                <string>{21,30}</string>
+            </dict>
+            <key>mage_intown:c fs pao2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{179,47},{34,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{34,23}}</string>
+                <key>sourceSize</key>
+                <string>{34,23}</string>
+            </dict>
+            <key>mage_intown:c fs pao3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{93,104},{24,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,23}}</string>
+                <key>sourceSize</key>
+                <string>{24,23}</string>
+            </dict>
+            <key>mage_intown:c fs pidai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{57,161},{15,5}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,5}}</string>
+                <key>sourceSize</key>
+                <string>{15,5}</string>
+            </dict>
+            <key>mage_intown:c fs qianyi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{21,135},{12,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,14}}</string>
+                <key>sourceSize</key>
+                <string>{12,14}</string>
+            </dict>
+            <key>mage_intown:c fs ru.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{204,160},{15,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,10}}</string>
+                <key>sourceSize</key>
+                <string>{15,10}</string>
+            </dict>
+            <key>mage_intown:c fs shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{36,115},{21,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,17}}</string>
+                <key>sourceSize</key>
+                <string>{21,17}</string>
+            </dict>
+            <key>mage_intown:c fs tui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{134,47},{10,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,23}}</string>
+                <key>sourceSize</key>
+                <string>{10,23}</string>
+            </dict>
+            <key>mage_intown:c fs tui1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{209,73},{13,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,22}}</string>
+                <key>sourceSize</key>
+                <string>{13,22}</string>
+            </dict>
+            <key>mage_intown:c fs tui11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{116,141},{14,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,20}}</string>
+                <key>sourceSize</key>
+                <string>{14,20}</string>
+            </dict>
+            <key>mage_intown:c fs tui2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{134,73},{10,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,18}}</string>
+                <key>sourceSize</key>
+                <string>{10,18}</string>
+            </dict>
+            <key>mage_intown:c fs xie1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{146,118},{19,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,19}}</string>
+                <key>sourceSize</key>
+                <string>{19,19}</string>
+            </dict>
+            <key>mage_intown:c fs xie2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{204,143},{17,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,14}}</string>
+                <key>sourceSize</key>
+                <string>{17,14}</string>
+            </dict>
+            <key>mage_intown:cxx 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{176,100},{25,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,22}}</string>
+                <key>sourceSize</key>
+                <string>{25,22}</string>
+            </dict>
+            <key>mage_intown:cxzczxczxzx 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,111},{19,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,23}}</string>
+                <key>sourceSize</key>
+                <string>{19,23}</string>
+            </dict>
+            <key>mage_intown:fa toufa2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,42},{21,38}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,38}}</string>
+                <key>sourceSize</key>
+                <string>{21,38}</string>
+            </dict>
+            <key>mage_intown:fs toufa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,0},{24,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,39}}</string>
+                <key>sourceSize</key>
+                <string>{24,39}</string>
+            </dict>
+            <key>mage_intown:fst toufa3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{147,47},{29,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{29,42}}</string>
+                <key>sourceSize</key>
+                <string>{29,42}</string>
+            </dict>
+            <key>mage_intown:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>sourceSize</key>
+                <string>{33,112}</string>
+            </dict>
+            <key>mage_intown:wuqi_20.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{36,0},{30,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,112}}</string>
+                <key>sourceSize</key>
+                <string>{30,112}</string>
+            </dict>
+            <key>mage_intown:z fs maozi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{69,0},{75,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,44}}</string>
+                <key>sourceSize</key>
+                <string>{75,44}</string>
+            </dict>
+            <key>mage_intown:z fs pao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{225,83},{22,28}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,28}}</string>
+                <key>sourceSize</key>
+                <string>{22,28}</string>
+            </dict>
+            <key>mage_intown:z fs pao3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{93,78},{27,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,23}}</string>
+                <key>sourceSize</key>
+                <string>{27,23}</string>
+            </dict>
+            <key>mage_intown:z fs qianfa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{134,94},{10,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,14}}</string>
+                <key>sourceSize</key>
+                <string>{10,14}</string>
+            </dict>
+            <key>mage_intown:z fs qianfa2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,78},{8,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{8,13}}</string>
+                <key>sourceSize</key>
+                <string>{8,13}</string>
+            </dict>
+            <key>mage_intown:z fs ru.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{36,155},{18,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,10}}</string>
+                <key>sourceSize</key>
+                <string>{18,10}</string>
+            </dict>
+            <key>mage_intown:z fs shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{91,130},{22,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,15}}</string>
+                <key>sourceSize</key>
+                <string>{22,15}</string>
+            </dict>
+            <key>mage_intown:z fs shenti 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{168,125},{22,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,15}}</string>
+                <key>sourceSize</key>
+                <string>{22,15}</string>
+            </dict>
+            <key>mage_intown:z fs shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{144,140},{18,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,17}}</string>
+                <key>sourceSize</key>
+                <string>{18,17}</string>
+            </dict>
+            <key>mage_intown:z fs shou1 2341.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{224,141},{18,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,17}}</string>
+                <key>sourceSize</key>
+                <string>{18,17}</string>
+            </dict>
+            <key>mage_intown:z fs shou1 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,115},{18,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,21}}</string>
+                <key>sourceSize</key>
+                <string>{18,21}</string>
+            </dict>
+            <key>mage_intown:z fs shou1 4 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{59,137},{16,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,21}}</string>
+                <key>sourceSize</key>
+                <string>{16,21}</string>
+            </dict>
+            <key>mage_intown:z fs shoubi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{78,137},{10,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,8}}</string>
+                <key>sourceSize</key>
+                <string>{10,8}</string>
+            </dict>
+            <key>mage_intown:z fs shoubi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{216,47},{6,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{6,12}}</string>
+                <key>sourceSize</key>
+                <string>{6,12}</string>
+            </dict>
+            <key>mage_intown:z fs tui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{193,125},{7,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,10}}</string>
+                <key>sourceSize</key>
+                <string>{7,10}</string>
+            </dict>
+            <key>mage_intown:z fs tui1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{134,128},{7,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,10}}</string>
+                <key>sourceSize</key>
+                <string>{7,10}</string>
+            </dict>
+            <key>mage_intown:z fs tui1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,94},{8,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{8,10}}</string>
+                <key>sourceSize</key>
+                <string>{8,10}</string>
+            </dict>
+            <key>mage_intown:z fs tui1 6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{134,111},{9,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,14}}</string>
+                <key>sourceSize</key>
+                <string>{9,14}</string>
+            </dict>
+            <key>mage_intown:z fs xie 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{165,143},{19,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,15}}</string>
+                <key>sourceSize</key>
+                <string>{19,15}</string>
+            </dict>
+            <key>mage_intown:z fs xiezi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{204,119},{17,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,21}}</string>
+                <key>sourceSize</key>
+                <string>{17,21}</string>
+            </dict>
+            <key>mage_intown:z fs xiezi 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{209,98},{12,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,18}}</string>
+                <key>sourceSize</key>
+                <string>{12,18}</string>
+            </dict>
+            <key>mage_intown:z fs xiezi 13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{21,115},{12,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,17}}</string>
+                <key>sourceSize</key>
+                <string>{12,17}</string>
+            </dict>
+            <key>mage_intown:z fs xiezi 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{133,160},{15,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,13}}</string>
+                <key>sourceSize</key>
+                <string>{15,13}</string>
+            </dict>
+            <key>mage_intown:z fs xiezi 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{95,148},{15,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,14}}</string>
+                <key>sourceSize</key>
+                <string>{15,14}</string>
+            </dict>
+            <key>mage_intown:z fs yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{19,161},{14,5}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,5}}</string>
+                <key>sourceSize</key>
+                <string>{14,5}</string>
+            </dict>
+            <key>mage_intown:zfs lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{224,114},{22,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,24}}</string>
+                <key>sourceSize</key>
+                <string>{22,24}</string>
+            </dict>
+            <key>mage_intown:zfs pao2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{147,92},{26,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,23}}</string>
+                <key>sourceSize</key>
+                <string>{26,23}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>mage_intown.pvr.ccz</string>
+            <key>size</key>
+            <string>{249,211}</string>
+            <key>textureFileName</key>
+            <string>mage_intown.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

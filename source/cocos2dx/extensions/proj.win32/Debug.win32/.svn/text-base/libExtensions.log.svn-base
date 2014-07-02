@@ -1,0 +1,17 @@
+﻿Build started 2014/6/21 20:36:12.
+     1>Project "D:\android\hello\server\ahero\source\cocos2dx\extensions\proj.win32\libExtensions.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug.win32\libExtensions.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libExtensions.vcxproj -> D:\android\hello\server\ahero\source\Win32\Debug.win32\libExtensions.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug.win32\libExtensions.unsuccessfulbuild".
+         Touching "Debug.win32\libExtensions.lastbuildstate".
+     1>Done Building Project "D:\android\hello\server\ahero\source\cocos2dx\extensions\proj.win32\libExtensions.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44

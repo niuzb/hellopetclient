@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP
+END
+NSString+NSStringAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/NSString+NSStringAdditions.h
+END
+ProductManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/ProductManager.h
+END
+ProductManager.mm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/ProductManager.mm
+END
+NSString+NSStringAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/NSString+NSStringAdditions.m
+END
+StoreObserver_ios.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/StoreObserver_ios.h
+END
+StoreObserver_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/StoreObserver_ios.mm
+END
+StoreManager_ios.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/StoreManager_ios.h
+END
+StoreManager_ios.mm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/CrossPlatform/IOSPlatform/IAP/StoreManager_ios.mm
+END

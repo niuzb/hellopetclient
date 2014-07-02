@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task
+END
+TaskConfigFromLuaManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task/TaskConfigFromLuaManager.h
+END
+TaskData.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task/TaskData.h
+END
+TaskManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task/TaskManager.h
+END
+TaskConfigFromLuaManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task/TaskConfigFromLuaManager.cpp
+END
+TaskData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task/TaskData.cpp
+END
+TaskManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Task/TaskManager.cpp
+END

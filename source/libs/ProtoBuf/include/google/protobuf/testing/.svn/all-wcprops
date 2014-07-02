@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing
+END
+googletest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing/googletest.cc
+END
+googletest.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing/googletest.h
+END
+file.cc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing/file.cc
+END
+file.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing/file.h
+END
+zcgzip.cc
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing/zcgzip.cc
+END
+zcgunzip.cc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/ProtoBuf/include/google/protobuf/testing/zcgunzip.cc
+END

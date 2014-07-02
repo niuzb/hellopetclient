@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager
+END
+LuaTinkerManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/LuaTinkerManager.h
+END
+GameDataManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/GameDataManager.cpp
+END
+TimeManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/TimeManager.h
+END
+PvAIManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/PvAIManager.h
+END
+InstanceManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/InstanceManager.cpp
+END
+SpriteDataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/SpriteDataManager.h
+END
+ItemUpdateManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/ItemUpdateManager.h
+END
+GameDataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/GameDataManager.h
+END
+InstanceManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/InstanceManager.h
+END
+HeroRoleManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/HeroRoleManager.cpp
+END
+MainLandManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/MainLandManager.cpp
+END
+HeroRoleManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/HeroRoleManager.h
+END
+GameConfigFromLuaManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/GameConfigFromLuaManager.cpp
+END
+XLogicManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/XLogicManager.cpp
+END
+MainLandManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/MainLandManager.h
+END
+GameConfigFromLuaManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/GameConfigFromLuaManager.h
+END
+TimeProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/TimeProtocol.h
+END
+XLogicManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/XLogicManager.h
+END
+LuaTinkerManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/LuaTinkerManager.cpp
+END
+TimeManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/TimeManager.cpp
+END
+PvAIManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/PvAIManager.cpp
+END
+SpriteDataManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/SpriteDataManager.cpp
+END
+ItemUpdateManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/GameManager/ItemUpdateManager.cpp
+END

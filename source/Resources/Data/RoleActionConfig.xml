@@ -1,0 +1,3590 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Root>
+	<Map>
+		<!-- 常驻资源 
+		<common>
+			<e id="1001"/>
+		</common>
+		-->
+		<!-- 特效公用相关资源 -->
+		<effect_common>
+			<e id="101"/>
+			<e id="102"/>
+			<e id="103"/>
+			<e id="104"/>
+			<e id="204"/>
+			<e id="205"/>
+			<e id="206"/>
+		</effect_common>		
+	</Map>
+	
+	<RcsFiles>
+		<!-- 主角资源文件列表 -->
+		<!-- 男战士资源 -->
+		<e id="1">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "swordsman_intown"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "swordsman_common_move"/>
+				<!-- 技能资源文件列表 -->
+				<b xml_name = "skill_storm"/>
+				<b xml_name = "skill_rush"/>	
+				<b xml_name = "skill_earthquake"/>
+			</OtherLand>
+			<AttachEffects>
+				<e id="106"/>
+				<e id="107"/>
+				<e id="108"/>
+				<e id="109"/>
+			</AttachEffects>
+		</e>
+		<!-- 女战士资源 -->
+		<e id="2">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "swordswoman_intown"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "swordswoman_common_move"/>
+				<!-- 技能资源文件列表 -->
+				<b xml_name = "skill_storm_swordswoman"/>
+				<b xml_name = "skill_rush_swordswoman"/>	
+				<b xml_name = "skill_earthquake_swordswoman"/>
+			</OtherLand>
+			<AttachEffects>
+				<e id="106"/>
+				<e id="107"/>
+				<e id="108"/>
+				<e id="109"/>
+			</AttachEffects>
+		</e>		
+		<!-- 男魔法师资源 -->
+		<e id="3">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "mageman_intown"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "mageman_common_move"/>
+				<!-- 技能资源文件列表 -->
+				<b xml_name = "skill_blackhole_mageman"/>
+				<b xml_name = "skill_fireball_mageman"/>
+	            <b xml_name = "skill_dropice_mageman"/>
+				<b xml_name = "skill_transportation_mageman"/>
+			</OtherLand>
+			<AttachEffects>
+				<e id="110"/>
+				<e id="111"/>
+				<e id="112"/>
+				<e id="113"/>	
+				<e id="114"/>
+				<e id="151"/>					
+			</AttachEffects>			
+		</e>	
+		<!-- 女魔法师资源 -->
+		<e id="4">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "mage_intown"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "mage_common_move"/>
+				<!-- 技能资源文件列表 -->
+				<b xml_name = "skill_blackhole"/>
+				<b xml_name = "skill_fireball"/>
+	            <b xml_name = "skill_dropice"/>
+				<b xml_name = "skill_transportation"/>
+			</OtherLand>
+			<AttachEffects>
+				<e id="110"/>
+				<e id="111"/>
+				<e id="112"/>
+				<e id="113"/>	
+				<e id="114"/>	
+				<e id="151"/>					
+			</AttachEffects>			
+		</e>		
+		<!-- 男刺客资源 -->
+		<e id="5">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "assassin_intown"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "assassin_common_move"/>
+				<!-- 技能资源文件列表 -->
+				<b xml_name = "skill_chopseries"/>
+				<b xml_name = "skill_assassinate"/>
+	            <b xml_name = "skill_deadlinesschop"/>
+				<b xml_name = "skill_Invisible"/>
+			</OtherLand>	
+            <AttachEffects>
+				<e id="115"/>
+				<e id="116"/>		
+			</AttachEffects>					
+		</e>			
+		<!-- 猎人资源 -->
+		<e id="1101">
+		</e>
+		<!-- 女刺客资源 -->
+		<e id="6">
+			<MainLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "assassinwoman_intown"/>
+			</MainLand>
+			<OtherLand>
+				<!-- 基本动作资源文件列表 -->
+				<b xml_name = "assassinwoman_common_move"/>
+				<!-- 技能资源文件列表 -->
+				<b xml_name = "skill_chopseries_assassinwoman"/>
+				<b xml_name = "skill_assassinate_assassinwoman"/>
+	            <b xml_name = "skill_deadlinesschop_assassinwoman"/>
+				<b xml_name = "skill_Invisible_assassinwoman"/>
+			</OtherLand>	
+            <AttachEffects>
+				<e id="115"/>
+				<e id="116"/>		
+			</AttachEffects>					
+		</e>
+		
+		<!-- 怪物的资源文件列表 -->
+		<e id="10001">
+			<b xml_name = "monster_qiuqiu_10001"/>
+		</e>
+		<e id="10002">
+			<b xml_name = "monster_yezhu_10002"/>		
+		</e>
+		<e id="19001">
+			<b xml_name = "monster_haozhu_19001"/>
+			<AttachEffects>
+			</AttachEffects>
+		</e>
+		<e id="19002">
+			<b xml_name = "monster_huayao_19002"/>
+			<AttachEffects>
+				<e id="117"/>
+			</AttachEffects>
+		</e>
+		<e id="10003">
+			<b xml_name = "monster_qingwa_10003"/>		
+			<AttachEffects>
+				<e id="105"/>
+			</AttachEffects>
+		</e>
+		<e id="10004">
+			<b xml_name = "monster_xiaohuayao_10004"/>		
+			<AttachEffects>
+				<e id="118"/>
+			</AttachEffects>
+		</e>
+		<e id="10005">
+			<b xml_name = "monster_taliduo_10005"/>		
+		</e>
+		<e id="10006">
+			<b xml_name = "monster_shitouren_10006"/>		
+		</e>
+		<e id="10007">
+			<b xml_name = "monster_zhizhu_10007"/>	
+			<AttachEffects>
+				<e id="147"/>
+			</AttachEffects>			
+		</e>		
+		<e id="10008">
+			<b xml_name = "monster_sishen_10008"/>		
+		</e>
+		<e id="10009">
+			<b xml_name = "monster_feixingjuyan_10009"/>				
+		</e>		
+		<e id="10010">
+			<b xml_name = "monster_bianfu_10010"/>		
+		</e>
+		<e id="10011">
+			<b xml_name = "monster_heixiong_10011"/>		
+		</e>	
+		<e id="10012">
+			<b xml_name = "monster_daolong_10012"/>		
+			<AttachEffects>
+				<e id="145"/>
+			</AttachEffects>
+		</e>
+		<e id="10013">
+			<b xml_name = "monster_laoshuyao_10013"/>		
+		</e>
+		<e id="10014">
+			<b xml_name = "monster_langren_10014"/>		
+		</e>
+		<e id="10015">
+			<b xml_name = "monster_xingxing_10015"/>		
+		</e>		
+		<e id="10016">
+			<b xml_name = "monster_xianrenzhang_10016"/>		
+		</e>	
+		<e id="10017">
+			<b xml_name = "monster_niguai_10017"/>		
+		</e>	
+		<e id="10018">
+			<b xml_name = "monster_jiangshi_10018"/>		
+		</e>
+		<e id="10019">
+			<b xml_name = "monster_huoyuansu_10019"/>		
+		</e>
+		<e id="10020">
+			<b xml_name = "monster_renma_10020"/>	
+			<AttachEffects>
+				<e id="146"/>
+			</AttachEffects>			
+		</e>
+		<e id="10021">
+			<b xml_name = "monster_fengyuansu_10021"/>	
+			<AttachEffects>
+				<e id="150"/>
+			</AttachEffects>			
+		</e>
+		<e id="10022">
+			<b xml_name = "monster_xiezi_10022"/>		
+		</e>
+		<e id="10023">
+			<b xml_name = "monster_jiqiangbing_10023"/>	
+			<AttachEffects>
+				<e id="148"/>
+			</AttachEffects>			
+		</e>
+		<e id="10024">
+			<b xml_name = "monster_tieqiu_10024"/>		
+		</e>
+		<e id="10025">
+			<b xml_name = "monster_dajiaojiqiren_10025"/>		
+		</e>	
+		<e id="10026">
+			<b xml_name = "monster_shibing_10026"/>		
+		</e>	
+		<e id="10027">
+			<b xml_name = "monster_modaoshi_10027"/>	
+			<AttachEffects>
+				<e id="149"/>
+			</AttachEffects>			
+		</e>	
+		<e id="10028">
+			<b xml_name = "monster_qishi_10028"/>		
+		</e>		
+		<e id="10029">
+			<b xml_name = "monster_santouquan_10029"/>		
+		</e>
+		<e id="10030">
+			<b xml_name = "monster_huweijiqiren_10030"/>		
+		</e>		
+		<!-- 精灵资源文件列表 -->
+		<e id="2001">
+			<b xml_name = "fairy_fengxianzi_2001"/>		
+			<AttachEffects>
+				<e id="121"/>
+			</AttachEffects>
+		</e>		
+		<e id="2002">
+			<b xml_name = "fairy_firefly_2002"/>		
+			<AttachEffects>
+				<e id="119"/>
+			</AttachEffects>
+		</e>	
+		<e id="2003">
+			<b xml_name = "fairy_xiaohuangfeng_2003"/>		
+			<AttachEffects>
+				<e id="122"/>
+			</AttachEffects>
+		</e>	
+		<e id="2004">
+			<b xml_name = "fairy_tianshiguodong_2004"/>		
+			<AttachEffects>
+				<e id="123"/>
+			</AttachEffects>
+		</e>
+		<e id="2005">
+			<b xml_name = "fairy_leiying_2005"/>		
+			<AttachEffects>
+				<e id="124"/>
+			</AttachEffects>
+		</e>	
+		<e id="2006">
+			<b xml_name = "fairy_huoyuansu_2006"/>		
+			<AttachEffects>
+				<e id="125"/>
+			</AttachEffects>
+		</e>	
+		<e id="2007">
+			<b xml_name = "fairy_xuediao_2007"/>		
+			<AttachEffects>
+				<e id="126"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2008">
+			<b xml_name = "fairy_tuyuansu_2008"/>		
+			<AttachEffects>
+				<e id="127"/>
+			</AttachEffects>
+		</e>
+		
+		<e id="2009">
+			<b xml_name = "fairy_maocaoqiu_2009"/>		
+			<AttachEffects>
+				<e id="128"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2010">
+			<b xml_name = "fairy_zhuoreyanqiu_2010"/>		
+			<AttachEffects>
+				<e id="129"/>
+			</AttachEffects>
+		</e>
+
+		<e id="2011">
+			<b xml_name = "fairy_dianciguai_2011"/>		
+			<AttachEffects>
+				<e id="130"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2012">
+			<b xml_name = "fairy_feitianhaima_2012"/>		
+			<AttachEffects>
+				<e id="131"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2013">
+			<b xml_name = "fairy_liesun_2013"/>		
+			<AttachEffects>
+				<e id="132"/>
+			</AttachEffects>
+		</e>
+		
+		<e id="2014">
+			<b xml_name = "fairy_anheiyouhun_2014"/>		
+			<AttachEffects>
+				<e id="133"/>
+			</AttachEffects>
+		</e>
+	
+		<e id="2015">
+			<b xml_name = "fairy_juzhanghuwei_2015"/>		
+			<AttachEffects>
+				<e id="134"/>
+			</AttachEffects>
+		</e>	
+		
+		<e id="2016">
+			<b xml_name = "fairy_fengbaojulong_2016"/>		
+			<AttachEffects>
+				<e id="135"/>
+			</AttachEffects>
+		</e>	
+		
+		<e id="2017">
+			<b xml_name = "fairy_shansubianfu_2017"/>		
+			<AttachEffects>
+				<e id="136"/>
+			</AttachEffects>
+		</e>
+
+		<e id="2018">
+			<b xml_name = "fairy_wuzhuangpaotai_2018"/>		
+			<AttachEffects>
+				<e id="137"/>
+			</AttachEffects>
+		</e>
+		
+		<e id="2019">
+			<b xml_name = "fairy_datianshi_2019"/>		
+			<AttachEffects>
+				<e id="138"/>
+			</AttachEffects>
+		</e>		
+		
+		<e id="2020">
+			<b xml_name = "fairy_yanlong_2020"/>		
+			<AttachEffects>
+				<e id="139"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2021">
+			<b xml_name = "fairy_leifenghuang_2021"/>		
+			<AttachEffects>
+				<e id="140"/>
+			</AttachEffects>
+		</e>
+
+		<e id="2022">
+			<b xml_name = "fairy_jinglingnvhuang_2022"/>		
+			<AttachEffects>
+				<e id="141"/>
+			</AttachEffects>
+		</e>
+
+		<e id="2023">
+			<b xml_name = "fairy_tiejiazhanche_2023"/>		
+			<AttachEffects>
+				<e id="142"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2024">
+			<b xml_name = "fairy_fengshen_2024"/>		
+			<AttachEffects>
+				<e id="143"/>
+			</AttachEffects>
+		</e>	
+
+		<e id="2025">
+			<b xml_name = "fairy_leishen_2025"/>		
+			<AttachEffects>
+				<e id="144"/>
+			</AttachEffects>
+		</e>	
+		
+		<!-- 特效资源文件列表 -->
+		<e id="101">
+			<b xml_name = "effect_enemy_common_attacked_101"/>
+		</e>
+		<e id="102">
+			<b xml_name = "effect_enemy_busrt_attacked_102"/>
+		</e>
+		<e id="103">
+			<b xml_name = "effect_mc_common_attacked_103"/>
+		</e>
+		<e id="104">
+			<b xml_name = "effect_common_instance_entrance_104"/>
+		</e>
+		<e id="105">
+			<b xml_name = "effect_monster_qingwa_arrow_105"/>
+		</e>
+		<e id="106">
+			<b xml_name = "effect_skill_defence_106"/>
+		</e>		
+		<e id="107">
+			<b xml_name = "effect_skill_defence_107"/>
+		</e>
+		<e id="108">
+			<b xml_name = "effect_skill_invincible_108"/>
+		</e>		
+		<e id="109">
+			<b xml_name = "effect_skill_invincible_109"/>
+		</e>		
+		<e id="110">
+			<b xml_name = "effect_magicball_110"/>
+		</e>
+		<e id="111">
+			<b xml_name = "effect_fireball_111"/>
+		</e>
+		<e id="112">
+			<b xml_name = "effect_dropice_112"/>
+		</e>
+		<e id="113">
+			<b xml_name = "effect_apocalypse_113"/>
+		</e>
+		<e id="114">
+			<b xml_name = "effect_apocalypse_114"/>
+		</e>	
+		<e id="115">
+			<b xml_name = "effect_speedup_115"/>
+		</e>	
+		<e id="116">
+			<b xml_name = "effect_speedup_116"/>
+		</e>		
+		<e id="117">
+			<b xml_name = "effect_vinegrowing_117"/>
+		</e>	
+		<e id="118">
+			<b xml_name = "effect_spray_venom_118"/>
+		</e>	
+		<e id="119">
+			<b xml_name = "effect_fairy_fireball_119"/>
+		</e>
+		<e id="121">
+			<b xml_name = "effect_fairy_fengxianzi_121"/>
+		</e>
+		<e id="122">
+			<b xml_name = "effect_fairy_xiaohuangfeng_122"/>
+		</e>
+		<e id="123">
+			<b xml_name = "effect_fairy_tianshiguodong_123"/>
+		</e>	
+		<e id="124">
+			<b xml_name = "effect_fairy_leiying_124"/>
+		</e>
+		<e id="125">
+			<b xml_name = "effect_fairy_huoyuansu_125"/>
+		</e>
+		<e id="126">
+			<b xml_name = "effect_fairy_xuediao_126"/>
+		</e>	
+		<e id="127">
+			<b xml_name = "effect_fairy_tuyuansu_127"/>
+		</e>
+		<e id="128">
+			<b xml_name = "effect_fairy_maocaoqiu_128"/>
+		</e>
+		<e id="129">
+			<b xml_name = "effect_fairy_zhuoreyanqiu_129"/>
+		</e>	
+		<e id="130">
+			<b xml_name = "effect_fairy_dianciguai_130"/>
+		</e>
+		<e id="131">
+			<b xml_name = "effect_fairy_feitianhaima_131"/>
+		</e>
+		<e id="132">
+			<b xml_name = "effect_fairy_liesun_132"/>
+		</e>	
+		<e id="133">
+			<b xml_name = "effect_fairy_anheiyouhun_133"/>
+		</e>	
+		<e id="134">
+			<b xml_name = "effect_fairy_juzhanghuwei_134"/>
+		</e>
+		<e id="135">
+			<b xml_name = "effect_fairy_fengbaojulong_135"/>
+		</e>
+		<e id="136">
+			<b xml_name = "effect_fairy_shansubianfu_136"/>
+		</e>	
+		<e id="137">
+			<b xml_name = "effect_fairy_wuzhuangpaotai_137"/>
+		</e>
+		<e id="138">
+			<b xml_name = "effect_fairy_datianshi_138"/>
+		</e>
+		<e id="139">
+			<b xml_name = "effect_fairy_yanlong_139"/>
+		</e>	
+		<e id="140">
+			<b xml_name = "effect_fairy_leifenghuang_140"/>
+		</e>
+		<e id="141">
+			<b xml_name = "effect_fairy_jinglingnvhuang_141"/>
+		</e>
+		<e id="142">
+			<b xml_name = "effect_fairy_tiejiazhanche_142"/>
+		</e>	
+		<e id="143">
+			<b xml_name = "effect_fairy_fengshen_143"/>
+		</e>
+		<e id="144">
+			<b xml_name = "effect_fairy_leishen_144"/>
+		</e>
+		<e id="145">
+			<b xml_name = "effect_daolong_145"/>
+		</e>
+		<e id="146">
+			<b xml_name = "effect_renma_146"/>
+		</e>
+		<e id="147">
+			<b xml_name = "effect_zhizhu_147"/>
+		</e>
+		<e id="148">
+			<b xml_name = "effect_jiqiangbing_148"/>
+		</e>	
+		<e id="149">
+			<b xml_name = "effect_modaoshi_149"/>
+		</e>
+		<e id="150">
+			<b xml_name = "effect_fengyuansu_150"/>
+		</e>	
+		<e id="151">
+			<b xml_name = "effect_magicball2_151"/>
+		</e>		
+		<e id="201">
+			<b xml_name = "effect_splash_201"/>
+		</e>		
+		<e id="202">
+			<b xml_name = "effect_splash_202"/>
+		</e>		
+		<e id="203">
+			<b xml_name = "effect_splash_203"/>
+		</e>	
+		<e id="204">
+			<b xml_name = "effect_pointonmap_204"/>
+		</e>	
+		<e id="205">
+			<b xml_name = "effect_enemyborn_205"/>
+		</e>
+		<e id="206">
+			<b xml_name = "effect_elite_206"/>
+		</e>		
+		<!-- NPC资源文件列表 -->
+		<e id="501">
+			<b xml_name = "npc_tiejiang_501"/>
+		</e>
+		<e id="502">
+			<b xml_name = "npc_junxuguan_502"/>
+		</e>
+		<e id="503">
+			<b xml_name = "npc_sunn_503"/>
+		</e>	
+		<e id="504">
+			<b xml_name = "npc_cuenzhang_504"/>
+		</e>	
+		<e id="505">
+			<b xml_name = "npc_sam_505"/>
+		</e>
+		<e id="506">
+			<b xml_name = "npc_shiwaigaoren_506"/>
+		</e>	
+		<e id="507">
+			<b xml_name = "npc_langrenjiangjun_507"/>
+		</e>
+		<e id="508">
+			<b xml_name = "npc_bangzhu_508"/>
+		</e>	
+		<e id="509">
+			<b xml_name = "npc_yiwei_509"/>
+		</e>			
+	</RcsFiles>
+			
+	<RoleActions>
+		<!-- 特效 -->
+		<RoleType value ="effect_101">
+			<actionType value="Play_100000">
+				<b xml_name="effect_enemy_common_attacked_101" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_102">
+			<actionType value="Play_100000">
+				<b xml_name="effect_enemy_busrt_attacked_102" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_103">
+			<actionType value="Play_100000">
+				<b xml_name="effect_mc_common_attacked_103" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_104">
+			<actionType value="Play_100000">
+				<b xml_name="effect_common_instance_entrance_104" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_105">
+			<actionType value="Play_100000">
+				<b xml_name="effect_monster_qingwa_arrow_105" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_106">
+			<actionType value="Play_100000">
+				<b xml_name="effect_skill_defence_106" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_107">
+			<actionType value="Play_100000">
+				<b xml_name="effect_skill_defence_107" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_108">
+			<actionType value="Play_100000">
+				<b xml_name="effect_skill_invincible_108" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_109">
+			<actionType value="Play_100000">
+				<b xml_name="effect_skill_invincible_109" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_110">
+			<actionType value="Play_100000">
+				<b xml_name="effect_magicball_110" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_111">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fireball_111" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_112">
+			<actionType value="Play_100000">
+				<b xml_name="effect_dropice_112" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_113">
+			<actionType value="Play_100000">
+				<b xml_name="effect_apocalypse_113" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_114">
+			<actionType value="Play_100000">
+				<b xml_name="effect_apocalypse_114" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_115">
+			<actionType value="Play_100000">
+				<b xml_name="effect_speedup_115" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_116">
+			<actionType value="Play_100000">
+				<b xml_name="effect_speedup_116" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_117">
+			<actionType value="Play_100000">
+				<b xml_name="effect_vinegrowing_117" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_118">
+			<actionType value="Play_100000">
+				<b xml_name="effect_spray_venom_118" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_119">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_fireball_119" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_121">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_fengxianzi_121" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_122">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_xiaohuangfeng_122" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_123">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_tianshiguodong_123" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_124">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_leiying_124" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_125">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_huoyuansu_125" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_126">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_xuediao_126" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_127">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_tuyuansu_127" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_128">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_maocaoqiu_128" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_129">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_zhuoreyanqiu_129" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_130">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_dianciguai_130" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_131">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_feitianhaima_131" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_132">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_liesun_132" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_133">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_anheiyouhun_133" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_134">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_juzhanghuwei_134" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_135">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_fengbaojulong_135" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_136">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_shansubianfu_136" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_137">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_wuzhuangpaotai_137" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_138">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_datianshi_138" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_139">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_yanlong_139" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_140">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_leifenghuang_140" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_141">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_jinglingnvhuang_141" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_142">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_tiejiazhanche_142" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_143">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_fengshen_143" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_144">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fairy_leishen_144" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_145">
+			<actionType value="Play_100000">
+				<b xml_name="effect_daolong_145" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="effect_146">
+			<actionType value="Play_100000">
+				<b xml_name="effect_renma_146" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_147">
+			<actionType value="Play_100000">
+				<b xml_name="effect_zhizhu_147" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_148">
+			<actionType value="Play_100000">
+				<b xml_name="effect_jiqiangbing_148" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_149">
+			<actionType value="Play_100000">
+				<b xml_name="effect_modaoshi_149" action_name="play"/>
+			</actionType>
+		</RoleType>			
+		<RoleType value ="effect_150">
+			<actionType value="Play_100000">
+				<b xml_name="effect_fengyuansu_150" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_151">
+			<actionType value="Play_100000">
+				<b xml_name="effect_magicball2_151" action_name="play"/>
+			</actionType>
+		</RoleType>			
+		<RoleType value ="effect_201">
+			<actionType value="Play_100000">
+				<b xml_name="effect_splash_201" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_202">
+			<actionType value="Play_100000">
+				<b xml_name="effect_splash_202" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_203">
+			<actionType value="Play_100000">
+				<b xml_name="effect_splash_203" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="effect_204">
+			<actionType value="Play_100000">
+				<b xml_name="effect_pointonmap_204" action_name="play"/>
+			</actionType>
+		</RoleType>			
+		<RoleType value ="effect_205">
+			<actionType value="Play_100000">
+				<b xml_name="effect_enemyborn_205" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="effect_206">
+			<actionType value="Play_100000">
+				<b xml_name="effect_elite_206" action_name="play"/>
+			</actionType>
+		</RoleType>			
+		<!-- NPC -->
+		<RoleType value ="npc_501">
+			<actionType value="Play_100000">
+				<b xml_name="npc_tiejiang_501" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="npc_502">
+			<actionType value="Play_100000">
+				<b xml_name="npc_junxuguan_502" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="npc_503">
+			<actionType value="Play_100000">
+				<b xml_name="npc_sunn_503" action_name="play"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="npc_504">
+			<actionType value="Play_100000">
+				<b xml_name="npc_cuenzhang_504" action_name="play"/>
+			</actionType>
+		</RoleType>		
+		<RoleType value ="npc_505">
+			<actionType value="Play_100000">
+				<b xml_name="npc_sam_505" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="npc_506">
+			<actionType value="Play_100000">
+				<b xml_name="npc_shiwaigaoren_506" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="npc_507">
+			<actionType value="Play_100000">
+				<b xml_name="npc_langrenjiangjun_507" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="npc_508">
+			<actionType value="Play_100000">
+				<b xml_name="npc_bangzhu_508" action_name="play"/>
+			</actionType>
+		</RoleType>
+		<RoleType value ="npc_509">
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="npc_yiwei_509" action_name="f idle"/>
+			</actionType>	
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="npc_yiwei_509" action_name="f run"/>
+			</actionType>
+		</RoleType>
+		<!-- 男战士 -->
+		<RoleType value ="hero_1">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceHor_Stand_MAIN_0">
+				<b xml_name="swordsman_intown" action_name="Idle_town_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="swordsman_intown" action_name="Idle_town_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_MAIN_1001">
+				<b xml_name="swordsman_intown" action_name="Idle_town_up"/>
+			</actionType>
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceHor_Stand_OTH_1002">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_up"/>
+			</actionType>
+			<!-- 随机动画 -->
+			<actionType value="Idle_FaceHor_1005">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_1006">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_1007">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<!-- 主城中跑动 -->
+			<actionType value="Run_FaceHor_MAIN_1008">
+				<b xml_name="swordsman_intown" action_name="Run_town_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_MAIN_1009">
+				<b xml_name="swordsman_intown" action_name="Run_town_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_MAIN_1010">
+				<b xml_name="swordsman_intown" action_name="Run_town_up"/>
+			</actionType>
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceHor_OTH_1011">
+				<b xml_name="swordsman_common_move" action_name="Run_battle_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="swordsman_common_move" action_name="Run_battle_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH_1013">
+				<b xml_name="swordsman_common_move" action_name="Run_battle_up"/>
+			</actionType>
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceHor_1_1014">
+				<b xml_name="swordsman_common_move" action_name="Attack_left_1"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="swordsman_common_move" action_name="Attack_down_1"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="swordsman_common_move" action_name="Attack_up_1"/>
+			</actionType>	
+			<!-- 攻击2 -->
+			<actionType value="Attack_FaceHor_2_1017">
+				<b xml_name="swordsman_common_move" action_name="Attack_left_2"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_2_1018">
+				<b xml_name="swordsman_common_move" action_name="Attack_down_2"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_2_1019">
+				<b xml_name="swordsman_common_move" action_name="Attack_up_2"/>
+			</actionType>	
+			<!-- 攻击3 -->
+			<actionType value="Attack_FaceHor_3_1020">
+				<b xml_name="swordsman_common_move" action_name="Attack_left_3"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_3_1021">
+				<b xml_name="swordsman_common_move" action_name="Attack_down_3"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_3_1022">
+				<b xml_name="swordsman_common_move" action_name="Attack_up_3"/>
+			</actionType>	
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceHor_1023">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="swordsman_common_move" action_name="Idle_battle_left"/>
+			</actionType>		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceHor_1026">
+				<b xml_name="skill_rush" action_name="die_battle_left"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="skill_rush" action_name="die_battle_down"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="skill_rush" action_name="die_battle_up"/>
+			</actionType>
+			<!-- 技能 -->
+			<actionType value="skill_storm_left_start_113">
+				<b xml_name="skill_storm" action_name="skill_storm_left_start"/>
+			</actionType>
+			<actionType value="skill_storm_left_end_114">
+				<b xml_name="skill_storm" action_name="skill_storm_left_end"/>
+			</actionType>
+			<actionType value="skill_storm_down_start_117">
+				<b xml_name="skill_storm" action_name="skill_storm_down_start"/>
+			</actionType>
+			<actionType value="skill_storm_down_end_118">
+				<b xml_name="skill_storm" action_name="skill_storm_down_end"/>
+			</actionType>
+			<actionType value="skill_storm_up_start_115">
+				<b xml_name="skill_storm" action_name="skill_storm_up_start"/>
+			</actionType>
+			<actionType value="skill_storm_down_end_116">
+				<b xml_name="skill_storm" action_name="skill_storm_up_end"/>
+			</actionType>			
+			<actionType value="skill_storm_down_middle_119">
+				<b xml_name="skill_storm" action_name="skill_storm_middle"/>
+			</actionType>			
+			<!-- Storm Rush -->
+			<actionType value="skill_rush_left_start_101">
+				<b xml_name="skill_rush" action_name="skill_rush_left_1"/>
+			</actionType>
+			<actionType value="skill_rush_left_middle_102">
+				<b xml_name="skill_rush" action_name="skill_rush_left_2"/>
+			</actionType>			
+			<actionType value="skill_rush_left_end_103">
+				<b xml_name="skill_rush" action_name="skill_rush_left_3"/>
+			</actionType>			
+			<actionType value="skill_rush_up_start_104">
+				<b xml_name="skill_rush" action_name="skill_rush_up_1"/>
+			</actionType>
+			<actionType value="skill_rush_up_middle_105">
+				<b xml_name="skill_rush" action_name="skill_rush_up_2"/>
+			</actionType>			
+			<actionType value="skill_rush_up_end_106">
+				<b xml_name="skill_rush" action_name="skill_rush_up_3"/>
+			</actionType>	
+			<actionType value="skill_rush_down_start_107">
+				<b xml_name="skill_rush" action_name="skill_rush_down_1"/>
+			</actionType>
+			<actionType value="skill_rush_down_middle_108">
+				<b xml_name="skill_rush" action_name="skill_rush_down_2"/>
+			</actionType>			
+			<actionType value="skill_rush_down_end_109">
+				<b xml_name="skill_rush" action_name="skill_rush_down_3"/>
+			</actionType>					
+			<!-- earth quake -->
+			<actionType value="skill_earthquake_left_110">
+				<b xml_name="skill_earthquake" action_name="skill_earthquake_left"/>
+			</actionType>	
+			<actionType value="skill_earthquake_up_111">
+				<b xml_name="skill_earthquake" action_name="skill_earthquake_up"/>
+			</actionType>	
+			<actionType value="skill_earthquake_down_112">
+				<b xml_name="skill_earthquake" action_name="skill_earthquake_down"/>
+			</actionType>	
+			<!-- iron inv -->
+			<actionType value="skill_addbuffer_left_120">
+				<b xml_name="skill_rush" action_name="skill_addbuffer_left"/>
+			</actionType>	
+			<actionType value="skill_addbuffer_up_121">
+				<b xml_name="skill_rush" action_name="skill_addbuffer_up"/>
+			</actionType>				
+			<actionType value="skill_addbuffer_down_122">
+				<b xml_name="skill_rush" action_name="skill_addbuffer_down"/>
+			</actionType>				
+		</RoleType>
+
+		<!-- 女战士 -->
+		<RoleType value ="hero_2">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceHor_Stand_MAIN_0">
+				<b xml_name="swordswoman_intown" action_name="Idle_town_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="swordswoman_intown" action_name="Idle_town_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_MAIN_1001">
+				<b xml_name="swordswoman_intown" action_name="Idle_town_up"/>
+			</actionType>
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceHor_Stand_OTH_1002">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_up"/>
+			</actionType>
+			<!-- 随机动画 -->
+			<actionType value="Idle_FaceHor_1005">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_1006">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_1007">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<!-- 主城中跑动 -->
+			<actionType value="Run_FaceHor_MAIN_1008">
+				<b xml_name="swordswoman_intown" action_name="Run_town_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_MAIN_1009">
+				<b xml_name="swordswoman_intown" action_name="Run_town_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_MAIN_1010">
+				<b xml_name="swordswoman_intown" action_name="Run_town_up"/>
+			</actionType>
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceHor_OTH_1011">
+				<b xml_name="swordswoman_common_move" action_name="Run_battle_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="swordswoman_common_move" action_name="Run_battle_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH_1013">
+				<b xml_name="swordswoman_common_move" action_name="Run_battle_up"/>
+			</actionType>
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceHor_1_1014">
+				<b xml_name="swordswoman_common_move" action_name="Attack_left_1"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="swordswoman_common_move" action_name="Attack_down_1"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="swordswoman_common_move" action_name="Attack_up_1"/>
+			</actionType>	
+			<!-- 攻击2 -->
+			<actionType value="Attack_FaceHor_2_1017">
+				<b xml_name="swordswoman_common_move" action_name="Attack_left_2"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_2_1018">
+				<b xml_name="swordswoman_common_move" action_name="Attack_down_2"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_2_1019">
+				<b xml_name="swordswoman_common_move" action_name="Attack_up_2"/>
+			</actionType>	
+			<!-- 攻击3 -->
+			<actionType value="Attack_FaceHor_3_1020">
+				<b xml_name="swordswoman_common_move" action_name="Attack_left_3"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_3_1021">
+				<b xml_name="swordswoman_common_move" action_name="Attack_down_3"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_3_1022">
+				<b xml_name="swordswoman_common_move" action_name="Attack_up_3"/>
+			</actionType>	
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceHor_1023">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="swordswoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceHor_1026">
+				<b xml_name="swordswoman_common_move" action_name="die_battle_left"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="swordswoman_common_move" action_name="die_battle_down"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="swordswoman_common_move" action_name="die_battle_up"/>
+			</actionType>
+			<!-- 技能 -->
+			<actionType value="skill_storm_left_start_113">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_left_start"/>
+			</actionType>
+			<actionType value="skill_storm_left_end_114">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_left_end"/>
+			</actionType>
+			<actionType value="skill_storm_down_start_117">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_down_start"/>
+			</actionType>
+			<actionType value="skill_storm_down_end_118">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_down_end"/>
+			</actionType>
+			<actionType value="skill_storm_up_start_115">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_up_start"/>
+			</actionType>
+			<actionType value="skill_storm_down_end_116">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_up_end"/>
+			</actionType>			
+			<actionType value="skill_storm_down_middle_119">
+				<b xml_name="skill_storm_swordswoman" action_name="skill_storm_middle"/>
+			</actionType>			
+			<!-- Storm Rush -->
+			<actionType value="skill_rush_left_start_101">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_left_1"/>
+			</actionType>
+			<actionType value="skill_rush_left_middle_102">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_left_2"/>
+			</actionType>			
+			<actionType value="skill_rush_left_end_103">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_left_3"/>
+			</actionType>			
+			<actionType value="skill_rush_up_start_104">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_up_1"/>
+			</actionType>
+			<actionType value="skill_rush_up_middle_105">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_up_2"/>
+			</actionType>			
+			<actionType value="skill_rush_up_end_106">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_up_3"/>
+			</actionType>	
+			<actionType value="skill_rush_down_start_107">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_down_1"/>
+			</actionType>
+			<actionType value="skill_rush_down_middle_108">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_down_2"/>
+			</actionType>			
+			<actionType value="skill_rush_down_end_109">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_rush_down_3"/>
+			</actionType>					
+			<!-- earth quake -->
+			<actionType value="skill_earthquake_left_110">
+				<b xml_name="skill_earthquake_swordswoman" action_name="skill_earthquake_left"/>
+			</actionType>	
+			<actionType value="skill_earthquake_up_111">
+				<b xml_name="skill_earthquake_swordswoman" action_name="skill_earthquake_up"/>
+			</actionType>	
+			<actionType value="skill_earthquake_down_112">
+				<b xml_name="skill_earthquake_swordswoman" action_name="skill_earthquake_down"/>
+			</actionType>	
+			<!-- iron inv -->
+			<actionType value="skill_addbuffer_left_120">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_addbuffer_left"/>
+			</actionType>	
+			<actionType value="skill_addbuffer_up_121">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_addbuffer_up"/>
+			</actionType>				
+			<actionType value="skill_addbuffer_down_122">
+				<b xml_name="skill_rush_swordswoman" action_name="skill_addbuffer_down"/>
+			</actionType>				
+		</RoleType>
+		<!-- 男魔法师 -->
+		<RoleType value ="hero_3">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceHor_Stand_MAIN_0">
+				<b xml_name="mageman_intown" action_name="Idle_town_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="mageman_intown" action_name="Idle_town_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_MAIN_1001">
+				<b xml_name="mageman_intown" action_name="Idle_town_up"/>
+			</actionType>
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceHor_Stand_OTH_1002">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_up"/>
+			</actionType>
+			<!-- 随机动画 -->
+			<actionType value="Idle_FaceHor_1005">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_1006">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_1007">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<!-- 主城中跑动 -->
+			<actionType value="Run_FaceHor_MAIN_1008">
+				<b xml_name="mageman_intown" action_name="Run_town_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_MAIN_1009">
+				<b xml_name="mageman_intown" action_name="Run_town_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_MAIN_1010">
+				<b xml_name="mageman_intown" action_name="Run_town_up"/>
+			</actionType>
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceHor_OTH_1011">
+				<b xml_name="mageman_common_move" action_name="Run_battle_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="mageman_common_move" action_name="Run_battle_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH_1013">
+				<b xml_name="mageman_common_move" action_name="Run_battle_up"/>
+			</actionType>
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceHor_1_1014">
+				<b xml_name="mageman_common_move" action_name="Attack_left_1"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="mageman_common_move" action_name="Attack_down_1"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="mageman_common_move" action_name="Attack_up_1"/>
+			</actionType>	
+			<!-- 攻击2 -->
+			<actionType value="Attack_FaceHor_2_1017">
+				<b xml_name="mageman_common_move" action_name="Attack_left_2"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_2_1018">
+				<b xml_name="mageman_common_move" action_name="Attack_down_2"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_2_1019">
+				<b xml_name="mageman_common_move" action_name="Attack_up_2"/>
+			</actionType>	
+			<!-- 攻击3 -->
+			<actionType value="Attack_FaceHor_3_1020">
+				<b xml_name="mageman_common_move" action_name="Attack_left_3"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_3_1021">
+				<b xml_name="mageman_common_move" action_name="Attack_down_3"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_3_1022">
+				<b xml_name="mageman_common_move" action_name="Attack_up_3"/>
+			</actionType>	
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceHor_1023">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="mageman_common_move" action_name="Idle_battle_left"/>
+			</actionType>		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceHor_1026">
+				<b xml_name="mageman_common_move" action_name="die_battle_left"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="mageman_common_move" action_name="die_battle_down"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="mageman_common_move" action_name="die_battle_up"/>
+			</actionType>
+			<!-- 技能 -->
+			<actionType value="skill_fireball_left_401">
+				<b xml_name="skill_fireball_mageman" action_name="skill_fireball_left"/>
+			</actionType>	
+			<actionType value="skill_fireball_down_402">
+				<b xml_name="skill_fireball_mageman" action_name="skill_fireball_down"/>
+			</actionType>		
+			<actionType value="skill_fireball_up_403">
+				<b xml_name="skill_fireball_mageman" action_name="skill_fireball_up"/>
+			</actionType>	
+			<actionType value="skill_dropice_left_404">
+				<b xml_name="skill_dropice_mageman" action_name="skill_dropice_left"/>
+			</actionType>	
+			<actionType value="skill_dropice_down_405">
+				<b xml_name="skill_dropice_mageman" action_name="skill_dropice_down"/>
+			</actionType>
+			<actionType value="skill_dropice_up_406">
+				<b xml_name="skill_dropice_mageman" action_name="skill_dropice_up"/>
+			</actionType>	
+			<actionType value="skill_blackhole_start_407">
+				<b xml_name="skill_blackhole_mageman" action_name="skill_blackhole_start"/>
+			</actionType>	
+			<actionType value="skill_blackhole_middle_408">
+				<b xml_name="skill_blackhole_mageman" action_name="skill_blackhole_middle"/>
+			</actionType>	
+			<actionType value="skill_blackhole_end_409">
+				<b xml_name="skill_blackhole_mageman" action_name="skill_blackhole_end"/>
+			</actionType>		
+			<actionType value="skill_Apocalypse_left_start_410">
+				<b xml_name="skill_fireball_mageman" action_name="skill_Apocalypse_left_start"/>
+			</actionType>		
+			<actionType value="skill_Apocalypse_down_start_411">
+				<b xml_name="skill_fireball_mageman" action_name="skill_Apocalypse_down_start"/>
+			</actionType>		
+			<actionType value="skill_Apocalypse_up_start_412">
+				<b xml_name="skill_fireball_mageman" action_name="skill_Apocalypse_up_start"/>
+			</actionType>	
+			<actionType value="skill_transportation_left_start_413">
+				<b xml_name="skill_transportation_mageman" action_name="skill_transportation_left_start"/>
+			</actionType>	
+			<actionType value="skill_transportation_down_start_414">
+				<b xml_name="skill_transportation_mageman" action_name="skill_transportation_down_start"/>
+			</actionType>
+			<actionType value="skill_transportation_up_start_415">
+				<b xml_name="skill_transportation_mageman" action_name="skill_transportation_up_start"/>
+			</actionType>			
+			<actionType value="skill_transportation_up_end_416">
+				<b xml_name="skill_transportation_mageman" action_name="skill_transportation_up_end"/>
+			</actionType>	
+			<actionType value="skill_transportation_up_end_417">
+				<b xml_name="skill_transportation_mageman" action_name="skill_transportation_up_end"/>
+			</actionType>	
+			<actionType value="skill_transportation_up_end_418">
+				<b xml_name="skill_transportation_mageman" action_name="skill_transportation_up_end"/>
+			</actionType>	
+		</RoleType>		
+
+		<!-- 女魔法师 -->
+		<RoleType value ="hero_4">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceHor_Stand_MAIN_0">
+				<b xml_name="mage_intown" action_name="Idle_town_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="mage_intown" action_name="Idle_town_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_MAIN_1001">
+				<b xml_name="mage_intown" action_name="Idle_town_up"/>
+			</actionType>
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceHor_Stand_OTH_1002">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="mage_common_move" action_name="Idle_battle_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="mage_common_move" action_name="Idle_battle_up"/>
+			</actionType>
+			<!-- 随机动画 -->
+			<actionType value="Idle_FaceHor_1005">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_1006">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_1007">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<!-- 主城中跑动 -->
+			<actionType value="Run_FaceHor_MAIN_1008">
+				<b xml_name="mage_intown" action_name="Run_town_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_MAIN_1009">
+				<b xml_name="mage_intown" action_name="Run_town_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_MAIN_1010">
+				<b xml_name="mage_intown" action_name="Run_town_up"/>
+			</actionType>
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceHor_OTH_1011">
+				<b xml_name="mage_common_move" action_name="Run_battle_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="mage_common_move" action_name="Run_battle_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH_1013">
+				<b xml_name="mage_common_move" action_name="Run_battle_up"/>
+			</actionType>
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceHor_1_1014">
+				<b xml_name="mage_common_move" action_name="Attack_left_1"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="mage_common_move" action_name="Attack_down_1"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="mage_common_move" action_name="Attack_up_1"/>
+			</actionType>	
+			<!-- 攻击2 -->
+			<actionType value="Attack_FaceHor_2_1017">
+				<b xml_name="mage_common_move" action_name="Attack_left_2"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_2_1018">
+				<b xml_name="mage_common_move" action_name="Attack_down_2"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_2_1019">
+				<b xml_name="mage_common_move" action_name="Attack_up_2"/>
+			</actionType>	
+			<!-- 攻击3 -->
+			<actionType value="Attack_FaceHor_3_1020">
+				<b xml_name="mage_common_move" action_name="Attack_left_3"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_3_1021">
+				<b xml_name="mage_common_move" action_name="Attack_down_3"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_3_1022">
+				<b xml_name="mage_common_move" action_name="Attack_up_3"/>
+			</actionType>	
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceHor_1023">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="mage_common_move" action_name="Idle_battle_left"/>
+			</actionType>		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceHor_1026">
+				<b xml_name="mage_common_move" action_name="die_battle_left"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="mage_common_move" action_name="die_battle_down"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="mage_common_move" action_name="die_battle_up"/>
+			</actionType>
+			<!-- 技能 -->
+			<actionType value="skill_fireball_left_401">
+				<b xml_name="skill_fireball" action_name="skill_fireball_left"/>
+			</actionType>	
+			<actionType value="skill_fireball_down_402">
+				<b xml_name="skill_fireball" action_name="skill_fireball_down"/>
+			</actionType>		
+			<actionType value="skill_fireball_up_403">
+				<b xml_name="skill_fireball" action_name="skill_fireball_up"/>
+			</actionType>	
+			<actionType value="skill_dropice_left_404">
+				<b xml_name="skill_dropice" action_name="skill_dropice_left"/>
+			</actionType>	
+			<actionType value="skill_dropice_down_405">
+				<b xml_name="skill_dropice" action_name="skill_dropice_down"/>
+			</actionType>
+			<actionType value="skill_dropice_up_406">
+				<b xml_name="skill_dropice" action_name="skill_dropice_up"/>
+			</actionType>	
+			<actionType value="skill_blackhole_start_407">
+				<b xml_name="skill_blackhole" action_name="skill_blackhole_start"/>
+			</actionType>	
+			<actionType value="skill_blackhole_middle_408">
+				<b xml_name="skill_blackhole" action_name="skill_blackhole_middle"/>
+			</actionType>	
+			<actionType value="skill_blackhole_end_409">
+				<b xml_name="skill_blackhole" action_name="skill_blackhole_end"/>
+			</actionType>		
+			<actionType value="skill_Apocalypse_left_start_410">
+				<b xml_name="skill_fireball" action_name="skill_Apocalypse_left_start"/>
+			</actionType>		
+			<actionType value="skill_Apocalypse_down_start_411">
+				<b xml_name="skill_fireball" action_name="skill_Apocalypse_down_start"/>
+			</actionType>		
+			<actionType value="skill_Apocalypse_up_start_412">
+				<b xml_name="skill_fireball" action_name="skill_Apocalypse_up_start"/>
+			</actionType>	
+			<actionType value="skill_transportation_left_start_413">
+				<b xml_name="skill_transportation" action_name="skill_transportation_left_start"/>
+			</actionType>	
+			<actionType value="skill_transportation_down_start_414">
+				<b xml_name="skill_transportation" action_name="skill_transportation_down_start"/>
+			</actionType>
+			<actionType value="skill_transportation_up_start_415">
+				<b xml_name="skill_transportation" action_name="skill_transportation_up_start"/>
+			</actionType>			
+			<actionType value="skill_transportation_up_end_416">
+				<b xml_name="skill_transportation" action_name="skill_transportation_up_end"/>
+			</actionType>	
+			<actionType value="skill_transportation_up_end_417">
+				<b xml_name="skill_transportation" action_name="skill_transportation_up_end"/>
+			</actionType>	
+			<actionType value="skill_transportation_up_end_418">
+				<b xml_name="skill_transportation" action_name="skill_transportation_up_end"/>
+			</actionType>	
+		</RoleType>		
+		
+		<!-- 男刺客 -->
+		<RoleType value ="hero_5">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceHor_Stand_MAIN_0">
+				<b xml_name="assassin_intown" action_name="Idle_town_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="assassin_intown" action_name="Idle_town_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_MAIN_1001">
+				<b xml_name="assassin_intown" action_name="Idle_town_up"/>
+			</actionType>
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceHor_Stand_OTH_1002">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_up"/>
+			</actionType>
+			<!-- 随机动画 -->
+			<actionType value="Idle_FaceHor_1005">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_1006">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_1007">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<!-- 主城中跑动 -->
+			<actionType value="Run_FaceHor_MAIN_1008">
+				<b xml_name="assassin_intown" action_name="Run_town_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_MAIN_1009">
+				<b xml_name="assassin_intown" action_name="Run_town_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_MAIN_1010">
+				<b xml_name="assassin_intown" action_name="Run_town_up"/>
+			</actionType>
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceHor_OTH_1011">
+				<b xml_name="assassin_common_move" action_name="Run_battle_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="assassin_common_move" action_name="Run_battle_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH_1013">
+				<b xml_name="assassin_common_move" action_name="Run_battle_up"/>
+			</actionType>
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceHor_1_1014">
+				<b xml_name="assassin_common_move" action_name="Attack_left_1"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="assassin_common_move" action_name="Attack_down_1"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="assassin_common_move" action_name="Attack_up_1"/>
+			</actionType>	
+			<!-- 攻击2 -->
+			<actionType value="Attack_FaceHor_2_1017">
+				<b xml_name="assassin_common_move" action_name="Attack_left_2"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_2_1018">
+				<b xml_name="assassin_common_move" action_name="Attack_down_2"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_2_1019">
+				<b xml_name="assassin_common_move" action_name="Attack_up_2"/>
+			</actionType>	
+			<!-- 攻击3 -->
+			<actionType value="Attack_FaceHor_3_1020">
+				<b xml_name="assassin_common_move" action_name="Attack_left_3"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_3_1021">
+				<b xml_name="assassin_common_move" action_name="Attack_down_3"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_3_1022">
+				<b xml_name="assassin_common_move" action_name="Attack_up_3"/>
+			</actionType>	
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceHor_1023">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="assassin_common_move" action_name="Idle_battle_left"/>
+			</actionType>		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceHor_1026">
+				<b xml_name="skill_Invisible" action_name="die_battle_left"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="skill_Invisible" action_name="die_battle_down"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="skill_Invisible" action_name="die_battle_up"/>
+			</actionType>
+			<!-- 技能 -->	
+			<actionType value="skill_chopseries_left_501">
+				<b xml_name="skill_chopseries" action_name="skill_chopseries_left"/>
+			</actionType>		
+			<actionType value="skill_chopseries_down_502">
+				<b xml_name="skill_chopseries" action_name="skill_chopseries_down"/>
+			</actionType>	
+			<actionType value="skill_chopseries_up_503">
+				<b xml_name="skill_chopseries" action_name="skill_chopseries_up"/>
+			</actionType>	
+			<actionType value="skill_assassinate_left_start_504">
+				<b xml_name="skill_assassinate" action_name="skill_assassinate_left_start"/>
+			</actionType>	
+			<actionType value="skill_assassinate_down_start_505">
+				<b xml_name="skill_assassinate" action_name="skill_assassinate_down_start"/>
+			</actionType>	
+			<actionType value="skill_assassinate_up_start_506">
+				<b xml_name="skill_assassinate" action_name="skill_assassinate_up_start"/>
+			</actionType>	
+			<actionType value="skill_assassinate_left_end_507">
+				<b xml_name="skill_assassinate" action_name="skill_assassinate_left_end"/>
+			</actionType>	
+			<actionType value="skill_assassinate_down_end_508">
+				<b xml_name="skill_assassinate" action_name="skill_assassinate_down_end"/>
+			</actionType>	
+			<actionType value="skill_assassinate_up_end_509">
+				<b xml_name="skill_assassinate" action_name="skill_assassinate_up_end"/>
+			</actionType>		
+			<actionType value="skill_deadlinesschop_left_510">
+				<b xml_name="skill_deadlinesschop" action_name="skill_deadlinesschop_left"/>
+			</actionType>		
+			<actionType value="skill_deadlinesschop_down_511">
+				<b xml_name="skill_deadlinesschop" action_name="skill_deadlinesschop_down"/>
+			</actionType>	
+			<actionType value="skill_deadlinesschop_left_512">
+				<b xml_name="skill_deadlinesschop" action_name="skill_deadlinesschop_up"/>
+			</actionType>			
+			<actionType value="skill_speedup_left_start_513">
+				<b xml_name="skill_Invisible" action_name="skill_speedup_left_start"/>
+			</actionType>		
+			<actionType value="skill_speedup_down_start_514">
+				<b xml_name="skill_Invisible" action_name="skill_speedup_down_start"/>
+			</actionType>		
+			<actionType value="skill_speedup_up_start_515">
+				<b xml_name="skill_Invisible" action_name="skill_speedup_up_start"/>
+			</actionType>		
+			<actionType value="skill_Invisible_left_start_516">
+				<b xml_name="skill_Invisible" action_name="skill_Invisible_left_start"/>
+			</actionType>		
+			<actionType value="skill_Invisible_down_start_517">
+				<b xml_name="skill_Invisible" action_name="skill_Invisible_down_start"/>
+			</actionType>		
+			<actionType value="skill_Invisible_up_start_518">
+				<b xml_name="skill_Invisible" action_name="skill_Invisible_up_start"/>
+			</actionType>					
+		</RoleType>				
+		
+		<!-- 女刺客 -->
+		<RoleType value ="hero_6">
+			<!-- idle 主城 -->
+			<actionType value="Idle_FaceHor_Stand_MAIN_0">
+				<b xml_name="assassinwoman_intown" action_name="Idle_town_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_MAIN_1000">
+				<b xml_name="assassinwoman_intown" action_name="Idle_town_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_MAIN_1001">
+				<b xml_name="assassinwoman_intown" action_name="Idle_town_up"/>
+			</actionType>
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceHor_Stand_OTH_1002">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_down"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_up"/>
+			</actionType>
+			<!-- 随机动画 -->
+			<actionType value="Idle_FaceHor_1005">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceDown_1006">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_1007">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<!-- 主城中跑动 -->
+			<actionType value="Run_FaceHor_MAIN_1008">
+				<b xml_name="assassinwoman_intown" action_name="Run_town_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_MAIN_1009">
+				<b xml_name="assassinwoman_intown" action_name="Run_town_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_MAIN_1010">
+				<b xml_name="assassinwoman_intown" action_name="Run_town_up"/>
+			</actionType>
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceHor_OTH_1011">
+				<b xml_name="assassinwoman_common_move" action_name="Run_battle_left"/>
+			</actionType>
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="assassinwoman_common_move" action_name="Run_battle_down"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH_1013">
+				<b xml_name="assassinwoman_common_move" action_name="Run_battle_up"/>
+			</actionType>
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceHor_1_1014">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_left_1"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_down_1"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_up_1"/>
+			</actionType>	
+			<!-- 攻击2 -->
+			<actionType value="Attack_FaceHor_2_1017">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_left_2"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_2_1018">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_down_2"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_2_1019">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_up_2"/>
+			</actionType>	
+			<!-- 攻击3 -->
+			<actionType value="Attack_FaceHor_3_1020">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_left_3"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_3_1021">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_down_3"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_3_1022">
+				<b xml_name="assassinwoman_common_move" action_name="Attack_up_3"/>
+			</actionType>	
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceHor_1023">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="assassinwoman_common_move" action_name="Idle_battle_left"/>
+			</actionType>		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceHor_1026">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="die_battle_left"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="die_battle_down"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="die_battle_up"/>
+			</actionType>
+			<!-- 技能 -->	
+			<actionType value="skill_chopseries_left_501">
+				<b xml_name="skill_chopseries_assassinwoman" action_name="skill_chopseries_left"/>
+			</actionType>		
+			<actionType value="skill_chopseries_down_502">
+				<b xml_name="skill_chopseries_assassinwoman" action_name="skill_chopseries_down"/>
+			</actionType>	
+			<actionType value="skill_chopseries_up_503">
+				<b xml_name="skill_chopseries_assassinwoman" action_name="skill_chopseries_up"/>
+			</actionType>	
+			<actionType value="skill_assassinate_left_start_504">
+				<b xml_name="skill_assassinate_assassinwoman" action_name="skill_assassinate_left_start"/>
+			</actionType>	
+			<actionType value="skill_assassinate_down_start_505">
+				<b xml_name="skill_assassinate_assassinwoman" action_name="skill_assassinate_down_start"/>
+			</actionType>	
+			<actionType value="skill_assassinate_up_start_506">
+				<b xml_name="skill_assassinate_assassinwoman" action_name="skill_assassinate_up_start"/>
+			</actionType>	
+			<actionType value="skill_assassinate_left_end_507">
+				<b xml_name="skill_assassinate_assassinwoman" action_name="skill_assassinate_left_end"/>
+			</actionType>	
+			<actionType value="skill_assassinate_down_end_508">
+				<b xml_name="skill_assassinate_assassinwoman" action_name="skill_assassinate_down_end"/>
+			</actionType>	
+			<actionType value="skill_assassinate_up_end_509">
+				<b xml_name="skill_assassinate_assassinwoman" action_name="skill_assassinate_up_end"/>
+			</actionType>		
+			<actionType value="skill_deadlinesschop_left_510">
+				<b xml_name="skill_deadlinesschop_assassinwoman" action_name="skill_deadlinesschop_left"/>
+			</actionType>		
+			<actionType value="skill_deadlinesschop_down_511">
+				<b xml_name="skill_deadlinesschop_assassinwoman" action_name="skill_deadlinesschop_down"/>
+			</actionType>	
+			<actionType value="skill_deadlinesschop_left_512">
+				<b xml_name="skill_deadlinesschop_assassinwoman" action_name="skill_deadlinesschop_up"/>
+			</actionType>			
+			<actionType value="skill_speedup_left_start_513">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="skill_speedup_left_start"/>
+			</actionType>		
+			<actionType value="skill_speedup_down_start_514">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="skill_speedup_down_start"/>
+			</actionType>		
+			<actionType value="skill_speedup_up_start_515">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="skill_speedup_up_start"/>
+			</actionType>		
+			<actionType value="skill_Invisible_left_start_516">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="skill_Invisible_left_start"/>
+			</actionType>		
+			<actionType value="skill_Invisible_down_start_517">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="skill_Invisible_down_start"/>
+			</actionType>		
+			<actionType value="skill_Invisible_up_start_518">
+				<b xml_name="skill_Invisible_assassinwoman" action_name="skill_Invisible_up_start"/>
+			</actionType>					
+		</RoleType>				
+		
+		<!-- 猎人 -->
+		<RoleType value ="hero_1101">		
+		</RoleType>
+		
+		<!-- 精灵 -->
+		<RoleType value ="fairy_2001">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_fengxianzi_2001" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_fengxianzi_2001" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_fengxianzi_2001" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_fengxianzi_2001" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="fairy_2002">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_firefly_2002" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_firefly_2002" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_firefly_2002" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_firefly_2002" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="fairy_2003">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_xiaohuangfeng_2003" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_xiaohuangfeng_2003" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_xiaohuangfeng_2003" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_xiaohuangfeng_2003" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="fairy_2004">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_tianshiguodong_2004" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_tianshiguodong_2004" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_tianshiguodong_2004" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_tianshiguodong_2004" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="fairy_2005">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_leiying_2005" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_leiying_2005" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_leiying_2005" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_leiying_2005" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="fairy_2006">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_huoyuansu_2006" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_huoyuansu_2006" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_huoyuansu_2006" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_huoyuansu_2006" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+
+		<RoleType value ="fairy_2007">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_xuediao_2007" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_xuediao_2007" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_xuediao_2007" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_xuediao_2007" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="fairy_2008">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_tuyuansu_2008" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_tuyuansu_2008" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_tuyuansu_2008" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_tuyuansu_2008" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+
+		<RoleType value ="fairy_2009">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_maocaoqiu_2009" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_maocaoqiu_2009" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_maocaoqiu_2009" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_maocaoqiu_2009" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2010">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_zhuoreyanqiu_2010" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_zhuoreyanqiu_2010" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_zhuoreyanqiu_2010" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_zhuoreyanqiu_2010" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2011">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_dianciguai_2011" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_dianciguai_2011" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_dianciguai_2011" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_dianciguai_2011" action_name="b attack"/>
+			</actionType>			
+		</RoleType>		
+
+		<RoleType value ="fairy_2012">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_feitianhaima_2012" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_feitianhaima_2012" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_feitianhaima_2012" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_feitianhaima_2012" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2013">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_liesun_2013" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_liesun_2013" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_liesun_2013" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_liesun_2013" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+		
+		<RoleType value ="fairy_2014">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_anheiyouhun_2014" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_anheiyouhun_2014" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_anheiyouhun_2014" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_anheiyouhun_2014" action_name="b attack"/>
+			</actionType>			
+		</RoleType>		
+
+		<RoleType value ="fairy_2015">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_juzhanghuwei_2015" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_juzhanghuwei_2015" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_juzhanghuwei_2015" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_juzhanghuwei_2015" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2016">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_fengbaojulong_2016" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_fengbaojulong_2016" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_fengbaojulong_2016" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_fengbaojulong_2016" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2017">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_shansubianfu_2017" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_shansubianfu_2017" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_shansubianfu_2017" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_shansubianfu_2017" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+		
+		<RoleType value ="fairy_2018">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_wuzhuangpaotai_2018" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_wuzhuangpaotai_2018" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_wuzhuangpaotai_2018" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_wuzhuangpaotai_2018" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2019">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_datianshi_2019" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_datianshi_2019" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_datianshi_2019" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_datianshi_2019" action_name="b attack"/>
+			</actionType>			
+		</RoleType>			
+		
+		<RoleType value ="fairy_2020">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_yanlong_2020" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_yanlong_2020" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_yanlong_2020" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_yanlong_2020" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+
+		<RoleType value ="fairy_2021">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_leifenghuang_2021" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_leifenghuang_2021" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_leifenghuang_2021" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_leifenghuang_2021" action_name="b attack"/>
+			</actionType>			
+		</RoleType>		
+
+		<RoleType value ="fairy_2022">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_jinglingnvhuang_2022" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_jinglingnvhuang_2022" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_jinglingnvhuang_2022" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_jinglingnvhuang_2022" action_name="b attack"/>
+			</actionType>			
+		</RoleType>
+
+		<RoleType value ="fairy_2023">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_tiejiazhanche_2023" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_tiejiazhanche_2023" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_tiejiazhanche_2023" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_tiejiazhanche_2023" action_name="b attack"/>
+			</actionType>			
+		</RoleType>		
+		
+		<RoleType value ="fairy_2024">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_fengshen_2024" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_fengshen_2024" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_fengshen_2024" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_fengshen_2024" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+		
+		<RoleType value ="fairy_2025">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="fairy_leishen_2025" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="fairy_leishen_2025" action_name="b idle"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="fairy_leishen_2025" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="fairy_leishen_2025" action_name="b attack"/>
+			</actionType>			
+		</RoleType>	
+		<!-- 怪物 -->
+		<RoleType value ="monster_10001">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_qiuqiu_10001" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_qiuqiu_10001" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_qiuqiu_10001" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_qiuqiu_10001" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_qiuqiu_10001" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_qiuqiu_10001" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_qiuqiu_10001" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_qiuqiu_10001" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_qiuqiu_10001" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_qiuqiu_10001" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="monster_10002">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_yezhu_10002" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_yezhu_10002" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_yezhu_10002" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_yezhu_10002" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_yezhu_10002" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_yezhu_10002" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_yezhu_10002" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_yezhu_10002" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_yezhu_10002" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_yezhu_10002" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		
+		<RoleType value ="monster_19001">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_haozhu_19001" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_haozhu_19001" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_haozhu_19001" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_haozhu_19001" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_haozhu_19001" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_haozhu_19001" action_name="b attack"/>
+			</actionType>
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_haozhu_19001" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_haozhu_19001" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_haozhu_19001" action_name="f idle"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_haozhu_19001" action_name="b idle"/>
+			</actionType>	
+			<!-- 技能 -->
+			<actionType value="skill_FaceDown_1900100">
+				<b xml_name="monster_haozhu_19001" action_name="skill_rush_down"/>
+			</actionType>
+			<actionType value="skill_FaceUp_1900101">
+				<b xml_name="monster_haozhu_19001" action_name="skill_rush_Up"/>
+			</actionType>
+			<actionType value="skill_FaceDown_1900102">
+				<b xml_name="monster_haozhu_19001" action_name="skill_rush_down_middle"/>
+			</actionType>
+			<actionType value="skill_FaceUp_1900103">
+				<b xml_name="monster_haozhu_19001" action_name="skill_rush_Up_middle"/>
+			</actionType>
+		</RoleType>		
+		
+		<RoleType value ="monster_19002">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_huayao_19002" action_name="f idle"/>
+			</actionType>		
+			<actionType value="Idle_FaceDown_Stand_OTH_1004">
+				<b xml_name="monster_huayao_19002" action_name="f idle"/>
+			</actionType>		
+			<!-- 副本中跑动 -->		
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_huayao_19002" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceDown_1_1016">
+				<b xml_name="monster_huayao_19002" action_name="f attack"/>
+			</actionType>
+			<!-- 受伤 -->		
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_huayao_19002" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceDown_1028">
+				<b xml_name="monster_huayao_19002" action_name="f die"/>
+			</actionType>
+			<!-- 技能 -->
+			<actionType value="skill_FaceDown_1900200">
+				<b xml_name="monster_huayao_19002" action_name="skill_vinegrowing"/>
+			</actionType>
+		</RoleType>		
+		
+		<RoleType value ="monster_10003">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_qingwa_10003" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_qingwa_10003" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_qingwa_10003" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_qingwa_10003" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_qingwa_10003" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_qingwa_10003" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_qingwa_10003" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_qingwa_10003" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_qingwa_10003" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_qingwa_10003" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10004">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_xiaohuayao_10004" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_xiaohuayao_10004" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_xiaohuayao_10004" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_xiaohuayao_10004" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_xiaohuayao_10004" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_xiaohuayao_10004" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_xiaohuayao_10004" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_xiaohuayao_10004" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_xiaohuayao_10004" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_xiaohuayao_10004" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10005">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_taliduo_10005" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_taliduo_10005" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_taliduo_10005" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_taliduo_10005" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_taliduo_10005" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_taliduo_10005" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_taliduo_10005" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_taliduo_10005" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_taliduo_10005" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_taliduo_10005" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10006">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_shitouren_10006" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_shitouren_10006" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_shitouren_10006" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_shitouren_10006" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_shitouren_10006" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_shitouren_10006" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_shitouren_10006" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_shitouren_10006" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_shitouren_10006" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_shitouren_10006" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10007">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_zhizhu_10007" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_zhizhu_10007" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_zhizhu_10007" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_zhizhu_10007" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_zhizhu_10007" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_zhizhu_10007" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_zhizhu_10007" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_zhizhu_10007" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_zhizhu_10007" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_zhizhu_10007" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10008">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_sishen_10008" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_sishen_10008" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_sishen_10008" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_sishen_10008" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_sishen_10008" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_sishen_10008" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_sishen_10008" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_sishen_10008" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_sishen_10008" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_sishen_10008" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10009">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_feixingjuyan_10009" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_feixingjuyan_10009" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_feixingjuyan_10009" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_feixingjuyan_10009" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_feixingjuyan_10009" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_feixingjuyan_10009" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_feixingjuyan_10009" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_feixingjuyan_10009" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_feixingjuyan_10009" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_feixingjuyan_10009" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10010">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_bianfu_10010" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_bianfu_10010" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_bianfu_10010" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_bianfu_10010" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_bianfu_10010" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_bianfu_10010" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_bianfu_10010" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_bianfu_10010" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_bianfu_10010" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_bianfu_10010" action_name="b die"/>
+			</actionType>
+		</RoleType>	
+		<RoleType value ="monster_10011">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_heixiong_10011" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_heixiong_10011" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_heixiong_10011" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_heixiong_10011" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_heixiong_10011" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_heixiong_10011" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_heixiong_10011" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_heixiong_10011" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_heixiong_10011" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_heixiong_10011" action_name="b die"/>
+			</actionType>			
+		</RoleType>	
+		<RoleType value ="monster_10012">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_daolong_10012" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_daolong_10012" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_daolong_10012" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_daolong_10012" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_daolong_10012" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_daolong_10012" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_daolong_10012" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_daolong_10012" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_daolong_10012" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_daolong_10012" action_name="b die"/>
+			</actionType>			
+		</RoleType>	
+		<RoleType value ="monster_10013">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_laoshuyao_10013" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_laoshuyao_10013" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_laoshuyao_10013" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_laoshuyao_10013" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_laoshuyao_10013" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_laoshuyao_10013" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_laoshuyao_10013" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_laoshuyao_10013" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_laoshuyao_10013" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_laoshuyao_10013" action_name="b die"/>
+			</actionType>			
+		</RoleType>	
+		<RoleType value ="monster_10014">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_langren_10014" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_langren_10014" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_langren_10014" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_langren_10014" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_langren_10014" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_langren_10014" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_langren_10014" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_langren_10014" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_langren_10014" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_langren_10014" action_name="b die"/>
+			</actionType>			
+		</RoleType>	
+		<RoleType value ="monster_10015">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_xingxing_10015" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_xingxing_10015" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_xingxing_10015" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_xingxing_10015" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_xingxing_10015" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_xingxing_10015" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_xingxing_10015" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_xingxing_10015" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_xingxing_10015" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_xingxing_10015" action_name="b die"/>
+			</actionType>			
+		</RoleType>			
+		<RoleType value ="monster_10016">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_xianrenzhang_10016" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_xianrenzhang_10016" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_xianrenzhang_10016" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_xianrenzhang_10016" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_xianrenzhang_10016" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_xianrenzhang_10016" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_xianrenzhang_10016" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_xianrenzhang_10016" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_xianrenzhang_10016" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_xianrenzhang_10016" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10017">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_niguai_10017" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_niguai_10017" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_niguai_10017" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_niguai_10017" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_niguai_10017" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_niguai_10017" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_niguai_10017" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_niguai_10017" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_niguai_10017" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_niguai_10017" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10018">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_jiangshi_10018" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_jiangshi_10018" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_jiangshi_10018" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_jiangshi_10018" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_jiangshi_10018" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_jiangshi_10018" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_jiangshi_10018" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_jiangshi_10018" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_jiangshi_10018" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_jiangshi_10018" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10019">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_huoyuansu_10019" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_huoyuansu_10019" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_huoyuansu_10019" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_huoyuansu_10019" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_huoyuansu_10019" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_huoyuansu_10019" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_huoyuansu_10019" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_huoyuansu_10019" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_huoyuansu_10019" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_huoyuansu_10019" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10020">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_renma_10020" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_renma_10020" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_renma_10020" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_renma_10020" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_renma_10020" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_renma_10020" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_renma_10020" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_renma_10020" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_renma_10020" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_renma_10020" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10021">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_fengyuansu_10021" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_fengyuansu_10021" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_fengyuansu_10021" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_fengyuansu_10021" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_fengyuansu_10021" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_fengyuansu_10021" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_fengyuansu_10021" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_fengyuansu_10021" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_fengyuansu_10021" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_fengyuansu_10021" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10022">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_xiezi_10022" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_xiezi_10022" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_xiezi_10022" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_xiezi_10022" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_xiezi_10022" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_xiezi_10022" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_xiezi_10022" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_xiezi_10022" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_xiezi_10022" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_xiezi_10022" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10023">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_jiqiangbing_10023" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_jiqiangbing_10023" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_jiqiangbing_10023" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_jiqiangbing_10023" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_jiqiangbing_10023" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_jiqiangbing_10023" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_jiqiangbing_10023" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_jiqiangbing_10023" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_jiqiangbing_10023" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_jiqiangbing_10023" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10024">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_tieqiu_10024" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_tieqiu_10024" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_tieqiu_10024" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_tieqiu_10024" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_tieqiu_10024" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_tieqiu_10024" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_tieqiu_10024" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_tieqiu_10024" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_tieqiu_10024" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_tieqiu_10024" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10025">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_dajiaojiqiren_10025" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10026">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_shibing_10026" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_shibing_10026" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_shibing_10026" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_shibing_10026" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_shibing_10026" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_shibing_10026" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_shibing_10026" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_shibing_10026" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_shibing_10026" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_shibing_10026" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10027">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_modaoshi_10027" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_modaoshi_10027" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_modaoshi_10027" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_modaoshi_10027" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_modaoshi_10027" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_modaoshi_10027" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_modaoshi_10027" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_modaoshi_10027" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_modaoshi_10027" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_modaoshi_10027" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10028">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_qishi_10028" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_qishi_10028" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_qishi_10028" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_qishi_10028" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_qishi_10028" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_qishi_10028" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_qishi_10028" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_qishi_10028" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_qishi_10028" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_qishi_10028" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10029">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_santouquan_10029" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_santouquan_10029" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_santouquan_10029" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_santouquan_10029" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_santouquan_10029" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_santouquan_10029" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_santouquan_10029" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_santouquan_10029" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_santouquan_10029" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_santouquan_10029" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+		<RoleType value ="monster_10030">
+			<!-- idle 副本 -->
+			<actionType value="Idle_FaceDown_Stand_OTH_1003">
+				<b xml_name="monster_huweijiqiren_10030" action_name="f idle"/>
+			</actionType>
+			<actionType value="Idle_FaceUp_Stand_OTH_1004">
+				<b xml_name="monster_huweijiqiren_10030" action_name="b idle"/>
+			</actionType>			
+			<!-- 副本中跑动 -->
+			<actionType value="Run_FaceDown_OTH_1012">
+				<b xml_name="monster_huweijiqiren_10030" action_name="f run"/>
+			</actionType>
+			<actionType value="Run_FaceUp_OTH__1013">
+				<b xml_name="monster_huweijiqiren_10030" action_name="b run"/>
+			</actionType>			
+			<!-- 攻击 1 -->
+			<actionType value="Attack_FaceDown_1_1015">
+				<b xml_name="monster_huweijiqiren_10030" action_name="f attack"/>
+			</actionType>
+			<actionType value="Attack_FaceUp_1_1016">
+				<b xml_name="monster_huweijiqiren_10030" action_name="b attack"/>
+			</actionType>			
+			<!-- 受伤 -->
+			<actionType value="Hurt_FaceDown_1024">
+				<b xml_name="monster_huweijiqiren_10030" action_name="f hurt"/>
+			</actionType>
+			<actionType value="Hurt_FaceUp_1025">
+				<b xml_name="monster_huweijiqiren_10030" action_name="b hurt"/>
+			</actionType>			
+			<!-- 死亡 -->
+			<actionType value="Die_FaceDown_1027">
+				<b xml_name="monster_huweijiqiren_10030" action_name="f die"/>
+			</actionType>
+			<actionType value="Die_FaceUp_1028">
+				<b xml_name="monster_huweijiqiren_10030" action_name="b die"/>
+			</actionType>			
+		</RoleType>
+	</RoleActions>
+</Root>

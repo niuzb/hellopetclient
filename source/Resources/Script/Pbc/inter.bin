@@ -1,0 +1,44 @@
+
+¦
+inter.proto
+head.protocs_core.proto"…
+InterAttributesInfo1
+values (2!.InterAttributesInfo.KeyValueDead;
+KeyValueDead
+key (
+value (
+dead_tm ("k
+InterUserSkillInfo-
+skills (2.InterUserSkillInfo.UserSkill&
+	UserSkill
+
+id (
+level ("’
+InterItemInfo&
+items (2.InterItemInfo.UserItemZ
+	EquipHole
+
+hole_index (
+item_gem_id (
+attr_key (
+
+attr_value (}
+UserItem
+pos (
+item_id (
+
+item_level (
+item_num (-
+equip_holes (2.InterItemInfo.EquipHole"å
+	InterSync
+uid (
+reg_time (
+
+channel_id ( 
+userinfo (2.BasicUserInfo&
+	skillinfo (2.InterUserSkillInfo+
+attributeinfo (2.InterAttributesInfo 
+iteminfo (2.InterItemInfo
+data ("
+
+InterOut

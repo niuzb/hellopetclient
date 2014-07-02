@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource
+END
+ResourcePlistDictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourcePlistDictionary.h
+END
+ResourcePlistArray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourcePlistArray.cpp
+END
+ResourceBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourceBase.h
+END
+ResourcePlistArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourcePlistArray.h
+END
+ResourceTexture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourceTexture.cpp
+END
+ResourcePlistDictionary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourcePlistDictionary.cpp
+END
+ResourceTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/725/hellopet/1/server/ahero/source/libs/PageManager/Resource/ResourceTexture.h
+END

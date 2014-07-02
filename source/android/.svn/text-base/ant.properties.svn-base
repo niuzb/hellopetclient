@@ -1,0 +1,4 @@
+key.store=ihero_keystore
+key.alias=hero
+key.store.password=ihero@taomee
+key.alias.password=ihero@taomee

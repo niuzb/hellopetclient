@@ -1,0 +1,1032 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>mageman_common_move:1/fs 1tx 1 .pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{378,0},{167,153}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{167,153}}</string>
+                <key>sourceSize</key>
+                <string>{167,153}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx10.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,179},{120,80}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{120,80}}</string>
+                <key>sourceSize</key>
+                <string>{120,80}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{377,156},{121,91}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{121,91}}</string>
+                <key>sourceSize</key>
+                <string>{121,91}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{199,156},{114,99}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{114,99}}</string>
+                <key>sourceSize</key>
+                <string>{114,99}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{548,147},{84,143}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{84,143}}</string>
+                <key>sourceSize</key>
+                <string>{84,143}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{862,109},{129,108}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{129,108}}</string>
+                <key>sourceSize</key>
+                <string>{129,108}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{667,262},{33,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,31}}</string>
+                <key>sourceSize</key>
+                <string>{33,31}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{377,250},{108,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{108,79}}</string>
+                <key>sourceSize</key>
+                <string>{108,79}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,179},{71,64}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{71,64}}</string>
+                <key>sourceSize</key>
+                <string>{71,64}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{375,332},{106,68}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{106,68}}</string>
+                <key>sourceSize</key>
+                <string>{106,68}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{196,176}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{196,176}}</string>
+                <key>sourceSize</key>
+                <string>{196,176}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{714,0},{145,125}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{145,125}}</string>
+                <key>sourceSize</key>
+                <string>{145,125}</string>
+            </dict>
+            <key>mageman_common_move:1/fs 1tx9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{861,220},{115,85}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{115,85}}</string>
+                <key>sourceSize</key>
+                <string>{115,85}</string>
+            </dict>
+            <key>mageman_common_move:1/fs fq1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{862,0},{137,106}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{137,106}}</string>
+                <key>sourceSize</key>
+                <string>{137,106}</string>
+            </dict>
+            <key>mageman_common_move:1/t129.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{704,245},{100,94}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{100,94}}</string>
+                <key>sourceSize</key>
+                <string>{100,94}</string>
+            </dict>
+            <key>mageman_common_move:1/t130.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{548,0},{163,144}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{163,144}}</string>
+                <key>sourceSize</key>
+                <string>{163,144}</string>
+            </dict>
+            <key>mageman_common_move:1/t131.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{199,0},{176,153}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{176,153}}</string>
+                <key>sourceSize</key>
+                <string>{176,153}</string>
+            </dict>
+            <key>mageman_common_move:c nvjian shou1 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{104,291},{16,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,19}}</string>
+                <key>sourceSize</key>
+                <string>{16,19}</string>
+            </dict>
+            <key>mageman_common_move:nanfa beijian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{488,257},{30,57}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,57}}</string>
+                <key>sourceSize</key>
+                <string>{30,57}</string>
+            </dict>
+            <key>mageman_common_move:nanfa bi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{104,332},{16,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,14}}</string>
+                <key>sourceSize</key>
+                <string>{16,14}</string>
+            </dict>
+            <key>mageman_common_move:nanfa bi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{104,313},{16,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,16}}</string>
+                <key>sourceSize</key>
+                <string>{16,16}</string>
+            </dict>
+            <key>mageman_common_move:nanfa bi3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{628,338},{12,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,17}}</string>
+                <key>sourceSize</key>
+                <string>{12,17}</string>
+            </dict>
+            <key>mageman_common_move:nanfa bi5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{807,332},{15,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,15}}</string>
+                <key>sourceSize</key>
+                <string>{15,15}</string>
+            </dict>
+            <key>mageman_common_move:nanfa hujian1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{631,306},{25,29}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,29}}</string>
+                <key>sourceSize</key>
+                <string>{25,29}</string>
+            </dict>
+            <key>mageman_common_move:nanfa hujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{979,220},{12,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,25}}</string>
+                <key>sourceSize</key>
+                <string>{12,25}</string>
+            </dict>
+            <key>mageman_common_move:nanfa huujian5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{539,341},{41,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,26}}</string>
+                <key>sourceSize</key>
+                <string>{41,26}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{831,277},{20,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,41}}</string>
+                <key>sourceSize</key>
+                <string>{20,41}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{992,273},{20,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,41}}</string>
+                <key>sourceSize</key>
+                <string>{20,41}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku1 111.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1002,0},{19,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,41}}</string>
+                <key>sourceSize</key>
+                <string>{19,41}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{521,257},{22,43}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,43}}</string>
+                <key>sourceSize</key>
+                <string>{22,43}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{501,156},{42,51}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,51}}</string>
+                <key>sourceSize</key>
+                <string>{42,51}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1002,44},{18,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,41}}</string>
+                <key>sourceSize</key>
+                <string>{18,41}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{994,129},{24,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,45}}</string>
+                <key>sourceSize</key>
+                <string>{24,45}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku4 12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{994,177},{23,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,46}}</string>
+                <key>sourceSize</key>
+                <string>{23,46}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku4 14.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{834,128},{25,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,50}}</string>
+                <key>sourceSize</key>
+                <string>{25,50}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku4 15.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{834,228},{22,46}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,46}}</string>
+                <key>sourceSize</key>
+                <string>{22,46}</string>
+            </dict>
+            <key>mageman_common_move:nanfa ku5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{659,325},{36,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,42}}</string>
+                <key>sourceSize</key>
+                <string>{36,42}</string>
+            </dict>
+            <key>mageman_common_move:nanfa lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{667,296},{30,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,26}}</string>
+                <key>sourceSize</key>
+                <string>{30,26}</string>
+            </dict>
+            <key>mageman_common_move:nanfa lian 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{345,312},{27,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,24}}</string>
+                <key>sourceSize</key>
+                <string>{27,24}</string>
+            </dict>
+            <key>mageman_common_move:nanfa lian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{488,317},{26,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,24}}</string>
+                <key>sourceSize</key>
+                <string>{26,24}</string>
+            </dict>
+            <key>mageman_common_move:nanfa p2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{104,262},{15,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,26}}</string>
+                <key>sourceSize</key>
+                <string>{15,26}</string>
+            </dict>
+            <key>mageman_common_move:nanfa pao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{979,248},{10,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,25}}</string>
+                <key>sourceSize</key>
+                <string>{10,25}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{521,303},{18,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,22}}</string>
+                <key>sourceSize</key>
+                <string>{18,22}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shenti2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{807,293},{20,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,21}}</string>
+                <key>sourceSize</key>
+                <string>{20,21}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{583,341},{15,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,11}}</string>
+                <key>sourceSize</key>
+                <string>{15,11}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{611,322},{14,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,17}}</string>
+                <key>sourceSize</key>
+                <string>{14,17}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{345,339},{15,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,11}}</string>
+                <key>sourceSize</key>
+                <string>{15,11}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou1 8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{643,338},{13,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,13}}</string>
+                <key>sourceSize</key>
+                <string>{13,13}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{698,342},{14,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,12}}</string>
+                <key>sourceSize</key>
+                <string>{14,12}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{715,342},{12,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,11}}</string>
+                <key>sourceSize</key>
+                <string>{12,11}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou4 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{830,321},{19,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,13}}</string>
+                <key>sourceSize</key>
+                <string>{19,13}</string>
+            </dict>
+            <key>mageman_common_move:nanfa shou4 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{601,342},{15,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,11}}</string>
+                <key>sourceSize</key>
+                <string>{15,11}</string>
+            </dict>
+            <key>mageman_common_move:nanfa tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{501,210},{43,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{43,44}}</string>
+                <key>sourceSize</key>
+                <string>{43,44}</string>
+            </dict>
+            <key>mageman_common_move:nanfa tou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{301,312},{41,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,44}}</string>
+                <key>sourceSize</key>
+                <string>{41,44}</string>
+            </dict>
+            <key>mageman_common_move:nanfa tou3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{981,317},{39,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{39,44}}</string>
+                <key>sourceSize</key>
+                <string>{39,44}</string>
+            </dict>
+            <key>mageman_common_move:nanfa yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{517,328},{19,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,13}}</string>
+                <key>sourceSize</key>
+                <string>{19,13}</string>
+            </dict>
+            <key>mageman_common_move:nanfa yaodai 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{825,337},{16,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,13}}</string>
+                <key>sourceSize</key>
+                <string>{16,13}</string>
+            </dict>
+            <key>mageman_common_move:nanfa yaodai2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{807,317},{20,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,12}}</string>
+                <key>sourceSize</key>
+                <string>{20,12}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{275,258},{33,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,49}}</string>
+                <key>sourceSize</key>
+                <string>{33,49}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{316,156},{58,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,50}}</string>
+                <key>sourceSize</key>
+                <string>{58,50}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1 1 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{854,308},{124,51}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{124,51}}</string>
+                <key>sourceSize</key>
+                <string>{124,51}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{316,209},{58,50}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,50}}</string>
+                <key>sourceSize</key>
+                <string>{58,50}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1 2 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,262},{101,78}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{101,78}}</string>
+                <key>sourceSize</key>
+                <string>{101,78}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1 2 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{714,128},{117,114}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{117,114}}</string>
+                <key>sourceSize</key>
+                <string>{117,114}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku1 2 7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{188,258},{84,101}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{84,101}}</string>
+                <key>sourceSize</key>
+                <string>{84,101}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{994,226},{24,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,44}}</string>
+                <key>sourceSize</key>
+                <string>{24,44}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku2 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{635,262},{29,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{29,41}}</string>
+                <key>sourceSize</key>
+                <string>{29,41}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku2 1 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{275,310},{23,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,31}}</string>
+                <key>sourceSize</key>
+                <string>{23,31}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku2 11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{807,245},{21,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,45}}</string>
+                <key>sourceSize</key>
+                <string>{21,45}</string>
+            </dict>
+            <key>mageman_common_move:nanfa zhangku2 31314.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{834,181},{24,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,44}}</string>
+                <key>sourceSize</key>
+                <string>{24,44}</string>
+            </dict>
+            <key>mageman_common_move:nanfahujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{611,293},{17,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,26}}</string>
+                <key>sourceSize</key>
+                <string>{17,26}</string>
+            </dict>
+            <key>mageman_common_move:nanfaku6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{546,293},{62,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,45}}</string>
+                <key>sourceSize</key>
+                <string>{62,45}</string>
+            </dict>
+            <key>mageman_common_move:nanfaku6 21 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,246},{62,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,47}}</string>
+                <key>sourceSize</key>
+                <string>{62,47}</string>
+            </dict>
+            <key>mageman_common_move:nanfaku6 21 1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,296},{60,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,47}}</string>
+                <key>sourceSize</key>
+                <string>{60,47}</string>
+            </dict>
+            <key>mageman_common_move:nanfaku6 21 1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{311,262},{62,47}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,47}}</string>
+                <key>sourceSize</key>
+                <string>{62,47}</string>
+            </dict>
+            <key>mageman_common_move:nanfap3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1002,88},{18,38}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,38}}</string>
+                <key>sourceSize</key>
+                <string>{18,38}</string>
+            </dict>
+            <key>mageman_common_move:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{635,147},{33,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>sourceSize</key>
+                <string>{33,112}</string>
+            </dict>
+            <key>mageman_common_move:wuqi_20.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{671,147},{30,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,112}}</string>
+                <key>sourceSize</key>
+                <string>{30,112}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>mageman_common_move.pvr.ccz</string>
+            <key>size</key>
+            <string>{1021,395}</string>
+            <key>textureFileName</key>
+            <string>mageman_common_move.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

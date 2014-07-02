@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes
+END
+CCTransition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCTransition.cpp
+END
+CCLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCLayer.cpp
+END
+CCScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCScene.cpp
+END
+CCTransition.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCTransition.h
+END
+CCTransitionProgress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.cpp
+END
+CCTransitionPageTurn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.cpp
+END
+CCLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCLayer.h
+END
+CCScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCScene.h
+END
+CCTransitionProgress.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCTransitionProgress.h
+END
+CCTransitionPageTurn.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/layers_scenes_transitions_nodes/CCTransitionPageTurn.h
+END

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/weibosdk_rlTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/weibosdk_bg_title" >
+
+        <Button
+            android:id="@+id/weibosdk_btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/weibosdk_bg_btn"
+            android:paddingBottom="2dp"
+            android:text="@string/weibosdk_close"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/tweibosdk_share_dialog_title"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/weibosdk_btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/weibosdk_bg_btn"
+            android:paddingBottom="2dp"
+            android:text="@string/weibosdk_send"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/weibosdk_bg_content" >
+
+        <LinearLayout
+            android:id="@+id/weibosdk_llImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ffffff"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/weibosdk_rlTotal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <LinearLayout
+                    android:id="@+id/weibosdk_ll_text_limit_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/weibosdk_bg_delwords"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/weibosdk_tv_text_limit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="140"
+                        android:textColor="#333" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/weibosdk_icon_delwords" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/weibosdk_flPic"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00ffffff"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/weibosdk_ivImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/weibosdk_image_background" />
+
+                <ImageView
+                    android:id="@+id/weibosdk_ivDelPic"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/weibosdk_del_pic" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/weibosdk_llImage"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:background="#00ffffff"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/weibosdk_etEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3px"
+                android:background="@null"
+                android:gravity="top|left"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:isScrollContainer="true"
+                android:singleLine="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

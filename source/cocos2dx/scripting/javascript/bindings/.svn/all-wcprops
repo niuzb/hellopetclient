@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings
+END
+js_bindings_chipmunk_auto_classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_auto_classes.h
+END
+js_bindings_core.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_core.cpp
+END
+js_manual_conversions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_manual_conversions.cpp
+END
+uthash.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/uthash.h
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/Android.mk
+END
+js_bindings_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_core.h
+END
+js_manual_conversions.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_manual_conversions.h
+END
+spidermonkey_specifics.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/spidermonkey_specifics.h
+END
+ScriptingCore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/ScriptingCore.cpp
+END
+js_bindings_chipmunk_functions_registration.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_functions_registration.h
+END
+js_bindings_chipmunk_functions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_functions.cpp
+END
+ScriptingCore.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/ScriptingCore.h
+END
+js_bindings_chipmunk_registration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_registration.cpp
+END
+js_bindings_ccbreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_ccbreader.cpp
+END
+js_bindings_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_config.h
+END
+js_bindings_chipmunk_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_functions.h
+END
+cocos2d_specifics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/cocos2d_specifics.cpp
+END
+js_bindings_chipmunk_manual.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_manual.cpp
+END
+js_bindings_chipmunk_registration.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_registration.h
+END
+js_bindings_ccbreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_ccbreader.h
+END
+cocosjs_manual_conversions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/cocosjs_manual_conversions.cpp
+END
+cocos2d_specifics.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/cocos2d_specifics.hpp
+END
+js_bindings_chipmunk_manual.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_manual.h
+END
+js_bindings_chipmunk_auto_classes_registration.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_auto_classes_registration.h
+END
+js_bindings_chipmunk_auto_classes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/js_bindings_chipmunk_auto_classes.cpp
+END
+cocosjs_manual_conversions.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/1101077902/!svn/ver/724/hellopet/1/server/ahero/source/cocos2dx/scripting/javascript/bindings/cocosjs_manual_conversions.h
+END

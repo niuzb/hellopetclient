@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splice" >
+
+        <!-- logo -->
+
+        <ImageView
+            android:id="@+id/taomeemobile_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/taomeemobile_h" />
+        <!-- 账号管理btn -->
+
+        <ImageView
+            android:id="@+id/back_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_h" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/middlePart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/login_game_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_game_h" />
+
+        <!-- 滑动区域图片 -->
+
+        <RelativeLayout
+            android:id="@+id/whitebox_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/splice" >
+
+            <!-- 滑动区域scroll -->
+
+            <ScrollView
+                android:id="@+id/scrollPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <!-- 滑动R -->
+
+                <RelativeLayout
+                    android:id="@+id/scrollR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 登录历史title -->
+
+                    <ImageView
+                        android:id="@+id/login_history_h"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/login_history_h" />
+                    <!-- 登录历史记录L -->
+
+                    <LinearLayout
+                        android:id="@+id/scrollL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

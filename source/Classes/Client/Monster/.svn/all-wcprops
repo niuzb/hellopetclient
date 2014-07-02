@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster
+END
+SpriteMonster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/SpriteMonster.cpp
+END
+SpriteMonster.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/SpriteMonster.h
+END
+SpriteMonsterArcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/SpriteMonsterArcher.cpp
+END
+SpriteMonsterMgr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/SpriteMonsterMgr.cpp
+END
+MonsterHaozhu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/MonsterHaozhu.cpp
+END
+MonsterSingleEffect.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/MonsterSingleEffect.cpp
+END
+SpriteMonsterArcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/SpriteMonsterArcher.h
+END
+SpriteMonsterMgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/SpriteMonsterMgr.h
+END
+MonsterHaozhu.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/MonsterHaozhu.h
+END
+MonsterSingleEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Client/Monster/MonsterSingleEffect.h
+END

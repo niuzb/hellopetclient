@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities
+END
+skill.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/skill.cc
+END
+skill.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/skill.h
+END
+object.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/object.cc
+END
+monster.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/monster.cc
+END
+boss.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/boss.h
+END
+object.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/object.h
+END
+monster.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Server/entities/monster.h
+END

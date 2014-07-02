@@ -1,0 +1,2319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{83371666-be62-4e91-b8cc-395730853621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{917fb40f-fc6d-4ee9-9a20-26debabe41aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{b07d717c-3e8b-48cc-838a-d3b9aa682a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine">
+      <UniqueIdentifier>{02ff32bb-4185-459c-8833-bc201c7d262b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf">
+      <UniqueIdentifier>{343a3b04-5a6c-4d7f-bb14-87dca0bc6dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include">
+      <UniqueIdentifier>{dd89a26f-574b-4782-95e5-3c115409b63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google">
+      <UniqueIdentifier>{880ad4c9-06b6-47b8-b343-986c262f52b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf">
+      <UniqueIdentifier>{5dc36f69-fa3d-4a5c-aa1a-e1ef97e0a9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf\compiler">
+      <UniqueIdentifier>{95ca1561-c634-4047-8b98-c89d6504e0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf\io">
+      <UniqueIdentifier>{039bce7b-8864-4b62-9cbb-4155cf1b5c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf\stubs">
+      <UniqueIdentifier>{796f9b51-5053-4f78-ac12-a2ab16b1bdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf\compiler\cpp">
+      <UniqueIdentifier>{b6383f90-50c4-4193-8353-6ec0c9b3217c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf\compiler\java">
+      <UniqueIdentifier>{9d8f20fd-9016-404d-a078-fec73ab0bdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Protobuf\include\google\protobuf\compiler\python">
+      <UniqueIdentifier>{1779eb40-0a4e-4fb2-8ef6-9989f04dbf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\CrossPlatform">
+      <UniqueIdentifier>{8016ed40-7cea-41da-9b52-cd662698f398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\CrossPlatform\Win32Platform">
+      <UniqueIdentifier>{7b04b53a-7e4c-41bd-89c4-31b336b24045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\CrossPlatform\Win32Platform\IAP">
+      <UniqueIdentifier>{218f3413-3d6d-426a-8723-0d4ef6ae0050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\cocos2dx_support">
+      <UniqueIdentifier>{bce8991e-df09-4a40-bc46-804903d23653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\PageManager">
+      <UniqueIdentifier>{2e27096f-5604-4e75-a1a2-e45554f503ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\PageManager\Resource">
+      <UniqueIdentifier>{4a5d60c0-2ee6-4767-89b7-bb7bd5dbfa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\TXGUI">
+      <UniqueIdentifier>{90e2c3d6-68de-4b88-baaa-16c41083d2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\TXGUI\Controls">
+      <UniqueIdentifier>{d41a27a4-515d-4ec2-ba6c-880c8131d6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\TXGUI\Common">
+      <UniqueIdentifier>{c8e2140f-8300-4093-be93-2822780fadec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\ASprite">
+      <UniqueIdentifier>{58579042-f0f1-4dfb-a91b-65bd610d744b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\ASprite\spriteDefine">
+      <UniqueIdentifier>{bd9925d4-fdb4-43b9-a023-952fbcab7f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client">
+      <UniqueIdentifier>{9ec8c1ed-32d9-4119-bfbe-bbefd4ddf294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Flash2Cocos2d-X">
+      <UniqueIdentifier>{c93525d5-f035-41d9-88f9-e077d0c3dcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\tinyxml">
+      <UniqueIdentifier>{f8cc86e1-52d2-4f7d-a383-037a9316a774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\Sprite">
+      <UniqueIdentifier>{065ada01-ad02-41a8-86a4-52973a8c188d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\Level">
+      <UniqueIdentifier>{ecd3a3ab-21df-411e-b1a8-4738260a8084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\Level\Listener">
+      <UniqueIdentifier>{f07d546e-a33e-4061-84a4-7b55c5d17878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Misc">
+      <UniqueIdentifier>{f5c18817-4c56-4aab-be8a-19132a2dc3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\GameManager">
+      <UniqueIdentifier>{ebc107d5-638e-4537-a2cd-d0f5a88c6c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network">
+      <UniqueIdentifier>{35890a0e-b5ed-4292-a199-90c6638aae9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\proto">
+      <UniqueIdentifier>{d3afa8e9-c354-4a6c-bae2-fc47b6ed013e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\CharacterSelect">
+      <UniqueIdentifier>{9489e4cd-c4d7-4dea-9017-ed2da94ad2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\Map">
+      <UniqueIdentifier>{a76051ee-c06d-4317-986e-77fd1ac42f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\SASprite">
+      <UniqueIdentifier>{0378c98d-5671-4013-b116-adfc9510915a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\StateMachine">
+      <UniqueIdentifier>{4794f335-0778-443b-89de-f415a3bda4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\Effect">
+      <UniqueIdentifier>{a746ddeb-540c-49e3-833e-6d4e92c4762a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\SkillSys">
+      <UniqueIdentifier>{00578b7a-b7a8-422f-8cdb-5a49e951fa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\UILayer">
+      <UniqueIdentifier>{390f6d6b-804d-4ec0-ab1e-060b1e8db007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Items">
+      <UniqueIdentifier>{d891bcc5-020d-44e1-865e-425abc2d2036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\NPC">
+      <UniqueIdentifier>{5387ef43-db88-4c79-b313-ea29ec5b126d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\BevTree">
+      <UniqueIdentifier>{3abacabb-6ecb-44b9-81dc-856a0bb2834e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Task">
+      <UniqueIdentifier>{29f7fc5d-7f15-49d1-be7a-aeb3e499032f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\Localization">
+      <UniqueIdentifier>{4043249f-5321-4379-bdb9-6647db30855e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Monster">
+      <UniqueIdentifier>{fc295f54-8b55-4385-bd7b-51a4938666a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Sprite">
+      <UniqueIdentifier>{ab09753c-d1fd-45a5-99e0-5b115367bdfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\ScriptSupport">
+      <UniqueIdentifier>{6a406afe-cba9-45fb-abca-5751453fcd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Engine\ScriptSupport">
+      <UniqueIdentifier>{4d94e14c-bf23-4ba8-8c56-1e503b8d7f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server">
+      <UniqueIdentifier>{552c6469-2dbb-44e8-9f5f-bd50761cef7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\base">
+      <UniqueIdentifier>{9c61dddd-b291-423e-b5c1-1d15de61b4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\battlefields">
+      <UniqueIdentifier>{c4c8c1bc-8e42-4426-946d-4ce4fb84efe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\common">
+      <UniqueIdentifier>{6929683d-4735-46fd-a914-5c57e389c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\config">
+      <UniqueIdentifier>{ee2c3555-fb65-4c72-937d-702c0a3638ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\entities">
+      <UniqueIdentifier>{dbe8b4ff-ab9c-4f81-a2a8-f4722e0069da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\frontend">
+      <UniqueIdentifier>{19db9918-bd32-4e6d-8404-ddd2469a83bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\msg_dispatcher">
+      <UniqueIdentifier>{ffdf9bbe-c22b-4428-96fb-df5d2590c572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Server\proto">
+      <UniqueIdentifier>{ffe7833f-65d9-446a-9202-ec9a6cf87c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\story">
+      <UniqueIdentifier>{76e539b0-9d50-48ad-afe1-0b0f08b977f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\UILogic">
+      <UniqueIdentifier>{730017c1-a181-425b-9aa8-4d97e6443dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\UILogic\SkillUI">
+      <UniqueIdentifier>{cc69c5d0-db8b-4772-8c3c-970826ed43ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Dressup">
+      <UniqueIdentifier>{ccd587e8-aab2-474e-8fb0-edfc64098aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Client\Tutorials">
+      <UniqueIdentifier>{302ab6af-e651-4e76-a20b-01618272ca19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\pbc">
+      <UniqueIdentifier>{831e4766-7e8b-4950-ad76-3e8b9cd1c065}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\Win32Platform\IAP\ProductManager.cpp">
+      <Filter>libs\CrossPlatform\Win32Platform\IAP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\Win32Platform\XPlatform.cpp">
+      <Filter>libs\CrossPlatform\Win32Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\Win32Platform\XUIPlatform.cpp">
+      <Filter>libs\CrossPlatform\Win32Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\AES.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\CrossXOS.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\CSocketUtil.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\FileUtils.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\ImageUtil.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\md5.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\tea.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\Thread.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\util.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\CrossPlatform\XPlatformManager.cpp">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\ResourceCache.cpp">
+      <Filter>libs\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\ResourcePage.cpp">
+      <Filter>libs\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\ResourcePageManager.cpp">
+      <Filter>libs\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\Resource\ResourcePlistArray.cpp">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\Resource\ResourcePlistDictionary.cpp">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\Resource\ResourceTexture.cpp">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\GameResourceManager.cpp">
+      <Filter>libs\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\UICreator.cpp">
+      <Filter>libs\TXGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\UIManager.cpp">
+      <Filter>libs\TXGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\CustomScene.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\LayerBase.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\NiRTTI.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\NiStream.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\NotificationCenter.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\TXAudioEngine.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\UILayerBase.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\CCScale9Sprite.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\IconButton.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\NiObject.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\TextInputField.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIAnimation.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIButton.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIButtonToggle.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIContainer.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIControlBase.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UILabel.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UILabelAtlas.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UILayout.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UILayoutRenderNode.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIPicture.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollLayer.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollList.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollPage.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIScrollView.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UITextInputField.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\ASprite\AnimSprite.cpp">
+      <Filter>libs\ASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\ASprite\ASprite.cpp">
+      <Filter>libs\ASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\ASprite\AspriteManager.cpp">
+      <Filter>libs\ASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\ASprite\GameEnginePlayer.cpp">
+      <Filter>libs\ASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\ASprite\EnginePlayerManager.cpp">
+      <Filter>libs\ASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\GameFontManager.cpp">
+      <Filter>libs\TXGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CAnimation.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CArmature.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CArmatureAniData.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CBaseNode.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CBone.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CBoneAniData.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CConnectionData.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CEventFrame.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CFrameNode.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CFrameNodeList.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CMathHelper.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CProcessBase.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CTween.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CTweenNode.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\Flash2Cocos2d-X\CXLog.cpp">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\tinyxml\tinystr.cpp">
+      <Filter>libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\tinyxml\tinyxml.cpp">
+      <Filter>libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\tinyxml\tinyxmlerror.cpp">
+      <Filter>libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\tinyxml\tinyxmlparser.cpp">
+      <Filter>libs\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteOtherSeerListener.cpp">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteSeerListener.cpp">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteTranspointListener.cpp">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\Listener\BaseListener.cpp">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\BaseLevelBuilder.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LevelBuilderCreator.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LevelBuilderNormalScene.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LevelBuilderRoom.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LevelLayer.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LevelManager.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LevelObjectCreator.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\SpriteSeer.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\SpriteTransPoint.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\TriggerObject.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\MapObject.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\SpriteBase.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Event.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\MathUtil.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\FloatHint.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\NameBkg.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\NPC.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\NPCManager.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Painter.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\MapDataManager.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\GameManager.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SceneLayer.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\MineManager.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Misc\UserData.cpp">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\SpriteDataManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Engine.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\MessageCache.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\MessageHandler.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\MessageUtil.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetWorkUtil.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\OnlineNetworkManager.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\XLogicManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\GameAudioManager.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\HelloWorldScene.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Map\ATLMapInfo.cpp">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Map\ATLMapLayer.cpp">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Map\TileMap.cpp">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SASprite\RoleActorBase.cpp">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SASprite\RoleBase.cpp">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\HSJoystick.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SASprite\BoneAnimSprite.cpp">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SASprite\BoneSpriteBase.cpp">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SASprite\BoneSpriteMoveable.cpp">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\FAbstractTransition.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\FStateMachine.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\IdleState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Sprite\PhysicsLayer.cpp">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\RunState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Map\ATLObjectLayer.cpp">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Map\ATLObjectInfo.cpp">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Effect\AParticleNode.cpp">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Effect\HeroParticleListener.cpp">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Effect\ParticleManager.cpp">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\NormalAttackState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SkillSys\SkillDispMgr.cpp">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SkillSys\ABoxAnimation.cpp">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\CharacterSelect\CharacterSelectLayer.cpp">
+      <Filter>Classes\Client\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\FrontCoverLayer.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\MainMenuLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SkillSys\AttackChecker.cpp">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\cocos2dx_support\CCLuaEngine.cpp">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\cocos2dx_support\Cocos2dxLuaLoader.cpp">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\cocos2dx_support\LuaCocos2d.cpp">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\cocos2dx_support\tolua_fix.c">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Effect\DamageValueEffect.cpp">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\CameraController.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\LinkTimeState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Effect\EffectSprite.cpp">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Misc\MonsterData.cpp">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\BattleUILayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\GameUILayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\SpecialAttackState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\BaseAttackState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\BattleWinLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\LoadingLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\simplefsm.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\SASprite\SkeletonAnimRcsManager.cpp">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Items\ItemManager.cpp">
+      <Filter>Classes\Client\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\BackPackLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\LuaNetwork.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\LuaTXGUI.cpp">
+      <Filter>libs\TXGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\LuaLevelCreator.cpp">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\InstanceListLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\InstanceManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\ItemDragLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\UIMenu.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\UILayerColorBase.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\GameConfigFromLuaManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Items\ItemBase.cpp">
+      <Filter>Classes\Client\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Items\EquipmentItem.cpp">
+      <Filter>Classes\Client\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\UIDragLayer.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\DragReceiver.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\NPC\NpcSprite.cpp">
+      <Filter>Classes\Client\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\NPC\BoneNPCManager.cpp">
+      <Filter>Classes\Client\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\BevTree\BevTree.cpp">
+      <Filter>Classes\Engine\BevTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\IronDefenseState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\GameDataManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\InvincibilityState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\ApocalypseState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Level\Listener\SpriteNpcPointListener.cpp">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\GreatFireBallState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\CalvingState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\TeleportState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\EquipmentUpgradeUILayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Task\TaskManager.cpp">
+      <Filter>Classes\Client\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Task\TaskData.cpp">
+      <Filter>Classes\Client\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Task\TaskConfigFromLuaManager.cpp">
+      <Filter>Classes\Client\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\PPVELayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\AssetsManager.cpp">
+      <Filter>libs\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\TaskChatLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\ChopseriesState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\ExtremeSpeedState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\AssassinationState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\FatalDarkKnivesState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\StateMachine\InvisibleKillerState.cpp">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\ChatToolbar.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Common\UILabelTTF.cpp">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\PPVEMessage.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Localization\Localization.cpp">
+      <Filter>Classes\Engine\Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\PageManager\ResoureUpdate.cpp">
+      <Filter>libs\PageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\LuaGameAPI.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\TaskListLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\UIMessageLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Monster\SpriteMonster.cpp">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Monster\SpriteMonsterMgr.cpp">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\NetStateChecker.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\MainLandManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\WaitingLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Monster\SpriteMonsterArcher.cpp">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\MessageBoxLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Monster\MonsterSingleEffect.cpp">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\HeroFighter.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\HeroRoleManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\EquipMixLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElf.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfManager.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfConfigFromLua.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\ElfChaseState.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\ElfCloseToState.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\ElfSkillAttackState.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\ElfBaseState.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\AlchemyUILayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\CityListLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\PVPLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\ScriptSupport\LuaClient.cpp">
+      <Filter>Classes\Client\ScriptSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteFactory.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfDataCenter.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\SpriteElfLayer.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\cs_basic.pb.cc">
+      <Filter>Classes\Network\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\cs_battle.pb.cc">
+      <Filter>Classes\Network\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\cs_core.pb.cc">
+      <Filter>Classes\Network\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\errcode.pb.cc">
+      <Filter>Classes\Network\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\ScriptSupport\LuaEngine.cpp">
+      <Filter>Classes\Engine\ScriptSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\UIList.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TXGUI\Controls\ListItemButton.cpp">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\db.pb.cc">
+      <Filter>Classes\Network\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\base\EventHandler.cpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\base\Pathname.cpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\base\TimerEvent.cpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\battlefields\battlefield.cc">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\battlefields\instance.cc">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\config\config.cc">
+      <Filter>Classes\Server\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\entities\monster.cc">
+      <Filter>Classes\Server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\entities\object.cc">
+      <Filter>Classes\Server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\entities\skill.cc">
+      <Filter>Classes\Server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\frontend\explorer.cc">
+      <Filter>Classes\Server\frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\frontend\virtualplayer.cc">
+      <Filter>Classes\Server\frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\proto\protocodec.cc">
+      <Filter>Classes\Server\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Server\battlefields\battlehandlers.cc">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\MessageFilter.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\PVPMessage.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Story\StoryDataCenter.cpp">
+      <Filter>Classes\Client\story</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Story\StoryData.cpp">
+      <Filter>Classes\Client\story</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Monster\MonsterHaozhu.cpp">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Story\InstanceDialogLayer.cpp">
+      <Filter>Classes\Client\story</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\particleSystem\particle_emitters.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\particleSystem\particle_manager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Story\StoryInstanceDirector.cpp">
+      <Filter>Classes\Client\story</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\TimeManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\BattleCoverLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILogic\SkillUI\SkillUIManager.cpp">
+      <Filter>Classes\Client\UILogic\SkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\TipMgr.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\TalentLayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Sprite\ElfExploreManager.cpp">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\AutoOnHook.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\lua_tinker.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\LuaTinkerManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\AreaItemNode.cpp">
+      <Filter>Classes\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\ItemUpdateManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\GameManager\PvAIManager.cpp">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\DressUp\DressUpManager.cpp">
+      <Filter>Classes\Client\Dressup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Items\GemStonesFromLua.cpp">
+      <Filter>Classes\Client\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialsManager.cpp">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialsDataCenter.cpp">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\UILayer\ShopUILayer.cpp">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Engine\Effect\ComboLayer.cpp" />
+    <ClCompile Include="..\Classes\Engine\CCShake.cpp">
+      <Filter>Classes\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialBase.cpp">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Tutorials\UITutorial.cpp">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Client\Tutorials\TutorialLayer.cpp">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork\MessageLog.cpp" />
+    <ClCompile Include="..\libs\pbc\alloc.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\array.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\bootstrap.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\context.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\decode.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\map.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\pattern.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\pbc-lua.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\proto.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\register.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\rmessage.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\stringpool.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\varint.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\pbc\wmessage.cpp">
+      <Filter>libs\pbc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\common.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\hash.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\map-util.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\once.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\stl_util-inl.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\strutil.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\stubs\substitute.h">
+      <Filter>libs\Protobuf\include\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\coded_stream.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\coded_stream_inl.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\gzip_stream.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\package_info.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\printer.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\tokenizer.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\zero_copy_stream.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>libs\Protobuf\include\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\code_generator.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\command_line_interface.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\importer.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\parser.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\plugin.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\cpp\cpp_generator.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\java\java_generator.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler\java</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\compiler\python\python_generator.h">
+      <Filter>libs\Protobuf\include\google\protobuf\compiler\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\IAP\ProductManager.h">
+      <Filter>libs\CrossPlatform\Win32Platform\IAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\socket_win32.h">
+      <Filter>libs\CrossPlatform\Win32Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\thread_win32.h">
+      <Filter>libs\CrossPlatform\Win32Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\XPlatform.h">
+      <Filter>libs\CrossPlatform\Win32Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\Win32Platform\XUIPlatform.h">
+      <Filter>libs\CrossPlatform\Win32Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\AES.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\CCInt.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\CrossPlatform.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\CrossUtil.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\CrossXOS.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\CSocketUtil.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\FileUtils.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\IExResourceMgr.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\ImageUtil.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\IPlatform.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\IPUIPlatform.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\md5.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\tea.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\Thread.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\util.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\CrossPlatform\XPlatformManager.h">
+      <Filter>libs\CrossPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\ResourceCache.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\ResourcePage.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\ResourcePageManager.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\Resource\ResourcePlistArray.h">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\Resource\ResourcePlistDictionary.h">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\Resource\ResourceTexture.h">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\Resource\ResourceBase.h">
+      <Filter>libs\PageManager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\GameResourceManager.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\TXGUIHeader.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\UICreator.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\UIDefine.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\UIManager.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\CustomScene.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\LayerBase.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\NiRTTI.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\NiStream.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\NiStreamMacros.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\NotificationCenter.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\ObserverProtocol.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\TXAudioEngine.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\TXGUI.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\UILayerBase.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\CCScale9Sprite.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\IconButton.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\NiObject.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\TextInputField.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIAnimation.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIButton.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIButtonToggle.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIContainer.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIControlBase.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UILabel.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UILabelAtlas.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UILayout.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UILayoutRenderNode.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIPicture.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollLayer.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollList.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollPage.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIScrollView.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UITextInputField.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\AnimSprite.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\ASprite.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\ASprite_config.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\ASprite_defines.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\ASprite_Flags.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\AspriteManager.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\GameEnginePlayer.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\spriteDefine\resources.h">
+      <Filter>libs\ASprite\spriteDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\spriteDefine\spriteDataList.h">
+      <Filter>libs\ASprite\spriteDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ASprite\EnginePlayerManager.h">
+      <Filter>libs\ASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\GameFontManager.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CAnimation.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CArmature.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CArmatureAniData.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CBaseNode.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CBone.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CBoneAniData.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CCFlash2Cocos2d-x.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CConnectionData.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CConstValue.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CEventFrame.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CFrameNode.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CFrameNodeList.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CMathHelper.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CProcessBase.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CTextureData.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CTween.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CTweenNode.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\Flash2Cocos2d-X\CXLog.h">
+      <Filter>libs\Flash2Cocos2d-X</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\tinyxml\tinystr.h">
+      <Filter>libs\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\tinyxml\tinyxml.h">
+      <Filter>libs\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteOtherSeerListener.h">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteSeerListener.h">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteTranspointListener.h">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\Listener\BaseListener.h">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\Listener\ListenerDefine.h">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\BaseLevelBuilder.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelBuilderCreator.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelBuilderNormalScene.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelBuilderRoom.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelDefine.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelLayer.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelManager.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LevelObjectCreator.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\SpriteSeer.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\SpriteTransPoint.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\TriggerObject.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\MapObject.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\ObjectDefine.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\SpriteBase.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Event.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\EventID.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Singleton_t.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\MathUtil.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\FloatHint.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\NameBkg.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\NPC.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\NPCManager.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Painter.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\MapDataManager.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\GameManager.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SceneLayer.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\MineManager.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Misc\MonsterInfo.h">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Misc\UserData.h">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Misc\PetInfo.h">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Misc\AdvPch.h">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Misc\CharacterInfo.h">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\SpriteDataManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Engine.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\config.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\descriptor.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\descriptor.pb.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\descriptor_database.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\dynamic_message.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\extension_set.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\generated_message_reflection.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\generated_message_util.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\message.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\message_lite.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\reflection_ops.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\repeated_field.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\service.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\text_format.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\unknown_field_set.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\wire_format.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\wire_format_lite.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\ProtoBuf\include\google\protobuf\wire_format_lite_inl.h">
+      <Filter>libs\Protobuf\include\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\cmdDefine.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\MessageCache.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\MessageHandler.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\MessageUtil.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetWorkUtil.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\OnlineNetworkManager.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\ILogicManager.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\XLogicManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\GameAudioManager.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\HelloWorldScene.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Map\TileMap.h">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Map\ATLMapInfo.h">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Map\ATLMapLayer.h">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\RoleActorBase.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\RoleBase.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\SASpriteDefine.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\HSJoystick.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\HeroFighter.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\BoneAnimSprite.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\BoneSpriteBase.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\BoneSpriteMoveable.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\StateEventType.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\FAbstractTransition.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\FStateMachine.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\IdleState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Sprite\PhysicsLayer.h">
+      <Filter>Classes\Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\RunState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Map\ATLObjectLayer.h">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Map\ATLObjectInfo.h">
+      <Filter>Classes\Engine\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\AParticleNode.h">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\HeroEffectDefine.h">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\HeroParticleListener.h">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\ParticleManager.h">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\NormalAttackState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SkillSys\SkillInfo.h">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SkillSys\SkillDispMgr.h">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SkillSys\ABox.h">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SkillSys\ABoxAnimation.h">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\CharacterSelect\CharacterSelectLayer.h">
+      <Filter>Classes\Client\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\FrontCoverLayer.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\MainMenuLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SkillSys\AttackChecker.h">
+      <Filter>Classes\Engine\SkillSys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\cocos2dx_support\CCLuaEngine.h">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\cocos2dx_support\Cocos2dxLuaLoader.h">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\cocos2dx_support\LuaCocos2d.h">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\cocos2dx_support\tolua_fix.h">
+      <Filter>libs\cocos2dx_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\DamageValueEffect.h">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\CameraController.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\LinkTimeState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\EffectSprite.h">
+      <Filter>Classes\Engine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Misc\MonsterData.h">
+      <Filter>Classes\Client\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\BattleUILayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\GameUILayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\SpecialAttackState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\BaseAttackState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\BattleWinLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\LoadingLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\simplefsm.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\simplefsm_macro.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\SASprite\SkeletonAnimRcsManager.h">
+      <Filter>Classes\Engine\SASprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Items\ItemManager.h">
+      <Filter>Classes\Client\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Items\EquipmentItem.h">
+      <Filter>Classes\Client\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Items\ItemBase.h">
+      <Filter>Classes\Client\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\BackPackLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\LuaNetwork.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\LuaTXGUI.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\LuaLevelCreator.h">
+      <Filter>Classes\Engine\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\InstanceListLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\InstanceManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\ItemDragLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\UIMenu.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\UILayerColorBase.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\GameConfigFromLuaManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\UIDragLayer.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\DragReceiver.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\NPC\NpcSprite.h">
+      <Filter>Classes\Client\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\NPC\NPCDataDefine.h">
+      <Filter>Classes\Client\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\NPC\BoneNPCManager.h">
+      <Filter>Classes\Client\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\BevTree\AnyData.h">
+      <Filter>Classes\Engine\BevTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\BevTree\BevTree.h">
+      <Filter>Classes\Engine\BevTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\IronDefenseState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\GameDataManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\InvincibilityState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\ApocalypseState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Level\Listener\SpriteNpcPointListener.h">
+      <Filter>Classes\Engine\Level\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\GreatFireBallState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\CalvingState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\TeleportState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\EquipmentUpgradeUILayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Task\TaskManager.h">
+      <Filter>Classes\Client\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Task\TaskData.h">
+      <Filter>Classes\Client\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Task\TaskConfigFromLuaManager.h">
+      <Filter>Classes\Client\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\PPVELayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GMessage.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\AssetsManager.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\TaskChatLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\ChopseriesState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\ExtremeSpeedState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\AssassinationState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\FatalDarkKnivesState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\StateMachine\InvisibleKillerState.h">
+      <Filter>Classes\Engine\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\ChatToolbar.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Common\UILabelTTF.h">
+      <Filter>libs\TXGUI\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\BaseMsgHandler.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\PPVEMessage.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Localization\Localization.h">
+      <Filter>Classes\Engine\Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\ResoureUpdate.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\PageManager\UpdateResourceDelegate.h">
+      <Filter>libs\PageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\LuaGameAPI.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\TaskListLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\UIMessageLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Monster\SpriteMonster.h">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Monster\SpriteMonsterMgr.h">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetStateChecker.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\MainLandManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\WaitingLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\IEvent.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Monster\SpriteMonsterArcher.h">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\MessageBoxLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Monster\MonsterSingleEffect.h">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\HeroRoleManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\EquipMixLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElf.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfManager.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfConfigFromLua.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\ElfChaseState.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\ElfCloseToState.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\ElfSkillAttackState.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\ElfBaseState.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\AlchemyUILayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\CityListLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\PVPLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\ScriptSupport\LuaClient.h">
+      <Filter>Classes\Client\ScriptSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteFactory.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfDataCenter.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\SpriteElfLayer.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\errcode.pb.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\cs_basic.pb.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\cs_battle.pb.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\cs_core.pb.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\byte_array_t.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\proto_encry.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\ScriptSupport\LuaEngine.h">
+      <Filter>Classes\Engine\ScriptSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\UIList.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\Controls\ListItemButton.h">
+      <Filter>libs\TXGUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\db.pb.h">
+      <Filter>Classes\Network\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\byteswap.h">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\byteswap.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Event.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\EventableObject.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\JointManager.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Manager.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\MemSort.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\MsgBlock.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Number.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Pathname.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\ProbabilityGen.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\sigslot.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Singleton.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\StringParse.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Time.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\TimerEvent.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\TinyxmlAdapt.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Utils.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\Vector.hpp">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\base\wordsize.h">
+      <Filter>Classes\Server\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\battlefields\battlefield.h">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\battlefields\def_grid_data.hpp">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\battlefields\instance.h">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\battlefields\tileworld.hpp">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\config\LuatableAdapt.hpp">
+      <Filter>Classes\Server\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\config\config.h">
+      <Filter>Classes\Server\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\common\fwd_decl.h">
+      <Filter>Classes\Server\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\entities\boss.h">
+      <Filter>Classes\Server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\entities\monster.h">
+      <Filter>Classes\Server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\entities\object.h">
+      <Filter>Classes\Server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\entities\skill.h">
+      <Filter>Classes\Server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\frontend\explorer.h">
+      <Filter>Classes\Server\frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\frontend\virtualplayer.h">
+      <Filter>Classes\Server\frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\msg_dispatcher\msg_handler_mgr.h">
+      <Filter>Classes\Server\msg_dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\proto\protocodec.h">
+      <Filter>Classes\Server\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\log.h">
+      <Filter>Classes\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Server\battlefields\battlehandlers.h">
+      <Filter>Classes\Server\battlefields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\MessageFilter.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\PVPMessage.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Story\StoryDataCenter.h">
+      <Filter>Classes\Client\story</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Story\StoryData.h">
+      <Filter>Classes\Client\story</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Monster\MonsterHaozhu.h">
+      <Filter>Classes\Client\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Story\InstanceDialogLayer.h">
+      <Filter>Classes\Client\story</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\particleSystem\particle_emitters.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\particleSystem\particle_manager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Story\StoryInstanceDirector.h">
+      <Filter>Classes\Client\story</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\TimeManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\BattleCoverLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILogic\SkillUI\SkillUIManager.h">
+      <Filter>Classes\Client\UILogic\SkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\TipMgr.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TXGUI\UIColorDefine.h">
+      <Filter>libs\TXGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\NetWorkConfigure.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\TalentLayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\TimeProtocol.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Sprite\ElfExploreManager.h">
+      <Filter>Classes\Client\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\AutoOnHook.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\lua_tinker.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\luaconf.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\LuaTinkerManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\AreaItemNode.h">
+      <Filter>Classes\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\ItemUpdateManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\GameManager\PvAIManager.h">
+      <Filter>Classes\Client\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\DressUp\DressUpManager.h">
+      <Filter>Classes\Client\Dressup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Items\GemStonesFromLua.h">
+      <Filter>Classes\Client\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialsManager.h">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialsDataCenter.h">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\UILayer\ShopUILayer.h">
+      <Filter>Classes\Client\UILayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Engine\Effect\ComboLayer.h" />
+    <ClInclude Include="..\Classes\Engine\CCShake.h">
+      <Filter>Classes\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialBase.h">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Tutorials\UITutorial.h">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Client\Tutorials\TutorialLayer.h">
+      <Filter>Classes\Client\Tutorials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork\MessageLog.h" />
+    <ClInclude Include="..\libs\pbc\alloc.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\array.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\bootstrap.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\context.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\descriptor.pbc.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\map.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\pattern.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\pbc.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\proto.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\stringpool.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\pbc\varint.h">
+      <Filter>libs\pbc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\libs\tinyxml\tinyxml.suo">
+      <Filter>libs\tinyxml</Filter>
+    </None>
+    <None Include="..\Classes\NetWork\proto\cs_basic.proto">
+      <Filter>Classes\Network\proto</Filter>
+    </None>
+    <None Include="..\Classes\NetWork\proto\cs_core.proto">
+      <Filter>Classes\Network\proto</Filter>
+    </None>
+    <None Include="..\Classes\NetWork\proto\cs_battle.proto">
+      <Filter>Classes\Network\proto</Filter>
+    </None>
+    <None Include="..\Classes\NetWork\proto\db.proto">
+      <Filter>Classes\Network\proto</Filter>
+    </None>
+    <None Include="..\Classes\NetWork\proto\errcode.proto">
+      <Filter>Classes\Network\proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

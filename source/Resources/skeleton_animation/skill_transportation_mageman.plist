@@ -1,0 +1,525 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>skill_transportation_mageman:bvbcb1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{335,101},{110,98}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{110,98}}</string>
+                <key>sourceSize</key>
+                <string>{110,98}</string>
+            </dict>
+            <key>skill_transportation_mageman:bvbcb11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{335,0},{110,98}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{110,98}}</string>
+                <key>sourceSize</key>
+                <string>{110,98}</string>
+            </dict>
+            <key>skill_transportation_mageman:dfaa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,0},{103,107}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,107}}</string>
+                <key>sourceSize</key>
+                <string>{103,107}</string>
+            </dict>
+            <key>skill_transportation_mageman:fs 2345.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{120,120}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{120,120}}</string>
+                <key>sourceSize</key>
+                <string>{120,120}</string>
+            </dict>
+            <key>skill_transportation_mageman:fs1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{229,0},{103,107}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{103,107}}</string>
+                <key>sourceSize</key>
+                <string>{103,107}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa beijian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{61,177},{30,57}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,57}}</string>
+                <key>sourceSize</key>
+                <string>{30,57}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa bi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{59,237},{16,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,14}}</string>
+                <key>sourceSize</key>
+                <string>{16,14}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa bi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{447,230},{16,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,16}}</string>
+                <key>sourceSize</key>
+                <string>{16,16}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa bi3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{46,199},{12,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,17}}</string>
+                <key>sourceSize</key>
+                <string>{12,17}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa bi5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{272,238},{15,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,15}}</string>
+                <key>sourceSize</key>
+                <string>{15,15}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa hujian1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{94,221},{25,29}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{25,29}}</string>
+                <key>sourceSize</key>
+                <string>{25,29}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa hujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{46,171},{12,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,25}}</string>
+                <key>sourceSize</key>
+                <string>{12,25}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa huujian5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{122,223},{41,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,26}}</string>
+                <key>sourceSize</key>
+                <string>{41,26}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa ku1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{94,177},{20,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,41}}</string>
+                <key>sourceSize</key>
+                <string>{20,41}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa ku2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{65,123},{42,51}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,51}}</string>
+                <key>sourceSize</key>
+                <string>{42,51}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa ku3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{481,216},{18,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,41}}</string>
+                <key>sourceSize</key>
+                <string>{18,41}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa ku4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{481,121},{24,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,45}}</string>
+                <key>sourceSize</key>
+                <string>{24,45}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa ku5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,218},{36,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,42}}</string>
+                <key>sourceSize</key>
+                <string>{36,42}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{166,223},{30,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,26}}</string>
+                <key>sourceSize</key>
+                <string>{30,26}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa lian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{222,223},{26,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,24}}</string>
+                <key>sourceSize</key>
+                <string>{26,24}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{251,223},{18,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,22}}</string>
+                <key>sourceSize</key>
+                <string>{18,22}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa shenti2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{199,223},{20,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,21}}</string>
+                <key>sourceSize</key>
+                <string>{20,21}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{290,239},{15,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,11}}</string>
+                <key>sourceSize</key>
+                <string>{15,11}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{308,239},{14,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,12}}</string>
+                <key>sourceSize</key>
+                <string>{14,12}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa shou4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{466,230},{12,11}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,11}}</string>
+                <key>sourceSize</key>
+                <string>{12,11}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa tou.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,171},{43,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{43,44}}</string>
+                <key>sourceSize</key>
+                <string>{43,44}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa tou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{325,202},{41,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{41,44}}</string>
+                <key>sourceSize</key>
+                <string>{41,44}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa tou3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{369,202},{39,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{39,44}}</string>
+                <key>sourceSize</key>
+                <string>{39,44}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{295,223},{19,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,13}}</string>
+                <key>sourceSize</key>
+                <string>{19,13}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa yaodai2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{272,223},{20,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,12}}</string>
+                <key>sourceSize</key>
+                <string>{20,12}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa zhangku1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{411,202},{33,49}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,49}}</string>
+                <key>sourceSize</key>
+                <string>{33,49}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfa zhangku2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{481,169},{24,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,44}}</string>
+                <key>sourceSize</key>
+                <string>{24,44}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfahujian2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{39,219},{17,26}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,26}}</string>
+                <key>sourceSize</key>
+                <string>{17,26}</string>
+            </dict>
+            <key>skill_transportation_mageman:nanfaku6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,123},{62,45}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,45}}</string>
+                <key>sourceSize</key>
+                <string>{62,45}</string>
+            </dict>
+            <key>skill_transportation_mageman:s4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{484,0},{13,118}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,118}}</string>
+                <key>sourceSize</key>
+                <string>{13,118}</string>
+            </dict>
+            <key>skill_transportation_mageman:vcbcbvc.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{123,110},{98,110}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{98,110}}</string>
+                <key>sourceSize</key>
+                <string>{98,110}</string>
+            </dict>
+            <key>skill_transportation_mageman:vcbcbvc 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{224,110},{98,110}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{98,110}}</string>
+                <key>sourceSize</key>
+                <string>{98,110}</string>
+            </dict>
+            <key>skill_transportation_mageman:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{448,0},{33,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>sourceSize</key>
+                <string>{33,112}</string>
+            </dict>
+            <key>skill_transportation_mageman:wuqi_20.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{448,115},{30,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,112}}</string>
+                <key>sourceSize</key>
+                <string>{30,112}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>skill_transportation_mageman.pvr.ccz</string>
+            <key>size</key>
+            <string>{506,260}</string>
+            <key>textureFileName</key>
+            <string>skill_transportation_mageman.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

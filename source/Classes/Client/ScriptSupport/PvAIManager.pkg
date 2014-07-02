@@ -1,0 +1,7 @@
+class PvAIManager
+{
+	static PvAIManager* Get();
+	
+	void sendPvAIReq(unsigned int userId);
+	void sendPvAIInfoReq();
+};

@@ -1,0 +1,76 @@
+/* 
+  TMLoginStrings.strings
+  TaomeeLogin
+
+  Created by Delle on 12-11-13.
+  Copyright (c) 2012年 Taomee Inc. All rights reserved.
+*/
+"Language" = "en";
+
+"SendToSina" = "Send";
+"SendToTencent" = "Send";
+"SendToTwitter" = "Send";
+"Sina" = "Sina";
+"Tencent" = "Tencent";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+
+"AccessError" = "Access error";
+"TitleClose" = "Close";
+"FailedAtShare" = "Share failed!";
+"FailedAtAccessRequest" = "Failed at accessing request of %@ ";
+"AuthorizationIng" = "Authorizing...";
+"FailedAuthoriza" = "Authorize failed";
+"FailedAuthorizaRequest" = "Failed when authorizing or canceling authorization";
+
+"RequestError" = "Request error";
+"FailedAtShareRequest" = "Failed at authorizing request of %@ ";
+"Connectting" = "Connectting...";
+
+"AuthorizeFailed" = "Authorize failed, Please login again!";
+"FailedAtShareError" = "Failed when sharing to %@";
+"Error" = "Error";
+"RequestOverTime" = "Request over time, please try again!";
+"SendOverTime" = "Connect over time, please try again!";
+"ShareTo" = "Share to %@";
+"ShareComplete" = "Share success";
+"OffLine" = "Offline";
+"ShouldShareOnline" = "You should share to %@ when online status!";
+"ShouldLoginOnline" = "You should login to %@ when online status!";
+"PassThisWhenAutoShare" = "Choose auto share to skip this step in future.";
+"AutoShare" = "Auto share";
+"SendTo" = "Send to";
+
+"UserName" = "UserName";
+"Password" = "Password";
+"Login" = "Login";
+
+"MessageTooLong" = "Message is too long";
+"ExceedMaxLength" = " posts can only be %d characters in length.";
+"MessageIsEmpty" = "Message is empty";
+"CannotMessageEmpty" = "You must enter a message in order to post.";
+"RepeatSendingTitle" = "Repeat Sending!";
+"RepeatSending" = "You can't send the same message twice";
+"ImageAttachment" = "You can input:";
+"NO_NET_CONNECTED" = "Your device can not connect to the network.Please to check the network, and retry later, thank you.";
+"OVER_LONG" = "Out of number:";
+
+// for login
+"GameLogin" = "GAME LOGIN";
+"NativeLogin" = "NATIVE";
+"SinaWeiboLogin" = "SINA WEIBO";
+"Welcome" = "Welcome to playing, please selecte the login channel";
+"Account" = "ACCOUNT";
+"LoginHistory" = "Login history";
+"BtnBack" = "Back";
+"BtnLogin" = "Login";
+"BtnCancel" = "Cancel";
+"BtnRetry" = "Retry";
+"BtnDelete" = "Delete";
+"BtnManagement" = "Account";
+"DeleteTips" = "Are you sure to delete this account?";
+"NativeLoginTip" = "Welcom to %@, machine mode allow you to login without account and password. But your game data will be binding with the current equipment, temporarily unable to switch equipment.";
+"SinaLoginTip" = "Welcome to %@, we will bind your account to sina weibo. In this case, you can play in other mobile device with the account.";
+"Login" = "Loading...";
+"LoginSucc" = "Login success";
+"LoginFailed" = "Connect over time, please try again!";

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite
+END
+TriggerObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/TriggerObject.h
+END
+HSJoystick.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/HSJoystick.h
+END
+SpriteBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/SpriteBase.cpp
+END
+MapObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/MapObject.cpp
+END
+SpriteBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/SpriteBase.h
+END
+MapObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/MapObject.h
+END
+PhysicsLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/PhysicsLayer.cpp
+END
+PhysicsLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/PhysicsLayer.h
+END
+SpriteSeer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/SpriteSeer.cpp
+END
+ObjectDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/ObjectDefine.h
+END
+SpriteTransPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/SpriteTransPoint.cpp
+END
+TriggerObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/TriggerObject.cpp
+END
+SpriteSeer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/SpriteSeer.h
+END
+HSJoystick.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/HSJoystick.cpp
+END
+SpriteTransPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/700/hellopet/1/server/ahero/source/Classes/Engine/Sprite/SpriteTransPoint.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/network
+END
+HttpClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/network/HttpClient.cpp
+END
+HttpClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/network/HttpClient.h
+END
+HttpResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/network/HttpResponse.h
+END
+HttpRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/722/hellopet/1/server/ahero/source/cocos2dx/extensions/network/HttpRequest.h
+END

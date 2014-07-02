@@ -1,0 +1,1162 @@
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>skill_blackhole:1/ fs jn3 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{694,879},{85,66}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{85,66}}</string>
+                <key>sourceSize</key>
+                <string>{85,66}</string>
+            </dict>
+            <key>skill_blackhole:1/bnvnvnv.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{963,350},{55,55}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{55,55}}</string>
+                <key>sourceSize</key>
+                <string>{55,55}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs  lian 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,196},{20,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,22}}</string>
+                <key>sourceSize</key>
+                <string>{20,22}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs maozi 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{269,939},{77,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,41}}</string>
+                <key>sourceSize</key>
+                <string>{77,41}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{819,534},{36,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,15}}</string>
+                <key>sourceSize</key>
+                <string>{36,15}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao1 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{410,512},{31,16}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{31,16}}</string>
+                <key>sourceSize</key>
+                <string>{31,16}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao1 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{915,499},{22,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,19}}</string>
+                <key>sourceSize</key>
+                <string>{22,19}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao1 6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{915,476},{23,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{23,20}}</string>
+                <key>sourceSize</key>
+                <string>{23,20}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao2 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{819,512},{36,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{36,19}}</string>
+                <key>sourceSize</key>
+                <string>{36,19}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{417,434},{24,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,23}}</string>
+                <key>sourceSize</key>
+                <string>{24,23}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pao3 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,221},{20,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,22}}</string>
+                <key>sourceSize</key>
+                <string>{20,22}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs pidai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{819,552},{15,5}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,5}}</string>
+                <key>sourceSize</key>
+                <string>{15,5}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs qianyi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,282},{12,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{12,14}}</string>
+                <key>sourceSize</key>
+                <string>{12,14}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs ru.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{410,549},{15,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{15,10}}</string>
+                <key>sourceSize</key>
+                <string>{15,10}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{858,512},{21,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,17}}</string>
+                <key>sourceSize</key>
+                <string>{21,17}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs tui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,235},{10,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,23}}</string>
+                <key>sourceSize</key>
+                <string>{10,23}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs tui11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{922,543},{14,20}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,20}}</string>
+                <key>sourceSize</key>
+                <string>{14,20}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs tui11 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,334},{13,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{13,22}}</string>
+                <key>sourceSize</key>
+                <string>{13,22}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs tui2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,261},{10,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,18}}</string>
+                <key>sourceSize</key>
+                <string>{10,18}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs xie1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{905,521},{19,19}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,19}}</string>
+                <key>sourceSize</key>
+                <string>{19,19}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs xie2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{742,545},{17,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,14}}</string>
+                <key>sourceSize</key>
+                <string>{17,14}</string>
+            </dict>
+            <key>skill_blackhole:1/c fs yinfu.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{858,532},{20,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,17}}</string>
+                <key>sourceSize</key>
+                <string>{20,17}</string>
+            </dict>
+            <key>skill_blackhole:1/c shenti 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{903,543},{16,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,18}}</string>
+                <key>sourceSize</key>
+                <string>{16,18}</string>
+            </dict>
+            <key>skill_blackhole:1/fa toufa2 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{963,408},{49,31}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{49,31}}</string>
+                <key>sourceSize</key>
+                <string>{49,31}</string>
+            </dict>
+            <key>skill_blackhole:1/fs 1tx10.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{415,929},{89,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{89,52}}</string>
+                <key>sourceSize</key>
+                <string>{89,52}</string>
+            </dict>
+            <key>skill_blackhole:1/fs 1tx11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{727,729},{96,68}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{96,68}}</string>
+                <key>sourceSize</key>
+                <string>{96,68}</string>
+            </dict>
+            <key>skill_blackhole:1/fs 1tx12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{312,584},{91,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{91,79}}</string>
+                <key>sourceSize</key>
+                <string>{91,79}</string>
+            </dict>
+            <key>skill_blackhole:1/fs 1tx13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{903,120},{70,136}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{70,136}}</string>
+                <key>sourceSize</key>
+                <string>{70,136}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{940,507},{79,67}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{79,67}}</string>
+                <key>sourceSize</key>
+                <string>{79,67}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{836,715},{154,135}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{154,135}}</string>
+                <key>sourceSize</key>
+                <string>{154,135}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 123.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,381},{309,278}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{309,278}}</string>
+                <key>sourceSize</key>
+                <string>{309,278}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{742,651},{91,75}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{91,75}}</string>
+                <key>sourceSize</key>
+                <string>{91,75}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{727,800},{82,76}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{82,76}}</string>
+                <key>sourceSize</key>
+                <string>{82,76}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{901,259},{69,75}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{69,75}}</string>
+                <key>sourceSize</key>
+                <string>{69,75}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{896,337},{64,71}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{64,71}}</string>
+                <key>sourceSize</key>
+                <string>{64,71}</string>
+            </dict>
+            <key>skill_blackhole:1/fs jn3 81.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{280,804},{132,132}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{132,132}}</string>
+                <key>sourceSize</key>
+                <string>{132,132}</string>
+            </dict>
+            <key>skill_blackhole:1/fs toufa1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,197},{27,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,41}}</string>
+                <key>sourceSize</key>
+                <string>{27,41}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs pao1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,377},{22,28}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,28}}</string>
+                <key>sourceSize</key>
+                <string>{22,28}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs pao1 1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{410,487},{30,22}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,22}}</string>
+                <key>sourceSize</key>
+                <string>{30,22}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs pao3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,351},{27,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,23}}</string>
+                <key>sourceSize</key>
+                <string>{27,23}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs ru.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{781,545},{18,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,10}}</string>
+                <key>sourceSize</key>
+                <string>{18,10}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shenti.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{410,531},{22,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,15}}</string>
+                <key>sourceSize</key>
+                <string>{22,15}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shou1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,314},{18,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,17}}</string>
+                <key>sourceSize</key>
+                <string>{18,17}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shou1 4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,246},{18,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,21}}</string>
+                <key>sourceSize</key>
+                <string>{18,21}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shou11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,294},{18,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,17}}</string>
+                <key>sourceSize</key>
+                <string>{18,17}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shou12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{882,521},{20,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{20,18}}</string>
+                <key>sourceSize</key>
+                <string>{20,18}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shou2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{762,545},{16,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{16,15}}</string>
+                <key>sourceSize</key>
+                <string>{16,15}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shoubi1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1012,151},{9,8}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{9,8}}</string>
+                <key>sourceSize</key>
+                <string>{9,8}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs shoubi2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1012,136},{6,12}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{6,12}}</string>
+                <key>sourceSize</key>
+                <string>{6,12}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs tui1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1012,162},{7,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{7,10}}</string>
+                <key>sourceSize</key>
+                <string>{7,10}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs xie 2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{881,542},{19,15}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{19,15}}</string>
+                <key>sourceSize</key>
+                <string>{19,15}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs xiezi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{880,270},{17,21}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{17,21}}</string>
+                <key>sourceSize</key>
+                <string>{17,21}</string>
+            </dict>
+            <key>skill_blackhole:1/z fs yaodai.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{802,545},{14,5}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,5}}</string>
+                <key>sourceSize</key>
+                <string>{14,5}</string>
+            </dict>
+            <key>skill_blackhole:1/zfs pao2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{417,408},{26,23}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{26,23}}</string>
+                <key>sourceSize</key>
+                <string>{26,23}</string>
+            </dict>
+            <key>skill_blackhole:c fs  lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,324},{27,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{27,24}}</string>
+                <key>sourceSize</key>
+                <string>{27,24}</string>
+            </dict>
+            <key>skill_blackhole:c fs maozi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{585,929},{77,41}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{77,41}}</string>
+                <key>sourceSize</key>
+                <string>{77,41}</string>
+            </dict>
+            <key>skill_blackhole:d1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{819,382},{61,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{61,62}}</string>
+                <key>sourceSize</key>
+                <string>{61,62}</string>
+            </dict>
+            <key>skill_blackhole:d2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,411},{61,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{61,62}}</string>
+                <key>sourceSize</key>
+                <string>{61,62}</string>
+            </dict>
+            <key>skill_blackhole:d3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{947,442},{61,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{61,62}}</string>
+                <key>sourceSize</key>
+                <string>{61,62}</string>
+            </dict>
+            <key>skill_blackhole:d4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{819,447},{61,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{61,62}}</string>
+                <key>sourceSize</key>
+                <string>{61,62}</string>
+            </dict>
+            <key>skill_blackhole:fa toufa2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,283},{21,38}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{21,38}}</string>
+                <key>sourceSize</key>
+                <string>{21,38}</string>
+            </dict>
+            <key>skill_blackhole:fs toufa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{422,241},{24,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,39}}</string>
+                <key>sourceSize</key>
+                <string>{24,39}</string>
+            </dict>
+            <key>skill_blackhole:fs wuqi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1021,136},{0,0}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{0,0}}</string>
+                <key>sourceSize</key>
+                <string>{0,0}</string>
+            </dict>
+            <key>skill_blackhole:fst toufa3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{883,476},{29,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{29,42}}</string>
+                <key>sourceSize</key>
+                <string>{29,42}</string>
+            </dict>
+            <key>skill_blackhole:gx1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{781,560},{88,88}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{88,88}}</string>
+                <key>sourceSize</key>
+                <string>{88,88}</string>
+            </dict>
+            <key>skill_blackhole:gx13.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{872,577},{135,135}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{135,135}}</string>
+                <key>sourceSize</key>
+                <string>{135,135}</string>
+            </dict>
+            <key>skill_blackhole:gx2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{312,381},{102,102}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{102,102}}</string>
+                <key>sourceSize</key>
+                <string>{102,102}</string>
+            </dict>
+            <key>skill_blackhole:gx4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{903,0},{117,117}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{117,117}}</string>
+                <key>sourceSize</key>
+                <string>{117,117}</string>
+            </dict>
+            <key>skill_blackhole:gx6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{296,666},{135,135}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{135,135}}</string>
+                <key>sourceSize</key>
+                <string>{135,135}</string>
+            </dict>
+            <key>skill_blackhole:gx9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{312,486},{95,95}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{95,95}}</string>
+                <key>sourceSize</key>
+                <string>{95,95}</string>
+            </dict>
+            <key>skill_blackhole:h1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{415,807},{276,119}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{276,119}}</string>
+                <key>sourceSize</key>
+                <string>{276,119}</string>
+            </dict>
+            <key>skill_blackhole:h10.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,662},{293,127}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{293,127}}</string>
+                <key>sourceSize</key>
+                <string>{293,127}</string>
+            </dict>
+            <key>skill_blackhole:h11.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,792},{277,120}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{277,120}}</string>
+                <key>sourceSize</key>
+                <string>{277,120}</string>
+            </dict>
+            <key>skill_blackhole:h12.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{812,853},{198,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{198,90}}</string>
+                <key>sourceSize</key>
+                <string>{198,90}</string>
+            </dict>
+            <key>skill_blackhole:h2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{453,196},{424,183}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{424,183}}</string>
+                <key>sourceSize</key>
+                <string>{424,183}</string>
+            </dict>
+            <key>skill_blackhole:h3.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{450,194}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{450,194}}</string>
+                <key>sourceSize</key>
+                <string>{450,194}</string>
+            </dict>
+            <key>skill_blackhole:h4.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{453,0},{447,193}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{447,193}}</string>
+                <key>sourceSize</key>
+                <string>{447,193}</string>
+            </dict>
+            <key>skill_blackhole:h5.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,197},{419,181}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{419,181}}</string>
+                <key>sourceSize</key>
+                <string>{419,181}</string>
+            </dict>
+            <key>skill_blackhole:h6.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{447,382},{369,160}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{369,160}}</string>
+                <key>sourceSize</key>
+                <string>{369,160}</string>
+            </dict>
+            <key>skill_blackhole:h7.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{435,545},{304,131}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{304,131}}</string>
+                <key>sourceSize</key>
+                <string>{304,131}</string>
+            </dict>
+            <key>skill_blackhole:h8.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,915},{266,115}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{266,115}}</string>
+                <key>sourceSize</key>
+                <string>{266,115}</string>
+            </dict>
+            <key>skill_blackhole:h9.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{434,679},{290,125}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{290,125}}</string>
+                <key>sourceSize</key>
+                <string>{290,125}</string>
+            </dict>
+            <key>skill_blackhole:wuqi_1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{976,120},{33,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,112}}</string>
+                <key>sourceSize</key>
+                <string>{33,112}</string>
+            </dict>
+            <key>skill_blackhole:wuqi_20.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{976,235},{30,112}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{30,112}}</string>
+                <key>sourceSize</key>
+                <string>{30,112}</string>
+            </dict>
+            <key>skill_blackhole:z fs maozi.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{507,929},{75,44}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{75,44}}</string>
+                <key>sourceSize</key>
+                <string>{75,44}</string>
+            </dict>
+            <key>skill_blackhole:z fs qianfa1.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1009,299},{10,14}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{10,14}}</string>
+                <key>sourceSize</key>
+                <string>{10,14}</string>
+            </dict>
+            <key>skill_blackhole:z fs qianfa2.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1012,120},{8,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{8,13}}</string>
+                <key>sourceSize</key>
+                <string>{8,13}</string>
+            </dict>
+            <key>skill_blackhole:zfs lian.pvr.ccz</key>
+            <dict>
+                <key>frame</key>
+                <string>{{417,460},{22,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{22,24}}</string>
+                <key>sourceSize</key>
+                <string>{22,24}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>realTextureFileName</key>
+            <string>skill_blackhole.pvr.ccz</string>
+            <key>size</key>
+            <string>{1023,1021}</string>
+            <key>textureFileName</key>
+            <string>skill_blackhole.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

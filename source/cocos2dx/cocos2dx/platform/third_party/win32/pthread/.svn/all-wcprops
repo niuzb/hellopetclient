@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/pthread
+END
+semaphore.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/pthread/semaphore.h
+END
+sched.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/pthread/sched.h
+END
+pthread.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/third_party/win32/pthread/pthread.h
+END

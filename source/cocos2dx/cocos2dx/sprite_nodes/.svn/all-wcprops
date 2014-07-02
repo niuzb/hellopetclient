@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes
+END
+CCAnimationCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCAnimationCache.h
+END
+CCSpriteFrameCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSpriteFrameCache.h
+END
+CCSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSprite.h
+END
+CCSpriteBatchNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSpriteBatchNode.cpp
+END
+CCAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCAnimation.cpp
+END
+CCSpriteFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSpriteFrame.cpp
+END
+CCAnimationCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCAnimationCache.cpp
+END
+CCSpriteBatchNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSpriteBatchNode.h
+END
+CCAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCAnimation.h
+END
+CCSpriteFrameCache.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSpriteFrameCache.cpp
+END
+CCSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSprite.cpp
+END
+CCSpriteFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/sprite_nodes/CCSpriteFrame.h
+END

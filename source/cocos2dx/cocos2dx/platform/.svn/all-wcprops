@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/1101077902/!svn/ver/928/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform
+END
+CCEGLViewProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCEGLViewProtocol.h
+END
+CCApplicationProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCApplicationProtocol.h
+END
+CCCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCCommon.h
+END
+CCPlatformMacros.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCPlatformMacros.h
+END
+CCImageCommon_cpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCImageCommon_cpp.h
+END
+CCFileUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCFileUtils.h
+END
+CCThread.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCThread.cpp
+END
+CCSAXParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCSAXParser.cpp
+END
+CCAccelerometerDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCAccelerometerDelegate.h
+END
+CCThread.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCThread.h
+END
+CCSAXParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCSAXParser.h
+END
+platform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/platform.cpp
+END
+CCPlatformConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCPlatformConfig.h
+END
+CCFileUtilsCommon_cpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCFileUtilsCommon_cpp.h
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/platform.h
+END
+CCEGLViewProtocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCEGLViewProtocol.cpp
+END
+CCImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/707/hellopet/1/server/ahero/source/cocos2dx/cocos2dx/platform/CCImage.h
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig
+END
+SearchSpirit.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/SearchSpirit.lua
+END
+InstanceList.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/InstanceList.lua
+END
+ExchangeItem.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/ExchangeItem.lua
+END
+Localizationbak.lua
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/Localizationbak.lua
+END
+ItemConfigTab.lua
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/ItemConfigTab.lua
+END
+MonsterBasicInfomation.lua
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/MonsterBasicInfomation.lua
+END
+MapDataTable.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/MapDataTable.lua
+END
+MapBasic.lua
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/MapBasic.lua
+END
+RaidMusic.lua
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/RaidMusic.lua
+END
+npc.lua
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/npc.lua
+END
+RaidBasic.lua
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/RaidBasic.lua
+END
+characterString.lua
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/characterString.lua
+END
+ExchangeParameter.lua
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/ExchangeParameter.lua
+END
+MapMusicTable.lua
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/MapMusicTable.lua
+END
+EquipmentItem.lua
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/EquipmentItem.lua
+END
+Localization.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/Localization.lua
+END
+Item.lua
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1101077902/!svn/ver/922/hellopet/1/server/ahero/source/Resources/Script/GameConfig/Item.lua
+END
